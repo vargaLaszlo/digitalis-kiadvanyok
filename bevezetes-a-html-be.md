@@ -62,3 +62,17 @@ A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\)
 
 **1997 -** A **HTML 4.0** ajánlás publikálása után bezárják a HTML munkacsoportot, két hónappal később megszületik az **XML 1.0**, ezt követően pedig az **XHTML 1.0**
 
+![](.gitbook/assets/1445444711180372317.jpg)
+
+#### Jelenkor
+
+**2004 -** A gyártók fellázadnak és elkezdik fejleszteni a **HTML 4** alapjain az újragondolt szolgáltatásokkal kibővített **HTML 5**-öt.
+
+**2006 -** A W3C behozhatatlan hátrányba kerül, lemaradnak az **XHTML 2.0** szabvány fejlesztésében, ekkor egyesítik erőiket a gyártókkal.
+
+**2008 -** W3C ****ajánlásként kiadásra kerül a **HTML 5**
+
+![](.gitbook/assets/html5_logo_512.png)
+
+
+
