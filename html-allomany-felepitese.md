@@ -108,5 +108,58 @@ Vannak HTML elemek, amiknek nem lehet tartalma, így záró tag-re nincs szüks�
 
 ### Tulajdonságok \(Atributes\)
 
+A HTML elemeket fel lehet ruházni tulajdonságokkal, illetve egyes HTML elemeknek kötelező megadni bizonyos tulajdonságokat.
+
+Korábbi példa:
+
+```markup
+<elem tulajdonsag="ertek">tartalom</elem>
+```
+
+A tulajdonságok a nyitó tag-ben helyezhetőek el, szóközökkel elválasztva egymástól, és HTML tag nevétől.
+
+![](.gitbook/assets/html-code-2.png)
+
+Minden tulajdonság egy **név-érték** pár, balra a tulajdonság neve, jobbra az értéke, egyenlőségjellel elválasztva.
+
+![](.gitbook/assets/html-code-3.png)
+
+Az értéket idézőjelbe kell tenni, ha tartalmaz szóközt. Bár nem kötelező, az olvashatóság megkönnyítése érdekében ezt érdemes minden esetben kitenni.
+
+Egyes tulajdonságok a HTML elemünk azonosítását könnyítik meg.
+
+Az azonosító \(id\) tulajdonsággal egyedi nevet adhatunk elemeinknek:
+
+```markup
+<h1 id="main-title">Ez a főcím</h1>
+```
+
+Az osztály \(class\) tulajdonság csoportokba szervezi az elemeket:
+
+```markup
+<p class="red">Én a pirosak közé tartozom?</p>
+<p class="blue">Igen, én kék vagyok, de ettől még lehetünk barátok...</p>
+```
+
+További példák tulajdonságokra:
+
+```markup
+<input type="text">      <!-- Szövegbeviteli mező -->
+<input type="button">    <!-- Gomb --> 
+<input type="checkbox">  <!-- Pipa --> 
+<input type="password">  <!-- Jelszó --> 
+```
+
+A beviteli mező \(input\) elem megjelenése és viselkedése a **type** tulajdonságától függ.
+
+Következő példában egy kép, az **src** a képállományra mutató hivatkozás, a **title** a kép címe, az **alt** pedig a kép tartalmának szöveges leírata:
+
+```markup
+<img 
+    src="images/kutya.jpg"
+    title="Alvó labradorkölyök"
+    alt="A képen egy 6 hetes alvó labradorkölyök látható.">
+```
+
 
 
