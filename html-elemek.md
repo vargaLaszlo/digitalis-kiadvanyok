@@ -210,5 +210,61 @@ Az értékek pixelben értendőek.
 >
 ```
 
+### 
+
+### Szövegközi elemek
+
+A HTML elemekben lévő szöveget szövegközi \(inline\) elemekkel módosíthatjuk.
+
+```markup
+<p>A <strong>Web</strong> alapelveit <em>Tim Berners-Lee</em>, a
+CERN részecskefizikai kutatóközpont munkatársa dolgozta ki
+1989-ben. Eredeti  célja a különböző intézményekben világszerte 
+dolgozó kutatók közötti  automatizált <em>információmegosztás</em> 
+volt.</p>
+```
+
+A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\), vagy hangsúlyosként \(&lt;em&gt;\) vannak megjelölve.
+
+ **&lt;b&gt;** Vastagon szedett szöveg, szemantikus jelentése nincs.  
+**&lt;strong&gt;** Fontos szövegrészlet, vastagon jelenik meg.  
+**&lt;i&gt;** Dőlt betűs szöveg, szemantikus jelentése nincs.  
+**&lt;em&gt;** Hangsúlyos szöveg, dőlt betűvel jelenik meg.  
+**&lt;mark&gt;** Megjelölt szöveg, sárga háttérrel jelenik meg
+
+```markup
+<p>
+    <b>Vastagon szedett szöveg</b> <br>
+    <strong>Fontos szöveg</strong> <br>
+    <i>Dőlt betűs szöveg</i> <br>
+    <em>Hangsúlyos szöveg</em> <br>
+    <mark>Kiemelt szöveg</mark>
+</p>
+```
+
+![](.gitbook/assets/inline_01.png)
+
+**&lt;big&gt;**Növeli a font méretet.  
+**&lt;small&gt;**Csökkenti a font méretet.  
+**&lt;time&gt;**Időt jeleníthetünk meg vele.  
+**&lt;sup&gt;**Felső index, megemeli a szöveget  
+**&lt;sub&gt;**Alsó index, lesüllyeszti a szöveget  
+**&lt;s&gt;**Elavult információt jelöl, vonallal áthúzva jelenik meg.
+
+```markup
+<p>
+    <big>Nagy méretű szöveg</big> <br>
+    <small>Kis méretű szöveg</small> <br>
+    <time>20:00</time> <br>
+    E=mc<sup>2</sup> <br>
+    H<sub>2</sub>O <br>
+    <s>Elavult imformáció</s>
+</p>
+```
+
+![](.gitbook/assets/inline_2.png)
+
+
+
 
 
