@@ -1,0 +1,64 @@
+# Mi a HTML?
+
+## **Mi a HTML?**
+
+
+
+![](.gitbook/assets/lego-block-art-hi.png)
+
+### Mi a HTML?
+
+A HTML egy a webes szabványok közül. A webes szabványok közül a legfontosabb a **HTML**, a **CSS és** a **JavaScript**, ezek hármasa együtt alkotja a weboldalak technológiai alapját.
+
+**HTML** egy mozaikszó, jelentése **H**yper**T**ext **M**arkup **L**anguage, vagyis **hiperszöveges jelölőnyelv.**
+
+A **HTML** egy leírónyelv, ami a webalkalmazások strukturális vázát adja.
+
+A HTML-t mint szabványt a [**W3C**](https://hu.wikipedia.org/wiki/W3C) \(World Wide Web Consortium\) kezeli.
+
+#### Építőelemek
+
+A HTML dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta és feldolgozta a dokumentumot. 
+
+Egy lehetséges HTML elem:
+
+```markup
+<elem tulajdonsag="ertek">tartalom</elem>
+```
+
+**Hyperlinkek**
+
+A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\). ****Ezek kötik össze egy globális egységgé a weben található dokumentumokat.
+
+```markup
+<a href="fontos.html">Fontos információ!<a>
+```
+
+### HTML rövid története
+
+#### Kezdetek
+
+**1980 - Tim Berners-Lee** az akkor a CERN-ben dolgozó fizikus létrehozta ENQUIRE dokumentációs rendszert
+
+**1989 -** Tanulmányt írt a hálózat alapú hipertext rendszerről, amiben lefektette a **HTML** koncepciójának alapjait.
+
+**1990 -** Elkészítette az első \(szöveges\) böngészőt, és webszervert.
+
+**1991 -** Kikerül az internetre az első weboldal \([goo.gl/EApNkr](http://goo.gl/EApNkr)\).
+
+![https://twitter.com/timberners\_lee](.gitbook/assets/tim-berners-lee.jpg)
+
+#### A web kiteljesedése
+
+**1994** - Megalakul a **W3C**, szabványok és ajánlások formájában fejleszti és javítja az internet technológiáit
+
+**1995 - HTML 2.0**
+
+**1997 - HTML 3.0 - HTML 4.0**
+
+![](.gitbook/assets/w3c__icon.svg.png)
+
+#### \(Sötét\) Középkor
+
+**1997 -** A **HTML 4.0** ajánlás publikálása után bezárják a HTML munkacsoportot, két hónappal később megszületik az **XML 1.0**, ezt követően pedig az **XHTML 1.0**
+
