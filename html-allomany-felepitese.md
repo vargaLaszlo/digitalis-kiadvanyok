@@ -1,8 +1,6 @@
 # HTML állomány felépítése
 
-## HTML állomány felépítése
-
-### HTML állomány kiterjesztése
+## HTML állomány kiterjesztése
 
 A HTML állományok kiterjesztése **.html** vagy **.htm** lehet.
 
@@ -18,7 +16,7 @@ Kötelezően a HTML állomány **első sorában, a többi elem előtt** kell elh
 
 A !DOCTYPE **nem** érzékeny a kis- és nagybetűk különbözőségére
 
-**XHTML 1.0**:
+#### **XHTML 1.0**:
 
 ```markup
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" ".../xhtml1-transitional.dtd">
@@ -40,9 +38,7 @@ Régebbi verzióknál a !DOCTYPE tartalmazta a **DTD** \(Document Type Definitio
 <!DOCTYPE html>
 ```
 
-
-
-### Megjegyzések \(Comment\)
+## Megjegyzések \(Comment\)
 
 A HTML állományban elhelyezhetők megjegyzések:
 
@@ -64,9 +60,7 @@ Elrejthetünk vele HTML elemeket is:
 </ul>
 ```
 
-
-
-### HTML Címkék \(Tag\)
+## HTML Címkék \(Tag\)
 
 A HTML dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta a dokumentumot. 
 
@@ -104,9 +98,7 @@ Vannak HTML elemek, amiknek nem lehet tartalma, így záró tag-re nincs szüks�
 <img src=kep.jpg> <!-- Kép -->
 ```
 
-
-
-### Tulajdonságok \(Atributes\)
+## Tulajdonságok \(Atributes\)
 
 A HTML elemeket fel lehet ruházni tulajdonságokkal, illetve egyes HTML elemeknek kötelező megadni bizonyos tulajdonságokat.
 
