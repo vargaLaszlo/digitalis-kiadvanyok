@@ -2,12 +2,14 @@
 
 * [Bevezető](README.md)
 * [Az internetről dióhélyban](az-internetrol-diohelyban.md)
-* [Mi a HTML?](bevezetes-a-html-be.md)
-* [HTML állomány felépítése](html-allomany-felepitese.md)
-* [HTML elemek](html-elemek.md)
-* [Mi a CSS?](mi-a-css.md)
 
 ## HTML
 
-* [Untitled](html/untitled.md)
+* [Mi a HTML?](html/bevezetes-a-html-be.md)
+* [HTML állomány felépítése](html/html-allomany-felepitese.md)
+* [HTML elemek](html/html-elemek.md)
+
+## CSS
+
+* [Mi a CSS?](css/mi-a-css.md)
 

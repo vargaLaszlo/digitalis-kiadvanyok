@@ -1,6 +1,6 @@
 # Mi a HTML?
 
-![](.gitbook/assets/lego-block-art-hi.png)
+![](../.gitbook/assets/lego-block-art-hi.png)
 
 ## Mi a HTML?
 
@@ -42,7 +42,7 @@ A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\)
 
 **1991 -** Kikerül az internetre az első weboldal \([goo.gl/EApNkr](http://goo.gl/EApNkr)\).
 
-![https://twitter.com/timberners\_lee](.gitbook/assets/tim-berners-lee.jpg)
+![https://twitter.com/timberners\_lee](../.gitbook/assets/tim-berners-lee.jpg)
 
 ### A web kiteljesedése
 
@@ -52,13 +52,13 @@ A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\)
 
 **1997 - HTML 3.0 - HTML 4.0**
 
-![](.gitbook/assets/w3c__icon.svg.png)
+![](../.gitbook/assets/w3c__icon.svg.png)
 
 ### \(Sötét\) Középkor
 
 **1997 -** A **HTML 4.0** ajánlás publikálása után bezárják a HTML munkacsoportot, két hónappal később megszületik az **XML 1.0**, ezt követően pedig az **XHTML 1.0**
 
-![](.gitbook/assets/1445444711180372317.jpg)
+![](../.gitbook/assets/1445444711180372317.jpg)
 
 ### Jelenkor
 
@@ -68,7 +68,7 @@ A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\)
 
 **2008 -** W3C ****ajánlásként kiadásra kerül a **HTML 5**
 
-![](.gitbook/assets/html5_logo_512.png)
+![](../.gitbook/assets/html5_logo_512.png)
 
 
 

@@ -72,7 +72,7 @@ Egy lehetséges HTML elem:
 
 A HTML elemek **nyitó** és **záró** **tagből** állnak, amennyiben lehet tartalmuk:
 
-![](.gitbook/assets/html-code-1.png)
+![](../.gitbook/assets/html-code-1.png)
 
 
 
@@ -110,11 +110,11 @@ Korábbi példa:
 
 A tulajdonságok a nyitó tag-ben helyezhetőek el, szóközökkel elválasztva egymástól, és HTML tag nevétől.
 
-![](.gitbook/assets/html-code-2.png)
+![](../.gitbook/assets/html-code-2.png)
 
 Minden tulajdonság egy **név-érték** pár, balra a tulajdonság neve, jobbra az értéke, egyenlőségjellel elválasztva.
 
-![](.gitbook/assets/html-code-3.png)
+![](../.gitbook/assets/html-code-3.png)
 
 Az értéket idézőjelbe kell tenni, ha tartalmaz szóközt. Bár nem kötelező, az olvashatóság megkönnyítése érdekében ezt érdemes minden esetben kitenni.
 

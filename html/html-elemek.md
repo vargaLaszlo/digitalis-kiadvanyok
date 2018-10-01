@@ -40,7 +40,7 @@ A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez 
 <title>Az oldal címe</title>
 ```
 
-![](.gitbook/assets/browser-tab.png)
+![](../.gitbook/assets/browser-tab.png)
 
 
 
@@ -232,7 +232,7 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 </p>
 ```
 
-![](.gitbook/assets/inline_01.png)
+![](../.gitbook/assets/inline_01.png)
 
 **&lt;big&gt;** Növeli a font méretet.  
 **&lt;small&gt;** Csökkenti a font méretet.  
@@ -252,7 +252,7 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 </p>
 ```
 
-![](.gitbook/assets/inline_2.png)
+![](../.gitbook/assets/inline_2.png)
 
 {% hint style="info" %}
 Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a **strong** elemben található szöveget nagyobb súllyal veszi figyelembe a google kereső, vagy az em elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
@@ -276,7 +276,7 @@ A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a
 **&lt;section&gt;** Tartalmilag összefüggő egység  
 **&lt;article&gt;** Összefüggő cikk, bejegyzés, fejezet.
 
-![](.gitbook/assets/structural.png)
+![](../.gitbook/assets/structural.png)
 
 ## Űrlapok
 
@@ -312,7 +312,7 @@ Az űrlap mezőit az **&lt;input&gt;** elemmel hozhatjuk létre. Az input elem v
 </form>
 ```
 
-![](.gitbook/assets/form_01.png)
+![](../.gitbook/assets/form_01.png)
 
 ### **Címke elem**
 
@@ -361,7 +361,7 @@ Az &lt;option&gt; elemek közül az lesz az alapértelmezett, amelyik rendelkezi
 </select>
 ```
 
-![](.gitbook/assets/select.png)
+![](../.gitbook/assets/select.png)
 
 ## Táblázatok
 

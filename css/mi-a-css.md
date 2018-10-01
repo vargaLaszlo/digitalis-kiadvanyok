@@ -25,5 +25,5 @@ A CSS 2. kiadása 1998-ban lett hivatalos ajánlás, ez a kiadás radikálisan k
 
 2005-ben a 3. kiadás szakított az eddig fejlesztési formával, nem egységes dokumentumként, hanem modulokra bontva folyik a fejlesztés, így lehetőség van építőelemenként fejleszteni a szabványt.
 
-![](.gitbook/assets/css3.png)
+![](../.gitbook/assets/css3.png)
 
