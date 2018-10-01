@@ -30,6 +30,8 @@ A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumen
 
 ## HTML elemek a fejlécben
 
+
+
 ### **Az oldal címe**
 
 A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a &lt;head&gt; elemben.
