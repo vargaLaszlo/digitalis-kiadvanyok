@@ -6,7 +6,7 @@ A HTML állományok kiterjesztése **.html** vagy **.htm** lehet.
 
 A böngészők, és a fejlesztésre használt szövegszerkesztők automatikusan felismerik, és statikus weboldalként kezelik ezeket az állományokat.
 
-### Doctype
+## Doctype
 
 A HTML dokumentum a típusmeghatározással kezdődik, ez a **!DOCTYPE**.
 
@@ -16,7 +16,7 @@ Kötelezően a HTML állomány **első sorában, a többi elem előtt** kell elh
 
 A !DOCTYPE **nem** érzékeny a kis- és nagybetűk különbözőségére
 
-#### **XHTML 1.0**:
+### **XHTML 1.0**:
 
 ```markup
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" ".../xhtml1-transitional.dtd">
@@ -32,7 +32,7 @@ A !DOCTYPE **nem** érzékeny a kis- és nagybetűk különbözőségére
 
 Régebbi verzióknál a !DOCTYPE tartalmazta a **DTD** \(Document Type Definition\) állományokra mutató hivatkozást, a **HTML 5** esetében ez az elem is egyszerűsödött.
 
-#### HTML 5
+### HTML 5
 
 ```markup
 <!DOCTYPE html>
