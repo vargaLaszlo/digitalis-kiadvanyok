@@ -1,8 +1,6 @@
 # HTML elemek
 
-## HTML elemek
-
-### Gyökérelem
+## Gyökérelem
 
 A **html** tag az összes többi elem szülője. Ebbe kerül az oldal teljes tartalma.
 
@@ -18,9 +16,7 @@ Jellemző, hogy az oldalak nyelvét a html elemen a **lang** tulajdonsággal hat
 <html lang="hu">
 ```
 
-
-
-### HTML dokumentum fejléce
+## HTML dokumentum fejléce
 
 A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum metaadatait tartalmazza.
 
@@ -32,11 +28,9 @@ A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumen
 </html>
 ```
 
+## HTML elemek a fejlécben
 
-
-### HTML elemek a fejlécben
-
-**Az oldal címe**
+### **Az oldal címe**
 
 A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a &lt;head&gt; elemben.
 
@@ -48,7 +42,7 @@ A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez 
 
 
 
-#### **Az oldal meta adatai**
+### **Az oldal meta adatai**
 
 A &lt;meta&gt; elemben helyezhetünk el információkat a weboldalunkról \(ez nem jelenik meg a látható tartalomban\). A &lt;meta&gt; elemeknek egy **név** \(name\) és egy **tartalom** \(content\) tulajdonsága van. A név határozza meg a meta információ típusát, a tartalom pedig a hozzá rendelt információt.
 
@@ -76,9 +70,7 @@ Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg,
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-
-
-**Linkek**
+### **Linkek**
 
 A **&lt;link&gt;** elemmel hivatkozhatunk külső állományokra, ezek egy részét be fogja tölteni a böngésző. Linkkel köthetünk be például egy CSS állományt a dokumentumunkba.
 
@@ -87,9 +79,7 @@ A **&lt;link&gt;** elemmel hivatkozhatunk külső állományokra, ezek egy rész
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
-
-
-### HTML dokumentum törzse
+## HTML dokumentum törzse
 
 A **&lt;body&gt;** a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem.
 
@@ -104,11 +94,9 @@ A **&lt;body&gt;** a dokumentum törzse, ezt jeleníti meg a böngésző vizuál
 </html>
 ```
 
+## Szöveges elemek
 
-
-### Szöveges elemek
-
-#### **Címek**
+### **Címek**
 
 A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a **&lt;h1&gt;** - **&lt;h6&gt;** elemekkel tehetjük meg.
 
@@ -121,7 +109,7 @@ A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre
 <h6>6-os cím</h6>
 ```
 
-**Bekezdések**
+### **Bekezdések**
 
 Az oldal szöveges tartalmát bekezdésekben **&lt;p&gt;** helyezhetjük el.
 
@@ -138,11 +126,11 @@ tincidunt tortor, nec imperdiet nisi
 pharetra a.</p>
 ```
 
-**Listák**
+### **Listák**
 
 Két típusát különböztetjük meg, számozott lista **&lt;ol&gt;**, és pontozott lista **&lt;ul&gt;**, mindkettőnek gyermekei a lista elemek **&lt;li&gt;**.
 
-**Számozott lista:**
+#### **Számozott lista:**
 
 ```markup
 <ol>
@@ -152,7 +140,7 @@ Két típusát különböztetjük meg, számozott lista **&lt;ol&gt;**, és pont
 </ol>
 ```
 
-**Pontozott lista:**
+#### **Pontozott lista:**
 
 ```markup
 <ul>
@@ -182,9 +170,7 @@ A listákat egymásba is lehet ágyazni, így lehet több szintű listákat lét
 [ Kódpélda](https://codepen.io/_lacus/pen/qPXBjQ)
 {% endhint %}
 
-
-
-### Képek
+## Képek
 
 Képeket a HTML dokumentumba az **&lt;img&gt;** elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az **src**, ami a behivatkozott kép elérési útvonala, és az **alt,** a kép tartalmának szöveges leírata.
 
@@ -210,9 +196,7 @@ Az értékek pixelben értendőek.
 >
 ```
 
-### 
-
-### Szövegközi elemek
+## Szövegközi elemek
 
 A HTML elemekben lévő szöveget szövegközi \(inline\) elemekkel módosíthatjuk.
 
