@@ -198,6 +198,10 @@ Az értékek pixelben értendőek.
 >
 ```
 
+{% hint style="warning" %}
+Fontos kitölteni a képe alternatív leírását, mert ha a kép nem tud betöltődni ez a szöveg fog megjelenni a felhasználóknak, illetve a gyengénlátó felhasználók csak ezt "látják", ezt olvassa fel nekik a szövegfelolvasó programjuk. Az internetes keresők \(a szövegkörnyezet mellett\) az alternatív leírás alapján kategorizálják be a honlapokon található képeket.
+{% endhint %}
+
 ## Szövegközi elemek
 
 A HTML elemekben lévő szöveget szövegközi \(inline\) elemekkel módosíthatjuk.
@@ -230,12 +234,12 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 
 ![](.gitbook/assets/inline_01.png)
 
-**&lt;big&gt;**Növeli a font méretet.  
-**&lt;small&gt;**Csökkenti a font méretet.  
-**&lt;time&gt;**Időt jeleníthetünk meg vele.  
-**&lt;sup&gt;**Felső index, megemeli a szöveget  
-**&lt;sub&gt;**Alsó index, lesüllyeszti a szöveget  
-**&lt;s&gt;**Elavult információt jelöl, vonallal áthúzva jelenik meg.
+**&lt;big&gt;** Növeli a font méretet.  
+**&lt;small&gt;** Csökkenti a font méretet.  
+**&lt;time&gt;** Időt, dátumot jeleníthetünk meg vele.  
+**&lt;sup&gt;** Felső index, megemeli a szöveget  
+**&lt;sub&gt;** Alsó index, lesüllyeszti a szöveget  
+**&lt;s&gt;** Elavult információt jelöl, vonallal áthúzva jelenik meg.
 
 ```markup
 <p>
@@ -250,7 +254,166 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 
 ![](.gitbook/assets/inline_2.png)
 
+{% hint style="info" %}
+Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a **strong** elemben található szöveget nagyobb súllyal veszi figyelembe a google kereső, vagy az em elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
+{% endhint %}
+
+## Strukturális elemek
+
+### **Div**
+
+A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges.
+
+### **A div szemantikus variációi**
+
+A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a role tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
+
+ **&lt;nav&gt;** Navigációt tartalmaz, rendszerint &lt;a&gt; ****elemeket listába rendezve.  
+**&lt;header&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum fejléce.  
+**&lt;main&gt;** Fő tartalmi terület \(egy dokumentumban csak egy lehet\)  
+**&lt;aside&gt;** Másodlagos tartalom \(sidebar\)  
+**&lt;footer&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum lábléce.  
+**&lt;section&gt;** Tartalmilag összefüggő egység  
+**&lt;article&gt;** Összefüggő cikk, bejegyzés, fejezet.
+
+![](.gitbook/assets/structural.png)
+
+## Űrlapok
+
+### **Az űrlap elem**
+
+Űrlapokat a **&lt;form&gt;** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A &lt;form&gt; elem képes a tartalmát elküldeni a webszervernek.
+
+```markup
+<form>
+    ...
+</form>
+```
+
+### **A beviteli elem**
+
+Az űrlap mezőit az **&lt;input&gt;** elemmel hozhatjuk létre. Az input elem viselkedését, kinézetét meghatározza a típus \(type\) tulajdonsága.
+
+```markup
+<form>
+    <input id="name" type="text" placeholder="Your name">
+</form>
+```
+
+```markup
+<form>
+    <label>Szövegbeviteli mező</label> <input type="text"> <br>
+    <label>E-mail</label> <input type="email"> <br>
+    <label>Jelszó</label> <input type="password"> <br>
+    <label>Állomány feltöltés</label> <input type="file"> <br>
+    <label>Rádiógomb</label> <input type="radio"> <br>
+    <label>Jelölőnégyzet</label> <input type="checkbox"> <br>
+    <label>Gomb</label> <input type="button" value="Elküldés">
+</form>
+```
+
+![](.gitbook/assets/form_01.png)
+
+### **Címke elem**
+
+Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A label elem "for" tulajdonságában megadott egyedi azonosító összeköti a labelt az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
+
+```markup
+<form>
+    <label for="name">Your Name</label>
+    <input id="name" type="text">
+</form>
+```
+
+Ez a kötés létrejön akkor is, ha a beviteli mező a &lt;label&gt; gyermeke:
+
+```markup
+<form>
+    <label>
+        Your Name
+        <input id="name" type="text">
+    </label>
+</form>
+```
+
+### **Szövegdoboz**
+
+A **&lt;textarea&gt;** hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
+
+A "rows" és "cols" tulajdonságaival meghatározhatjuk a kiinduló méretét is.
+
+```markup
+<form>
+    <textarea rows="4" cols="50"></textarea>
+</form>
+```
+
+### **Lenyíló lista**
+
+A **&lt;select&gt;** elem **&lt;option&gt;** elemeket tartalmaz, ezek a lenyíló lista választható opciói.  
+Az &lt;option&gt; elemek közül az lesz az alapértelmezett, amelyik rendelkezik selected tulajdonsággal.
+
+```markup
+<select>
+    <option selected>Almafa</option>
+    <option>Körtefa</option>
+    <option>Barackfa</option>
+</select>
+```
+
+![](.gitbook/assets/select.png)
+
+## Táblázatok
+
+### **Táblázat**
+
+A **&lt;table&gt;** elem a táblázat szülőeleme, a sorokat a **&lt;tr&gt;** elemek képzik, az oszlopokat, vagy cellákat a **&lt;td&gt;** elemek.
+
+```markup
+<table>
+    <tr>
+        <td>Első sor, első oszlop</td>
+        <td>Első sor, második oszlop</td>
+    </tr>
+    <tr>
+        <td>Második sor, első oszlop</td>
+        <td>Második sor, második oszlop</td>
+    </tr>
+</table>
+```
+
+### **Táblázat fejléc**
+
+Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt;th&gt;** elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
+
+```markup
+<!-- Fejléc cellák vízszintesen -->
+<table>
+    <tr>
+        <th>Fejléc</th>
+        <th>Fejléc</th>
+        <th>Fejléc</th>
+    </tr>
+    <tr>
+        <td>Cella</td>
+        <td>Cella</td>
+        <td>Cella</td>
+    </tr>
+</table>
 
 
-
+<!-- Fejléc cellák függőlegesen -->
+<table>
+    <tr>
+        <th>Fejléc</th>
+        <td>Cella</td>
+        <td>Cella</td>
+    </tr>
+    <tr>
+        <th>Fejléc</th>
+        <td>Cella</td>
+        <td>Cella</td>
+    </tr>
+</table>
+```
 
