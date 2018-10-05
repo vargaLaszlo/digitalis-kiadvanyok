@@ -38,6 +38,10 @@ Régebbi verzióknál a !DOCTYPE tartalmazta a **DTD** \(Document Type Definitio
 <!DOCTYPE html>
 ```
 
+{% hint style="warning" %}
+Mi történik akkor ha elhagyjuk a dokumentum tipusát? A böngésző megpróbálja kitalálni a dokumentum tartalma alapján, hogy hogyan kell azt megjelenítenie. Ez a _quirks mode_, ami egy erőforrásigényesebb a normális futásnál, így lassabban tölti be azoldalt, mintha eleve megmondanánk neki, hogy hogyan jelenítse meg azt \(spórolva a kliens gép erőforrásaival\).
+{% endhint %}
+
 ## Megjegyzések \(Comment\)
 
 A HTML állományban elhelyezhetők megjegyzések:
