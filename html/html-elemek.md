@@ -258,11 +258,24 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a **strong** elemben található szöveget nagyobb súllyal veszi figyelembe a google kereső, vagy az _em_ elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
 {% endhint %}
 
+### Span
+
+Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan. ez a **span** elem \(szabad fordításban dirib-darab\).  
+
+```markup
+<p>Ebben a szövegben van egy <span>szakasz</span>, aminek 
+nem módosul a kinézete, és a szemantikai jelentése</p>
+```
+
+{% hint style="info" %}
+Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést konteksztustól függően, és megjelenésben sem okoz érzékelhető változást. Több okból is előnyös lehet: segíti a dokumentum tartalmának struktúrálását, illetve CSS segítségével módosíthatjuk a megjelenését.
+{% endhint %}
+
 ## Strukturális elemek
 
 ### **Div**
 
-A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges.
+A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges \(hasonlóan a korábban tárgyalt _span_ elemhez\).
 
 ### **A div szemantikus variációi**
 
