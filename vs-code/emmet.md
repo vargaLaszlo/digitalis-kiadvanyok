@@ -1,16 +1,22 @@
 # Emmet
 
-## Mi az az emmet?
+## Mi az az Emmet?
 
-...
+Az **Emmet** egy automatikus kódkiegészítő, ami megkönnyíti a munkát **HTML** és **CSS** dokumentumokkal, úgy hogy drasztikusan csökkenti a gépelés mennyiségét \(és a gépelési hibákat\). 
 
-## Emmet használata
+Számos fejlesztői eszközbe alapértelmezetten be van integrálva, köztük a **VS Code** szövegszerkesztőbe, és a **Codepen.io** online szövegszerkesztőbe is.
 
-...
+Az **Emmet**[ **rövidítéseket**](https://docs.emmet.io/abbreviations/syntax/) \(abbreviation\) használ, amiket begépelve komplex HTML struktúrákat kapunk vissza.
+
+Például ha VS Code-ban megnyitunk egy HTML dokumentumot, és új sorban leütjük a p betűt, és entert nyomunk egy HTML bekezdést kapunk:
+
+```markup
+<p></p>
+```
 
 ## Emmet példák
 
-### !
+### html:5 vagy !
 
 Az alapvető HTML elemeket tehetjük be vele egy üres dokumentumba.  
 Eredménye: 
@@ -48,7 +54,16 @@ Eredménye:
 <h1>Lorem, ipsum dolor.</h1>
 ```
 
-### P
+{% hint style="info" %}
+A **&gt;** jel a jel előtt lévő elembe beleteszi a jel után következő elemet.  
+Például ennél a rövidítésnél: **div&gt;p** a szövegszerkesztő létrehoz egy div elemet, és elhelyez benne egy bekezdést.
+{% endhint %}
+
+{% hint style="info" %}
+A **lorem** rövidítés egy bekezdésnyi töltelékszöveget hoz létre. Meghatározhatjuk hogy hány szóból álljon a töltelékszöveg, ehhez írjuk a **lorem** kulcsszó után közvetlenül a létrehozni kívánt szavak számát: **lorem15** ez a rövidítés egy 15 szóból álló töltelékszöveget hoz létre.
+{% endhint %}
+
+### p
 
 Egy üres bekezdést hoz létre.  
 Eredménye:
@@ -99,6 +114,11 @@ voluptates id laudantium perspiciatis reprehenderit, vitae
 atque architecto amet, eos eligendi veniam, facere autem 
 nesciunt!</p>
 ```
+
+{% hint style="info" %}
+A **\*** jellel sokszorozni tudunk, például a **p\*5** rövidítés 5 üres bekezdést hoz létre.  
+Ha több egymásba ágyazott elemet akarunk sokszorozni, például 5 üres bekezdés helyett 5 bekezdést töltelékszöveggel, a sokszorozni kívánt elemeket tegyük zárójelbe: **\(p&gt;lorem\)\*5**
+{% endhint %}
 
 ### \(h1&gt;lorem1\)+\(\(h2&gt;lorem3\)+p&gt;lorem\)\*2
 
