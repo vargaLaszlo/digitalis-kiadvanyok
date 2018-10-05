@@ -2,7 +2,7 @@
 
 ## Gyökérelem
 
-A **html** tag az összes többi elem szülője. Ebbe kerül az oldal teljes tartalma.
+A **html** elem az összes többi elem szülője. Ebbe kerül az oldal teljes tartalma.
 
 ```markup
 <html>
@@ -10,7 +10,7 @@ A **html** tag az összes többi elem szülője. Ebbe kerül az oldal teljes tar
 </html>
 ```
 
-Jellemző, hogy az oldalak nyelvét a html elemen a **lang** tulajdonsággal határozhatjuk meg.
+Jellemző, hogy az oldalak nyelvét a **html** elemen a **lang** tulajdonsággal határozhatjuk meg.
 
 ```markup
 <html lang="hu">
@@ -29,8 +29,6 @@ A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumen
 ```
 
 ## HTML elemek a fejlécben
-
-
 
 ### **Az oldal címe**
 
@@ -60,7 +58,7 @@ Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg,
 
 **Példák meta információra:**
 
-* **Description:** rövid leírás az oldalról
+* **Description:** Rövid leírás az oldalról
 * **Keywords:** Az oldalhoz kapcsolódó kulcsszavak
 * **Author:** Az oldal szerzője
 * **Viewport:** Utasítás a böngészőnek az oldal megjelenítésének módjáról
@@ -256,6 +254,10 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 
 {% hint style="info" %}
 Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a **strong** elemben található szöveget nagyobb súllyal veszi figyelembe a google kereső, vagy az _em_ elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
+{% endhint %}
+
+{% hint style="info" %}
+[Kódpélda](https://codepen.io/_lacus/pen/aLyybM)
 {% endhint %}
 
 ### Span
