@@ -13,6 +13,7 @@
 ## CSS
 
 * [Mi a CSS?](css/mi-a-css.md)
+* [CSS stílusok felépítése](css/css-stilusok-felepitese.md)
 
 ## VS Code
 
