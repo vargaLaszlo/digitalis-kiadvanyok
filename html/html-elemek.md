@@ -400,7 +400,7 @@ A **&lt;table&gt;** elem a táblázat szülőeleme, a sorokat a **&lt;tr&gt;** e
 Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt;th&gt;** elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
 
 ```markup
-<!-- Fejléc cellák vízszintesen -->
+<!-- Fejléc cellák vízszintesen. -->
 <table>
     <tr>
         <th>Fejléc</th>
@@ -415,7 +415,7 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt
 </table>
 
 
-<!-- Fejléc cellák függőlegesen -->
+<!-- Fejléc cellák függőlegesen. -->
 <table>
     <tr>
         <th>Fejléc</th>
