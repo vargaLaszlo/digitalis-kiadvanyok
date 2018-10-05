@@ -15,7 +15,7 @@
 Az alapvető HTML elemeket tehetjük be vele egy üres dokumentumba.  
 Eredménye: 
 
-```text
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +63,10 @@ Egy bekezdést hoz létre egy bekezdésnyi töltelékszöveggel.
 Eredménye:
 
 ```markup
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, eos? Iste deleniti cum ullam explicabo deserunt eius at fugiat, itaque rem? Consequuntur molestiae enim sequi provident molestias inventore praesentium odio?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Officiis, eos? Iste deleniti cum ullam explicabo deserunt 
+eius at fugiat, itaque rem? Consequuntur molestiae enim sequi
+provident molestias inventore praesentium odio?</p>
 ```
 
 ### p{Tarka kutya tarka felfelé kucsorodó farka!}
@@ -71,7 +74,7 @@ Eredménye:
 Egy bekezdést hoz létre konkrét szöveges tartalommal.  
 Eredménye:
 
-```text
+```markup
 <p>Tarka kutya tarka felfelé kucsorodó farka!</p>
 ```
 
@@ -81,7 +84,20 @@ Eredménye:
 Eredménye:
 
 ```markup
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ducimus similique architecto numquam eum, sunt error quasi quas deserunt et. Neque dolorem, veritatis suscipit cum magni magnam veniam ducimus facilis!</p><p>Earum consequuntur tempora non incidunt voluptatem sit quibusdam recusandae facilis? At, tenetur odit fugiat error vero perspiciatis assumenda praesentium dolores perferendis nostrum ut expedita officia quidem quae labore repellat voluptates?</p><p>Voluptates voluptate architecto, qui quas saepe cumque reiciendis alias cupiditate et! Sint unde nisi dolorem voluptates id laudantium perspiciatis reprehenderit, vitae atque architecto amet, eos eligendi veniam, facere autem nesciunt!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Voluptatem ducimus similique architecto numquam eum, sunt 
+error quasi quas deserunt et. Neque dolorem, veritatis 
+suscipit cum magni magnam veniam ducimus facilis!</p>
+<p>Earum consequuntur tempora non incidunt voluptatem sit 
+quibusdam recusandae facilis? At, tenetur odit fugiat error
+vero perspiciatis assumenda praesentium dolores perferendis
+nostrum ut expedita officia quidem quae labore repellat
+voluptates?</p>
+<p>Voluptates voluptate architecto, qui quas saepe cumque 
+reiciendis alias cupiditate et! Sint unde nisi dolorem 
+voluptates id laudantium perspiciatis reprehenderit, vitae 
+atque architecto amet, eos eligendi veniam, facere autem 
+nesciunt!</p>
 ```
 
 ### \(h1&gt;lorem1\)+\(\(h2&gt;lorem3\)+p&gt;lorem\)\*2
