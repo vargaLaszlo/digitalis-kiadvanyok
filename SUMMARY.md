@@ -14,6 +14,7 @@
 
 * [Mi a CSS?](css/mi-a-css.md)
 * [CSS stílusok felépítése](css/css-stilusok-felepitese.md)
+* [Kijelölők](css/kijeloelok.md)
 
 ## VS Code
 
