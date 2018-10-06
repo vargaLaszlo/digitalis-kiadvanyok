@@ -64,6 +64,8 @@ Elrejthetünk vele HTML elemeket is:
 </ul>
 ```
 
+A fenti példában a középső lista elemet nem hozza létre a böngésző.
+
 ## HTML Címkék \(Tag\)
 
 A HTML dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta a dokumentumot. 
