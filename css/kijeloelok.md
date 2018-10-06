@@ -95,5 +95,63 @@ p + p {
 }
 ```
 
-...
+## Álosztályok
+
+### Állapot álosztályok
+
+Ezekkel a kijelölőkkel egy bizonyos állapotban lévő elemre hivatkozhatunk. Ilyen állapot például ha egy link fölött áll az egérkurzor, vagy ha egy beviteli mezőbe  
+írunk éppen.
+
+**:active** Aktív állapotban lévő elemre vonatkozik, egy link addig aktív, amíg lenyomva tartjuk az egér gombot.  
+**:focus** Azokra az elemekre vonatkozik, amik fókuszban vannak \(ráléptettünk tabbal, vagy benne állunk egy űrlap mezőben\).  
+**:hover** Az egérkurzor alatti elemekre vonatkozik.  
+**:visited** Azokra a hivatkozásokra vonatkozik, amiket korábban már bejártunk.  
+**:empty** Üres, és gyermek nélküli elemeket lehet kiválasztani vele.  
+**:link** Eddig még nem bejárt linkeket lehet vele célozni.  
+**:checked** Megjelölt input elemeket céloz.
+
+```css
+a:hover {
+    color: red;
+}
+```
+
+A fenti példában a linkek vörös szövegszínt kapnak, ha föléjük kerül az egér kurzor.
+
+## Pozíció álosztályok
+
+Ezekkel a kijelölőkkel egy bizonyos pozícióban lévő elemre hivatkozhatunk. Ilyen pozíció, hogy egy elem páratlan, vagy páros elem egy sorozatban, esetleg az első vagy az utolsó darabja egy sorozatnak.
+
+**:nth-child\(n\)** n-edik elem a sorban  
+**:nth-type\(n\)** n-edik bizonyos elem   
+**:first-child** első elem  
+**:last-child** utolsó elem  
+**:first-of-type** első egy tipusból  
+**:last-of-type** utolsó egy tipusból
+
+## Álelemek
+
+Minden HTML elemhez hozzá lehet rendelni két **álelemet**, ezek az eredeti elem gyermekei lesznek, egyet a tartalma előtt, egyet pedig a tartalma után tud megjeleníteni a böngésző.
+
+```css
+p:before {
+    content: "";
+}
+
+p:after {
+    content: "";
+}
+```
+
+Az **álelemek** CSS-ében el kell helyezni egy tartalom "content" meghatározást, ez adja meg az álelem tartalmát. Ez rendszerint szöveg vagy kép lehet, de üresen is lehet hagyni.
+
+```css
+p:before {
+    content: "Lorem ipsum dolor...";
+}
+
+div:before {
+    content: url('ribbon.png');
+}
+```
 

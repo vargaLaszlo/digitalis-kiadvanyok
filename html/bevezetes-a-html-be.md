@@ -12,7 +12,7 @@ A **HTML** egy leírónyelv, ami a webalkalmazások strukturális vázát adja.
 
 A **HTML**-t mint szabványt a [**W3C**](https://hu.wikipedia.org/wiki/W3C) \(World Wide Web Consortium\) kezeli.
 
-### Építőelemek
+## Építőelemek
 
 A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta és feldolgozta a dokumentumot. 
 
@@ -22,7 +22,7 @@ Egy lehetséges HTML elem:
 <elem tulajdonsag="ertek">tartalom</elem>
 ```
 
-### **Hyperlinkek**
+## **Hyperlinkek**
 
 A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\). ****Ezek kötik össze egy globális egységgé a weben található dokumentumokat.
 
