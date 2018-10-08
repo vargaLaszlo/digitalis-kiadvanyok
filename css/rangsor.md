@@ -2,7 +2,7 @@
 
 ## Mi az a rangsor?
 
-Egy elemre jellemzően több CSS szabály is vonatkozhat, ezek közül több is felülbírálhatja egymást, a böngészők rangsorolással döntik el, hogy mely szabály lesz érvényes az adott elemre.
+Egy elemre jellemzően több CSS szabály is vonatkozhat, ezek közül több is felülbírálhatja egymást, a böngészők rangsorolással döntik el, hogy mely szabály lesz érvényes az adott elemre \(melyik az erősebb\).
 
 ## Eredet
 
@@ -45,13 +45,13 @@ span {
 A szűkítés értékei összeadódnak, és a kapott érték alapján a rangsorolja a böngésző a CSS szabályokat. Ezek nem helyi értékek, egy darab id a kijelölőben bármennyi osztályt felülbírál.
 
 ```css
-div                    /* értéke: 0.0.0.1 */
-label.name             /* értéke: 0.0.1.1 */
-.name                  /* értéke: 0.0.1.0 */
-#contact               /* értéke: 0.1.0.0 */
-div#contact            /* értéke: 0.1.0.1 */
-div#contact .name      /* értéke: 0.1.1.1 */
-div#contact label.name /* értéke: 0.1.2.1 */
+div {}                    /* értéke: 0.0.0.1 */
+label.name {}             /* értéke: 0.0.1.1 */
+.name {}                  /* értéke: 0.0.1.0 */
+#contact {}               /* értéke: 0.1.0.0 */
+div#contact {}            /* értéke: 0.1.0.1 */
+div#contact .name {}      /* értéke: 0.1.1.1 */
+div#contact label.name {} /* értéke: 0.1.2.1 */
 ```
 
 ## Fontosság \(!important\)

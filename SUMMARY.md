@@ -16,6 +16,7 @@
 * [CSS stílusok felépítése](css/css-stilusok-felepitese.md)
 * [Kijelölők](css/kijeloelok.md)
 * [Rangsor](css/rangsor.md)
+* [Színek, színrendszerek](css/szinek-szinrendszerek.md)
 
 ## VS Code
 
