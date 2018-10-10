@@ -120,9 +120,24 @@ A **\*** jellel sokszorozni tudunk, például a **p\*5** rövidítés 5 üres be
 Ha több egymásba ágyazott elemet akarunk sokszorozni, például 5 üres bekezdés helyett 5 bekezdést töltelékszöveggel, a sokszorozni kívánt elemeket tegyük zárójelbe: **\(p&gt;lorem\)\*5**
 {% endhint %}
 
+### h1+h2+p
+
+Egy üres főcím, utána üres alcím, végül egy üres bekezdés  
+Eredménye:
+
+```markup
+<h1></h1>
+<h2></h2>
+<p></p>
+```
+
+{% hint style="info" %}
+A + jellel egymás után tudunk elhelyezni elemeket, például a **div+div** két div-et hoz létre. Ezzel a módszerrel egy oldal fő strukturális elemeit egy menetben létre tudjuk hozni: **header+main+aside+footer**
+{% endhint %}
+
 ### \(h1&gt;lorem1\)+\(\(h2&gt;lorem3\)+p&gt;lorem\)\*2
 
-Egy főcím, utána két alcím egy-egy bekezdéssel.  
+Egy főcím, utána két alcím egy-egy bekezdéssel. Mindegyik elemben megfelelő mennyiségű töltelékszöveg.  
 Eredménye:
 
 ```markup
@@ -179,6 +194,20 @@ Eredménye:
 </ul>
 ```
 
-  
+### nav&gt;ul&gt;\(li&gt;a&gt;lorem3\)\*5
 
+Navigáció listátával, 5 darab lista elemmel, a list elemekben linkekkel.  
+Eredménye:
+
+```markup
+<nav>
+    <ul>
+        <li><a href="">Lorem, ipsum dolor.</a></li>
+        <li><a href="">Esse, soluta numquam!</a></li>
+        <li><a href="">Ullam, eligendi impedit!</a></li>
+        <li><a href="">Quod, tempora iusto.</a></li>
+        <li><a href="">Quas, at in!</a></li>
+    </ul>
+</nav>
+```
 
