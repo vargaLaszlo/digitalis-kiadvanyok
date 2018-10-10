@@ -9,6 +9,7 @@
 * [HTML rövid története](html/html-roevid-toertenete.md)
 * [HTML állomány felépítése](html/html-allomany-felepitese.md)
 * [HTML elemek](html/html-elemek.md)
+* [HTML hibák, és javításuk](html/html-hibak-es-javitasuk.md)
 
 ## CSS
 
