@@ -273,9 +273,30 @@ nem módosul a kinézete, és a szemantikai jelentése</p>
 Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést konteksztustól függően, és megjelenésben sem okoz érzékelhető változást. Több okból is előnyös lehet: segíti a dokumentum tartalmának struktúrálását, illetve CSS segítségével módosíthatjuk a megjelenését.
 {% endhint %}
 
+## Dekorációs elemek
+
+### **Sortörés**
+
+A **&lt;br&gt;** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük.
+
+```markup
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+Donec facilisis sit amet nisi nec mattis.</p>
+```
+
+![](../.gitbook/assets/br.png)
+
+### **Vízszintes vonal**
+
+A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
+
+```markup
+<hr>
+```
+
 ## Strukturális elemek
 
-### **Div**
+### **Általános konténer elem \(div\)**
 
 A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges \(hasonlóan a korábban tárgyalt _span_ elemhez\).
 
