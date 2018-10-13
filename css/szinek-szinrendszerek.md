@@ -1,9 +1,5 @@
 # Színek, színrendszerek
 
-## Színrendszerek a CSS-ben
-
-
-
 ## Hexadecimális - **\#rrggbb**
 
 RGB szín, 256^3 bit mélységben, amit színenként egy két helyi értékű 16 számrendszerben kifejezett szám ad meg. \(16\*16=256\)
