@@ -20,7 +20,7 @@ A legfontosabb, legsokoldalúbb eszköze a VS Code-nak a **parancs paletta**, t�
 
 ### VS Code parancsok - Ctrl + Shift + p
 
-Ez megnyitja a parancs palettát, és a paletta keresője az összes VS Code parancs között szűr. Például ha beírjuk, hogy _help_, a parancs paletta felsorolja az összes parancsot, ami a VS Code dokumentációjável, a a segítség menüpontokkal kapcsolatos.
+Ez megnyitja a parancs palettát, és a paletta keresője az összes VS Code parancs között szűr. Például ha beírjuk, hogy _help_, a parancs paletta felsorolja az összes parancsot, ami a VS Code dokumentációjával, a a segítség menüpontokkal kapcsolatos.
 
 ![](../.gitbook/assets/vscode-commandpalette01.png)
 
