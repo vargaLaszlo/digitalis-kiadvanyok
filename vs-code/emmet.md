@@ -1,5 +1,7 @@
 # Emmet
 
+![](../.gitbook/assets/emmetlogo.png)
+
 ## Mi az az Emmet?
 
 Az **Emmet** egy automatikus kódkiegészítő, ami megkönnyíti a munkát **HTML** és **CSS** dokumentumokkal, úgy hogy drasztikusan csökkenti a gépelés mennyiségét \(és a gépelési hibákat\). 
