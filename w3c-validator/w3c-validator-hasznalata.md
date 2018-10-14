@@ -18,5 +18,45 @@ Három módon küldhetünk be HTML kódot ellenőrzésre, a nekünk megfelelő m
 
 ## További beállítások
 
-...
+![](../.gitbook/assets/w3cvalidator05.png)
+
+A további beállítások a **More Options** menüből érhetőek el:
+
+### Karakter kódolás \(Character encoding\)
+
+A validator alapbeállításnál megpróbálja felismerni a dokumentum karakter kódolását, de mi is beállíthatunk egy konkrét karakter kódolási táblát a legördülő menüből.
+
+### Dokumentum tipus \(Document Type\)
+
+A !doctype meghatározás alapján próbálja meg értelmezni a dokumentumot a validator, ennek hiányában HTML 4.01 Transitional dokumentum típust fogja használni. A legördülő menüből mi is kiválaszthatjuk a megfelelő típust.
+
+### Hiba üzenetek csoportosítása
+
+Két lehetőség van, az első esetben sorrendben jeleníti meg az üzeneteket, ahogy halad végig a dokumentumon a validator \(List Messages Sequentially\), a második eset, amikor kategóriánként csoportosítja a hiba üzeneteket \(Group Error Messages by Type\).
+
+### Forráskód mutatása \(Show Source\)
+
+A validator mutatja a forráskódot, és kiemeli benne a hibás elemeket.
+
+### Forráskód tisztítása \(Clean up Markup with HTML-Tidy\)
+
+A validátor a HTML-Tidy segítségével megkisérli javítani az esetleges hibákat.
+
+### Cím hierarchia mutatása \(Show Outline\)
+
+Ebben az esetben kapunk egy visszajelzést a dokumentum cím szerkezetéről.
+
+### Bőbeszédű kimenet \(Verbose Output\)
+
+Bizonyos esetekben részletesebb visszajelzést kapunk így a hibákról.
+
+## Visszajelzések
+
+Ha megvannak a kívánt beállítások, és a Check gombbal beküldtük az ellenőrizendő kódot, a validator összeállítja nekünk a jelentését.
+
+![Szerencs&#xE9;s eset, nincs hiba.](../.gitbook/assets/w3cvalidator06.png)
+
+![Szerencs&#xE9;tlen eset, a forr&#xE1;sk&#xF3;d tele van hib&#xE1;val.](../.gitbook/assets/w3cvalidator07.png)
+
+
 
