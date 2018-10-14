@@ -50,3 +50,16 @@ Egy állományon belül tudunk így navigálni a HTML elemek, vagy CSS stílusok
 
 Ha a listából kiválasztunk egy elemet, a szerkesztő automatikusan a megfelelő sorra ugrik.
 
+### Parancs paletta funkciók áttekintése
+
+| Funkció | szimbólum | billentyű kombináció |
+| :--- | :--- | :--- |
+| Parancs paletta funkciói | ? | nincs |
+| Parancs értelmező | &gt; | Ctrl + Shift + p |
+| Navigáció állományok között | nincs | Ctrl + p |
+| Navigáció állományon belül | : | Ctrl + g |
+| Váltás a megnyitott állományok között | nincs | Ctrl + Shift + Tab |
+| Navigáció szimbólumok között | @ | Ctrl + Shift + o |
+
+
+
