@@ -58,5 +58,15 @@ Ha megvannak a kívánt beállítások, és a Check gombbal beküldtük az ellen
 
 ![Szerencs&#xE9;tlen eset, a forr&#xE1;sk&#xF3;d tele van hib&#xE1;val.](../.gitbook/assets/w3cvalidator07.png)
 
+### Hibaüzenet felépítése
+
+![](../.gitbook/assets/w3cvalidator08.png)
+
+1. Hiba sorszáma
+2. Hiba tipusa, hiba \(error\), vagy warning \(figyelmeztetés\)
+3. Hiba konkrét leírása
+4. Hiba helye a kódban \(line: sor, column: oszlop\)
+5. A hibás kódszakasz kiemelve.
+
 
 
