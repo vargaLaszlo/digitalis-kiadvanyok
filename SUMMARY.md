@@ -26,3 +26,8 @@
 * [VS Code anatómiája](vs-code/vs-code-anatomiaja.md)
 * [Emmet](vs-code/emmet.md)
 
+## W3C Validator
+
+* [Mi az a W3C Validator](w3c-validator/mi-az-a-w3c-validator.md)
+* [W3C Validator használata](w3c-validator/w3c-validator-hasznalata.md)
+
