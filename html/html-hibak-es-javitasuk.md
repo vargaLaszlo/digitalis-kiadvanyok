@@ -18,7 +18,13 @@ Akadályozza a keresőket az oldal feldolgozásában.
 
 ### **Jellemző hibák**
 
-Kötelező elemek hiányoznak a dokumentumból. Pédául nincs **!DOCTYPE** vagy **&lt;title&gt;**. Vagy hiányoznak az alapvető elemek: **&lt;html&gt; &lt;head&gt; &lt;body&gt;**.
+#### Kötelező elemek hiányoznak a dokumentumból. 
+
+Pédául nincs **!DOCTYPE** vagy **&lt;title&gt;**. Vagy hiányoznak az alapvető elemek: **&lt;html&gt; &lt;head&gt; &lt;body&gt;**.
+
+{% hint style="info" %}
+A dokumentum típus meghatározásának hiányában a böngésző pontos "tervrajz" nélkül próbálja összerakni a weboldalt, ez a **quirks mode**, ami egy erőforrás igényes működés, feleslegesen lassítja a felhasználó gépét.
+{% endhint %}
 
 #### Blokkos elem van ****[szövegközi](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements) elembe ágyazva.
 
