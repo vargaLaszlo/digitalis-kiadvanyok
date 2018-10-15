@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/validator01.png)
 
-Három módon küldhetünk be HTML kódot ellenőrzésre, a nekünk megfelelő módot a validátor űrlapjának tetején a tabokon választhatjuk ki.
+Három módon küldhetünk be HTML kódot ellenőrzésre, a nekünk megfelelő módot a [validator űrlapjának tetején](https://validator.w3.org/) a tabokon választhatjuk ki.
 
 1. Megadhatunk egy URL-t vagy webcímet ellenőrzésre.
 2. Feltölthetünk egy állományt a számítógépünkről, a feltöltött állományt fogja ellenőrizni a validator.
