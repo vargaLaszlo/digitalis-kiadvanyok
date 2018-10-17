@@ -277,7 +277,7 @@ Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést kon
 
 ### **Sortörés**
 
-A **&lt;br&gt;** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük.
+A **&lt;br&gt;** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a **br** elem után következő szöveg már új sorba törik.
 
 ```markup
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
@@ -298,7 +298,7 @@ A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. C�
 
 ### **Általános konténer elem \(div\)**
 
-A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges \(hasonlóan a korábban tárgyalt _span_ elemhez\).
+A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges \(hasonlóan a korábban tárgyalt _span_ elemhez, csak amíg a span szövegközi elem,  addig a div blokkos elem\).
 
 ### **A div szemantikus variációi**
 
@@ -452,4 +452,53 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt
     </tr>
 </table>
 ```
+
+## Felsorolt elemek listája
+
+| Elem | Hosszú név | Megjelenítési mód |
+| :--- | :--- | :--- |
+| html | Root element | block |
+| head | Document header | none |
+| title | Title | none |
+| meta | Metadata | none |
+| link | Link | none |
+| body | Document body | block |
+| h1 - h6 | Heading | block |
+| p | Paragraph | block |
+| ul | Unordered list | block |
+| ol | Ordered list | block |
+| li | List item | list-item |
+| a | Hiperlink | inline |
+| img | Image | inline |
+| b | Bold | inline |
+| strong | Strong | inline |
+| i | Italic | inline |
+| em | Emphasis | inline |
+| small | Small text | inline |
+| time | Time | inline |
+| sup | Superscript | inline |
+| sub | Subscript | inline |
+| s |  Strikethrough | inline |
+| span | Span | inline |
+| br | Break line | inline |
+| hr | Horisontal line | block |
+| div | Division | block |
+| nav | Navigation | block |
+| header | Header | block |
+| main | Main content | block |
+| aside | Aside | block |
+| footer | Footer | block |
+| section | Section | block |
+| article | Article | block |
+| form  | Form | block |
+| input | Input field | inline-block |
+| textarea | Text area | inline-block |
+| button | Button | inline-block |
+| label | Label | inline |
+| table | Table | table |
+| tr | Table row | table-row |
+| td | Table cell | table-cell |
+| th | Table cell header | table-cell |
+
+
 
