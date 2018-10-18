@@ -410,13 +410,19 @@ A **&lt;table&gt;** elem a táblázat szülőeleme, a sorokat a **&lt;tr&gt;** e
     <tr>
         <td>Első sor, első oszlop</td>
         <td>Első sor, második oszlop</td>
+        <td>Első sor, harmadik oszlop</td>
     </tr>
     <tr>
         <td>Második sor, első oszlop</td>
         <td>Második sor, második oszlop</td>
+        <td>Második sor, harmadik oszlop</td>
     </tr>
 </table>
 ```
+
+![](../.gitbook/assets/table.png)
+
+Minden sorban egyező számú oszlopot kell elhelyezni.
 
 ### **Táblázat fejléc**
 
