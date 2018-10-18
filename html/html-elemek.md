@@ -300,7 +300,7 @@ A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. C�
 
 A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt _span_ elemhez, csak amíg a span szövegközi elem,  addig a div blokkos elem. 
 
-Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A div-ekben bármilyen tartalom típusú elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
+Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A div-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
 
 ```markup
 <div>
@@ -310,7 +310,7 @@ Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik r
 
 ### **A div szemantikus variációi**
 
-A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a role tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
+A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a _role_ tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
 
  **&lt;nav&gt;** Navigációt tartalmaz, rendszerint &lt;a&gt; ****elemeket listába rendezve.  
 **&lt;header&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum fejléce.  
@@ -326,7 +326,7 @@ A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a
 
 ### **Az űrlap elem**
 
-Űrlapokat a **&lt;form&gt;** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A &lt;form&gt; elem képes a tartalmát elküldeni a webszervernek.
+Űrlapokat a **&lt;form&gt;** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A **&lt;form&gt;** elem képes a tartalmát elküldeni a webszervernek.
 
 ```markup
 <form>
@@ -360,7 +360,7 @@ Az űrlap mezőit az **&lt;input&gt;** elemmel hozhatjuk létre. Az input elem v
 
 ### **Címke elem**
 
-Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A label elem "for" tulajdonságában megadott egyedi azonosító összeköti a labelt az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
+Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A **label** elem "for" tulajdonságában megadott egyedi azonosító összeköti a labelt az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
 
 ```markup
 <form>
@@ -369,7 +369,7 @@ Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A la
 </form>
 ```
 
-Ez a kötés létrejön akkor is, ha a beviteli mező a &lt;label&gt; gyermeke:
+Ez a kötés létrejön akkor is, ha a beviteli mező a **&lt;label&gt;** gyermeke:
 
 ```markup
 <form>
@@ -384,7 +384,7 @@ Ez a kötés létrejön akkor is, ha a beviteli mező a &lt;label&gt; gyermeke:
 
 A **&lt;textarea&gt;** hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
 
-A "rows" és "cols" tulajdonságaival meghatározhatjuk a kiinduló méretét is.
+A rows és cols tulajdonságaival meghatározhatjuk a kiinduló méretét is.
 
 ```markup
 <form>
