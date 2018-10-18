@@ -298,7 +298,15 @@ A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. C�
 
 ### **Általános konténer elem \(div\)**
 
-A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges \(hasonlóan a korábban tárgyalt _span_ elemhez, csak amíg a span szövegközi elem,  addig a div blokkos elem\).
+A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt _span_ elemhez, csak amíg a span szövegközi elem,  addig a div blokkos elem. 
+
+Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A div-ekben bármilyen tartalom típusú elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
+
+```markup
+<div>
+    <!-- Ide kerülnek azok az elemek, amiket össze kell fogni egy csoportba -->
+</div>
+```
 
 ### **A div szemantikus variációi**
 
