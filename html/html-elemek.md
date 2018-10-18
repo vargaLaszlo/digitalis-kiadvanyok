@@ -457,48 +457,48 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt
 
 | Elem | Hosszú név | Megjelenítési mód |
 | :--- | :--- | :--- |
-| html | Root element | block |
-| head | Document header | none |
-| title | Title | none |
-| meta | Metadata | none |
-| link | Link | none |
-| body | Document body | block |
-| h1 - h6 | Heading | block |
-| p | Paragraph | block |
-| ul | Unordered list | block |
-| ol | Ordered list | block |
-| li | List item | list-item |
-| a | Hiperlink | inline |
-| img | Image | inline |
-| b | Bold | inline |
-| strong | Strong | inline |
-| i | Italic | inline |
-| em | Emphasis | inline |
-| small | Small text | inline |
-| time | Time | inline |
-| sup | Superscript | inline |
-| sub | Subscript | inline |
-| s |  Strikethrough | inline |
-| span | Span | inline |
-| br | Break line | inline |
-| hr | Horisontal line | block |
-| div | Division | block |
-| nav | Navigation | block |
-| header | Header | block |
-| main | Main content | block |
-| aside | Aside | block |
-| footer | Footer | block |
-| section | Section | block |
-| article | Article | block |
-| form  | Form | block |
-| input | Input field | inline-block |
-| textarea | Text area | inline-block |
-| button | Button | inline-block |
-| label | Label | inline |
-| table | Table | table |
-| tr | Table row | table-row |
-| td | Table cell | table-cell |
-| th | Table cell header | table-cell |
+| `html` | Root element | block |
+| `head` | Document header | none |
+| `title` | Title | none |
+| `meta` | Metadata | none |
+| `link` | Link | none |
+| `body` | Document body | block |
+| `h1` `h2` `h3` `h4` `h5` `h6` | Heading | block |
+| `p` | Paragraph | block |
+| `ul` | Unordered list | block |
+| `ol` | Ordered list | block |
+| `li` | List item | list-item |
+| `a` | Hiperlink | inline |
+| `img` | Image | inline |
+| `b` | Bold | inline |
+| `strong` | Strong | inline |
+| `i` | Italic | inline |
+| `em` | Emphasis | inline |
+| `small` | Small text | inline |
+| `time` | Time | inline |
+| `sup` | Superscript | inline |
+| `sub` | Subscript | inline |
+| `s` |  Strikethrough | inline |
+| `span` | Span | inline |
+| `br` | Break line | inline |
+| `hr` | Horisontal line | block |
+| `div` | Division | block |
+| `nav` | Navigation | block |
+| `header` | Header | block |
+| `main` | Main content | block |
+| `aside` | Aside | block |
+| `footer` | Footer | block |
+| `section` | Section | block |
+| `article` | Article | block |
+| `form`  | Form | block |
+| `input` | Input field | inline-block |
+| `textarea` | Text area | inline-block |
+| `button` | Button | inline-block |
+| `label` | Label | inline |
+| `table` | Table | table |
+| `tr` | Table row | table-row |
+| `td` | Table cell | table-cell |
+| `th` | Table cell header | table-cell |
 
 
 
