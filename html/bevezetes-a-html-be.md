@@ -8,7 +8,7 @@ A HTML egy a webes szabványok közül. A webes szabványok közül a legfontosa
 
 **HTML** egy mozaikszó, jelentése **H**yper**T**ext **M**arkup **L**anguage, vagyis **hiperszöveges jelölőnyelv.**
 
-A **HTML** egy leírónyelv, ami a webalkalmazások strukturális vázát adja.
+A **HTML** egy leírónyelv, ami a webalkalmazások strukturális vázát, tartalmát adja.
 
 A **HTML**-t mint szabványt a [**W3C**](https://hu.wikipedia.org/wiki/W3C) \(World Wide Web Consortium\) kezeli.
 
