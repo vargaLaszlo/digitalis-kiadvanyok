@@ -349,7 +349,7 @@ Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket
 
 #### Fejléc elem - &lt;header&gt;
 
-Használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat.
+A **header** elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a **head** elemmel!
 
 #### Fő tartalmi egység - &lt;main&gt;
 
@@ -357,19 +357,19 @@ Ebbe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közve
 
 #### **Másodlagos tartalom - &lt;aside&gt;**
 
-...
+Másodlagos, a fő tartalomhoz csak kapcsolódó tartalmat az **aside** elemben helyezhetünk el. Jellemző, hogy a weboldalak oldalsávjait \(sidebar\) **aside** elemekből építjük.
 
 #### **Lábléc elem - &lt;footer&gt;**
 
-...
+A **footer** elem a **header** elem párja, értelemszerűen vizuálisan a dokumentum \(vagy a dokumentum egy alegységének\) alján alkalmazandó.
 
 #### **Szekció - &lt;section&gt;**
 
-...
+Egy nagyobb szerkezeti egységet tagolhatunk a **section** elemekkel kisebb egységekre.
 
 #### **Cikk - &lt;article&gt;**
 
-...
+Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen tartalmi egység lehet egy blogbejegyzés, hír, recept, fórum hozzászólás, közlemény... Egy HTML dokumentumban több **article** is lehet.
 
 ## Űrlapok
 
