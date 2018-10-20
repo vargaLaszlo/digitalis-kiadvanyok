@@ -322,6 +322,55 @@ A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a
 
 ![](../.gitbook/assets/structural.png)
 
+#### Navigáció - &lt;nav&gt;
+
+A **nav** elem kifejezetten egy wboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
+
+```markup
+<nav>
+    <a href="/homepage">Home</a>
+    <a href="/contact">Contact</a>
+</nav>
+```
+
+Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben helyezhetjük el a **nav** elemen belül, így az jobb
+
+```markup
+<nav>
+    <ul>
+        <li><a href="/homepage">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/contact">Contact us</a></li>
+    </ul>
+</nav>
+```
+
+#### Fejléc elem - &lt;header&gt;
+
+Használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat.
+
+#### Fő tartalmi egység - &lt;main&gt;
+
+Ebbe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közvetlenül kapcsolatos \(például navigáció\), az ezen az elemen kívül helyezendő el. Egy **HTML** dokumentumban csak egy **main** elem helyezhető el.
+
+#### **Másodlagos tartalom - &lt;aside&gt;**
+
+...
+
+#### **Lábléc elem - &lt;footer&gt;**
+
+...
+
+#### **Szekció - &lt;section&gt;**
+
+...
+
+#### **Cikk - &lt;article&gt;**
+
+...
+
 ## Űrlapok
 
 ### **Az űrlap elem**
