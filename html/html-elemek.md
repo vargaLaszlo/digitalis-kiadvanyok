@@ -312,16 +312,6 @@ Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik r
 
 A HTML korábbi verzióiban a **div** elemet ruháztuk fel szerepekkel a szerep \(role\) tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
 
- **&lt;nav&gt;** Navigációt tartalmaz, rendszerint &lt;a&gt; ****elemeket listába rendezve.  
-**&lt;header&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum fejléce.  
-**&lt;main&gt;** Fő tartalmi terület \(egy dokumentumban csak egy lehet\)  
-**&lt;aside&gt;** Másodlagos tartalom \(sidebar\)  
-**&lt;footer&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum lábléce.  
-**&lt;section&gt;** Tartalmilag összefüggő egység  
-**&lt;article&gt;** Összefüggő cikk, bejegyzés, fejezet.
-
-![](../.gitbook/assets/structural.png)
-
 #### Navigáció - &lt;nav&gt;
 
 A **nav** elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
@@ -390,6 +380,8 @@ Egy nagyobb szerkezeti egységet tagolhatunk a **section** elemekkel kisebb egys
 #### **Cikk - &lt;article&gt;**
 
 Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen tartalmi egység lehet egy blogbejegyzés, hír, recept, fórum hozzászólás, közlemény... Egy HTML dokumentumban több **article** is lehet.
+
+![](../.gitbook/assets/structural.png)
 
 ## Űrlapok
 
