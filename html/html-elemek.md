@@ -18,7 +18,7 @@ Jellemző, hogy az oldalak nyelvét a **html** elemen a **lang** tulajdonsággal
 
 ## HTML dokumentum fejléce
 
-A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum metaadatait tartalmazza.
+A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum meta adatait tartalmazza.
 
 ```markup
 <html>
@@ -32,7 +32,7 @@ A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumen
 
 ### **Az oldal címe**
 
-A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a &lt;head&gt; elemben.
+A **title** elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a **head** elemben.
 
 ```markup
 <title>Az oldal címe</title>
@@ -44,13 +44,13 @@ A &lt;title&gt; tagben megadott szöveg azonosítja a HTML dokumentumot, és ez 
 
 ### **Az oldal meta adatai**
 
-A &lt;meta&gt; elemben helyezhetünk el információkat a weboldalunkról \(ez nem jelenik meg a látható tartalomban\). A &lt;meta&gt; elemeknek egy **név** \(name\) és egy **tartalom** \(content\) tulajdonsága van. A név határozza meg a meta információ típusát, a tartalom pedig a hozzá rendelt információt.
+A **meta** elemben helyezhetünk el információkat a weboldalunkról \(ez nem jelenik meg a látható tartalomban\). A **meta** elemeknek egy **név** \(name\) és egy **tartalom** \(content\) tulajdonsága van. A név határozza meg a **meta** információ típusát, a tartalom pedig a hozzá rendelt információt.
 
 ```markup
 <meta name="description" content="Oldal rövid leírása">
 ```
 
-Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy charset tulajdonsággal rendelkezik.
+Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy **charset** tulajdonsággal rendelkezik.
 
 ```markup
 <meta charset="UTF-8">
@@ -72,7 +72,7 @@ Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg,
 
 ### **Linkek**
 
-A **&lt;link&gt;** elemmel hivatkozhatunk külső állományokra, ezek egy részét be fogja tölteni a böngésző. Linkkel köthetünk be például egy CSS állományt a dokumentumunkba.
+A **link** elemmel hivatkozhatunk külső állományokra, ezek egy részét be fogja tölteni a böngésző. Linkkel köthetünk be például egy CSS állományt a dokumentumunkba.
 
 ```markup
 <link rel="shortcut icon" type="image/png" href="favicon.ico" />
@@ -81,7 +81,7 @@ A **&lt;link&gt;** elemmel hivatkozhatunk külső állományokra, ezek egy rész
 
 ## HTML dokumentum törzse
 
-A **&lt;body&gt;** a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem.
+A **body** a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem. A **body** elemet közvetlenül a **html** elemben a **head** elem után kell elhelyezni.
 
 ```markup
 <html>
@@ -98,7 +98,7 @@ A **&lt;body&gt;** a dokumentum törzse, ezt jeleníti meg a böngésző vizuál
 
 ### **Címek**
 
-A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a **&lt;h1&gt;** - **&lt;h6&gt;** elemekkel tehetjük meg.
+A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a **h1** - **h6** elemekkel tehetjük meg.
 
 ```markup
 <h1>1-es cím</h1>
@@ -128,7 +128,7 @@ pharetra a.</p>
 
 ### **Listák**
 
-Két típusát különböztetjük meg, számozott lista **&lt;ol&gt;**, és pontozott lista **&lt;ul&gt;**, mindkettőnek gyermekei a lista elemek **&lt;li&gt;**.
+Két típusát különböztetjük meg, számozott lista **ol**, és pontozott lista **ul**, mindkettőnek gyermekei a lista elemek **li**.
 
 #### **Számozott lista:**
 
@@ -172,13 +172,13 @@ A listákat egymásba is lehet ágyazni, így lehet több szintű listákat lét
 
 ## Képek
 
-Képeket a HTML dokumentumba az **&lt;img&gt;** elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az **src**, ami a behivatkozott kép elérési útvonala, és az **alt,** a kép tartalmának szöveges leírata.
+Képeket a HTML dokumentumba az **img** elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az **src**, ami a behivatkozott kép elérési útvonala, és az **alt,** a kép tartalmának szöveges leirata.
 
 ```markup
 <img src="images/kutya.jpg" alt="6 hetes alvó labradorkölyök">
 ```
 
-Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az alt tulajdonság, de üresen hagyhatjuk az értékét.
+Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az **alt** tulajdonság, de üresen hagyhatjuk az értékét.
 
 ```markup
 <img src="page-decoration.png" alt="">
@@ -197,7 +197,7 @@ Az értékek pixelben értendőek.
 ```
 
 {% hint style="warning" %}
-Fontos kitölteni a képek alternatív leírását, mert ha a kép nem tud betöltődni ez a szöveg fog megjelenni a felhasználóknak, illetve a gyengénlátó felhasználók csak ezt "látják", ezt olvassa fel nekik a szövegfelolvasó programjuk. Az internetes keresők \(a szövegkörnyezet mellett\) az alternatív leírás alapján kategorizálják be a honlapokon található képeket \(ennek hiányában nem fog megjelenni a kép a képkeresőkben\).
+Fontos kitölteni a képek alternatív leírását, mert ha a kép nem tud betöltődni ez a szöveg fog megjelenni a felhasználóknak, illetve a gyengén látó felhasználók csak ezt "látják", ezt olvassa fel nekik a szövegfelolvasó programjuk. Az internetes keresők \(a szövegkörnyezet mellett\) az alternatív leírás alapján kategorizálják be a honlapokon található képeket \(ennek hiányában nem fog megjelenni a kép a képkeresőkben\).
 {% endhint %}
 
 ## Szövegközi elemek
@@ -262,7 +262,7 @@ Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelent�
 
 ### Span
 
-Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan. ez a **span** elem \(szabad fordításban dirib-darab\).  
+Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a **span** elem \(szabad fordításban dirib-darab\).  
 
 ```markup
 <p>Ebben a szövegben van egy <span>szakasz</span>, aminek 
@@ -270,14 +270,14 @@ nem módosul a kinézete, és a szemantikai jelentése</p>
 ```
 
 {% hint style="info" %}
-Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést konteksztustól függően, és megjelenésben sem okoz érzékelhető változást. Több okból is előnyös lehet: segíti a dokumentum tartalmának struktúrálását, illetve CSS segítségével módosíthatjuk a megjelenését.
+Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést konteksztustól függően, és megjelenésben sem okoz érzékelhető változást. Több okból is előnyös lehet: segíti a dokumentum tartalmának strukturálását, illetve CSS segítségével módosíthatjuk a megjelenését.
 {% endhint %}
 
 ## Dekorációs elemek
 
 ### **Sortörés**
 
-A **&lt;br&gt;** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a **br** elem után következő szöveg már új sorba törik.
+A **br** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a **br** elem után következő szöveg már új sorba törik.
 
 ```markup
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
@@ -288,7 +288,7 @@ Donec facilisis sit amet nisi nec mattis.</p>
 
 ### **Vízszintes vonal**
 
-A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
+A **hr** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
 
 ```markup
 <hr>
@@ -298,9 +298,9 @@ A **&lt;hr&gt;** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. C�
 
 ### **Általános konténer elem \(div\)**
 
-A **&lt;div&gt;** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **&lt;div&gt;** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt _span_ elemhez, csak amíg a span szövegközi elem,  addig a div blokkos elem. 
+A **div** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **div** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt **span** elemhez, csak amíg a **span** szövegközi elem,  addig a **div** blokkos elem. 
 
-Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A div-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
+Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A **div**-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
 
 ```markup
 <div>
@@ -310,7 +310,7 @@ Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik r
 
 ### **A div szemantikus variációi**
 
-A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a _role_ tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
+A HTML korábbi verzióiban a **div** elemet ruháztuk fel szerepekkel a szerep \(role\) tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
 
  **&lt;nav&gt;** Navigációt tartalmaz, rendszerint &lt;a&gt; ****elemeket listába rendezve.  
 **&lt;header&gt;** Egy tartalmi blokk, vagy akár az egész dokumentum fejléce.  
@@ -324,7 +324,7 @@ A HTML korábbi verzióiban a **&lt;div&gt;** elemet ruháztuk fel szerepekkel a
 
 #### Navigáció - &lt;nav&gt;
 
-A **nav** elem kifejezetten egy wboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
+A **nav** elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
 
 ```markup
 <nav>
@@ -333,7 +333,7 @@ A **nav** elem kifejezetten egy wboldalon belüli \(aloldalak közötti\) navig�
 </nav>
 ```
 
-Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben helyezhetjük el a **nav** elemen belül, így az jobb
+Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben csoportosíthatjuk a **nav** elemen belül.
 
 ```markup
 <nav>
@@ -342,6 +342,26 @@ Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket
         <li><a href="/products">Products</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/about">About us</a></li>
+        <li><a href="/contact">Contact us</a></li>
+    </ul>
+</nav>
+```
+
+A menü linkek listába helyezése lehetővé teszi több szintű almenü struktúra létrehozását.
+
+```markup
+<nav>
+    <ul>
+        <li><a href="/homepage">Home</a></li>
+        <li><a href="/products">Products</a>
+            <ul>
+                <li><a href="/products/books">Books</a></li>
+                <li><a href="/products/magazines">Magazines</a></li>
+                <li><a href="/products/comic">Comic</a></li>
+                <li><a href="/products/albums">Albums</a></li>
+                <li><a href="/products/guides">Pocket guides</a></li>
+            </ul>
+        </li>
         <li><a href="/contact">Contact us</a></li>
     </ul>
 </nav>
@@ -375,7 +395,7 @@ Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen
 
 ### **Az űrlap elem**
 
-Űrlapokat a **&lt;form&gt;** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A **&lt;form&gt;** elem képes a tartalmát elküldeni a webszervernek.
+Űrlapokat a **form** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A **form** elem képes a tartalmát elküldeni a webszervernek.
 
 ```markup
 <form>
@@ -385,7 +405,7 @@ Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen
 
 ### **A beviteli elem**
 
-Az űrlap mezőit az **&lt;input&gt;** elemmel hozhatjuk létre. Az input elem viselkedését, kinézetét meghatározza a típus \(type\) tulajdonsága.
+Az űrlap mezőit az **input** elemmel hozhatjuk létre. Az input elem viselkedését, kinézetét meghatározza a típus \(type\) tulajdonsága.
 
 ```markup
 <form>
@@ -409,7 +429,7 @@ Az űrlap mezőit az **&lt;input&gt;** elemmel hozhatjuk létre. Az input elem v
 
 ### **Címke elem**
 
-Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A **label** elem "for" tulajdonságában megadott egyedi azonosító összeköti a labelt az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
+Az űrlap beviteli mezőit a **label** elem látja el feliratokkal. A **label** elem for tulajdonságában megadott egyedi azonosító összeköti a **label**-t az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
 
 ```markup
 <form>
@@ -418,7 +438,7 @@ Az űrlap beviteli mezőit a **&lt;label&gt;** elem látja el feliratokkal. A **
 </form>
 ```
 
-Ez a kötés létrejön akkor is, ha a beviteli mező a **&lt;label&gt;** gyermeke:
+Ez a kötés létrejön akkor is, ha a beviteli mező a **label** gyermeke:
 
 ```markup
 <form>
@@ -431,9 +451,9 @@ Ez a kötés létrejön akkor is, ha a beviteli mező a **&lt;label&gt;** gyerme
 
 ### **Szövegdoboz**
 
-A **&lt;textarea&gt;** hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
+A **textarea** hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
 
-A rows és cols tulajdonságaival meghatározhatjuk a kiinduló méretét is.
+A rows és cols \(sorok és oszlopok\) tulajdonságaival meghatározhatjuk a kiinduló méretét is.
 
 ```markup
 <form>
@@ -443,8 +463,8 @@ A rows és cols tulajdonságaival meghatározhatjuk a kiinduló méretét is.
 
 ### **Lenyíló lista**
 
-A **&lt;select&gt;** elem **&lt;option&gt;** elemeket tartalmaz, ezek a lenyíló lista választható opciói.  
-Az &lt;option&gt; elemek közül az lesz az alapértelmezett, amelyik rendelkezik selected tulajdonsággal.
+A **select** elem **option** elemeket tartalmaz, ezek a lenyíló lista választható opciói.  
+Az **option** elemek közül az lesz az alapértelmezett, amelyik rendelkezik a kiválasztott \(selected\) tulajdonsággal.
 
 ```markup
 <select>
@@ -460,7 +480,7 @@ Az &lt;option&gt; elemek közül az lesz az alapértelmezett, amelyik rendelkezi
 
 ### **Táblázat**
 
-A **&lt;table&gt;** elem a táblázat szülőeleme, a sorokat a **&lt;tr&gt;** elemek képzik, az oszlopokat, vagy cellákat a **&lt;td&gt;** elemek.
+A **table** elem a táblázat szülőeleme, a sorokat a **tr** elemek képzik, az oszlopokat, vagy cellákat a **td** elemek.
 
 ```markup
 <table>
@@ -483,7 +503,7 @@ Minden sorban egyező számú oszlopot kell elhelyezni.
 
 ### **Táblázat fejléc**
 
-Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **&lt;th&gt;** elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
+Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **th** elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
 
 ```markup
 <!-- Fejléc cellák vízszintesen. -->
