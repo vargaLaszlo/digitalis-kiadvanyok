@@ -79,6 +79,8 @@ div {
 }
 ```
 
+![](../.gitbook/assets/border-style.png)
+
 ### **Keret szélesség**
 
 A keret szélesség tulajdonságnak az értéke adja a keret vastagságát. Negatív értéket nem vehet fel. Kezdő értéke _medium_, vagyis közepes.
