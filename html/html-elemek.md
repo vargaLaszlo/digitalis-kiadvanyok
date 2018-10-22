@@ -1,3 +1,10 @@
+---
+description: >-
+  Ebben a fejezetben áttekintjük a legjellemzőbb HTML elemeket, ez közel sem az
+  elemek teljes listája, de ahhoz elegendő ez a gyűjtemény, hogy elkezdjünk
+  építkezni belőlük.
+---
+
 # HTML elemek
 
 ## Gyökérelem
