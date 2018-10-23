@@ -109,7 +109,7 @@ A `body` a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, enne
 
 ### **Címek**
 
-A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a **h1** - **h6** elemekkel tehetjük meg.
+A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a `h1` `h2` `h3` `h4` `h5` `h6` ****elemekkel tehetjük meg.
 
 ```markup
 <h1>1-es cím</h1>
@@ -122,7 +122,7 @@ A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre
 
 ### **Bekezdések**
 
-Az oldal szöveges tartalmát bekezdésekben **&lt;p&gt;** helyezhetjük el.
+Az oldal szöveges tartalmát bekezdésekben `p` helyezhetjük el.
 
 ```markup
 <p>Lorem ipsum dolor sit amet, consectetur 
@@ -139,7 +139,7 @@ pharetra a.</p>
 
 ### **Listák**
 
-Két típusát különböztetjük meg, számozott lista **ol**, és pontozott lista **ul**, mindkettőnek gyermekei a lista elemek **li**.
+Két típusát különböztetjük meg, számozott lista `ol`, és pontozott lista `ul`, mindkettőnek gyermekei a lista elemek `li`.
 
 #### **Számozott lista:**
 
@@ -183,20 +183,19 @@ A listákat egymásba is lehet ágyazni, így lehet több szintű listákat lét
 
 ## Képek
 
-Képeket a HTML dokumentumba az **img** elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az **src**, ami a behivatkozott kép elérési útvonala, és az **alt,** a kép tartalmának szöveges leirata.
+Képeket a HTML dokumentumba az `img` \(kép\) elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az `src` \(forrás\),  ami a behivatkozott kép elérési útvonala, és az `alt` \(alternatív szöveg\), a kép tartalmának szöveges leirata.
 
 ```markup
 <img src="images/kutya.jpg" alt="6 hetes alvó labradorkölyök">
 ```
 
-Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az **alt** tulajdonság, de üresen hagyhatjuk az értékét.
+Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az `alt` ****tulajdonság, de üresen hagyhatjuk az értékét.
 
 ```markup
 <img src="page-decoration.png" alt="">
 ```
 
-A képeket a böngésző megpróbálja eredeti méretükben megjeleníteni, amennyiben a megfelelő ablakméret rendelkezésre áll. A szélesség \(width\) és a magasság \(height\) tulajdonságokkal ezt felülbírálhatjuk. Ha csak az egyik értéket adjuk meg a böngésző az oldalarányok megtartásával számolja ki a másikat.  
-Az értékek pixelben értendőek.
+A képeket a böngésző megpróbálja eredeti méretükben megjeleníteni, amennyiben a megfelelő ablakméret rendelkezésre áll. A `width` \(szélesség\) és a `height` \(magasság\) tulajdonságokkal ezt felülbírálhatjuk. Ha csak az egyik értéket adjuk meg a böngésző az oldalarányok megtartásával számolja ki a másikat. Az értékek pixelben értendőek.
 
 ```markup
 <img
@@ -208,7 +207,7 @@ Az értékek pixelben értendőek.
 ```
 
 {% hint style="warning" %}
-Fontos kitölteni a képek alternatív leírását, mert ha a kép nem tud betöltődni ez a szöveg fog megjelenni a felhasználóknak, illetve a gyengén látó felhasználók csak ezt "látják", ezt olvassa fel nekik a szövegfelolvasó programjuk. Az internetes keresők \(a szövegkörnyezet mellett\) az alternatív leírás alapján kategorizálják be a honlapokon található képeket \(ennek hiányában nem fog megjelenni a kép a képkeresőkben\).
+Fontos kitölteni a képek alternatív leírását, mert ha a kép nem tud betöltődni ez a szöveg fog megjelenni a felhasználóknak, illetve a gyengén látó felhasználók csak ezt "látják", ezt olvassa fel nekik a szövegfelolvasó programjuk. Az internetes keresők \(a szövegkörnyezet mellett\) az `alt` tulajdonság alapján kategorizálják be a honlapokon található képeket \(ennek hiányában nem fog megjelenni a kép a képkeresőkben\).
 {% endhint %}
 
 ## Szövegközi elemek
@@ -225,11 +224,13 @@ volt.</p>
 
 A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\), vagy hangsúlyosként \(&lt;em&gt;\) vannak megjelölve.
 
- **&lt;b&gt;** Vastagon szedett szöveg, szemantikus jelentése nincs.  
-**&lt;strong&gt;** Fontos szövegrészlet, vastagon jelenik meg.  
-**&lt;i&gt;** Dőlt betűs szöveg, szemantikus jelentése nincs.  
-**&lt;em&gt;** Hangsúlyos szöveg, dőlt betűvel jelenik meg.  
-**&lt;mark&gt;** Megjelölt szöveg, sárga háttérrel jelenik meg
+| elem | leírás |
+| :--- | :--- |
+| `b` | Vastagon szedett szöveg, szemantikus jelentése nincs. |
+| `strong` | Fontos szövegrészlet, vastagon jelenik meg. |
+| `i` | Dőlt betűs szöveg, szemantikus jelentése nincs. |
+| `em` | Hangsúlyos szöveg, dőlt betűvel jelenik meg. |
+| `mark` | Megjelölt szöveg, sárga háttérrel jelenik meg |
 
 ```markup
 <p>
@@ -243,16 +244,16 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 
 ![](../.gitbook/assets/inline_01.png)
 
-**&lt;big&gt;** Növeli a font méretet.  
-**&lt;small&gt;** Csökkenti a font méretet.  
-**&lt;time&gt;** Időt, dátumot jeleníthetünk meg vele.  
-**&lt;sup&gt;** Felső index, megemeli a szöveget  
-**&lt;sub&gt;** Alsó index, lesüllyeszti a szöveget  
-**&lt;s&gt;** Elavult információt jelöl, vonallal áthúzva jelenik meg.
+| **elem** | leírás |
+| :--- | :--- |
+| `small` |  ****Csökkenti a font méretet. |
+| `time` | Időt, dátumot jeleníthetünk meg vele. |
+| `sup` | Felső index, megemeli a szöveget |
+| `sub` | Alsó index, lesüllyeszti a szöveget |
+| `s` | Elavult információt jelöl, vonallal áthúzva jelenik meg. |
 
 ```markup
 <p>
-    <big>Nagy méretű szöveg</big> <br>
     <small>Kis méretű szöveg</small> <br>
     <time>20:00</time> <br>
     E=mc<sup>2</sup> <br>
@@ -264,7 +265,7 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 ![](../.gitbook/assets/inline_2.png)
 
 {% hint style="info" %}
-Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a **strong** elemben található szöveget nagyobb súllyal veszi figyelembe a google kereső, vagy az _em_ elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
+Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a `strong` elemben található szöveget nagyobb súllyal veszi figyelembe a Google kereső, vagy az `em` elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
 {% endhint %}
 
 {% hint style="info" %}
@@ -273,7 +274,7 @@ Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelent�
 
 ### Span
 
-Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a **span** elem \(szabad fordításban dirib-darab\).  
+Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a `span` elem \(szabad fordításban dirib-darab\).  
 
 ```markup
 <p>Ebben a szövegben van egy <span>szakasz</span>, aminek 
@@ -288,7 +289,7 @@ Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést kon
 
 ### **Sortörés**
 
-A **br** \(break line\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a **br** elem után következő szöveg már új sorba törik.
+A `br` ****\(sortörés\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a `br` elem után következő szöveg már új sorba törik.
 
 ```markup
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
@@ -299,7 +300,7 @@ Donec facilisis sit amet nisi nec mattis.</p>
 
 ### **Vízszintes vonal**
 
-A **hr** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
+A `hr` ****\(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
 
 ```markup
 <hr>
@@ -307,7 +308,7 @@ A **hr** \(horizontal rule\) elem egy vízszintes vonalat hoz létre. Célja a t
 
 ## Strukturális elemek
 
-### **Általános konténer elem \(div\)**
+### **Általános konténer elem**
 
 A **div** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **div** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt **span** elemhez, csak amíg a **span** szövegközi elem,  addig a **div** blokkos elem. 
 
