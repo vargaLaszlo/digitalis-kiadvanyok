@@ -2,19 +2,19 @@
 
 ## HTML állomány kiterjesztése
 
-A HTML állományok kiterjesztése **.html** vagy **.htm** lehet.
+A HTML állományok kiterjesztése `.html` vagy `.htm` lehet.
 
 A böngészők, és a fejlesztésre használt szövegszerkesztők automatikusan felismerik, és statikus weboldalként kezelik ezeket az állományokat.
 
 ## Doctype
 
-A HTML dokumentum a típusmeghatározással kezdődik, ez a **!DOCTYPE**.
+A HTML dokumentum a típusmeghatározással kezdődik, ez a `!DOCTYPE`.
 
 Ez alapján azonosítja be a böngésző a dokumentum típusát, ettől függ az elemek megjelenítésének módja.
 
 Kötelezően a HTML állomány **első sorában, a többi elem előtt** kell elhelyezni.
 
-A !DOCTYPE **nem** érzékeny a kis- és nagybetűk különbözőségére
+A `!DOCTYPE` **nem érzékeny** a kis- és nagybetűk különbözőségére
 
 ### **XHTML 1.0**:
 
@@ -30,7 +30,7 @@ A !DOCTYPE **nem** érzékeny a kis- és nagybetűk különbözőségére
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" ".../xhtml1-frameset.dtd">
 ```
 
-Régebbi verzióknál a !DOCTYPE tartalmazta a **DTD** \(Document Type Definition\) állományokra mutató hivatkozást, a **HTML 5** esetében ez az elem is egyszerűsödött.
+Régebbi verzióknál a `!DOCTYPE` tartalmazta a **DTD** \(Document Type Definition\) állományokra mutató hivatkozást, a **HTML 5** esetében ez az elem is egyszerűsödött.
 
 ### HTML 5
 
@@ -50,7 +50,7 @@ A HTML állományban elhelyezhetők megjegyzések:
 <!-- Ez egy megjegyzés -->
 ```
 
-A megjegyzés nyitó \(&lt;!--\), és záró \(--&gt;\) karaktersorozata közötti részt a böngésző figyelmen kívül hagyja.
+A megjegyzés nyitó `<!--`, és záró `-->` karaktersorozata közötti részt a böngésző figyelmen kívül hagyja.
 
 A megjegyzés lehet kód magyarázat, jelölhetjük vele szekciók elejét és végét, ez a forráskód olvashatóságát könnyíti.
 
@@ -68,7 +68,7 @@ A fenti példában a középső lista elemet nem hozza létre a böngésző.
 
 ## HTML Címkék \(Tag\)
 
-A HTML dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta a dokumentumot. 
+A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a **HTML** **elemeket**, miután beolvasta a dokumentumot. 
 
 Egy lehetséges HTML elem:
 
@@ -76,7 +76,7 @@ Egy lehetséges HTML elem:
 <elem tulajdonsag="ertek">tartalom</elem>
 ```
 
-A HTML elemek **nyitó** és **záró** **tagből** állnak, amennyiben lehet tartalmuk:
+A **HTML** elemek **nyitó** és **záró** **tagből** állnak, amennyiben lehet tartalmuk:
 
 ![](../.gitbook/assets/html-code-1.png)
 
@@ -92,9 +92,9 @@ Az elemek egymásba ágyazhatóak:
 </ul>
 ```
 
-A fenti példában az &lt;ul&gt; egy lista, amiben lista elemek  \(&lt;li&gt;\) vannak, ez a **tartalma**. Az &lt;li&gt;-k az &lt;ul&gt; **gyermek elemei**, és egymásnak **testvér elemei**.
+A fenti példában az `ul` egy lista, amiben lista elemek  `li` vannak, ez a **tartalma**. Az `li`-k az `ul` **gyermek elemei**, és egymásnak **testvér elemei**.
 
-Vannak HTML elemek, amiknek nem lehet tartalma, így záró tag-re nincs szükség:
+Vannak **HTML elemek**, amiknek nem lehet tartalma, így záró tag-re nincs szükség:
 
 ```markup
 <br> <!-- Sortörés -->
@@ -126,13 +126,13 @@ Az értéket idézőjelbe kell tenni, ha tartalmaz szóközt. Bár nem kötelez�
 
 Egyes tulajdonságok a HTML elemünk azonosítását könnyítik meg.
 
-Az azonosító \(id\) tulajdonsággal egyedi nevet adhatunk elemeinknek:
+Az `id` \(egyedi azonosító\) tulajdonsággal egyedi nevet adhatunk elemeinknek:
 
 ```markup
 <h1 id="main-title">Ez a főcím</h1>
 ```
 
-Az osztály \(class\) tulajdonság csoportokba szervezi az elemeket:
+Az `class` \(osztály\) tulajdonság csoportokba szervezi az elemeket:
 
 ```markup
 <p class="red">Én a pirosak közé tartozom?</p>
@@ -148,9 +148,9 @@ További példák tulajdonságokra:
 <input type="password">  <!-- Jelszó --> 
 ```
 
-A beviteli mező \(input\) elem megjelenése és viselkedése a **type** tulajdonságától függ.
+Az `input` \(beviteli mező\) elem megjelenése és viselkedése a `type` ****tulajdonságától függ.
 
-Következő példában egy kép, az **src** a képállományra mutató hivatkozás, a **title** a kép címe, az **alt** pedig a kép tartalmának szöveges leírata:
+Következő példában egy `img` \(kép\), az `src` ****a képállományra mutató hivatkozás, a `title` ****a kép címe, az `alt` pedig a kép tartalmának szöveges leirata:
 
 ```markup
 <img 
