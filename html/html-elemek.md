@@ -9,7 +9,7 @@ description: >-
 
 ## Gyökérelem
 
-A **html** elem az összes többi elem szülője. Ebbe kerül az oldal teljes tartalma.
+A `html` elem az összes többi elem szülője. Ebbe kerül az oldal teljes tartalma.
 
 ```markup
 <html>
@@ -17,7 +17,7 @@ A **html** elem az összes többi elem szülője. Ebbe kerül az oldal teljes ta
 </html>
 ```
 
-Jellemző, hogy az oldalak nyelvét a **html** elemen a **lang** tulajdonsággal határozhatjuk meg.
+Jellemző, hogy az oldalak nyelvét a `html` elemen a `lang` \(nyelv\) tulajdonsággal határozhatjuk meg.
 
 ```markup
 <html lang="hu">
@@ -25,7 +25,7 @@ Jellemző, hogy az oldalak nyelvét a **html** elemen a **lang** tulajdonsággal
 
 ## HTML dokumentum fejléce
 
-A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum meta adatait tartalmazza.
+A `head` a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum **metaadatait** tartalmazza.
 
 ```markup
 <html>
@@ -39,7 +39,7 @@ A **head** a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumen
 
 ### **Az oldal címe**
 
-A **title** elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a **head** elemben.
+A `title` ****elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a `head` elemben.
 
 ```markup
 <title>Az oldal címe</title>
@@ -47,17 +47,19 @@ A **title** elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jel
 
 ![](../.gitbook/assets/browser-tab.png)
 
-
+{% hint style="info" %}
+A `title` fontos azonosítója az adott oldalnak, az internetes keresők ezt jelenítik meg kiemelve a találati listájukban. Ha lementünk a böngészőnkbe, vagy a számítógépünkre egy weboldal linket, a `title` alapján jön létre a mentett link neve.
+{% endhint %}
 
 ### **Az oldal meta adatai**
 
-A **meta** elemben helyezhetünk el információkat a weboldalunkról \(ez nem jelenik meg a látható tartalomban\). A **meta** elemeknek egy **név** \(name\) és egy **tartalom** \(content\) tulajdonsága van. A név határozza meg a **meta** információ típusát, a tartalom pedig a hozzá rendelt információt.
+A `meta` elemben helyezhetünk el információkat a weboldalunkról \(ez nem jelenik meg a látható tartalomban\). A `meta` elemeknek egy `name` \(név\) és egy `content` \(tartalom\) tulajdonsága van. A `name` határozza meg a **meta** információ típusát, a `content` pedig a hozzá rendelt információt.
 
 ```markup
 <meta name="description" content="Oldal rövid leírása">
 ```
 
-Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy **charset** tulajdonsággal rendelkezik.
+Kivétel a `charset` ****amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy ****`charset` ****tulajdonsággal rendelkezik.
 
 ```markup
 <meta charset="UTF-8">
@@ -65,10 +67,12 @@ Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg,
 
 **Példák meta információra:**
 
-* **Description:** Rövid leírás az oldalról
-* **Keywords:** Az oldalhoz kapcsolódó kulcsszavak
-* **Author:** Az oldal szerzője
-* **Viewport:** Utasítás a böngészőnek az oldal megjelenítésének módjáról
+| meta `name` | Leírás |
+| :--- | :--- |
+| `description` | Rövid leírás az oldalról |
+| `keywords` | Az oldalhoz kapcsolódó kulcsszavak |
+| `author` | Az oldal szerzője |
+| `viewport` | Utasítás a böngészőnek az oldal megjelenítésének módjáról |
 
 ```markup
 <meta name="description" content="Oldal rövid leírása">
@@ -79,7 +83,7 @@ Kivétel a **charset** amivel az oldal karakter kódolását határozhatjuk meg,
 
 ### **Linkek**
 
-A **link** elemmel hivatkozhatunk külső állományokra, ezek egy részét be fogja tölteni a böngésző. Linkkel köthetünk be például egy CSS állományt a dokumentumunkba.
+A `link` elemmel hivatkozhatunk külső állományokra, ezek egy részét be fogja tölteni a böngésző. A `link` elemmel köthetünk be például egy CSS állományt a dokumentumunkba.
 
 ```markup
 <link rel="shortcut icon" type="image/png" href="favicon.ico" />
@@ -88,7 +92,7 @@ A **link** elemmel hivatkozhatunk külső állományokra, ezek egy részét be f
 
 ## HTML dokumentum törzse
 
-A **body** a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem. A **body** elemet közvetlenül a **html** elemben a **head** elem után kell elhelyezni.
+A `body` a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem. A `body` elemet közvetlenül a `html` elemben a `head` elem után kell elhelyezni.
 
 ```markup
 <html>
