@@ -310,9 +310,9 @@ A `hr` ****\(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja
 
 ### **Általános konténer elem**
 
-A **div** elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A **div** nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt **span** elemhez, csak amíg a **span** szövegközi elem,  addig a **div** blokkos elem. 
+A ****`div` \(csoport, rész\) elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A `div` nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt `span` ****elemhez, csak amíg a `span` szövegközi elem,  addig a `div` blokkos elem. 
 
-Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk div elemekkel egy oldal tartalmát\). A **div**-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más div-eket, vagy egyéb strukturális elemeket.
+Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk `div` elemekkel egy oldal tartalmát\). A `div`-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más `div`-eket, vagy egyéb strukturális elemeket.
 
 ```markup
 <div>
@@ -322,11 +322,11 @@ Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik r
 
 ### **A div szemantikus variációi**
 
-A HTML korábbi verzióiban a **div** elemet ruháztuk fel szerepekkel a szerep \(role\) tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
+A HTML korábbi verzióiban a `div` elemet ruháztuk fel szerepekkel a `role` \(szerep\) tulajdonság segítségével, ez a lehetőség most is megvan, de megjelentek a HTML5-ben új elemek amik kiváltják ezt az igényt.
 
-#### Navigáció - &lt;nav&gt;
+#### Navigáció
 
-A **nav** elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
+A ****`nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
 
 ```markup
 <nav>
@@ -335,7 +335,7 @@ A **nav** elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navig
 </nav>
 ```
 
-Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben csoportosíthatjuk a **nav** elemen belül.
+Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben csoportosíthatjuk a `nav` elemen belül.
 
 ```markup
 <nav>
@@ -369,29 +369,29 @@ A menü linkek listába helyezése lehetővé teszi több szintű almenü strukt
 </nav>
 ```
 
-#### Fejléc elem - &lt;header&gt;
+#### Fejléc elem
 
-A **header** elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a **head** elemmel!
+A `header` ****elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a `head` elemmel!
 
-#### Fő tartalmi egység - &lt;main&gt;
+#### Fő tartalmi egység
 
-Ebbe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közvetlenül kapcsolatos \(például navigáció\), az ezen az elemen kívül helyezendő el. Egy **HTML** dokumentumban csak egy **main** elem helyezhető el.
+A `main` elembe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közvetlenül kapcsolatos \(például navigáció\), az ezen az elemen kívül helyezendő el. Egy **HTML** dokumentumban csak egy `main` elem helyezhető el.
 
-#### **Másodlagos tartalom - &lt;aside&gt;**
+#### **Másodlagos tartalom**
 
-Másodlagos, a fő tartalomhoz csak kapcsolódó tartalmat az **aside** elemben helyezhetünk el. Jellemző, hogy a weboldalak oldalsávjait \(sidebar\) **aside** elemekből építjük.
+Másodlagos, a fő tartalomhoz csak kapcsolódó tartalmaz az `aside` elemben helyezhetünk el. Jellemző, hogy a weboldalak oldalsávjait \(sidebar\) `aside` elemekből építjük.
 
-#### **Lábléc elem - &lt;footer&gt;**
+#### **Lábléc elem**
 
-A **footer** elem a **header** elem párja, értelemszerűen vizuálisan a dokumentum \(vagy a dokumentum egy alegységének\) alján alkalmazandó.
+A ****`footer` elem a `header` elem párja, értelemszerűen vizuálisan a dokumentum \(vagy a dokumentum egy alegységének\) alján alkalmazandó.
 
-#### **Szekció - &lt;section&gt;**
+#### **Szekció**
 
-Egy nagyobb szerkezeti egységet tagolhatunk a **section** elemekkel kisebb egységekre.
+Egy nagyobb szerkezeti egységet tagolhatunk a `section` elemekkel kisebb egységekre.
 
-#### **Cikk - &lt;article&gt;**
+#### **Cikk**
 
-Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen tartalmi egység lehet egy blogbejegyzés, hír, recept, fórum hozzászólás, közlemény... Egy HTML dokumentumban több **article** is lehet.
+Az `article` egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen tartalmi egység lehet egy blogbejegyzés, hír, recept, fórum hozzászólás, közlemény... Egy HTML dokumentumban több `article` is lehet.
 
 ![](../.gitbook/assets/structural.png)
 
@@ -399,7 +399,7 @@ Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen
 
 ### **Az űrlap elem**
 
-Űrlapokat a **form** elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A **form** elem képes a tartalmát elküldeni a webszervernek.
+Űrlapokat a `form` elemmel hozhatunk létre, az összes kitölthető űrlap mező \(pár kivételtől eltekintve\) ebben az elemben helyezendő el. A `form` elem képes a tartalmát elküldeni a webszervernek.
 
 ```markup
 <form>
@@ -409,7 +409,7 @@ Az **article** egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen
 
 ### **A beviteli elem**
 
-Az űrlap mezőit az **input** elemmel hozhatjuk létre. Az input elem viselkedését, kinézetét meghatározza a típus \(type\) tulajdonsága.
+Az űrlap mezőit az `input` ****\(beviteli mező\) elemmel hozhatjuk létre. Az `input` elem viselkedését, kinézetét meghatározza a `type` \(típus\) tulajdonsága.
 
 ```markup
 <form>
@@ -433,7 +433,7 @@ Az űrlap mezőit az **input** elemmel hozhatjuk létre. Az input elem viselked�
 
 ### **Címke elem**
 
-Az űrlap beviteli mezőit a **label** elem látja el feliratokkal. A **label** elem for tulajdonságában megadott egyedi azonosító összeköti a **label**-t az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
+Az űrlap beviteli mezőit a `label` elem látja el feliratokkal. A `label` elem `for` tulajdonságában megadott egyedi azonosító összeköti a `label`-t az azonosítóval ellátott beviteli mezővel. Ekkor ha a címkére kattintunk, a kurzor automatikusan beáll a beviteli mezőbe.
 
 ```markup
 <form>
@@ -442,7 +442,7 @@ Az űrlap beviteli mezőit a **label** elem látja el feliratokkal. A **label** 
 </form>
 ```
 
-Ez a kötés létrejön akkor is, ha a beviteli mező a **label** gyermeke:
+Ez a kötés létrejön akkor is, ha a beviteli mező a `label` gyermeke:
 
 ```markup
 <form>
@@ -455,9 +455,9 @@ Ez a kötés létrejön akkor is, ha a beviteli mező a **label** gyermeke:
 
 ### **Szövegdoboz**
 
-A **textarea** hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
+A `textarea` hasonló a szöveges beviteli mezőhöz, csak ez egy több soros, és átméretezhető beviteli eszköz.
 
-A rows és cols \(sorok és oszlopok\) tulajdonságaival meghatározhatjuk a kiinduló méretét is.
+A `rows` és `cols` \(sorok és oszlopok\) tulajdonságaival meghatározhatjuk a kiinduló méretét is.
 
 ```markup
 <form>
@@ -467,8 +467,8 @@ A rows és cols \(sorok és oszlopok\) tulajdonságaival meghatározhatjuk a kii
 
 ### **Lenyíló lista**
 
-A **select** elem **option** elemeket tartalmaz, ezek a lenyíló lista választható opciói.  
-Az **option** elemek közül az lesz az alapértelmezett, amelyik rendelkezik a kiválasztott \(selected\) tulajdonsággal.
+A `select` elem `option` elemeket tartalmaz, ezek a lenyíló lista választható opciói.  
+Az `option` elemek közül az lesz az alapértelmezett, amelyik rendelkezik a kiválasztott \(selected\) tulajdonsággal.
 
 ```markup
 <select>
@@ -484,7 +484,7 @@ Az **option** elemek közül az lesz az alapértelmezett, amelyik rendelkezik a 
 
 ### **Táblázat**
 
-A **table** elem a táblázat szülőeleme, a sorokat a **tr** elemek képzik, az oszlopokat, vagy cellákat a **td** elemek.
+A `table` elem a táblázat szülőeleme, a sorokat a `tr` elemek képzik, az oszlopokat, vagy cellákat a `td` ****elemek.
 
 ```markup
 <table>
@@ -507,7 +507,7 @@ Minden sorban egyező számú oszlopot kell elhelyezni.
 
 ### **Táblázat fejléc**
 
-Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a **th** elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
+Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` elem. A táblázat fejléc cellában lévő tartalom vizuálisan hangsúlyosabban jelenik meg.
 
 ```markup
 <!-- Fejléc cellák vízszintesen. -->
