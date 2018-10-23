@@ -262,7 +262,7 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 </p>
 ```
 
-![](../.gitbook/assets/inline_2.png)
+![](../.gitbook/assets/inline2.png)
 
 {% hint style="info" %}
 Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelentésbeni külömbséget is hordoznak. Például a `strong` elemben található szöveget nagyobb súllyal veszi figyelembe a Google kereső, vagy az `em` elemben lévő szöveget más hangsúllyal ejtik ki a szövegfelolvasó programok. Ezek az elemek elsősorban a webalkalmazás szövegét feldolgozó programoknak szolgáltatnak fontos információkat.
