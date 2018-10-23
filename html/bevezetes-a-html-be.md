@@ -24,9 +24,9 @@ Egy lehetséges HTML elem:
 <elem tulajdonsag="ertek">tartalom</elem>
 ```
 
-## **Hyperlinkek**
+## **Hiperhivatkozások**
 
-A weboldalak legfontosabb építőelemei a hivatkozások \(link vagy hyperlink\). ****Ezek kötik össze egy globális egységgé a weben található dokumentumokat.
+A weboldalak legfontosabb építőelemei a hiperhivatkozások \(link vagy hyperlink\). ****Ezek kötik össze egy globális egységgé a weben található dokumentumokat.
 
 ```markup
 <a href="fontos.html">Fontos információ!<a>
