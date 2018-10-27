@@ -10,7 +10,7 @@ A hibákat [HTML validátorral](https://validator.w3.org/), vagy fejlesztőeszk�
 
 ### **Miért kell elkerülni a szintaktikai hibákat?**
 
-Nem minden böngésző tudja kijavítani, egy kevésbé elterjet böngészőben, amiben nem teszteltük jelentkezhet a hiba.
+Nem minden böngésző tudja kijavítani, egy kevésbé elterjedt böngészőben, amiben nem teszteltük jelentkezhet a hiba.
 
 A fejlesztés későbbi fázisát akadályozza, eleve biztosabb mindent szabványosan felépíteni, hogy egy esetleges hiba miatt később ne ütközzünk nem várt akadályokba.  
   
@@ -20,10 +20,14 @@ Akadályozza a keresőket az oldal feldolgozásában.
 
 #### Kötelező elemek hiányoznak a dokumentumból. 
 
-Pédául nincs **!DOCTYPE** vagy **&lt;title&gt;**. Vagy hiányoznak az alapvető elemek: **&lt;html&gt; &lt;head&gt; &lt;body&gt;**.
+Pédául nincs `!DOCTYPE`. Vagy hiányoznak az alapvető elemek: `html` ****`head` `body`.
 
 {% hint style="info" %}
 A dokumentum típus meghatározásának hiányában a böngésző pontos "tervrajz" nélkül próbálja összerakni a weboldalt, ez a **quirks mode**, ami egy erőforrás igényes működés, feleslegesen lassítja a felhasználó gépét.
+{% endhint %}
+
+{% hint style="info" %}
+A modern böngészők hibajavító funkciói automatikusan létrehozzák `head` elemet, ha az nincs benne a HTML dokumentumban \(a régebbi böngészők erre nem képesek\).
 {% endhint %}
 
 #### Blokkos elem van ****[szövegközi](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements) elembe ágyazva.

@@ -4,7 +4,7 @@
 
 ## Mire szolgál a CSS kijelölő?
 
-A **kijelölők** segítenek kiválasztani azokat az elemeket, amelyekre bizonyos stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt.
+A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre bizonyos stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt.
 
 ## Általános kijelölő
 
@@ -80,13 +80,14 @@ section p {
 }
 ```
 
-## Szomszédostestvér kijelölő
+## Szomszédos testvér kijelölő
 
 Ezzel a kijelölővel egy bizonyos elem után következő elemet célozhatunk meg.
 
 ```markup
-<p>Lorem ipsum dolor sit amet</p>
-<p>Dolor sit amet</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+<p>Doloremque impedit laborum eum ad fugiat.</p>
+<p>Error quam voluptatibus sequi dolore iure corrupti ab.</p>
 ```
 
 ```css
@@ -94,6 +95,8 @@ p + p {
     ...
 }
 ```
+
+Ebben az esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után\).
 
 ## Álosztályok
 
