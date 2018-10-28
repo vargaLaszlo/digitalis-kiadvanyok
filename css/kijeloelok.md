@@ -8,13 +8,15 @@ A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre biz
 
 ## Általános kijelölő
 
-Az **általános kijelölő** az összes elemre általánosan vonatkozik.
+Az **általános kijelölő** az összes elemre általánosan hivatkozik, segítségével a HTML dokumentumban lévő összes elemre vonatkozó stílusokat tudunk definiálni.
 
 ```css
 * {
     ...
 }
 ```
+
+Az általános kijelölőt csillag \(\*\) karakterrel hozhatunk létre.
 
 ## Elem kijelölő
 
@@ -44,6 +46,8 @@ Az **osztály kijelölő** az elemet az **class** \(osztály\) ****tulajdonsága
 }
 ```
 
+Az osztály kijelölő ponttal kezdődik \(.\) ezt követi az osztály neve.
+
 Ugyanazzal az osztállyal több elem is rendelkezhet, és egy elem rendelkezhet több osztállyal is. Így lehetőség van elemeinket rugalmasan csoportosítani.
 
 ## Azonosító kijelölő
@@ -60,7 +64,18 @@ Az **azonosító kijelölő** az elemet az **id** \(egyedi azonosító\) tulajdo
 }
 ```
 
+Az azonosító kijelölő rácsjellel \(\#\) kezdődik, ezt követi az azonosító neve.
+
 Egy HTML dokumentumban egy elem rendelkezhet egy adott egyedi azonosítóval, és ezt az elemet az azonosítókijelölővel tudjuk célozni.
+
+{% hint style="warning" %}
+Az osztály és az azonosító nevére vonatkoznak bizonyos megkötések, ezek a következők: Speciális karakter nem lehet a névben, a speciális karakterek közül kivételt képez a kötőjel \(-\), és az aláhúzás jel \(\_\), ezek megengedettek. Nem kezdődhetnek számmal, két kötőjellel, vagy egy kötőjellel, és egy számmal. Az alábbi osztálynevek és azonosítók **hibásak**:
+
+* &item
+* 4item
+* --item
+* -4item
+{% endhint %}
 
 ## Leszármazott kijelölő
 
