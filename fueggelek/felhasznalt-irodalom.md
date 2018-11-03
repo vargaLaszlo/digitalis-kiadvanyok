@@ -9,7 +9,8 @@
 ## Offline
 
 * Eric A. Meyer - CSS Zsebkönyv
-* Mark Pilgrim - HTML 5 - Az új szabvány ****
+* Mark Pilgrim - HTML 5 - Az új szabvány
+* [Nagy Gusztáv - Web programozás alapismeretek](http://nagygusztav.hu/web-programozas) ****
 
 
 
