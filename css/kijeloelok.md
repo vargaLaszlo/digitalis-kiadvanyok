@@ -186,8 +186,34 @@ Ezekkel a kijelölőkkel egy bizonyos pozícióban lévő elemre hivatkozhatunk.
 **:nth-type\(n\)** n-edik bizonyos elem   
 **:first-child** első elem  
 **:last-child** utolsó elem  
-**:first-of-type** első egy tipusból  
-**:last-of-type** utolsó egy tipusból
+**:first-of-type** első egy bizonyos elem típusból  
+**:last-of-type** utolsó egy bizonyos elem típusból
+
+```markup
+<ul>
+    <li>Első elem</li>
+    <li>Második elem</li>
+    <li>Harmadik elem</li>
+    <li>Negyedik elem</li>
+    <li>Ötödik, vagy utolsó elem</li>
+</ul>
+```
+
+```css
+li:first-child {
+    color: red;
+}
+
+li:nth-child(3) {
+    color: green;
+}
+
+li:last-child {
+    color: blue;
+}
+```
+
+Ebben a példában a lista elemek szövegszínét módosítjuk, az első elemét a `:first-child` \(első gyermek\) kijelölő segítségével vörösre, a harmadik lista elem színét a `:nth-child()` \(n-edik elem\) kijelölővel zöldre, és végül az utolsó lista elem színét kékre a `:last-child` \(utolsó gyermek\) kijelölővel.
 
 ## Álelemek
 
