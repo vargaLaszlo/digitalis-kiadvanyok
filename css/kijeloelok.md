@@ -18,6 +18,14 @@ Az **általános kijelölő** az összes elemre általánosan hivatkozik, segít
 
 Az általános kijelölőt csillag \(\*\) karakterrel hozhatunk létre.
 
+{% hint style="warning" %}
+Az általános kijelölő hatással van a HTML dokumentum fejlécére is, próbáljuk csak ki az alábbi stílust:  
+  
+`* {   
+    display: block;  
+}`
+{% endhint %}
+
 ## Elem kijelölő
 
 Az **elem kijelölő** ez elemeket típusuk alapján azonosítja. Az alábbi példában a bekezdésekre \(p\) célzunk:
@@ -32,9 +40,11 @@ p {
 }
 ```
 
+Az elem összes példányát ki fogja választani az elem kijelölő az adott HTML dokumentumban.
+
 ## Osztály kijelölő
 
-Az **osztály kijelölő** az elemet az **class** \(osztály\) ****tulajdonsága alapján célozza be.
+Az **osztály kijelölő** az elemet az `class` ****\(osztály\) ****tulajdonsága alapján célozza be.
 
 ```markup
 <p class="first-paragraph">Lorem ipsum dolor sit amet</p>
@@ -49,6 +59,10 @@ Az **osztály kijelölő** az elemet az **class** \(osztály\) ****tulajdonsága
 Az osztály kijelölő ponttal kezdődik \(.\) ezt követi az osztály neve.
 
 Ugyanazzal az osztállyal több elem is rendelkezhet, és egy elem rendelkezhet több osztállyal is. Így lehetőség van elemeinket rugalmasan csoportosítani.
+
+```markup
+<div class="osztaly-1 osztaly-2 osztaly-3">...</div>
+```
 
 ## Azonosító kijelölő
 
