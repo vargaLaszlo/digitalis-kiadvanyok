@@ -15,7 +15,7 @@
 
 * [Mi a CSS?](css/mi-a-css.md)
 * [CSS stílusok felépítése](css/css-stilusok-felepitese.md)
-* [Kijelölők](css/kijeloelok.md)
+* [Kijelölők](css/kijelolok.md)
 * [Rangsor](css/rangsor.md)
 * [Színek, színrendszerek](css/szinek-szinrendszerek.md)
 * [Mértékegységek](css/mertekegysegek.md)
