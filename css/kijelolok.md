@@ -217,7 +217,7 @@ Ebben a példában a lista elemek szövegszínét módosítjuk, az első elemét
 
 ## Álelemek
 
-Minden HTML elemhez hozzá lehet rendelni két **álelemet**, ezek az eredeti elem gyermekei lesznek, egyet a tartalma előtt, egyet pedig a tartalma után tud megjeleníteni a böngésző.
+Minden HTML elemhez hozzá lehet rendelni két **álelemet**, ezek az eredeti elem gyermekei lesznek, egyet a tartalma előtt, egyet pedig a tartalma után tud megjeleníteni a böngésző. Az így létrejövő elemek _virtuális_ elemek, a CSS stílus hozza létre őket, nem képezik a HTML dokumentum részét.
 
 ```css
 p:before {
@@ -229,7 +229,7 @@ p:after {
 }
 ```
 
-Az **álelemek** CSS-ében el kell helyezni egy tartalom "content" meghatározást, ez adja meg az álelem tartalmát. Ez rendszerint szöveg vagy kép lehet, de üresen is lehet hagyni.
+Az **álelemek** CSS-ében el kell helyezni egy tartalom `content` meghatározást, ez adja meg az **álelem** tartalmát, e nélkül a böngésző nem hozza létre az álelemeket. Ez rendszerint szöveg vagy kép lehet, de üresen is lehet hagyni.
 
 ```css
 p:before {
@@ -238,6 +238,22 @@ p:before {
 
 div:before {
     content: url('ribbon.png');
+}
+```
+
+**Álelemet** az elem tartalma előtt a `:before` kijelölővel, a tartalom után az `:after` kijelölővel hozhatunk létre. Az **álelemek** alapesetben inline \(szövegközi\) elemek, és CSS stílusokkal módosítható a megjelenésük.
+
+A következő példában egy főcím szövege előtt, és után elhelyezünk egy-egy kötőjelet, és a két kötőjelnek a szövegszínét is beállítjuk a `:before`, és az `:after` kijelölők segítségével:
+
+```markup
+<h1>Lorem Ipse</h1>
+```
+
+```css
+h1:before,
+h1:after {
+    content: "-";
+    color: gray;
 }
 ```
 
