@@ -109,6 +109,34 @@ section p {
 }
 ```
 
+## Gyermek kijelölő
+
+A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közvetlenül melyik elemben található \(szülő\).
+
+```markup
+<div class="parent">
+    <div class="child">
+        ...
+    </div>
+</div>
+```
+
+```css
+.parent > .child {
+    ...
+}
+```
+
+Gyermek kijelölőt a `>` jellel hozhatunk létre, a `>` jel bal oldalán a szülő, jobb oldalán a gyermek található. 
+
+```css
+p > span {
+    color: red;
+}
+```
+
+Ebben a példában _kizárólag_ a közvetlenül a `p` HTML elemekben lévő `span` elemek szövegszínét festi vörösre a CSS stílus.
+
 ## Szomszédos testvér kijelölő
 
 Ezzel a kijelölővel egy bizonyos elem után következő elemet célozhatunk meg.
