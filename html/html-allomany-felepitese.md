@@ -159,5 +159,26 @@ Következő példában egy `img` \(kép\), az `src` ****a képállományra mutat
     alt="A képen egy 6 hetes alvó labradorkölyök látható.">
 ```
 
+## Példa HTML állomány
+
+Ebben a példában egy egyszerű HTML állomány tartalma látható:
+
+{% code-tabs %}
+{% code-tabs-item title="index.html" %}
+```markup
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <title>Helló Világ!</title>
+    </head>
+    <body>
+        <h1>Helló Világ</h1>
+    </body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 
 
