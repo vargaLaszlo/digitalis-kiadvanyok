@@ -11,6 +11,8 @@ A böngésző alapértelmezett készlete, a felhasználó által definiált, és
 
 ![](../.gitbook/assets/rangsor.png)
 
+A **User agent CSS** a böngésző alapértelmezett formázásai egy alapot adnak a weboldalak tartalmának, így az minden nemű stílus formázás nélkül is értelmezhető lesz, ez a leggyengébb, legegyszerűbben felülírható stílus. A felhasználó által definiálható **Reader CSS** valamivel erősebb, de mindkettőt felülbírálja a webalkalmazások saját CSS stílusai, az **Author CSS**. 
+
 ## Sorrend
 
 A korábbi szabályokat  felülírják a későbbiek. Minél később van egy stílus, annál erősebb. Ez az állományok bekötési sorrendjére is érvényes.
@@ -42,7 +44,7 @@ span {
 | Elemazonosító | **0.0.0.1** |
 | Általános kijelölő | **0.0.0.0** |
 
-A szűkítés értékei összeadódnak, és a kapott érték alapján a rangsorolja a böngésző a CSS szabályokat. Ezek nem helyi értékek, egy darab id a kijelölőben bármennyi osztályt felülbírál.
+A szűkítés értékei összeadódnak, és a kapott érték alapján a rangsorolja a böngésző a CSS szabályokat. Ezek nem helyi értékek, egy darab egyedi azonosító a kijelölőben bármennyi osztályt felülbírál.
 
 ```css
 div {}                    /* értéke: 0.0.0.1 */
@@ -54,13 +56,21 @@ div#contact .name {}      /* értéke: 0.1.1.1 */
 div#contact label.name {} /* értéke: 0.1.2.1 */
 ```
 
+{% hint style="info" %}
+A HTML elemen a `style` tulajdonságban elhelyezett **szövegközi stílusok** erősebbek a többi stílusnál, szűkítési értékük mindig 1.0.0.0, ezt a CSS állományban, elhelyezett  CSS nem tudja felülbírálni \(kivételt képez a következő fejezetben tárgyalt _fontosság_\).
+{% endhint %}
+
 ## Fontosság \(!important\)
 
-**!important** jelöléssel ellátott szabály mindíg erősebb a nem important szabálynál, két important közözött a további rangsorolási szabályok érvényesülnek. Az fontosság felülbírálja az eredetet, a sorrendet, és a szűkítést is.
+**!important** jelöléssel ellátott szabály mindig erősebb a nem important szabálynál, két important közözött a további rangsorolási szabályok érvényesülnek. Az fontosság felülbírálja az eredetet, a sorrendet, és a szűkítést is.
 
 ```css
 div {
     color: red !important;
 }
 ```
+
+{% hint style="info" %}
+Az !important jelölés ismételt használata egy idő után nehezen olvashatóvá teszi a kódot a szűkítés folyamatos felülbírálása miatt, ezért használata kerülendő, csak akkor érdemes használni, ha minden más lehetőséget kimerítettünk.
+{% endhint %}
 
