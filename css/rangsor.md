@@ -15,7 +15,7 @@ A **User agent CSS** a böngésző alapértelmezett formázásai egy alapot adna
 
 ## Sorrend
 
-A korábbi szabályokat  felülírják a későbbiek. Minél később van egy stílus, annál erősebb. Ez az állományok bekötési sorrendjére is érvényes.
+A korábbi szabályokat  felülírják a későbbiek. Minél később található a kódban egy stílus, annál erősebb. Ez az állományok bekötési sorrendjére is érvényes.
 
 ```css
 div {
@@ -39,9 +39,9 @@ span {
 | Kijelölő típusa | Súlyozás értéke |
 | :--- | :--- |
 | Szövegközi stílusok | **1.0.0.0** |
-| Egyedi azonosító | **0.1.0.0** |
-| Osztály, álosztály | **0.0.1.0** |
-| Elemazonosító | **0.0.0.1** |
+| Egyedi azonosító kijelölő | **0.1.0.0** |
+| Osztály kijelölő, álosztály | **0.0.1.0** |
+| Elem kijelölő | **0.0.0.1** |
 | Általános kijelölő | **0.0.0.0** |
 
 A szűkítés értékei összeadódnak, és a kapott érték alapján a rangsorolja a böngésző a CSS szabályokat. Ezek nem helyi értékek, egy darab egyedi azonosító a kijelölőben bármennyi osztályt felülbírál.
@@ -55,6 +55,10 @@ div#contact {}            /* értéke: 0.1.0.1 */
 div#contact .name {}      /* értéke: 0.1.1.1 */
 div#contact label.name {} /* értéke: 0.1.2.1 */
 ```
+
+{% hint style="info" %}
+A szűkítésnél megfigyelhetjük, hogy a kijelölők súlyozása az általánostól egyre erősödik a specifikusabb, szűkebb kijelölők felé. Leggyengébb az általános kijelölő, ami minden elemre vonatkozik, legerősebb az azonosító kijelölő, ami csak egy bizonyos elemre.
+{% endhint %}
 
 {% hint style="info" %}
 A HTML elemen a `style` tulajdonságban elhelyezett **szövegközi stílusok** erősebbek a többi stílusnál, szűkítési értékük mindig 1.0.0.0, ezt a CSS állományban, elhelyezett  CSS nem tudja felülbírálni \(kivételt képez a következő fejezetben tárgyalt _fontosság_\).
