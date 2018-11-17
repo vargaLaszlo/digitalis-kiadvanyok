@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/digipub.png)
 
-Ennek a könyvnek a célja, hogy a Számalk-Szalézi Szakgimnázium Kiadványszerkesztő Technikus szakos hallgatóinak kezébe használható jegyzeteket biztosítson az órai gyakorlatok, és előadások mellett a Digitális kiadványok tantárgyban.
+Ennek a könyvnek a célja, hogy a Számalk-Szalézi Szakgimnázium Kiadványszerkesztő Technikus szakos hallgatóinak jegyzeteket biztosítson az órai gyakorlatok, és előadások mellett a Digitális kiadványok tantárgyban.
 
 ...
 

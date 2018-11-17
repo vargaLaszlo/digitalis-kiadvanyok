@@ -1,4 +1,4 @@
-# Az internetről dióhélyban
+# Az internetről dióhéjban
 
 A felhasználók akik igénybe akarnak venni egy szolgáltatást az interneten, internetképes eszközeikkel tehetik meg ezt \(ez lehet hagyományos számítógép, okostelefon, konzol, még akár egy hűtőszekrény is\). Az eszközön lévő böngésző vagy egyéb alkalmazás \(kliens\) egy kérést küld az interneten keresztül a kiszolgálónak \(szerver\). A kiszolgáló a kérésnek \(request\) megfelelően összeállítja a választ \(response\) csomagok formájában, és visszaküldi a kliensnek. A válaszként kapott csomagok alapján jeleníti meg a felhasználó gépén a kliens például a lekért weboldalt.
 

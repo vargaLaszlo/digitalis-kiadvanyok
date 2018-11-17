@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Bevezető](README.md)
-* [Az internetről dióhélyban](az-internetrol-diohelyban.md)
+* [Az internetről dióhéjban](az-internetrol-diohejban.md)
 
 ## HTML
 
