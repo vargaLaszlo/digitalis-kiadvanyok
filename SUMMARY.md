@@ -21,6 +21,13 @@
 * [Mértékegységek](css/mertekegysegek.md)
 * [Doboz modell](css/doboz-modell.md)
 
+## CSS megoldások
+
+* [Középre rendezés](css-megoldasok/koezepre-rendezes.md)
+* [Konténer középre rendezése](css-megoldasok/kontener-koezepre-rendezese.md)
+* [Kör, ellipszis](css-megoldasok/koer-ellipszis.md)
+* [Aránytartó téglalap, négyzet](css-megoldasok/aranytarto-teglalap-negyzet.md)
+
 ## VS Code
 
 * [Mi a VS Code?](vs-code/mi-a-vs-code.md)

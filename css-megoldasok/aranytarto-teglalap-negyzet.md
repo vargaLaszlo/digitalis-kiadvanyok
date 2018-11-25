@@ -1,0 +1,2 @@
+# Aránytartó téglalap, négyzet
+
