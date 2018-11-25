@@ -2,7 +2,7 @@
 
 ## Vízszintes középre rendezés külső margóval.
 
-A következő technikával blokkos megjelenésű elemeket lehet a szülő elemükben középre rendezni. A vízszintes középre rendezéshez `auto` értéket kell beállítani a jobb és bal oldali `margin` \(külső margó\) tulajdonságnak. 
+A következő technikával [blokkos megjelenítésű](../css/doboz-modell.md#toembszeru-vagy-blokkos-elemek-jellemzoi) elemeket lehet a szülő elemükben középre rendezni. A vízszintes középre rendezéshez `auto` értéket kell beállítani a jobb és bal oldali [`margin`](../css/doboz-modell.md#kuelso-margo-margin) \(külső margó\) tulajdonságnak. 
 
 ```text
 div {
@@ -13,7 +13,7 @@ div {
 
 ![](../.gitbook/assets/center-margin-auto.png)
 
-Az elem szélességét is szükséges megadni, ez lehet relatív szélesség \(százalék, vagy viewport\), vagy fix érték például pixel.
+Az elem [szélességét](../css/doboz-modell.md#tartalom-content) is szükséges megadni, ez lehet relatív szélesség \(százalék, vagy viewport\), vagy fix érték például pixel.
 
 {% code-tabs %}
 {% code-tabs-item title="center.html" %}
@@ -55,7 +55,7 @@ div {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Ez a technika csak blokkos elemekkel működik, `display: inline` elemekre hatástalan \(nincs külső margójuk\).
+Ez a technika csak [blokkos elemekkel](../css/doboz-modell.md#toembszeru-vagy-blokkos-elemek-jellemzoi) működik, `display: inline` \(szövegközi\) elemekre hatástalan \(nincs külső margójuk\).
 
 A technika úsztatott elemek esetében nem működik
 
