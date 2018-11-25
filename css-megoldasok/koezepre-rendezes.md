@@ -13,7 +13,7 @@ div {
 
 ![](../.gitbook/assets/center-margin-auto.png)
 
-Az elem [szélességét](../css/doboz-modell.md#tartalom-content) is szükséges megadni, ez lehet relatív szélesség \(százalék, vagy viewport\), vagy fix érték például pixel.
+Az elem [szélességét](../css/doboz-modell.md#tartalom-content) is szükséges megadni, ez lehet relatív szélesség \(százalék, vagy viewport\), vagy fix érték például pixel \(ha nincs megadva szélesség az elem teljesen kitölti a szülő elemet\).
 
 {% code-tabs %}
 {% code-tabs-item title="center.html" %}
@@ -57,7 +57,7 @@ div {
 
 Ez a technika csak [blokkos elemekkel](../css/doboz-modell.md#toembszeru-vagy-blokkos-elemek-jellemzoi) működik, `display: inline` \(szövegközi\) elemekre hatástalan \(nincs külső margójuk\).
 
-A technika úsztatott elemek esetében nem működik
+A technika úsztatott elemek esetében nem működik.
 
 {% embed url="https://codepen.io/\_lacus/pen/LXrGEK" %}
 
