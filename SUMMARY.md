@@ -21,7 +21,7 @@
 * [Mértékegységek](css/mertekegysegek.md)
 * [Doboz modell](css/doboz-modell.md)
 
-## CSS megoldások
+## CSS technikák
 
 * [Középre rendezés](css-megoldasok/koezepre-rendezes.md)
 * [Konténer középre rendezése](css-megoldasok/kontener-koezepre-rendezese.md)
