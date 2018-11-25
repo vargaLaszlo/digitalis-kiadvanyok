@@ -28,5 +28,9 @@ div {
 
 {% embed url="https://codepen.io/\_lacus/pen/qQKZvV" %}
 
+Háttérkép és keret is használható ezzel a technikával:
+
+{% embed url="https://codepen.io/\_lacus/pen/MOWmZg" %}
+
 
 
