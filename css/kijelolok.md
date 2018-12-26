@@ -51,7 +51,7 @@ Az **osztály kijelölő** az elemet az `class` ****\(osztály\) ****tulajdonsá
 ```
 
 ```css
-.first-paragraph {0
+.first-paragraph {
     ...
 }
 ```
