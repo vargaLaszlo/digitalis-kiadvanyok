@@ -51,7 +51,7 @@ Az **osztály kijelölő** az elemet az `class` ****\(osztály\) ****tulajdonsá
 ```
 
 ```css
-.first-paragraph {
+.first-paragraph {0
     ...
 }
 ```
@@ -256,4 +256,64 @@ h1:after {
     color: gray;
 }
 ```
+
+## Kijelölők listája
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Kijelölő</th>
+      <th style="text-align:left">Formátum</th>
+      <th style="text-align:left">Cél</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Általános kijelölő</td>
+      <td style="text-align:left"><code>*</code>
+      </td>
+      <td style="text-align:left">Minden HTML elem</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Elem kijelölő</td>
+      <td style="text-align:left"><code>p</code>
+      </td>
+      <td style="text-align:left">Egy típusba tartozó összes elem</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Osztály kijelölő.</td>
+      <td style="text-align:left"><code>.container</code>
+      </td>
+      <td style="text-align:left">HTML elemek <code>class</code> tulajdonsága alapján</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Azonosító kijelölő</td>
+      <td style="text-align:left">#main-menu</td>
+      <td style="text-align:left">HTML elem <code>id</code> tulajdonsága alapján</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Leszármazott kijelölő</td>
+      <td style="text-align:left">.parent .child</td>
+      <td style="text-align:left">HTML elem a szülői alapján</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Gyermek kijelölő</td>
+      <td style="text-align:left">.parent > .child</td>
+      <td style="text-align:left">HTML elem a közvetlen szülője alapján</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Szomszédos testvér kijelölő</td>
+      <td style="text-align:left">h1 + p</td>
+      <td style="text-align:left">HTML elem az előző testvér elem alapján</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Álosztály</td>
+      <td style="text-align:left">a:hover</td>
+      <td style="text-align:left">
+        <p>HTML elem egy bizonyos minősége,</p>
+        <p>állapota, sorrendje alapján</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 

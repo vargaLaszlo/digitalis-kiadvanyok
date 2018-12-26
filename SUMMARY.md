@@ -20,6 +20,7 @@
 * [Színek, színrendszerek](css/szinek-szinrendszerek.md)
 * [Mértékegységek](css/mertekegysegek.md)
 * [Doboz modell](css/doboz-modell.md)
+* [Szövegek, szövegközi elemek](css/szoevegek-szoevegkoezi-elemek.md)
 * [Úsztatás](css/usztatas.md)
 
 ## CSS technikák
