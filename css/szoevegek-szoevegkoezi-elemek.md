@@ -95,15 +95,15 @@ a szövegre nagyban függ az adott betűtípustól.
 _normal, bold, bolder, lighter_  
   
 **Használható számértékek:**  
-_100-900_ -ig, ahol a _400_ a normal méret, _700_ a bold
+_100-900_ -ig, ahol a _400_ a normal méret, _700_ a vastagon szedett \(bold\).
 
 ```css
 p {
-    font-size: 16px;
+    font-weight: 400;
 }
 
 span {
-    font-size: 1.125em;
+    font-weight: bold;
 }
 ```
 
@@ -187,7 +187,7 @@ div {
 }
 ```
 
-## Szöveg transformáció \(text-transform\)
+## Szöveg transzformáció \(text-transform\)
 
 A text-transform-al csupa kis vagy nagybetűssé változtathatunk egy szöveget attól függetlenül, hogy a HTML állományban hogy szerepel.
 
@@ -197,4 +197,14 @@ A text-transform-al csupa kis vagy nagybetűssé változtathatunk egy szöveget 
 * _capitalize: szóeleji nagybetű_
 * _uppercase: csupa nagybetű_
 * _lowercase: csupa kisbetű_
+
+```css
+p {
+    text-transfor: none;
+}
+
+span {
+    text-transform: uppercase;
+}
+```
 
