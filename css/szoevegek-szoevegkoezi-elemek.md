@@ -24,7 +24,7 @@ div {
 }
 ```
 
-## Betütípusok, betücsaládok
+## Betűtípusok, bet**ű**családok
 
 ### **Betűcsalád \(font-family\)**
 
@@ -48,13 +48,13 @@ Több font felsorolásával, és általános betűcsalád megadásával biztosí
 * _fantasy_
 * _monospace_
 
-**Web biztos fontok**
+### **Web biztos fontok**
 
 Web biztos fontok azok a betűkészletek, amik széles körben elérhetőek a különböző operációs rendeszereken. Az első nagyobb csomagot a Microsoft adta ki 1996-ban **Core fonts for the Web** néven.
 
 Az alábbi fontokat tartalmazza: _Andalé Mono, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana, Webdings_
 
-#### **@font-face**
+### **@font-face**
 
 A font face segítségével mi is betölthetünk betűkészleteket a HTML állományainkba.
 
@@ -72,7 +72,7 @@ body {
 }
 ```
 
-### Betűméret \(font-size\)
+## Betűméret \(font-size\)
 
 A betűmérettel határozhatjuk meg a szöveg méretét. A böngészők a **nagy** **M** betű alapján méretezik a betűket \(em méret\), ezért az elterjedt mértékegységek a em, és a rem, illetve a pixelben megadott méret.
 
@@ -86,7 +86,7 @@ span {
 }
 ```
 
-### Betűvastagság \(font-weight\)
+## Betűvastagság \(font-weight\)
 
 A betűvastagságot megadhatjuk kulcsszóval, vagy számmal \(100-as lépésekben\). Az hogy az adott érték érvényesül-e  
 a szövegre nagyban függ az adott betűtípustól.
@@ -107,17 +107,94 @@ span {
 }
 ```
 
-### Betűstílus \(font-style\)
+## Betűstílus \(font-style\)
 
 A betűstílussal tehetünk dőltté egy szöveget. Alapértéke a _normal_, a dőlt értékei _italic_ vagy _oblique_.
 
 ```css
 p {
-    font-weight: normal;
+    font-style: normal;
 }
 
 span {
-    font-weight: 700;
+    font-style: italic;
 }
 ```
+
+## Betűvariáns \(font-variant\)
+
+Betűvariáns segítségével készíthetünk kiskapitális szöveget. Alapértéke a _normal_.
+
+```css
+p {
+    font-variant: normal;
+}
+
+span {
+    font-variant: small-caps;
+}
+```
+
+## Szöveg igazítás \(text-align\)
+
+A text-align segítségével lehet igazítani egy blokkos elemen belül a szöveget vízszintesen.
+
+**Lehetséges értékei:**
+
+* _left: balra igazítá_**s**
+* _right: jobbra igazítás_
+* _center: középre igazítás_
+* _justify: sorkizárt_
+
+```css
+p {
+    text-align: center;
+}
+```
+
+## Szöveg díszítés \(text-decoration\)
+
+A text-decoration-al húzhatjuk át, vagy alá a szöveget.
+
+**Lehetséges értékei:**
+
+* _none: nincs dekoráció_
+* _underline: aláhúzás_
+* _overline: föléhúzás_
+* _line-trought: áthúzás_
+
+```css
+p {
+    text-decoration: none;
+}
+
+span {
+    text-decoration: underline;
+}
+```
+
+## Szöveg behúzás \(text-indent\)
+
+A text-indent a bekezdés első sorában behúzást hoz létre. Negatív értéke is lehet, aminek hatására ki fog lógni az elemből az első sor. Megadhatjuk százalékban, és hosszmértékben, például pixelben. Alapértéke 0.
+
+```css
+p {
+    text-indent: 10px;
+}
+
+div {
+    text-indent: 1.75em;
+}
+```
+
+## Szöveg transformáció \(text-transform\)
+
+A text-transform-al csupa kis vagy nagybetűssé változtathatunk egy szöveget attól függetlenül, hogy a HTML állományban hogy szerepel.
+
+**Értékei:**
+
+* _none: nincs_
+* _capitalize: szóeleji nagybetű_
+* _uppercase: csupa nagybetű_
+* _lowercase: csupa kisbetű_
 
