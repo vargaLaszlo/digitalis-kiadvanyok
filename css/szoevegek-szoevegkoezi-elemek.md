@@ -208,3 +208,46 @@ span {
 }
 ```
 
+## Sormagasság \(line-height\)
+
+A line-height határozza meg a szöveg két sora közötti távolságot, vagyis a sor magasságát.  
+Alapértéke _normal_, megadhatjuk százalékban, vagy hosszmértékben.
+
+```css
+p {
+    line-height: normal;
+}
+
+span {
+    line-height: 1.25em;
+}
+```
+
+## Szóköz \(word-spacing\)
+
+A word-spacing határozza meg a szavak közötti távolságot. Alapértéke a _normal_, ez 0-al egyenlő, a módosított értéke a betűtípus szóköz karakterének szélességét módosítja, akár negatív irányban is, ekkor egymásra csúsznak a szavak.
+
+```css
+p {
+    word-spacing: normal;
+}
+
+span {
+    word-spacing: 0.125em;
+}
+```
+
+## Betűköz \(letter-spacing\)
+
+A letter-spacing határozza meg a betűk karaktermezői közötti távolságot. Alapértéke a _normal_, ezt módosíthatjuk hosszmérték megadásával. Értéke lehet negatív, ebben az esetben a betűk közelebb kerülnek egymáshoz.
+
+```css
+p {
+    letter-spacing: normal;
+}
+
+span {
+    letter-spacing: 0.125em;
+}
+```
+
