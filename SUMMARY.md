@@ -22,6 +22,8 @@
 * [Doboz modell](css/doboz-modell.md)
 * [Szövegek, szövegközi elemek](css/szoevegek-szoevegkoezi-elemek.md)
 * [Úsztatás](css/usztatas.md)
+* [Háttérszínek, háttérképek](css/hatterszinek-hatterkepek.md)
+* [Pozícionálás](css/pozicionalas.md)
 
 ## CSS technikák
 
