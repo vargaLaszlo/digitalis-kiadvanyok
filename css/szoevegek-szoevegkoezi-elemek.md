@@ -210,8 +210,7 @@ span {
 
 ## Sormagasság \(line-height\)
 
-A line-height határozza meg a szöveg két sora közötti távolságot, vagyis a sor magasságát.  
-Alapértéke _normal_, megadhatjuk százalékban, vagy hosszmértékben.
+A `line-height` határozza meg a szöveg két sora közötti távolságot. Alapértéke _normal_, megadhatjuk százalékban, vagy hosszmértékben.
 
 ```css
 p {
@@ -222,6 +221,14 @@ span {
     line-height: 1.25em;
 }
 ```
+
+![](../.gitbook/assets/line.png)
+
+A tartalom terület a nagy M-betű magasságával egyező magasságú \(font méret\). A szövegközi mező magassága a sormagasság.
+
+A sortávolságot a szöveg által elfoglalt tartalomterület, és a szövegközi mező határozza meg. Vonjuk ki a `line-height` \(sormagasság\) értékéből a `font-size` \(betűméret\) értékét, így megkapjuk a két sor pontos távolságát. 
+
+![](../.gitbook/assets/line2.png)
 
 ## Szóköz \(word-spacing\)
 
