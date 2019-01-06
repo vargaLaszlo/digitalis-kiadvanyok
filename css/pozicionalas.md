@@ -6,7 +6,7 @@ A _dokumentumfolyam_ az elemek sorozata, ennek a sorozatnak a sorrendje alapján
 
 A pozicionálás az elemek a böngésző által, a dokumentumfolyam alapján meghatározott eredeti helyét módosítja.
 
-## Statikus pozició \(static\)
+## Statikus pozíció \(static\)
 
 Ez az alapállapot, ebben az estben az elem _statikus_, _nem_ változik a pozíciója \(nincs pozicionálva\).
 
@@ -34,10 +34,72 @@ bottom: -5em;   /* Alsó eltolás */
 left: 9px;      /* Bal eltolás */
 ```
 
-## Viszonylagos pozició \(relative\)
+## Viszonylagos pozíció \(relative\)
 
 Viszonylagos pozicionálás esetén az elem eredeti helyéhez képest eltolódik a megadott mértékben.
 
-Az elem eredeti helye megmarad a dokumentum- folyamban, az utána következő elemeket eltolja, ugyanúgy, mintha statikus helyzetű lenne.  
+Az elem eredeti helye megmarad a dokumentum- folyamban, az utána következő elemeket eltolja, ugyanúgy, mintha statikus helyzetű lenne.
 
+```css
+div {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+```
+
+![](../.gitbook/assets/relative.png)
+
+## Független pozíció \(absolute\)
+
+Független pozíció esetén a legközelebbi nem statikus pozicionálású szülő elemhez képest történik az eltolás \(ha az elem közvetlen szülője például `relative` pozíciójú, akkor ahhoz képest\).   
+  
+Ha nincs nem statikus szülő, akkor a _body_ elemhez képest történik az eltolás.​
+
+```css
+div {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+```
+
+![](../.gitbook/assets/absolute.png)
+
+Az abszolút pozicionálású elem nem lesz ráhatással a dokumentumfolyamra \(eltűnik\). Eredeti helyére becsúsznak az őt követő elemek, illetve nem tolja ki szülőelemeinek magasságát sem.
+
+## Rögzített pozíció \(fixed\)
+
+Rögzített pozíció esetén a böngésző ablakához képest történik az eltolás, ebben az esetben a pozicionált elem nem scrollozódik együtt a többi elemmel \(rögzített\).
+
+Eredeti helyére becsúsznak az őt követő elemek, illetve nem tolja ki szülőelemeinek magasságát sem - hasonlóan a független pozicionálású elemekhez.
+
+```css
+div {
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+```
+
+![](../.gitbook/assets/fixed.png)
+
+## Z magasság \(z-index\)
+
+A dokumentumfolyam meghatározza az elemek egymásra lapolódását is, a később jövő  
+elemek a korábbiak fölé kerülnek.
+
+Ezen módosíthatunk a _z-index_ tulajdonsággal.
+
+```css
+div {
+    position: relative;
+    z-index: 150;
+}
+```
+
+A böngésző ablak síkjára merőleges tengelyen \(z\) mozgathatjuk vele az elemeket. A pozitív érték emel az elemen, a negatív érték süllyeszt. Értéke egész szám lehet \(negatív is\), alapértéke az `auto` vagyis  
+a dokumentumfolyam alapján számított magasság.
+
+![](../.gitbook/assets/z-index.png)
 
