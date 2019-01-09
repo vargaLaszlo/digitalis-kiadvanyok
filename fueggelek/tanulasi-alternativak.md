@@ -1,7 +1,3 @@
----
-description: Az itt összegyűjtött
----
-
 # Tanulási alternatívák
 
 ## Ajánlott irodalom
