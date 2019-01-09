@@ -49,4 +49,5 @@
 ## Függelék
 
 * [Felhasznált irodalom](fueggelek/felhasznalt-irodalom.md)
+* [Tanulási alternatívák](fueggelek/tanulasi-alternativak.md)
 
