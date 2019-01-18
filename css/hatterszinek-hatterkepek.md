@@ -67,11 +67,31 @@ Megadhatjuk kulcsszavakkal, ezek:
 * _left_ - balra
 * _right_ - jobbra
 
+```css
+div {
+	background-position: center;
+}
+
+span {
+	backgroud-position: left;
+}
+```
+
 ![](../.gitbook/assets/bgp-0.png)
 
 ![](../.gitbook/assets/bgp-1%20%281%29.png)
 
 Két értéket is megadhatunk első a vízszintes, második a függőleges helyzetet adja meg.
+
+```css
+div {
+	background-position: left top;
+}
+
+span {
+	backgroud-position: right bottom;
+}
+```
 
 ![](../.gitbook/assets/bgp-2.png)
 
@@ -80,11 +100,11 @@ lesz az origó \(innen eltolva jelenik meg a kép\).
 
 ```css
 div {
-	background-position: center;
+	background-position: 50% 50%;
 }
 
-ul li {
-	backgroud-repeat: right bottom;
+span {
+	backgroud-position: 10px 15px;
 }
 ```
 
