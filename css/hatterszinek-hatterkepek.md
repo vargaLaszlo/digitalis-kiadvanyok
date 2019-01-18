@@ -67,13 +67,13 @@ Megadhatjuk kulcsszavakkal, ezek:
 * _left_ - balra
 * _right_ - jobbra
 
-![](../.gitbook/assets/bg-position02.png)
+![](../.gitbook/assets/bgp-0.png)
 
-![](../.gitbook/assets/bg-position01.png)
+![](../.gitbook/assets/bgp-1%20%281%29.png)
 
 Két értéket is megadhatunk első a vízszintes, második a függőleges helyzetet adja meg.
 
-![](../.gitbook/assets/bg-position03.png)
+![](../.gitbook/assets/bgp-2.png)
 
 Hosszértéket, vagy százalékot is felvehet, ebben az esetben a bal felső sarok  
 lesz az origó \(innen eltolva jelenik meg a kép\).
