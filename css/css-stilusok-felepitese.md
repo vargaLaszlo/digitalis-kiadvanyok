@@ -31,13 +31,26 @@ A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ### Külső stíluslapok
 
-A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat link elemmel kapcsolhatjuk a **HTML** állományunkba.
+A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat `link` elemmel kapcsolhatjuk a **HTML** állományunkba.
 
 ```markup
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
 A külső CSS állomány kiterjesztése **.css** lehet.
+
+A `link` elemeket minden esetben a HTML állomány fejlécében, a `head` elemben kell elhelyezni: 
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+...
+```
 
 {% hint style="info" %}
 A külső CSS állomány nagy előnye, hogy több HTML oldalba is be lehet kötni ugyan azt a CSS állományt, így csökken a letöltendő adatmennyiség, és a stílusokat egy központi helyen tudjuk kezelni.
