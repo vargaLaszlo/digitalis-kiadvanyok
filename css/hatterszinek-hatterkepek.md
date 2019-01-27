@@ -2,9 +2,9 @@
 
 ## Háttérszín
 
-A _background-color_ segítségével színt adhatunk elemeink hátterének. Átlátszó szín esetén az elem mögött lévő elemek is \(részlegesen\) látszódni fognak.  
+A `background-color` segítségével színt adhatunk elemeink hátterének. Átlátszó szín esetén az elem mögött lévő elemek is \(részlegesen\) látszódni fognak.  
   
-A háttérszín az elem teljes hátterét kitölti, látható a belső margó \(padding\), és a keret átlátszó része alatt \(border\). Alapértéke a _transparent_, vagyis átlátszó.
+A háttérszín az elem teljes hátterét kitölti, látható a belső margó \(padding\), és a keret átlátszó része alatt \(border\). Alapértéke a `transparent`, vagyis átlátszó.
 
 ```css
 div {
@@ -18,11 +18,11 @@ ul li {
 
 ## Háttérkép
 
-A _background-image_ értékeként egy kép elérési útvonalát adhatjuk meg, **url\('elérési útvonal'\)** formában.  
+A `background-image` értékeként egy kép elérési útvonalát adhatjuk meg, **url\('elérési útvonal'\)** formában.  
   
 A kép valós méretében jelenik meg az elem hátterében.  
   
-Alapértéke a none, vagyis nincs.
+Alapértéke a `none`, vagyis nincs.
 
 ```css
 div {
@@ -36,14 +36,16 @@ ul li {
 
 ## Háttérkép ismétlődése
 
-A _background-repeat_ segítségével szabályozhatjuk a háttérkép ismétlődését.
+A `background-repeat` segítségével szabályozhatjuk a háttérkép ismétlődését.
 
 Értékei:
 
-* _repeat_ - ismétlődés \(ez az alapérték\)
-* _repeat-x_ - ismétlődés vízszintesen
-* _repeat-y_ - ismétlődés függőlegesen
 * _no-repeat_ - nincs ismétlődés
+* _repeat_ - ismétlődés \(ez az alapérték\)
+* _repeat-x_ - ismétlődés csak vízszintesen
+* _repeat-y_ - ismétlődés csak függőlegesen
+
+\_\_
 
 ```css
 div {
@@ -55,9 +57,11 @@ ul li {
 }
 ```
 
+![](../.gitbook/assets/background-repeat.png)
+
 ## Háttérkép helyzete
 
-A **background-position** a kép helyzetét határozza meg vízszintesen, és függőlegesen.
+A `background-position` a kép helyzetét határozza meg vízszintesen, és függőlegesen.
 
 Megadhatjuk kulcsszavakkal, ezek:
 
@@ -110,7 +114,7 @@ span {
 
 ## Háttérkép méretezése
 
-A _background-size_ határozza meg, hogy az elem hátterének mekkora hányadát fedje a háttérkép. Alapértéke az _auto_ vagyis a kép eredeti  
+A `background-size` határozza meg, hogy az elem hátterének mekkora hányadát fedje a háttérkép. Alapértéke az _auto_ vagyis a kép eredeti  
 méretében jelenik meg.
 
 Megadhatjuk hosszmértékben a méretet, például pixelben, vagy százalékban, ami az elem méretéhez képest értendő.
@@ -133,7 +137,7 @@ ul li {
 
 ## Gyorsírásos háttér
 
-A _background_ gyorsírásos forma, amivel egy menetben több háttér jellemzőt is megadhatunk.
+A __`background` gyorsírásos forma, amivel egy menetben több háttér jellemzőt is megadhatunk.
 
 ```css
 div {
