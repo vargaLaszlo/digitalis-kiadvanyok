@@ -92,6 +92,8 @@ span {
 }
 ```
 
+![K&#xFC;l&#xF6;nb&#xF6;z&#x151; bet&#x171;m&#xE9;retek pixelben](../.gitbook/assets/font-size-px.png)
+
 ## Betűvastagság \(font-weight\)
 
 A betűvastagságot megadhatjuk kulcsszóval, vagy számmal \(100-as lépésekben\). Az hogy az adott érték érvényesül-e  
