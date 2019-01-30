@@ -45,8 +45,18 @@ Több font felsorolásával, és általános betűcsalád megadásával biztosí
 * _serif_
 * _sans-serif_
 * _cursive_
-* _fantasy_
 * _monospace_
+* _fantasy_
+
+```markup
+<p style="font-family: serif">Lorem ipsum dolor sit amet.</p>
+<p style="font-family: sans-serif">Lorem ipsum dolor sit amet.</p>
+<p style="font-family: cursive">Lorem ipsum dolor sit amet.</p>
+<p style="font-family: monospace">Lorem ipsum dolor sit amet.</p>
+<p style="font-family: fantasy">Lorem ipsum dolor sit amet.</p>
+```
+
+![](../.gitbook/assets/font-fam.png)
 
 ### **Web biztos fontok**
 
@@ -56,8 +66,10 @@ Az alábbi fontokat tartalmazza: _Andalé Mono, Arial, Arial Black, Comic Sans M
 
 ### **@font-face**
 
-A `@font-face` segítségével mi is betölthetünk betűkészleteket a HTML állományainkba. Ehhez szükséges a böngészők számára is emészthető fontok \(webfontok\) használata.
+A `@font-face` segítségével mi is létrehozhatunk betűcsaládokat, és betölthetünk betűkészleteket a HTML állományainkba. Ehhez szükséges a böngészők számára is emészthető fontok \(webfontok\) használata.
 
+{% code-tabs %}
+{% code-tabs-item title="@font-face" %}
 ```css
 @font-face {
   font-family: 'MyWebFont';
@@ -71,6 +83,33 @@ body {
   font-family: 'MyWebFont', sans-serif;
 }
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Magyarázat" %}
+```css
+@font-face {
+  /* A font-family határozza meg a létrehozott betűcsalád nevét */
+  font-family: 'MyWebFont';
+  /* Az src-ben (source) adhatjuk meg a font 
+     állományokat, vesszővel felsorolva. 
+     A formátumot is meg kell adni, ez általában az
+     állománykiterjesztéssel egyezik.
+  */
+  src: url('webfont.woff2') format('woff2'),
+       url('webfont.woff') format('woff'),
+       url('webfont.ttf')  format('truetype');
+  /* Megadhatjuk a betűcsalád tagjának betűvastagságát is
+     (vastagságonként egy @font-face-ben kell felvinni a fontokat) */     
+  font-weight: normal;
+}
+
+body {
+  /* Itt hivatkozunk a @font-face-ben létrehozott új betűcsaládra. */
+  font-family: 'MyWebFont', sans-serif;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 {% hint style="info" %}
 Az interneten elérhetőek `@font-face` generátorok, ezekkel egy adott fontból elkészíthetjük a böngészőkkel kompatibilis font állományokat, a webfontokat, és a szükséges CSS-t is. A legismertebb szolgáltatás a Font Squirrel \([https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)\). Egy jó alternatíva a Transfonter \([https://transfonter.org/](https://transfonter.org/)\). Mindkét szolgáltató a letölthető állományok között ad egy HTLM állományt töltelékszöveggel, amiben megnézhetjük a generált fontokat.
