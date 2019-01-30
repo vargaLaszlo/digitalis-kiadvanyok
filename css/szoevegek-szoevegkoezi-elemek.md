@@ -56,7 +56,7 @@ Az alábbi fontokat tartalmazza: _Andalé Mono, Arial, Arial Black, Comic Sans M
 
 ### **@font-face**
 
-A font face segítségével mi is betölthetünk betűkészleteket a HTML állományainkba.
+A `@font-face` segítségével mi is betölthetünk betűkészleteket a HTML állományainkba. Ehhez szükséges a böngészők számára is emészthető fontok \(webfontok\) használata.
 
 ```css
 @font-face {
@@ -71,6 +71,12 @@ body {
   font-family: 'MyWebFont', sans-serif;
 }
 ```
+
+{% hint style="info" %}
+Az interneten elérhetőek `@font-face` generátorok, ezekkel egy adott fontból elkészíthetjük a böngészőkkel kompatibilis font állományokat, a webfontokat, és a szükséges CSS-t is. A legismertebb szolgáltatás a Font Squirrel \([https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)\). Egy jó alternatíva a Transfonter \([https://transfonter.org/](https://transfonter.org/)\). Mindkét szolgáltató a letölthető állományok között ad egy HTLM állományt töltelékszöveggel, amiben megnézhetjük a generált fontokat.
+
+Ha nem akarjuk mi kiszolgálni a font állományokat egy jó ingyenes alternatíva a Google font szolgáltatása \([https://fonts.google.com/](https://fonts.google.com/)\), ahol 500 fölötti fontot érünk el magyar ékezettel.
+{% endhint %}
 
 ## Betűméret \(font-size\)
 
