@@ -271,9 +271,7 @@ span {
 
 ![](../.gitbook/assets/line.png)
 
-A tartalom terület a nagy M-betű magasságával egyező magasságú \(font méret\). A szövegközi mező magassága a sormagasság.
-
-A sortávolságot a szöveg által elfoglalt tartalomterület, és a szövegközi mező határozza meg. Vonjuk ki a `line-height` \(sormagasság\) értékéből a `font-size` \(betűméret\) értékét, így megkapjuk a két sor pontos távolságát. 
+A tartalom terület a nagy M-betű magasságával egyező magasságú, gyakorlatban ez a font mérete. \(tipográfiában a verzál magasság, ezen túlnyúlhatnak a betűk fel- és lenyúló szárai\). A szövegközi mező magassága a sormagasság. A tartalom terület és a szövegközi mező külömbsége a sortávolság \(adott esetben negatív értéket is felvehet\) - vonjuk ki a `line-height` \(sormagasság\) értékéből a `font-size` \(betűméret\) értékét, így megkapjuk a két sor pontos távolságát. 
 
 ![](../.gitbook/assets/line2.png)
 
