@@ -30,8 +30,11 @@
 
 ## Játékok
 
-* [Flexbox Froggy \(interaktív lecke\)](http://flexboxfroggy.com/)
-* [Grid Garden \(interaktív lecke\)](http://cssgridgarden.com/)
+* [CSS Dinner](https://flukeout.github.io/)
+* [Flexbox Froggy](http://flexboxfroggy.com/)
+* [Grid Garden](http://cssgridgarden.com/)
+* [Flexbox Deffense](http://www.flexboxdefense.com/)
+* [Flexbox Zombies](https://flexboxzombies.com/p/flexbox-zombies)
 
 ## Hírlevelek
 
