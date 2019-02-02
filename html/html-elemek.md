@@ -41,7 +41,7 @@ A `head` elemet közvetlenül a `html` elemben kell elhelyezni.
 
 ### **Az oldal címe**
 
-A `title` ****elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a `head` elemben.
+A `title` elemben megadott szöveg azonosítja a HTML dokumentumot, és ez jelenik meg a böngészőablak címsorában. Kötelezően szerepelnie kell a `head` elemben.
 
 ```markup
 <title>Az oldal címe</title>
@@ -61,7 +61,7 @@ A `meta` elemben helyezhetünk el információkat a weboldalunkról \(ez nem jel
 <meta name="description" content="Oldal rövid leírása">
 ```
 
-Kivétel a `charset` ****amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy ****`charset` ****tulajdonsággal rendelkezik.
+Kivétel a `charset` amivel az oldal karakter kódolását határozhatjuk meg, ez csak egy `charset` tulajdonsággal rendelkezik.
 
 ```markup
 <meta charset="UTF-8">
@@ -111,7 +111,7 @@ A `body` a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, enne
 
 ### **Címek**
 
-A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a `h1` `h2` `h3` `h4` `h5` `h6` ****elemekkel tehetjük meg.
+A HTML dokumentum tartalmát 6 cím mélységig lehet fejezetekre, alfejezetekre bontani, ezt a `h1` `h2` `h3` `h4` `h5` `h6` elemekkel tehetjük meg.
 
 ```markup
 <h1>1-es cím</h1>
@@ -191,7 +191,7 @@ Képeket a HTML dokumentumba az `img` \(kép\) elem segítségével tudunk beill
 <img src="images/kutya.jpg" alt="6 hetes alvó labradorkölyök">
 ```
 
-Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az `alt` ****tulajdonság, de üresen hagyhatjuk az értékét.
+Ha a képünk csak dekorációs célokat szolgál, és nem kapcsolódik szorosan a dokumentum szöveges tartalmához, akkor is kötelező az `alt` tulajdonság, de üresen hagyhatjuk az értékét.
 
 ```markup
 <img src="page-decoration.png" alt="">
@@ -248,7 +248,7 @@ A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\)
 
 | **elem** | leírás |
 | :--- | :--- |
-| `small` |  ****Csökkenti a font méretet. |
+| `small` | Csökkenti a font méretet. |
 | `time` | Időt, dátumot jeleníthetünk meg vele. |
 | `sup` | Felső index, megemeli a szöveget |
 | `sub` | Alsó index, lesüllyeszti a szöveget |
@@ -291,7 +291,7 @@ Felmerül a kérdés, hogy mi az értelme egy elemnek, ami nem ad jelentést kon
 
 ### **Sortörés**
 
-A `br` ****\(sortörés\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a `br` elem után következő szöveg már új sorba törik.
+A `br` \(sortörés\) elem új sorba töri a szöveget, amiben elhelyezzük, úgy hogy a `br` elem után következő szöveg már új sorba törik.
 
 ```markup
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
@@ -302,7 +302,7 @@ Donec facilisis sit amet nisi nec mattis.</p>
 
 ### **Vízszintes vonal**
 
-A `hr` ****\(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
+A `hr` \(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja a tartalom tagolása.
 
 ```markup
 <hr>
@@ -312,7 +312,7 @@ A `hr` ****\(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja
 
 ### **Általános konténer elem**
 
-A ****`div` \(csoport, rész\) elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A `div` nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt `span` ****elemhez, csak amíg a `span` szövegközi elem,  addig a `div` blokkos elem. 
+A `div` \(csoport, rész\) elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A `div` nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt `span` elemhez, csak amíg a `span` szövegközi elem,  addig a `div` blokkos elem. 
 
 Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk `div` elemekkel egy oldal tartalmát\). A `div`-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más `div`-eket, vagy egyéb strukturális elemeket.
 
@@ -328,7 +328,7 @@ A HTML korábbi verzióiban a `div` elemet ruháztuk fel szerepekkel a `role` \(
 
 #### Navigáció
 
-A ****`nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
+A `nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
 
 ```markup
 <nav>
@@ -373,7 +373,7 @@ A menü linkek listába helyezése lehetővé teszi több szintű almenü strukt
 
 #### Fejléc elem
 
-A `header` ****elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a `head` elemmel!
+A `header` elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a `head` elemmel!
 
 #### Fő tartalmi egység
 
@@ -385,7 +385,7 @@ Másodlagos, a fő tartalomhoz csak kapcsolódó tartalmaz az `aside` elemben he
 
 #### **Lábléc elem**
 
-A ****`footer` elem a `header` elem párja, értelemszerűen vizuálisan a dokumentum \(vagy a dokumentum egy alegységének\) alján alkalmazandó.
+A `footer` elem a `header` elem párja, értelemszerűen vizuálisan a dokumentum \(vagy a dokumentum egy alegységének\) alján alkalmazandó.
 
 #### **Szekció**
 
@@ -411,7 +411,7 @@ Az `article` egy nagyobb _összefüggő_ szöveges tartalmi egység. Egy ilyen t
 
 ### **A beviteli elem**
 
-Az űrlap mezőit az `input` ****\(beviteli mező\) elemmel hozhatjuk létre. Az `input` elem viselkedését, kinézetét meghatározza a `type` \(típus\) tulajdonsága.
+Az űrlap mezőit az `input` \(beviteli mező\) elemmel hozhatjuk létre. Az `input` elem viselkedését, kinézetét meghatározza a `type` \(típus\) tulajdonsága.
 
 ```markup
 <form>
@@ -486,7 +486,7 @@ Az `option` elemek közül az lesz az alapértelmezett, amelyik rendelkezik a ki
 
 ### **Táblázat**
 
-A `table` elem a táblázat szülőeleme, a sorokat a `tr` elemek képzik, az oszlopokat, vagy cellákat a `td` ****elemek.
+A `table` elem a táblázat szülőeleme, a sorokat a `tr` elemek képzik, az oszlopokat, vagy cellákat a `td` elemek.
 
 ```markup
 <table>
