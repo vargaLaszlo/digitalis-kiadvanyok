@@ -4,7 +4,7 @@
 
 A **CSS** egy a webes szabványok közül. A webes szabványok közül a legfontosabb a **HTML**, a **CSS és** a **JavaScript**, ezek hármasa együtt alkotja a weboldalak technológiai alapját.
 
-A **CSS** egy mozaikszó, jelentése **C**ascading **S**tyle **S**heets ****- Egymásba ágyazható stíluslapok.
+A **CSS** egy mozaikszó, jelentése **C**ascading **S**tyle **S**heets - Egymásba ágyazható stíluslapok.
 
 A **CSS** a webes alkalmazások megjelenését szabályozó stílusnyelv:
 

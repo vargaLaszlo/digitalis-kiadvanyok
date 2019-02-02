@@ -44,7 +44,7 @@ Az elem összes példányát ki fogja választani az elem kijelölő az adott HT
 
 ## Osztály kijelölő
 
-Az **osztály kijelölő** az elemet az `class` ****\(osztály\) ****tulajdonsága alapján célozza be.
+Az **osztály kijelölő** az elemet az `class` \(osztály\) tulajdonsága alapján célozza be.
 
 ```markup
 <p class="first-paragraph">Lorem ipsum dolor sit amet</p>

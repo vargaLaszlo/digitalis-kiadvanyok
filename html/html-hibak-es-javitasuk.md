@@ -20,7 +20,7 @@ Akadályozza a keresőket az oldal feldolgozásában.
 
 #### Kötelező elemek hiányoznak a dokumentumból. 
 
-Pédául nincs `!DOCTYPE`. Vagy hiányoznak az alapvető elemek: `html` ****`head` `body`.
+Pédául nincs `!DOCTYPE`. Vagy hiányoznak az alapvető elemek: `html` `head` `body`.
 
 {% hint style="info" %}
 A dokumentum típus meghatározásának hiányában a böngésző pontos "tervrajz" nélkül próbálja összerakni a weboldalt, ez a **quirks mode**, ami egy erőforrás igényes működés, feleslegesen lassítja a felhasználó gépét.
@@ -30,7 +30,7 @@ A dokumentum típus meghatározásának hiányában a böngésző pontos "tervra
 A modern böngészők hibajavító funkciói automatikusan létrehozzák `head` elemet, ha az nincs benne a HTML dokumentumban \(a régebbi böngészők erre nem képesek\).
 {% endhint %}
 
-#### Blokkos elem van ****[szövegközi](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements) elembe ágyazva.
+#### Blokkos elem van [szövegközi](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements) elembe ágyazva.
 
 ```markup
 <!-- Hibás: -->
@@ -113,7 +113,7 @@ Szemantikus elemekkel könnyebben olvasható a forráskód \(tudjuk, minek mi a 
 
 ### **Jellemző hibák**
 
-#### Bekezdések helyett sortöréssel ****van tagolva a szöveg.
+#### Bekezdések helyett sortöréssel van tagolva a szöveg.
 
 ```markup
 <!-- Hibás: -->

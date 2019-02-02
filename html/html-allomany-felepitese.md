@@ -148,9 +148,9 @@ További példák tulajdonságokra:
 <input type="password">  <!-- Jelszó --> 
 ```
 
-Az `input` \(beviteli mező\) elem megjelenése és viselkedése a `type` ****tulajdonságától függ.
+Az `input` \(beviteli mező\) elem megjelenése és viselkedése a `type` tulajdonságától függ.
 
-Következő példában egy `img` \(kép\), az `src` ****a képállományra mutató hivatkozás, a `title` ****a kép címe, az `alt` pedig a kép tartalmának szöveges leirata:
+Következő példában egy `img` \(kép\), az `src` a képállományra mutató hivatkozás, a `title` a kép címe, az `alt` pedig a kép tartalmának szöveges leirata:
 
 ```markup
 <img 

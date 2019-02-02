@@ -34,7 +34,7 @@
 
 **2006 -** A W3C behozhatatlan hátrányba kerül, lemaradnak az **XHTML 2.0** szabvány fejlesztésében, ekkor egyesítik erőiket a gyártókkal.
 
-**2008 -** W3C ****ajánlásként kiadásra kerül a **HTML 5**
+**2008 -** W3C ajánlásként kiadásra kerül a **HTML 5**
 
 ![](../.gitbook/assets/html5_logo_512.png)
 

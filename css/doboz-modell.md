@@ -135,7 +135,7 @@ div {
 }
 ```
 
-## Doboz méretezése - ****box-sizing
+## Doboz méretezése - box-sizing
 
 A box-sizing tulajdonság alapján számolja a böngésző az elemek méretét.
 

@@ -93,7 +93,7 @@ blue  /* Kék */
 
 ## Átlátszó
 
-A transparent \(átlátszó\) kulcsszóval ****adhatunk meg \(teljesen\) átlátszó színt.
+A transparent \(átlátszó\) kulcsszóval adhatunk meg \(teljesen\) átlátszó színt.
 
 ```css
 transparent
