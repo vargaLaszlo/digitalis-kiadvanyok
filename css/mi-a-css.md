@@ -17,7 +17,7 @@ A **CSS** a webes alkalmazások megjelenését szabályozó stílusnyelv:
 
 Korábban a HTML tartalmazta a megjelenésre vonatkozó utasításokat.
 
-A fejlesztői igények növekedésével végül 1994-ben [Håkon Wium Lie](https://hu.wikipedia.org/w/index.php?title=H%C3%A5kon_Wium_Lie&action=edit&redlink=1), és [Bert Bos](https://hu.wikipedia.org/w/index.php?title=Bert_Bos&action=edit&redlink=1) kidolgozta a CSS alapjait.
+A fejlesztői igények növekedésével végül 1994-ben [Håkon Wium Lie](https://hu.wikipedia.org/w/index.php?title=Håkon_Wium_Lie&action=edit&redlink=1), és [Bert Bos](https://hu.wikipedia.org/w/index.php?title=Bert_Bos&action=edit&redlink=1) kidolgozta a CSS alapjait.
 
 1996-ban adta ki hivatalos ajánlásként a W3C Consortium a CSS level 1 -et.
 

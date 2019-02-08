@@ -27,12 +27,12 @@
 
 ## CSS technikák
 
-* [Középre rendezés](css-megoldasok/koezepre-rendezes.md)
-* [Konténer középre rendezése](css-megoldasok/kontener-koezepre-rendezese.md)
-* [Kör, ellipszis](css-megoldasok/koer-ellipszis.md)
-* [Aránytartó téglalap, négyzet](css-megoldasok/aranytarto-teglalap-negyzet.md)
-* [Kép úsztatása szövegben](css-megoldasok/kep-usztatasa-szoevegben.md)
-* [Vízszintes menü úsztatással](css-megoldasok/vizszintes-menue-usztatassal.md)
+* [Középre rendezés](css-technikak/koezepre-rendezes.md)
+* [Konténer középre rendezése](css-technikak/kontener-koezepre-rendezese.md)
+* [Kör, ellipszis](css-technikak/koer-ellipszis.md)
+* [Aránytartó téglalap, négyzet](css-technikak/aranytarto-teglalap-negyzet.md)
+* [Kép úsztatása szövegben](css-technikak/kep-usztatasa-szoevegben.md)
+* [Vízszintes menü úsztatással](css-technikak/vizszintes-menue-usztatassal.md)
 
 ## VS Code
 

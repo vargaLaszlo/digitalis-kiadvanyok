@@ -19,10 +19,10 @@ Az **általános kijelölő** az összes elemre általánosan hivatkozik, segít
 Az általános kijelölőt csillag \(\*\) karakterrel hozhatunk létre.
 
 {% hint style="warning" %}
-Az általános kijelölő hatással van a HTML dokumentum fejlécére is, próbáljuk csak ki az alábbi stílust:  
-  
-`* {   
-    display: block;  
+Az általános kijelölő hatással van a HTML dokumentum fejlécére is, próbáljuk csak ki az alábbi stílust:
+
+`* {    
+display: block;    
 }`
 {% endhint %}
 
@@ -83,13 +83,13 @@ Az azonosító kijelölő rácsjellel \(\#\) kezdődik, ezt követi az azonosít
 Egy HTML dokumentumban egy elem rendelkezhet egy adott egyedi azonosítóval, és ezt az elemet az azonosítókijelölővel tudjuk célozni.
 
 {% hint style="warning" %}
+
 Az osztály és az azonosító nevére vonatkoznak bizonyos megkötések, ezek a következők: Speciális karakter nem lehet a névben, a speciális karakterek közül kivételt képez a kötőjel \(-\), és az aláhúzás jel \(\_\), ezek megengedettek. Nem kezdődhetnek számmal, két kötőjellel, vagy egy kötőjellel, és egy számmal. Az alábbi osztálynevek és azonosítók **hibásak**:
 
 * &item
 * 4item
 * --item
 * -4item
-{% endhint %}
 
 ## Leszármazott kijelölő
 
@@ -127,7 +127,7 @@ A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közv
 }
 ```
 
-Gyermek kijelölőt a `>` jellel hozhatunk létre, a `>` jel bal oldalán a szülő, jobb oldalán a gyermek található. 
+Gyermek kijelölőt a `>` jellel hozhatunk létre, a `>` jel bal oldalán a szülő, jobb oldalán a gyermek található.
 
 ```css
 p > span {
@@ -183,7 +183,7 @@ A fenti példában a linkek vörös szövegszínt kapnak, ha föléjük kerül a
 Ezekkel a kijelölőkkel egy bizonyos pozícióban lévő elemre hivatkozhatunk. Ilyen pozíció, hogy egy elem páratlan, vagy páros elem egy sorozatban, esetleg az első vagy az utolsó darabja egy sorozatnak.
 
 **:nth-child\(n\)** n-edik elem a sorban  
-**:nth-type\(n\)** n-edik bizonyos elem   
+**:nth-type\(n\)** n-edik bizonyos elem  
 **:first-child** első elem  
 **:last-child** utolsó elem  
 **:first-of-type** első egy bizonyos elem típusból  
@@ -316,4 +316,3 @@ h1:after {
     </tr>
   </tbody>
 </table>
-

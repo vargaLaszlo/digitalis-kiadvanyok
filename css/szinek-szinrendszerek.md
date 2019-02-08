@@ -99,5 +99,3 @@ A transparent \(átlátszó\) kulcsszóval adhatunk meg \(teljesen\) átlátszó
 transparent
 ```
 
-
-

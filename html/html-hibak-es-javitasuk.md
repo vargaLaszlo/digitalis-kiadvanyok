@@ -12,13 +12,13 @@ A hibákat [HTML validátorral](https://validator.w3.org/), vagy fejlesztőeszk�
 
 Nem minden böngésző tudja kijavítani, egy kevésbé elterjedt böngészőben, amiben nem teszteltük jelentkezhet a hiba.
 
-A fejlesztés későbbi fázisát akadályozza, eleve biztosabb mindent szabványosan felépíteni, hogy egy esetleges hiba miatt később ne ütközzünk nem várt akadályokba.  
-  
+A fejlesztés későbbi fázisát akadályozza, eleve biztosabb mindent szabványosan felépíteni, hogy egy esetleges hiba miatt később ne ütközzünk nem várt akadályokba.
+
 Akadályozza a keresőket az oldal feldolgozásában.
 
 ### **Jellemző hibák**
 
-#### Kötelező elemek hiányoznak a dokumentumból. 
+#### Kötelező elemek hiányoznak a dokumentumból.
 
 Pédául nincs `!DOCTYPE`. Vagy hiányoznak az alapvető elemek: `html` `head` `body`.
 
@@ -98,7 +98,7 @@ A HTML szabvány korai fejlődési szakaszában számos elem, és tulajdonság s
 
 Például **szemantikus** jelentéstartalommal rendelkező elemek helyett jelentés, vagy szerepkör nélküli elemekből építkezünk.
 
-Nem kapunk rá hibát a validátorban, viszont egyéb szempontokból tekintve nem optimális a megoldás. 
+Nem kapunk rá hibát a validátorban, viszont egyéb szempontokból tekintve nem optimális a megoldás.
 
 ### **Mik lehetnek ezek a szempontok?**
 
@@ -164,6 +164,4 @@ Almafa</p>
 <!-- Helyes: -->
 <h1>Ez a főcím</h1>
 ```
-
-
 

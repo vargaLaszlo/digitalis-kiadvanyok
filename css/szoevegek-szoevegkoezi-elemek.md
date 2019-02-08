@@ -131,12 +131,11 @@ span {
 }
 ```
 
-![K&#xFC;l&#xF6;nb&#xF6;z&#x151; bet&#x171;m&#xE9;retek pixelben](../.gitbook/assets/font-size-px.png)
+![K&#xFC;l&#xF6;nb&#xF6;z&#x151; bet&#x171;m&#xE9;retek pixelben meghat&#xE1;rozva.](../.gitbook/assets/font-size-px.png)
 
 ## Betűvastagság \(font-weight\)
 
-A betűvastagságot megadhatjuk kulcsszóval, vagy számmal \(100-as lépésekben\). Az hogy az adott érték érvényesül-e  
-a szövegre nagyban függ az adott betűtípustól.
+A `font-weight`-et \(betűvastagságot\) megadhatjuk kulcsszóval, vagy számmal \(100-as lépésekben\). Az hogy az adott érték érvényesül-e a szövegre nagyban függ az adott betűtípustól.
 
 **Használható kulcsszavak:**  
 _normal, bold, bolder, lighter_  
@@ -291,7 +290,7 @@ span {
 
 ## Betűköz \(letter-spacing\)
 
-A letter-spacing határozza meg a betűk karaktermezői közötti távolságot. Alapértéke a _normal_, ezt módosíthatjuk hosszmérték megadásával. Értéke lehet negatív, ebben az esetben a betűk közelebb kerülnek egymáshoz.
+A `letter-spacing` \(betűköz\) határozza meg a betűk karaktermezői közötti távolságot. Alapértéke a _normal_, ezt módosíthatjuk hosszmérték megadásával. Értéke lehet negatív, ebben az esetben a betűk közelebb kerülnek egymáshoz.
 
 ```css
 p {
@@ -302,4 +301,6 @@ span {
     letter-spacing: 0.125em;
 }
 ```
+
+![K&#xFC;l&#xF6;nb&#xF6;z&#x151; m&#xE9;ret&#x171; bet&#x171;k&#xF6;z&#xF6;k pixelben meghat&#xE1;rozva.](../.gitbook/assets/letter-spacing.png)
 

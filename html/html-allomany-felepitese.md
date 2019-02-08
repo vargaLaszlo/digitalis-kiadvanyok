@@ -68,7 +68,7 @@ A fenti példában a középső lista elemet nem hozza létre a böngésző.
 
 ## HTML Címkék \(Tag\)
 
-A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a **HTML** **elemeket**, miután beolvasta a dokumentumot. 
+A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a **HTML** **elemeket**, miután beolvasta a dokumentumot.
 
 Egy lehetséges HTML elem:
 
@@ -80,8 +80,6 @@ A **HTML** elemek **nyitó** és **záró** **tagből** állnak, amennyiben lehe
 
 ![](../.gitbook/assets/html-code-1.png)
 
-
-
 Az elemek egymásba ágyazhatóak:
 
 ```markup
@@ -92,7 +90,7 @@ Az elemek egymásba ágyazhatóak:
 </ul>
 ```
 
-A fenti példában az `ul` egy lista, amiben lista elemek  `li` vannak, ez a **tartalma**. Az `li`-k az `ul` **gyermek elemei**, és egymásnak **testvér elemei**.
+A fenti példában az `ul` egy lista, amiben lista elemek `li` vannak, ez a **tartalma**. Az `li`-k az `ul` **gyermek elemei**, és egymásnak **testvér elemei**.
 
 Vannak **HTML elemek**, amiknek nem lehet tartalma, így záró tag-re nincs szükség:
 
@@ -145,7 +143,7 @@ További példák tulajdonságokra:
 <input type="text">      <!-- Szövegbeviteli mező -->
 <input type="button">    <!-- Gomb --> 
 <input type="checkbox">  <!-- Pipa --> 
-<input type="password">  <!-- Jelszó --> 
+<input type="password">  <!-- Jelszó -->
 ```
 
 Az `input` \(beviteli mező\) elem megjelenése és viselkedése a `type` tulajdonságától függ.
@@ -179,6 +177,4 @@ Ebben a példában egy egyszerű HTML állomány tartalma látható:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-
 

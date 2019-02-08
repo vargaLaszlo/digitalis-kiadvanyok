@@ -16,7 +16,7 @@ A **HTML** nyelv elsajátítása az első lépés azon az úton aminek a végén
 
 ## Építőelemek
 
-A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta és feldolgozta a dokumentumot. 
+A **HTML** dokumentum **tag**-ekből \(címke\) épül fel, ezekből képezi le a böngésző a HTML **elemeket**, miután beolvasta és feldolgozta a dokumentumot.
 
 Egy lehetséges HTML elem:
 
@@ -31,6 +31,4 @@ A weboldalak legfontosabb építőelemei a hiperhivatkozások \(link vagy hyperl
 ```markup
 <a href="fontos.html">Fontos információ!<a>
 ```
-
-
 

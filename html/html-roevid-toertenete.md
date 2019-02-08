@@ -38,5 +38,3 @@
 
 ![](../.gitbook/assets/html5_logo_512.png)
 
-
-

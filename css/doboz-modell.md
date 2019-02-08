@@ -7,7 +7,7 @@ A **blokkos** elemek kitöltik, a rendelkezésre álló helyet, mellettük más 
 A böngészők blokkos elemként jelenítik meg az ebbe a kategóriába tartozó  
 HTML elemeket.
 
-CSS-el fel lehet ruházni ezzel a megjelenítési móddal  a nem blokkos elemeket is.
+CSS-el fel lehet ruházni ezzel a megjelenítési móddal a nem blokkos elemeket is.
 
 ```css
 span {
@@ -60,7 +60,7 @@ A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadó
 A keret stílussal határozhatjuk meg a keret vizuális megjelenését. \(Kezdő értéke a none, vagyis nincs keret\)
 
 **none, hidden** - nincs keret  
-__**solid** - folytonos vonal  
+\_\_**solid** - folytonos vonal  
 **dotted** - pontozott  
 **dashed** - szaggatott vonal  
 **double** - dupla vonal  
@@ -139,8 +139,8 @@ div {
 
 A box-sizing tulajdonság alapján számolja a böngésző az elemek méretét.
 
-Két lehetséges értéke lehet, az alapérték a **content-box** ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.  
-  
+Két lehetséges értéke lehet, az alapérték a **content-box** ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
+
 A második lehetséges érték a **content-box**, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
 
 ```css

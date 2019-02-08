@@ -25,7 +25,7 @@ Jellemző, hogy az oldalak nyelvét a `html` elemen a `lang` \(nyelv\) tulajdons
 
 ## HTML dokumentum fejléce
 
-A `head` a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum **metaadatait** \(általános  információk\) tartalmazza.
+A `head` a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum **metaadatait** \(általános információk\) tartalmazza.
 
 ```markup
 <html>
@@ -185,7 +185,7 @@ A listákat egymásba is lehet ágyazni, így lehet több szintű listákat lét
 
 ## Képek
 
-Képeket a HTML dokumentumba az `img` \(kép\) elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az `src` \(forrás\),  ami a behivatkozott kép elérési útvonala, és az `alt` \(alternatív szöveg\), a kép tartalmának szöveges leirata.
+Képeket a HTML dokumentumba az `img` \(kép\) elem segítségével tudunk beilleszteni. Két _kötelező_ tulajdonsága van, az `src` \(forrás\), ami a behivatkozott kép elérési útvonala, és az `alt` \(alternatív szöveg\), a kép tartalmának szöveges leirata.
 
 ```markup
 <img src="images/kutya.jpg" alt="6 hetes alvó labradorkölyök">
@@ -276,7 +276,7 @@ Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelent�
 
 ### Span
 
-Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a `span` elem \(szabad fordításban dirib-darab\).  
+Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a `span` elem \(szabad fordításban dirib-darab\).
 
 ```markup
 <p>Ebben a szövegben van egy <span>szakasz</span>, aminek 
@@ -312,7 +312,7 @@ A `hr` \(vízszintes vonal\) elem egy vízszintes vonalat hoz létre. Célja a t
 
 ### **Általános konténer elem**
 
-A `div` \(csoport, rész\) elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A `div` nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt `span` elemhez, csak amíg a `span` szövegközi elem,  addig a `div` blokkos elem. 
+A `div` \(csoport, rész\) elemmel hozhatunk létre általános gyűjtőelemeket, úgynevezett konténereket. A `div` nem hordoz semmilyen jelentéstartalmat, és a megjelenése is teljesen semleges, hasonlóan a korábban tárgyalt `span` elemhez, csak amíg a `span` szövegközi elem, addig a `div` blokkos elem.
 
 Ezzel az elemmel foghatunk össze egy csoportba több elemet \(ha úgy tetszik részekre bonthatjuk `div` elemekkel egy oldal tartalmát\). A `div`-ekben bármilyen _tartalom típusú_ elemet elhelyezhetünk, például címeket, szöveget, listákat, képet, linket, más `div`-eket, vagy egyéb strukturális elemeket.
 
@@ -567,7 +567,7 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` 
 | `time` | Time | inline |
 | `sup` | Superscript | inline |
 | `sub` | Subscript | inline |
-| `s` |  Strikethrough | inline |
+| `s` | Strikethrough | inline |
 | `span` | Span | inline |
 | `br` | Break line | inline |
 | `hr` | Horisontal line | block |
@@ -579,7 +579,7 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` 
 | `footer` | Footer | block |
 | `section` | Section | block |
 | `article` | Article | block |
-| `form`  | Form | block |
+| `form` | Form | block |
 | `input` | Input field | inline-block |
 | `textarea` | Text area | inline-block |
 | `button` | Button | inline-block |
@@ -588,6 +588,4 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` 
 | `tr` | Table row | table-row |
 | `td` | Table cell | table-cell |
 | `th` | Table cell header | table-cell |
-
-
 
