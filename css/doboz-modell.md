@@ -2,10 +2,9 @@
 
 ## Tömbszerű \(vagy blokkos\) elemek jellemzői
 
-A **blokkos** elemek kitöltik, a rendelkezésre álló helyet, mellettük más elem nem lehet \(az elem maga előtt és után töri a sort\). Magasságuk a tartalmuktól függ, a tartalom tolja szét a **blokkos** elemeket függőlegesen.
+A **blokkos** elemek vízszintesen kitöltik, a rendelkezésre álló helyet, mellettük más elem nem lehet \(az elem maga előtt és után töri a sort\). Magasságuk a tartalmuktól függ, a tartalom tolja szét a **blokkos** elemeket függőlegesen.
 
-A böngészők blokkos elemként jelenítik meg az ebbe a kategóriába tartozó  
-HTML elemeket.
+A böngészők blokkos elemként jelenítik meg az ebbe a kategóriába tartozó HTML elemeket - [lásd HTML elemek listája](https://digikiad.gitbook.io/digitalis-kiadvanyok/html/html-elemek#felsorolt-elemek-listaja).
 
 CSS-el fel lehet ruházni ezzel a megjelenítési móddal a nem blokkos elemeket is.
 
@@ -17,7 +16,7 @@ span {
 
 ## Tartalom - content
 
-Tartalmuknak megadhatjuk a szélességét, magasságát. Alapestben a böngésző határozza meg ezt az értéket \(kezdő értéke _auto_\).
+Tartalmuknak megadhatjuk a szélességét, magasságát. Alapestben a böngésző határozza meg ezt az értéket \(_alapértéke_ értéke _auto_\).
 
 ```css
 div {
@@ -26,7 +25,7 @@ div {
 }
 ```
 
-A szélességnek, és a magasságnak megadhatunk minimum és maximum értéket is. \(Kezdőértéke _none\)_
+A szélességnek, és a magasságnak megadhatunk minimum és maximum értéket is \(alapértéke _none,_ vagy _0px_\)_._
 
 ```css
 div {
@@ -39,7 +38,7 @@ div {
 
 ## Belső margó - padding
 
-A blokkos elemeknek meg lehet adni belső margót, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához. \(Kezdőértéke nincs\)
+A blokkos elemeknek meg lehet adni belső margót, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke 0px\).
 
 ```css
 div {
@@ -57,17 +56,17 @@ A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadó
 
 ### **Keret stílus**
 
-A keret stílussal határozhatjuk meg a keret vizuális megjelenését. \(Kezdő értéke a none, vagyis nincs keret\)
+A keret stílussal határozhatjuk meg a keret vizuális megjelenését \(alapértéke értéke a _none,_ vagyis nincs keret\).
 
-**none, hidden** - nincs keret  
-\_\_**solid** - folytonos vonal  
-**dotted** - pontozott  
-**dashed** - szaggatott vonal  
-**double** - dupla vonal  
-**outset** - kiemelkedő  
-**inset** - süllyesztett  
-**groove** - bemélyített  
-**ridge** - kidomborodó
+* _none, hidden - nincs keret_
+* _solid - folytonos vonal_
+* _dotted - pontozott_
+* _dashed - szaggatott vonal_
+* _double - dupla vonal_
+* _outset - kiemelkedő_
+* _inset - süllyesztett_
+* _groove - bemélyített_
+* _ridge - kidomborodó_
 
 ```css
 div {
@@ -83,7 +82,7 @@ div {
 
 ### **Keret szélesség**
 
-A keret szélesség tulajdonságnak az értéke adja a keret vastagságát. Negatív értéket nem vehet fel. Kezdő értéke _medium_, vagyis közepes.
+A keret szélesség tulajdonságnak az értéke adja a keret vastagságát. Negatív értéket nem vehet fel \(alapértéke _medium_, vagyis közepes\).
 
 ```css
 div {
@@ -97,7 +96,7 @@ div {
 
 ### **Keret szín**
 
-A keret színét határozza meg. Értéke lehet bármely CSS színrendszer beni szín. Alapértéke felveszi a szövegszínt \(color\).
+A keret színét határozza meg. Értéke lehet bármely CSS színrendszer szerinti szín \(alapértéke felveszi a szövegszínt, vagyis a `color` tulajdonságban meghatározott színt\).
 
 ```css
 div {
@@ -123,7 +122,7 @@ div {
 
 ## Külső margó - margin
 
-A külső margó az elemek közötti eltartást határozza meg. Értéke lehet negatív, ebben az esetben egymásra csúsznak az elemek.
+A `margin`, vagy külső margó az elemek közötti eltartást határozza meg. Értéke lehet negatív, ebben az esetben egymásra csúsznak az elemek.
 
 ```css
 div {
@@ -137,11 +136,11 @@ div {
 
 ## Doboz méretezése - box-sizing
 
-A box-sizing tulajdonság alapján számolja a böngésző az elemek méretét.
+A `box-sizing` tulajdonság alapján számolja a böngésző az elemek méretét.
 
-Két lehetséges értéke lehet, az alapérték a **content-box** ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
+Két lehetséges értéke lehet, az alapérték a _content-box_ ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
 
-A második lehetséges érték a **content-box**, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
+A második lehetséges érték a _content-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
 
 ```css
 div {
