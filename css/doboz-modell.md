@@ -16,7 +16,7 @@ span {
 
 ## Tartalom - content
 
-Tartalmuknak megadhatjuk a szélességét, magasságát. Alapestben a böngésző határozza meg ezt az értéket \(_alapértéke_ értéke _auto_\).
+Tartalmuknak megadhatjuk a szélességét, magasságát a `width` és a `height` CSS tulajdonságokkal. Alapestben a böngésző határozza meg ezt az értéket \(alapértéke értéke _auto_\).
 
 ```css
 div {
@@ -38,7 +38,7 @@ div {
 
 ## Belső margó - padding
 
-A blokkos elemeknek meg lehet adni belső margót, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke 0px\).
+A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\).
 
 ```css
 div {
@@ -56,7 +56,7 @@ A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadó
 
 ### **Keret stílus**
 
-A keret stílussal határozhatjuk meg a keret vizuális megjelenését \(alapértéke értéke a _none,_ vagyis nincs keret\).
+A `border-style` \(keret stílus\) tulajdonsággal határozhatjuk meg a keret vizuális megjelenését \(alapértéke értéke a _none,_ vagyis nincs keret\).
 
 * _none, hidden - nincs keret_
 * _solid - folytonos vonal_
@@ -82,7 +82,7 @@ div {
 
 ### **Keret szélesség**
 
-A keret szélesség tulajdonságnak az értéke adja a keret vastagságát. Negatív értéket nem vehet fel \(alapértéke _medium_, vagyis közepes\).
+A `border-width` \(keret szélesség\) tulajdonságnak az értéke adja a keret vastagságát. Negatív értéket nem vehet fel \(alapértéke _medium_, vagyis közepes\).
 
 ```css
 div {
@@ -96,7 +96,7 @@ div {
 
 ### **Keret szín**
 
-A keret színét határozza meg. Értéke lehet bármely CSS színrendszer szerinti szín \(alapértéke felveszi a szövegszínt, vagyis a `color` tulajdonságban meghatározott színt\).
+A `border-color` a keret színét határozza meg. Értéke lehet bármely CSS színrendszer szerinti szín \(alapértéke felveszi a szövegszínt, vagyis a `color` tulajdonságban meghatározott színt\).
 
 ```css
 div {
