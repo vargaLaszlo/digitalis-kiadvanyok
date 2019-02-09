@@ -140,7 +140,7 @@ A `box-sizing` tulajdonság alapján számolja a böngésző az elemek méretét
 
 Két lehetséges értéke lehet, az alapérték a _content-box_ ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
 
-A második lehetséges érték a _content-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
+A második lehetséges érték a _border-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
 
 ```css
 div {
