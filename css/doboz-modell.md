@@ -48,7 +48,9 @@ A `max-height`, és `max-width` CSS tulajdonságokban meghatározott érték fö
 
 ## Belső margó - padding
 
-A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\).
+A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\), a tartalom és az oldal széle között képezve eltartást.
+
+A `padding` -et megadhatjuk külön külön oldalanként:
 
 ```css
 div {
@@ -56,9 +58,27 @@ div {
     padding-right: 10px;   /* Jobb padding */
     padding-bottom: 10px;  /* Alsó padqding */
     padding-left: 10px;    /* Bal padding */
-    padding: 10px 5px 3px 1px;   /* Gyorsírásos padding */
 }
 ```
+
+Vagy gyorsírásos módszerrel, felsorolhatjuk az összes oldalt is \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+
+```css
+div {
+    /* Gyorsírásos padding oldalankén különböző értékkel */
+    padding: 10px 5px 3px 1px;
+}
+```
+
+De meghatározhatjuk egy érték megadásával az összes oldal `padding` értékét is \(feltételezve, hogy az összes oldal belső margójának mérete megegyezik\):
+
+```css
+div {
+    padding: 3em;      /* Gyorsírásos padding */
+}
+```
+
+![A bels&#x151; marg&#xF3; a tartalom, &#xE9;s az elem sz&#xE9;le k&#xF6;z&#xF6;tt k&#xE9;pez eltart&#xE1;st.](../.gitbook/assets/block-padding.png)
 
 ## Keret - border
 
