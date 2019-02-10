@@ -2,7 +2,7 @@
 
 ## Tömbszerű \(vagy blokkos\) elemek jellemzői
 
-A **blokkos** elemek vízszintesen kitöltik, a rendelkezésre álló helyet, mellettük más elem nem lehet \(az elem maga előtt és után töri a sort\). Magasságuk a tartalmuktól függ, a tartalom tolja szét a **blokkos** elemeket függőlegesen.
+A **blokkos** elemek vízszintesen kitöltik, a rendelkezésre álló helyet, mellettük más elem nem lehet, az elem maga előtt és után sortörést hoz létre. Magasságuk a tartalmuktól függ, a tartalom tolja szét a **blokkos** elemeket függőlegesen. 
 
 A böngészők blokkos elemként jelenítik meg az ebbe a kategóriába tartozó HTML elemeket - [lásd HTML elemek listája](https://digikiad.gitbook.io/digitalis-kiadvanyok/html/html-elemek#felsorolt-elemek-listaja).
 
@@ -16,7 +16,13 @@ span {
 
 ## Tartalom - content
 
-Tartalmuknak megadhatjuk a szélességét, magasságát a `width` és a `height` CSS tulajdonságokkal. Alapestben a böngésző határozza meg ezt az értéket \(alapértéke értéke _auto_\).
+Ha külön nem határozzuk meg egy blokkos elem szélességét, és magasságát, az elem 100% széles lesz,  vízszintesen teljesen kitölti a rendelkezésre álló helyet. Az elem magasságát a tartalma határozza meg, például a benne lévő szöveg. Tartalom hiányában az elem _0px_ magasságú.
+
+![](../.gitbook/assets/block-base.png)
+
+Tartalmuknak megadhatjuk a szélességégét, magasságát a `width` és a `height` CSS tulajdonságokkal, ez felülbírálja az alapbeállításokat, az elem magassága függetlenül méretezhető a tartalmától, szélessége  függetlenül méretezhető a rendelkezésre álló helytől. 
+
+Alapestben a böngésző határozza meg a `width` és `height` értékét, ez az _auto_, vagyis a fentebb taglalt elvek alapján számítja a szélességet, és magasságot.
 
 ```css
 div {
@@ -25,7 +31,7 @@ div {
 }
 ```
 
-A szélességnek, és a magasságnak megadhatunk minimum és maximum értéket is \(alapértéke _none,_ vagy _0px_\)_._
+A szélességnek, és a magasságnak megadhatunk minimum és maximum értéket is:
 
 ```css
 div {
@@ -35,6 +41,10 @@ div {
     max-height: 55%;    /* legnagyobb magasság */
 }
 ```
+
+A `min-height`, és `min-width` CSS tulajdonságokban meghatározott érték alá nem csökken az elem szélessége és magassága \(alapértéke _0px_\).
+
+A `max-height`, és `max-width` CSS tulajdonságokban meghatározott érték fölé nem növekszik az elem szélessége és magassága \(alapértéke _none_, vagyis nincs felső méret korlát\).
 
 ## Belső margó - padding
 
