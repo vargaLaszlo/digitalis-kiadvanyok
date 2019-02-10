@@ -50,7 +50,7 @@ A `max-height`, és `max-width` CSS tulajdonságokban meghatározott érték fö
 
 A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\), a tartalom és az oldal széle között képezve eltartást.
 
-A `padding` -et megadhatjuk külön külön oldalanként:
+A `padding` -et megadhatjuk külön külön oldalanként, a `padding-top`, `padding-right`, `padding-bottom` és `badding-left` CSS tulajdonságokkal:
 
 ```css
 div {
@@ -70,7 +70,7 @@ div {
 }
 ```
 
-De meghatározhatjuk egy érték megadásával az összes oldal `padding` értékét is \(feltételezve, hogy az összes oldal belső margójának mérete megegyezik\):
+Meghatározhatjuk egy érték megadásával az összes oldal `padding` értékét is, feltételezve, hogy az összes oldal belső margójának mérete megegyezik:
 
 ```css
 div {
@@ -83,6 +83,8 @@ div {
 ## Keret - border
 
 A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadódik az elem magasságához és szélességéhez. Ha a keretnek vannak átlátszó részei az elem háttere látszódik ezeken a területeken.
+
+![A bels&#x151; marg&#xF3;n k&#xED;v&#xFC;l helyezkedik el a keret.](../.gitbook/assets/block-border.png)
 
 ### **Keret stílus**
 
@@ -98,17 +100,33 @@ A `border-style` \(keret stílus\) tulajdonsággal határozhatjuk meg a keret vi
 * _groove - bemélyített_
 * _ridge - kidomborodó_
 
+![](../.gitbook/assets/border-style.png)
+
 ```css
 div {
     border-top-style: none;      /* Felső keret stílus */ 
     border-right-style: so lid;  /* Jobb keret stílus */
     border-bottom-style: dotted; /* Alsó keret stílus */
     border-left-style: dashed;   /* Bal keret stílus */
-    border-style: solid none;    /* Gyorsírásos keret stílus */
 }
 ```
 
-![](../.gitbook/assets/border-style.png)
+Keret stílust is megadhatjuk gyorsírásos formában \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+
+```css
+div {
+    /* Gyorsírásos keret stílus oldalanként különböző értékekkel */
+    border-style: solid none dotted dashed;    
+}
+```
+
+Lehetőség van az összes oldal keretének `border-style` értékét is beállítani egy értékkel, feltételezve, hogy az összes oldal keret stílusa megegyezik:
+
+```css
+div {
+    border-style: solid;    /* Gyorsírásos keret stílus */    
+}
+```
 
 ### **Keret szélesség**
 
@@ -140,12 +158,21 @@ div {
 
 ### **Gyorsírásos keret**
 
+Gyorsírásos módszerrel megadhatjuk **oldalanként** a kereteket, ehhez meg kell adnunk a keret színét, stílusát és szélességét szóközökkel elválasztva `border-top`, `border-right`, `border-bottom` vagy `border-left` CSS tulajdonságokban meghatározva:
+
 ```css
 div {
     border-top: 5px solid black;       /* Gyorsírásos felső keret */
     border-right: none;                /* Gyorsírásos jobb keret */
     border-bottom: 3px double #449b44; /* Gyorsírásos alsó keret */
     border-left: 1px dashed red;       /* Gyorsírásos bal keret */
+}
+```
+
+Egy még kompaktabb megoldás, amikor az összes oldal keretét egy `border` tulajdonságban írjuk le, feltételezve, hogy a keret minden oldalon egyező stílussal színnel, és vastagsággal rendelkezik:
+
+```css
+div {
     border: 1px solid purple;          /* Gyorsírásos keret */
 }
 ```
