@@ -48,7 +48,9 @@ A `max-height`, és `max-width` CSS tulajdonságokban meghatározott érték fö
 
 ## Belső margó - padding
 
-A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\), a tartalom és az oldal széle között képezve eltartást.
+A blokkos elemeknek meg lehet adni belső margót a `padding` CSS tulajdonsággal, ez felveszi a háttér színét, és belső eltartása hozzáadódik a tartalom szélességéhez és magasságához \(alapértéke _0px_\), a tartalom és az oldal széle között képezve eltartást \(úgy kell elképzelni, mint egy hagyományos képkeret esetén a paszpartut a festmény és maga a képkeret között\).
+
+![A bels&#x151; marg&#xF3; a tartalom, &#xE9;s az elem sz&#xE9;le k&#xF6;z&#xF6;tt k&#xE9;pez eltart&#xE1;st.](../.gitbook/assets/block-padding.png)
 
 A `padding` -et megadhatjuk külön külön oldalanként, a `padding-top`, `padding-right`, `padding-bottom` és `badding-left` CSS tulajdonságokkal:
 
@@ -78,8 +80,6 @@ div {
 }
 ```
 
-![A bels&#x151; marg&#xF3; a tartalom, &#xE9;s az elem sz&#xE9;le k&#xF6;z&#xF6;tt k&#xE9;pez eltart&#xE1;st.](../.gitbook/assets/block-padding.png)
-
 ## Keret - border
 
 A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadódik az elem magasságához és szélességéhez. Ha a keretnek vannak átlátszó részei az elem háttere látszódik ezeken a területeken.
@@ -88,7 +88,9 @@ A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadó
 
 ### **Keret stílus**
 
-A `border-style` \(keret stílus\) tulajdonsággal határozhatjuk meg a keret vizuális megjelenését \(alapértéke értéke a _none,_ vagyis nincs keret\).
+A `border-style` \(keret stílus\) tulajdonsággal határozhatjuk meg a keret vizuális megjelenését \(alapértéke a _none,_ vagyis nincs keret\).
+
+Lehetséges értékei:
 
 * _none, hidden - nincs keret_
 * _solid - folytonos vonal_
