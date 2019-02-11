@@ -2,7 +2,7 @@
 
 ## Mi az a rangsor?
 
-Egy elemre jellemzően több CSS szabály is vonatkozhat, ezek közül több is felülbírálhatja egymást, a böngészők rangsorolással döntik el, hogy mely szabály lesz érvényes az adott elemre \(melyik az erősebb\).
+Egy elemre jellemzően több CSS szabály is vonatkozhat, amik felülbírálhatják egymást, a böngészők rangsorolással döntik el, hogy mely szabály lesz érvényes az adott elemre \(melyik az erősebb\).
 
 ## Eredet
 

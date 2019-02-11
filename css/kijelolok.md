@@ -84,13 +84,6 @@ Egy HTML dokumentumban egy elem rendelkezhet egy adott egyedi azonosítóval, é
 
 {% hint style="warning" %}
 
-Az osztály és az azonosító nevére vonatkoznak bizonyos megkötések, ezek a következők: Speciális karakter nem lehet a névben, a speciális karakterek közül kivételt képez a kötőjel \(-\), és az aláhúzás jel \(\_\), ezek megengedettek. Nem kezdődhetnek számmal, két kötőjellel, vagy egy kötőjellel, és egy számmal. Az alábbi osztálynevek és azonosítók **hibásak**:
-
-* &item
-* 4item
-* --item
-* -4item
-
 ## Leszármazott kijelölő
 
 Ezzel a kijelölővel szülő elem alapján tudunk szűkíteni egy leszármazottra.

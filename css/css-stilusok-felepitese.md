@@ -31,7 +31,7 @@ A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ### Külső stíluslapok
 
-A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat `link` elemmel kapcsolhatjuk a **HTML** állományunkba.
+A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat `link` elemmel kapcsolhatjuk a **HTML** állományunkba \([link elemről bővebben](https://digikiad.gitbook.io/digitalis-kiadvanyok/~/edit/drafts/-LYRW05ddo4c8ZzXfrn6/html/html-elemek#linkek)\).
 
 ```markup
 <link rel="stylesheet" type="text/css" href="style.css">

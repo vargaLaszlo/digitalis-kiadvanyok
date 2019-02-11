@@ -50,4 +50,5 @@
 
 * [Felhasznált irodalom](fueggelek/felhasznalt-irodalom.md)
 * [Tanulási alternatívák](fueggelek/tanulasi-alternativak.md)
+* [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
 
