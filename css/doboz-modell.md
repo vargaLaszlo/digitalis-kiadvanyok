@@ -57,9 +57,9 @@ A `padding` -et megadhatjuk külön külön oldalanként, a `padding-top`, `padd
 ```css
 div {
     padding-top: 10px;     /* Felső padding */
-    padding-right: 10px;   /* Jobb padding */
-    padding-bottom: 10px;  /* Alsó padqding */
-    padding-left: 10px;    /* Bal padding */
+    padding-right: 20px;   /* Jobb padding */
+    padding-bottom: 3em;  /* Alsó padding */
+    padding-left: 15%;    /* Bal padding */
 }
 ```
 
@@ -107,7 +107,7 @@ Lehetséges értékei:
 ```css
 div {
     border-top-style: none;      /* Felső keret stílus */ 
-    border-right-style: so lid;  /* Jobb keret stílus */
+    border-right-style: solid;  /* Jobb keret stílus */
     border-bottom-style: dotted; /* Alsó keret stílus */
     border-left-style: dashed;   /* Bal keret stílus */
 }
@@ -170,7 +170,6 @@ div {
     border-right-color: red;              /* Jobb keret szín */
     border-bottom-color: rgb(65, 65, 89); /* Alsó keret szín */
     border-left-color: #448383;           /* Bal keret szín */
-    border-color: #444;             /* Gyorsírásos keret szín */
 }
 ```
 
@@ -261,7 +260,7 @@ div {
 div {
     margin-top: 50px;
     margin-bottom: 50px;
-    /* A bal és jobb oldali auto margin középre rendezi az elemet */
+    /* A bal és jobb oldali auto margin középre rendezi az elemet: */
     margin-right: auto;
     margin-left: auto; 
 }
