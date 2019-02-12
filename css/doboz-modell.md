@@ -181,7 +181,7 @@ div {
 
 ## Külső margó - margin
 
-A `margin`, vagy külső margó az elemek közötti eltartást határozza meg. Értéke lehet negatív, ebben az esetben egymásra csúsznak az elemek.
+A `margin`, vagy külső margó az elemek közötti eltartást határozza meg. Értéke lehet negatív, ebben az esetben egymásra csúsznak az elemek. Alapértéke _0px_.
 
 ```css
 div {
@@ -189,9 +189,56 @@ div {
     mergin-right: auto;     /* Jobb margó */
     margin-bottomm: 33px;   /* Alsó margó */
     margin-left: -25px;     /* Bal margó */
-    margin: 0 auto 15px auto;   /* Gyorsírásos margó */
 }
 ```
+
+![Ebben a p&#xE9;ld&#xE1;ban a gyermek elem marg&#xF3;ja f&#xFC;gg&#x151;legesen sz&#xE9;tnyomja a sz&#xFC;l&#x151; elemet.](../.gitbook/assets/block-margin%20%281%29.png)
+
+A `margin` esetében is van gyorsírásos variáns,  oldalanként külön értékkel \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+
+```css
+div {
+    /* Gyorsírásos margin oldalankén különböző értékkel */
+     margin: 0 auto 15px auto;
+}
+```
+
+Be tudjuk állítani egy érték megadásával az összes oldal `margin` értékét is, feltételezve, hogy az összes oldal margójának mérete megegyezik:
+
+```css
+div {
+    margin: 3em;      /* Gyorsírásos margin */
+}
+```
+
+A `margin`-nak van egy speciális értéke, ez az _auto_, vagy automatikus margó, ha ezt vízszintesen, vagyis jobb és, vagy bal oldalt megkapja egy elem, a margója az adott oldalon addig nyúlik, amíg a rendelkezésre álló hely el nem fogy. Ez lehetővé teszi, hogy automatikus margóval balra középre, vagy jobbra rendezhetjük a blokkos megjelenítésű elemeket.
+
+```css
+div {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;  /* Jobbra tolja az elemet */
+}
+```
+
+![Ebben a p&#xE9;ld&#xE1;ban a bal oldali auto margin jobbra tolja az elemet.](../.gitbook/assets/block-margin-auto-l.png)
+
+```css
+div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* A bal és jobb oldali auto margin középre rendezi az elemet */
+    margin-right: auto;
+    margin-left: auto; 
+}
+```
+
+![A bal &#xE9;s jobb oldali auto margin v&#xED;zszintesen k&#xF6;z&#xE9;pre rendezi az elemet](../.gitbook/assets/block-margin-auto-c.png)
+
+{% hint style="info" %}
+Alapesetben függőlegesen hatástalan az automatikus margó, ha egy elem `margin-top` vagy `margin-bottom` tulajdonságát _auto_-ra állítjuk, akkor a böngésző azt nullának fogja venni, ez alól kivételt képez a _flex_ \(rugalmas\) __megjelenítési mód, ahol a rugalmas elemekre vertikálisan is alkalmazható az automatikus margó.
+{% endhint %}
 
 ## Doboz méretezése - box-sizing
 
