@@ -84,7 +84,7 @@ div {
 
 A blokkos elemeknek lehet kerete, a keret megjelenik vizuálisan, és hozzáadódik az elem magasságához és szélességéhez. Ha a keretnek vannak átlátszó részei az elem háttere látszódik ezeken a területeken.
 
-![A bels&#x151; marg&#xF3;n k&#xED;v&#xFC;l helyezkedik el a keret.](../.gitbook/assets/block-border.png)
+![A bels&#x151; marg&#xF3;n k&#xED;v&#xFC;l helyezkedik el a keret \(jelen esetben v&#xF6;r&#xF6;s sz&#xED;nnel\).](../.gitbook/assets/block-border.png)
 
 ### **Keret stílus**
 
