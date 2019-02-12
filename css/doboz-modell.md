@@ -20,7 +20,7 @@ Ha külön nem határozzuk meg egy blokkos elem szélességét, és magasságát
 
 ![](../.gitbook/assets/block-base.png)
 
-Tartalmuknak megadhatjuk a szélességégét, magasságát a `width` és a `height` CSS tulajdonságokkal, ez felülbírálja az alapbeállításokat, az elem magassága függetlenül méretezhető a tartalmától, szélessége  függetlenül méretezhető a rendelkezésre álló helytől. 
+A blokkos elemeknek megadhatjuk a szélességégét, magasságát a `width` és a `height` CSS tulajdonságokkal, ez felülbírálja az alapbeállításokat, az elem magassága függetlenül méretezhető a tartalmától, szélessége függetlenül méretezhető a rendelkezésre álló helytől. 
 
 Alapestben a böngésző határozza meg a `width` és `height` értékét, ez az _auto_, vagyis a fentebb taglalt elvek alapján számítja a szélességet, és magasságot.
 
@@ -113,7 +113,7 @@ div {
 }
 ```
 
-Keret stílust is megadhatjuk gyorsírásos formában \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+A keret stílust is megadhatjuk gyorsírásos formában \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
 
 ```css
 div {
@@ -140,7 +140,23 @@ div {
     border-right-width: 1em;   /* jobb keret szélesség */
     border-bottom-width: 5px;  /* Alsó keret szélesség */
     border-left-width: 1.2rem; /* Bal keret szélesség */
-    border-width: 1px 2px 3px 4px;   /* Gyorsírásos keret szélesség */
+}
+```
+
+A keret szélesség megadható gyorsírásos formában, oldalanként eltérő értékkel \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+
+```css
+div {
+    /* Gyorsírásos keret szélesség oldalanként különböző értékekkel */
+    border-width: 1px 2px 3px 4px;
+}
+```
+
+Egy értékkel meghatározva is megadhatjuk az összes oldal keret szélességét, feltételezve, hogy minden oldalon megegyezik az értéke:
+
+```css
+div {
+    border-width: 15px;     /* Gyorsírásos keret szélesség */
 }
 ```
 
@@ -155,6 +171,23 @@ div {
     border-bottom-color: rgb(65, 65, 89); /* Alsó keret szín */
     border-left-color: #448383;           /* Bal keret szín */
     border-color: #444;             /* Gyorsírásos keret szín */
+}
+```
+
+A keret színt is megadhatjuk gyorsírásos formában \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
+
+```css
+div {
+     /* Gyorsírásos keret szín oldalanként eltérő színnel */
+    border-color: #e1e1e1 #d3d3d3 #d4d4d4 #e2e2e2;            
+}
+```
+
+Meghatározhatjuk egy érték megadásával az összes oldal `border-color` értékét is, feltételezve, hogy az összes oldal keretének színe megegyezik:
+
+```css
+div {
+    border-color: purple;             /* Gyorsírásos keret szín */
 }
 ```
 
