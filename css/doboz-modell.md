@@ -166,12 +166,14 @@ A `border-color` a keret színét határozza meg. Értéke lehet bármely CSS sz
 
 ```css
 div {
-    border-top-color: transparent;        /* Felső keret szín */
-    border-right-color: red;              /* Jobb keret szín */
-    border-bottom-color: rgb(65, 65, 89); /* Alsó keret szín */
-    border-left-color: #448383;           /* Bal keret szín */
+    border-top-color: rgba(255, 0, 0);    /* Felső keret szín */
+    border-right-color: green;            /* Jobb keret szín */
+    border-bottom-color: #0000ff;         /* Alsó keret szín */
+    border-left-color: #ff0;              /* Bal keret szín */
 }
 ```
+
+![Oldalank&#xE9;nt elt&#xE9;r&#x151; keret sz&#xED;n.](../.gitbook/assets/border-color.png)
 
 A keret színt is megadhatjuk gyorsírásos formában \(fentről kezdve az óra járásával megegyező irányban következnek az oldalak\):
 
@@ -266,7 +268,7 @@ div {
 }
 ```
 
-![A bal &#xE9;s jobb oldali auto margin v&#xED;zszintesen k&#xF6;z&#xE9;pre rendezi az elemet](../.gitbook/assets/block-margin-auto-c.png)
+![A bal &#xE9;s jobb oldali auto margin v&#xED;zszintesen k&#xF6;z&#xE9;pre rendezi az elemet.](../.gitbook/assets/block-margin-auto-c.png)
 
 Az _auto_ `margin` __számos CSS megoldás alapját képezi, lásd: [Vízszintes középre rendezés külső margóval](https://digikiad.gitbook.io/digitalis-kiadvanyok/css-technikak/koezepre-rendezes#vizszintes-koezepre-rendezes-kuelso-margoval), [Konténer középre rendezése](https://digikiad.gitbook.io/digitalis-kiadvanyok/css-technikak/kontener-koezepre-rendezese).
 
