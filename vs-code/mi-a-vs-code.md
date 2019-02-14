@@ -1,4 +1,4 @@
-# Mi a VS Code?
+# Mi az a VS Code?
 
 ![](../.gitbook/assets/codelogo.png)
 
@@ -9,6 +9,8 @@ Támogatja az automatikus kódkiegészítést \(InteliSense, Emmet\), rendelkezi
 A felhasználói igényeknek megfelelően testreszabható, ebben sokat segítenek a letölthető [színsémák](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Downloads).
 
  A VS Code több platformos alkalmazás, elérhető **Windows, Linux** és **OS X** operációs rendszerekre. 
+
+{% page-ref page="vs-code-beszerzese-telepitese.md" %}
 
 ![A VS Code felhaszn&#xE1;l&#xF3;i fel&#xFC;lete.](../.gitbook/assets/codeshoot.png)
 

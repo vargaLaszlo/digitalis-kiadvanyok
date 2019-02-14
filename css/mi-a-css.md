@@ -1,4 +1,4 @@
-# Mi a CSS?
+# Mi az a CSS?
 
 ## Mi a CSS?
 

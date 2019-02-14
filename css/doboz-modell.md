@@ -270,7 +270,11 @@ div {
 
 ![A bal &#xE9;s jobb oldali auto margin v&#xED;zszintesen k&#xF6;z&#xE9;pre rendezi az elemet.](../.gitbook/assets/block-margin-auto-c.png)
 
-Az _auto_ `margin` __számos CSS megoldás alapját képezi, lásd: [Vízszintes középre rendezés külső margóval](https://digikiad.gitbook.io/digitalis-kiadvanyok/css-technikak/koezepre-rendezes#vizszintes-koezepre-rendezes-kuelso-margoval), [Konténer középre rendezése](https://digikiad.gitbook.io/digitalis-kiadvanyok/css-technikak/kontener-koezepre-rendezese).
+Az _auto_ `margin` __számos CSS megoldás alapját képezi, lásd:
+
+{% page-ref page="../css-technikak/koezepre-rendezes.md" %}
+
+{% page-ref page="../css-technikak/kontener-koezepre-rendezese.md" %}
 
 {% hint style="info" %}
 Alapesetben függőlegesen hatástalan az automatikus margó, ha egy elem `margin-top` vagy `margin-bottom` tulajdonságát _auto_-ra állítjuk, akkor a böngésző azt nullának fogja venni, ez alól kivételt képez a _flex_ \(rugalmas\) __megjelenítési mód, ahol a rugalmas elemekre vertikálisan is alkalmazható az automatikus margó.

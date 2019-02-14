@@ -1,4 +1,4 @@
-# Mi a HTML?
+# Mi az a HTML?
 
 ![](../.gitbook/assets/lego-block-art-hi.png)
 
