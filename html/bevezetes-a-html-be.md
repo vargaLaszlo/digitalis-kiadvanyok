@@ -24,6 +24,8 @@ Egy lehetséges HTML elem:
 <elem tulajdonsag="ertek">tartalom</elem>
 ```
 
+{% page-ref page="html-elemek.md" %}
+
 ## **Hiperhivatkozások**
 
 A weboldalak legfontosabb építőelemei a hiperhivatkozások \(link vagy hyperlink\). Ezek kötik össze egy globális egységgé a weben található dokumentumokat.

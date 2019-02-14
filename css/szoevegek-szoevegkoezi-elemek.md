@@ -155,7 +155,7 @@ span {
 
 ## Betűstílus \(font-style\)
 
-A betűstílussal tehetünk dőltté egy szöveget. Alapértéke a _normal_, a dőlt értékei _italic_ vagy _oblique_.
+A  betűstílussal tehetünk dőltté egy szöveget. Alapértéke a _normal_, a dőlt értékei _italic_ vagy _oblique_.
 
 ```css
 p {
@@ -183,11 +183,11 @@ span {
 
 ## Szöveg igazítás \(text-align\)
 
-A text-align segítségével lehet igazítani egy blokkos elemen belül a szöveget vízszintesen.
+A `text-align` segítségével lehet igazítani egy blokkos elemen belül a szöveget vízszintesen.
 
 **Lehetséges értékei:**
 
-* _left: balra igazítá_**s**
+* _left: balra igazítás_
 * _right: jobbra igazítás_
 * _center: középre igazítás_
 * _justify: sorkizárt_
@@ -200,7 +200,7 @@ p {
 
 ## Szöveg díszítés \(text-decoration\)
 
-A text-decoration-al húzhatjuk át, vagy alá a szöveget.
+A `text-decoration`-al húzhatjuk át, vagy alá a szöveget.
 
 **Lehetséges értékei:**
 
@@ -221,7 +221,7 @@ span {
 
 ## Szöveg behúzás \(text-indent\)
 
-A text-indent a bekezdés első sorában behúzást hoz létre. Negatív értéke is lehet, aminek hatására ki fog lógni az elemből az első sor. Megadhatjuk százalékban, és hosszmértékben, például pixelben. Alapértéke 0.
+A `text-indent` a bekezdés első sorában behúzást hoz létre. Negatív értéke is lehet, aminek hatására ki fog lógni az elemből az első sor. Megadhatjuk százalékban, és hosszmértékben, például pixelben. Alapértéke 0.
 
 ```css
 p {
@@ -235,7 +235,7 @@ div {
 
 ## Szöveg transzformáció \(text-transform\)
 
-A text-transform-al csupa kis vagy nagybetűssé változtathatunk egy szöveget attól függetlenül, hogy a HTML állományban hogy szerepel.
+A `text-transform`-al csupa kis vagy nagybetűssé változtathatunk egy szöveget attól függetlenül, hogy a HTML állományban hogy szerepel.
 
 **Értékei:**
 
@@ -276,7 +276,7 @@ A tartalom terület a nagy M-betű magasságával egyező magasságú, gyakorlat
 
 ## Szóköz \(word-spacing\)
 
-A word-spacing határozza meg a szavak közötti távolságot. Alapértéke a _normal_, ez 0-al egyenlő, a módosított értéke a betűtípus szóköz karakterének szélességét módosítja, akár negatív irányban is, ekkor egymásra csúsznak a szavak.
+A `word-spacing` határozza meg a szavak közötti távolságot. Alapértéke a _normal_, ez nullával egyenlő, a módosított értéke a betűtípus szóköz karakterének szélességét módosítja, akár negatív irányban is, ekkor egymásra csúsznak a szavak.
 
 ```css
 p {
