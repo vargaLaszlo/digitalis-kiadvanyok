@@ -117,6 +117,20 @@ Az interneten elérhetőek `@font-face` generátorok, ezekkel egy adott fontból
 Ha nem akarjuk mi kiszolgálni a font állományokat egy jó ingyenes alternatíva a Google font szolgáltatása \([https://fonts.google.com/](https://fonts.google.com/)\), ahol 500 fölötti fontot érünk el magyar ékezettel.
 {% endhint %}
 
+{% hint style="info" %}
+Font formátumokról:
+
+**EOT \(Embedded Open Type\)** - Az első webfont, de a böngészők közül csak a Microsoft Explorer/Edge böngészők támogatják. Már csak akkor használjuk, ha a webalkalmazásokat régi, elavult Microsoft böngészőkre is optimalizálni kell.
+
+**TTF \(True Type Font\)** - Egy időben ez volt a legszélesebb körben támogatott webfont, bizonyos  újabb böngészőkben feltételes a támogatottsága.
+
+**WOFF \(Web Open Font Format\)** - Új webfont formátum, ami gyorsabb letöltődés tesz lehetővé, a régi típusokhoz hasonló, de optimalizált, tömörített formátum. A modern böngészők már mind támogatják. 
+
+**WOFF2 \(Web Open Font Format v2\)** - A WOFF2 még optimálisabb, kisebb, támogatottsága egyenlőre részleges, nem minden modern böngésző képes feldolgozni, így az egyes verzióval együtt érdemes használni.
+
+**SVG \(Scalable Vector Graphyc Font\)** - Az SVG szabványon alapul, támogatottsága részleges, a modern böngészők csak egy része képes feldolgozni, ráadásul nem használ tömörítést, így az SVG fontok mérete túl nagy.
+{% endhint %}
+
 ## Betűméret \(font-size\)
 
 A betűmérettel határozhatjuk meg a szöveg méretét. A böngészők a **nagy** **M** betű alapján méretezik a betűket \(em méret\), ezért az elterjedt mértékegységek a em, és a rem, illetve a pixelben megadott méret.
