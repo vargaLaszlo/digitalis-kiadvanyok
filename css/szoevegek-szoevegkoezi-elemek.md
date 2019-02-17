@@ -60,7 +60,7 @@ Több font felsorolásával, és általános betűcsalád megadásával biztosí
 
 ### **Web biztos fontok**
 
-Web biztos fontok azok a betűkészletek, amik széles körben elérhetőek a különböző operációs rendeszereken. Az első nagyobb csomagot a Microsoft adta ki 1996-ban **Core fonts for the Web** néven.
+Web biztos fontok azok a betűkészletek, amik széles körben elérhetőek a különböző operációs rendszereken. Az első nagyobb csomagot a Microsoft adta ki 1996-ban **Core fonts for the Web** néven.
 
 Az alábbi fontokat tartalmazza: _Andalé Mono, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana, Webdings_
 
@@ -183,7 +183,7 @@ span {
 
 ## Betűvariáns \(font-variant\)
 
-Betűvariáns segítségével készíthetünk kiskapitális szöveget. Alapértéke a _normal_.
+Betűvariáns segítségével készíthetünk kiskapitális szöveget. A kiskapitális szövegben a kisbetűk is olyan alakúak, mint a nagybetűk, de magasságuk megegyezik a kisbetűk magasságával \(bizonyos betűtípusoknál eltérhet\). Alapértéke a _normal_.
 
 ```css
 p {
@@ -194,6 +194,8 @@ span {
     font-variant: small-caps;
 }
 ```
+
+![](../.gitbook/assets/font-variant.png)
 
 ## Szöveg igazítás \(text-align\)
 
@@ -262,13 +264,15 @@ A `text-transform`-al csupa kis vagy nagybetűssé változtathatunk egy szövege
 
 ```css
 p {
-    text-transfor: none;
+    text-transform: none;
 }
 
 span {
     text-transform: uppercase;
 }
 ```
+
+![Sz&#xF6;veg transzform&#xE1;ci&#xF3;k sorrendben: none, capitalize, uppercase, lowercase. ](../.gitbook/assets/text-transform.png)
 
 ## Sormagasság \(line-height\)
 
