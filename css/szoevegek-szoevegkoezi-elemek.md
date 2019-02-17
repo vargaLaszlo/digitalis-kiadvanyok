@@ -235,17 +235,19 @@ span {
 
 ## Szöveg behúzás \(text-indent\)
 
-A `text-indent` a bekezdés első sorában behúzást hoz létre. Negatív értéke is lehet, aminek hatására ki fog lógni az elemből az első sor. Megadhatjuk százalékban, és hosszmértékben, például pixelben. Alapértéke 0.
+A `text-indent` a bekezdés első sorában behúzást hoz létre. Negatív értéke is lehet, aminek hatására ki fog lógni az elemből az első sor. Megadhatjuk százalékban is, de inkább jellemző az em, vagy a pixeles értékadás. Alapértéke _0_ \(nincs behúzás\).
 
 ```css
 p {
-    text-indent: 10px;
+    text-indent: 1em;
 }
 
-div {
-    text-indent: 1.75em;
+p {
+    text-indent: -1em;
 }
 ```
+
+![A bal has&#xE1;b pozit&#xED;v sz&#xF6;veg beh&#xFA;z&#xE1;st kapott, a jobb has&#xE1;b negat&#xED;v sz&#xF6;veg beh&#xFA;z&#xE1;st.](../.gitbook/assets/text-indent.png)
 
 ## Szöveg transzformáció \(text-transform\)
 
