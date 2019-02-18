@@ -218,6 +218,8 @@ p {
 }
 ```
 
+![Jobbra, balra, k&#xF6;z&#xE9;pre igaz&#xED;tott, &#xE9;s sorkiz&#xE1;rt sz&#xF6;veg.](../.gitbook/assets/text-align.png)
+
 ## Szöveg díszítés \(text-decoration\)
 
 A `text-decoration`-al húzhatjuk át, vagy alá a szöveget.
