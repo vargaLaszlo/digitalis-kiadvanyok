@@ -167,6 +167,10 @@ span {
 }
 ```
 
+Az hogy mely betű vastagság értéket lehet használni függ az adott fonttól. A legtöbb webfont, vagy rendszerfont a 400-as \(normal\), és a 700-as \(bold\) értékekeket támogatja csak.
+
+![Open Sans bet&#x171;t&#xED;pus k&#xFC;l&#xF6;nb&#xF6;z&#x151; bet&#x171; vastags&#xE1;gai.](../.gitbook/assets/font-weight.png)
+
 ## Betűstílus \(font-style\)
 
 A  betűstílussal tehetünk dőltté egy szöveget. Alapértéke a _normal_, a dőlt értékei _italic_ vagy _oblique_.
