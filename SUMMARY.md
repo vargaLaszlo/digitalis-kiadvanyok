@@ -46,6 +46,12 @@
 * [Mi az a W3C Validator?](w3c-validator/mi-az-a-w3c-validator.md)
 * [W3C Validator használata](w3c-validator/w3c-validator-hasznalata.md)
 
+## Egyéb eszközök
+
+* [Google Fonts](egyeb-eszkoezoek/google-fonts.md)
+* [Webfont generátorok](egyeb-eszkoezoek/font-squirrel.md)
+* [Type Scale](egyeb-eszkoezoek/type-scale.md)
+
 ## Függelék
 
 * [Felhasznált irodalom](fueggelek/felhasznalt-irodalom.md)
