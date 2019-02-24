@@ -131,6 +131,10 @@ Font formátumokról:
 **SVG \(Scalable Vector Graphyc Font\)** - Az SVG szabványon alapul, támogatottsága részleges, a modern böngészők csak egy része képes feldolgozni, ráadásul nem használ tömörítést, így az SVG fontok mérete túl nagy.
 {% endhint %}
 
+{% page-ref page="../egyeb-eszkoezoek/google-fonts.md" %}
+
+{% page-ref page="../egyeb-eszkoezoek/font-squirrel.md" %}
+
 ## Betűméret \(font-size\)
 
 A betűmérettel határozhatjuk meg a szöveg méretét. A böngészők a **nagy** **M** betű alapján méretezik a betűket \(em méret\), ezért az elterjedt mértékegységek a em, és a rem, illetve a pixelben megadott méret.
