@@ -29,6 +29,8 @@ Az `Expert` beállításokat kiválasztva számos beállítás közül kiválasz
 
 ![](../.gitbook/assets/fq-3.png)
 
+Amennyiben csak modern böngészőket akarunk támogatni, elég a WOFF, és a WOFF2 formátumot választani \(ez az alapbeállítás\). A TrueType, EOT és SVG formátumokat csak régebbi, mára már elavult böngésző verziók támogatása esetén kell kiválasztani. 
+
 Magyar ékezetes betűtípus generálásához a fontnak támogatnia kell a megfelelő ékezeteket, és az `Expert` beállításokban ki kell választanunk a nyelvi támogatást \(Subsetting &gt; Custom Subsetting &gt; Language\):
 
 ![](../.gitbook/assets/fq-7.png)
