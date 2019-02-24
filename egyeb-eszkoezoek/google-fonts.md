@@ -8,6 +8,8 @@ A Google Fonts-on elérhető fontok a [SIL Open Font License](https://en.wikiped
 
 A szolgáltatás az alábbi linken érhető el: [https://fonts.google.com/](https://fonts.google.com/)
 
+{% embed url="https://youtu.be/kUZXOKr4EAc" %}
+
 ## Google Fonts használata
 
 ### Kereső 
