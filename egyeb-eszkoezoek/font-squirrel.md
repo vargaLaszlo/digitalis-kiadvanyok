@@ -2,7 +2,7 @@
 
 ## Mi az a Font Squirrel?
 
-A Font Squirrel egy webfont szolgáltatás, ingyenes, és fizetős webfontok mellett kínálnak egy webfont generátort. A generátorral hagyományos betűtípusokból készíthetünk a böngészők által is támogatott webfontokat, a generátor fontok bekötéséhez szükséges CSS-t is elkészíti.
+A Font Squirrel \(vagy Betű Mókus\) egy webfont szolgáltatás, ingyenes, és fizetős webfontok mellett kínálnak egy webfont generátort. A generátorral hagyományos betűtípusokból készíthetünk a böngészők által is támogatott webfontokat, a generátor fontok bekötéséhez szükséges CSS-t is elkészíti.
 
 A webfont generátor a `Generator` menüpont alatt érhető el:   
 [https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)
