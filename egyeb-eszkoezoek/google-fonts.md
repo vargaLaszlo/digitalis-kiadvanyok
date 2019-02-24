@@ -18,9 +18,9 @@ A Google Fonts-ban számos font található meg \(~900\), hogy a felhasználó k
 
 1. Szöveges kereső - itt a fontok nevére, szerzőjére kereshetünk.
 2. Font kategóriák - Kiválaszthatjuk, hogy a találatok között mely kategóriába tartozó fontok jelenjenek meg \(lásd [általános betűcsaládok](https://digikiad.gitbook.io/digitalis-kiadvanyok/css/szoevegek-szoevegkoezi-elemek#betutipusok-betucsaladok)\).
-3. Rendezés - Rendezhetjük a fontokat név dátum, népszerűség szerint.
+3. Rendezés - Rendezhetjük a fontokat név, dátum, népszerűség szerint.
 4. Nyelvek - Támogatott nyelvekre szűrhetünk, a magyar ékezetes fontok szűréséhez a `Latin Extended` \(Latin bővített\) karakterkészletet kell kiválasztani.
-5. Szűrés font tulajdonságai alapján - Betűvastagság variációk száma, vastagság, dőltség, és a karakterek szélessége alapján szűrhetünk.
+5. Szűrés font tulajdonságai alapján - Betűvastagság, variációk száma, vastagság, dőltség, és a karakterek szélessége alapján szűrhetünk.
 
 ### Font lista
 
@@ -31,7 +31,7 @@ A font listában próbálhatjuk ki, és hasonlíthatjuk össze a szűrőfeltéte
 1. Font neve, szerzője
 2. Font hozzáadása a kiválasztott fontok közé
 3. Nézet beállításai
-   1. Custom: előre definiált szövegek \(például számok, karakterek, bekezdés, stb\)
+   1. Előre definiált szövegek \(például számok, karakterek, bekezdés, ...\)
    2. Font vastagság választó
    3. Font méret választó
 4. Próba szöveg, itt nézhetjük meg, hogy néz ki szöveg megjelenése az adott fonttal.
@@ -64,7 +64,15 @@ Magyar ékezethez a `Latin Extended` karakterkészletre van szükség:
 
 ![](../.gitbook/assets/gf-5.png)
 
-### Példa HTML állomány
+## Példa HTML állomány
+
+A következő példában a Lobster, és a Roboto fontokat kötjük be egy HTML állományba. A fontokból a magyar ékezetes `Latin Extended` karakterkészletet használjuk:
+
+Kiválasztott fontok a Google Fonts-on:
+
+![](../.gitbook/assets/gf-7.png)
+
+HTML állomány:
 
 {% code-tabs %}
 {% code-tabs-item title="google-fonts-example.html" %}
@@ -104,4 +112,8 @@ Magyar ékezethez a `Latin Extended` karakterkészletre van szükség:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+Az állomány böngészőben megnyitva:
+
+![](../.gitbook/assets/gf-6.png)
 
