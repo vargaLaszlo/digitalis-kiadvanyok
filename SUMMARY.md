@@ -49,7 +49,7 @@
 ## Egyéb eszközök
 
 * [Google Fonts](egyeb-eszkoezoek/google-fonts.md)
-* [Webfont generátorok](egyeb-eszkoezoek/font-squirrel.md)
+* [Font Squirrel](egyeb-eszkoezoek/font-squirrel.md)
 * [Type Scale](egyeb-eszkoezoek/type-scale.md)
 
 ## Függelék
