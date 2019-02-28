@@ -3,15 +3,18 @@
 ## Ajánlott irodalom
 
 * Mark Pilgrim - HTML5 az új szabvány
-* [Mark Pilgrim - Dive Into HTML5 \(Online\)](http://diveintohtml5.info/)
+* [Mark Pilgrim - Dive Into HTML5](http://diveintohtml5.info/)
 * Zoe Mickley Gillenwater - Rugalmas webtervekben
 * Virginia DeBolt - Html és CSS - Webszerkesztés stílusosan
 * Eric A. Meyer - CSS zsebkönyv
-* [Nagy Gusztáv - Webes Programozás \(PDF\)](http://nagygusztav.hu/sites/default/files/csatol/web_programozas_-_szines.pdf)
-* [Nagy Gusztáv - Webes szabványok \(PDF\)](http://nagygusztav.hu/sites/default/files/csatol/webes_szabvanyok_jegyzet_0.1.pdf)
-* [Jeremy Keith - Resilient Web Design \(Online\)](https://resilientwebdesign.com/)
+* [Nagy Gusztáv - Webes Programozás](http://nagygusztav.hu/sites/default/files/csatol/web_programozas_-_szines.pdf)
+* [Nagy Gusztáv - Webes szabványok](http://nagygusztav.hu/sites/default/files/csatol/webes_szabvanyok_jegyzet_0.1.pdf)
+* [Jeremy Keith - Resilient Web Design](https://resilientwebdesign.com/)
 * Johannes Itten - A színek művészete
 * Maczó Péter - Ön itt áll - Az infodesignról
+* [Brad Frost - Atomic Design](http://atomicdesign.bradfrost.com/table-of-contents/)
+* Steve Krug - Ne törd a fejem!
+* Susan M. Weinschenk - 100 dolog amit minden tervezőnek tudnia kell az emberekről
 
 ## Online Tanfolyamok
 
