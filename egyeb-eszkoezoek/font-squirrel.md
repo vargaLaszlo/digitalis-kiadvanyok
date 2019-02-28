@@ -15,13 +15,11 @@ A webfontokról bővebben:
 
 ![](../.gitbook/assets/fq-1.png)
 
-A webfont előállításához szükség van egy font állományra, ez lehet például egy TTF \(True Type Font\), amit a böngészők nem támogatnak.
-
-A kívánt fontot az `Upload Fonts` gombbal lehet feltölteni. Párhuzamosan több fontot is fel lehet tölteni.
+A webfont előállításához szükség van egy font állományra, amit az `Upload Fonts` gombbal lehet feltölteni. Párhuzamosan több fontot is fel lehet tölteni.
 
 A generáláshoz el kell fogadni a jogi nyilatkozatot, hogy van jogunk az adott fontot felhasználni. 
 
-A feltöltött fontokat kilistázza a generátor, az `x` -re kattintva ki tudjuk venni a fontokat a listából.
+A feltöltött fontokat kilistázza a generátor, amiket az `x` -re kattintva lehet eltávolítani, ha mégsemakarjuk webfontá alakítani őket.
 
 ![](../.gitbook/assets/fq-2.png)
 
