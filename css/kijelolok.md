@@ -255,56 +255,56 @@ h1:after {
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Kijelölő</th>
-      <th style="text-align:left">Formátum</th>
-      <th style="text-align:left">Cél</th>
+      <th style="text-align:left">Kijel&#xF6;l&#x151;</th>
+      <th style="text-align:left">Form&#xE1;tum</th>
+      <th style="text-align:left">C&#xE9;l</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Általános kijelölő</td>
+      <td style="text-align:left">&#xC1;ltal&#xE1;nos kijel&#xF6;l&#x151;</td>
       <td style="text-align:left"><code>*</code>
       </td>
       <td style="text-align:left">Minden HTML elem</td>
     </tr>
     <tr>
-      <td style="text-align:left">Elem kijelölő</td>
+      <td style="text-align:left">Elem kijel&#xF6;l&#x151;</td>
       <td style="text-align:left"><code>p</code>
       </td>
-      <td style="text-align:left">Egy típusba tartozó összes elem</td>
+      <td style="text-align:left">Egy t&#xED;pusba tartoz&#xF3; &#xF6;sszes elem</td>
     </tr>
     <tr>
-      <td style="text-align:left">Osztály kijelölő.</td>
+      <td style="text-align:left">Oszt&#xE1;ly kijel&#xF6;l&#x151;.</td>
       <td style="text-align:left"><code>.container</code>
       </td>
-      <td style="text-align:left">HTML elemek <code>class</code> tulajdonsága alapján</td>
+      <td style="text-align:left">HTML elemek <code>class</code> tulajdons&#xE1;ga alapj&#xE1;n</td>
     </tr>
     <tr>
-      <td style="text-align:left">Azonosító kijelölő</td>
+      <td style="text-align:left">Azonos&#xED;t&#xF3; kijel&#xF6;l&#x151;</td>
       <td style="text-align:left">#main-menu</td>
-      <td style="text-align:left">HTML elem <code>id</code> tulajdonsága alapján</td>
+      <td style="text-align:left">HTML elem <code>id</code> tulajdons&#xE1;ga alapj&#xE1;n</td>
     </tr>
     <tr>
-      <td style="text-align:left">Leszármazott kijelölő</td>
+      <td style="text-align:left">Lesz&#xE1;rmazott kijel&#xF6;l&#x151;</td>
       <td style="text-align:left">.parent .child</td>
-      <td style="text-align:left">HTML elem a szülői alapján</td>
+      <td style="text-align:left">HTML elem a sz&#xFC;l&#x151;i alapj&#xE1;n</td>
     </tr>
     <tr>
-      <td style="text-align:left">Gyermek kijelölő</td>
-      <td style="text-align:left">.parent > .child</td>
-      <td style="text-align:left">HTML elem a közvetlen szülője alapján</td>
+      <td style="text-align:left">Gyermek kijel&#xF6;l&#x151;</td>
+      <td style="text-align:left">.parent &gt; .child</td>
+      <td style="text-align:left">HTML elem a k&#xF6;zvetlen sz&#xFC;l&#x151;je alapj&#xE1;n</td>
     </tr>
     <tr>
-      <td style="text-align:left">Szomszédos testvér kijelölő</td>
+      <td style="text-align:left">Szomsz&#xE9;dos testv&#xE9;r kijel&#xF6;l&#x151;</td>
       <td style="text-align:left">h1 + p</td>
-      <td style="text-align:left">HTML elem az előző testvér elem alapján</td>
+      <td style="text-align:left">HTML elem az el&#x151;z&#x151; testv&#xE9;r elem alapj&#xE1;n</td>
     </tr>
     <tr>
-      <td style="text-align:left">Álosztály</td>
+      <td style="text-align:left">&#xC1;loszt&#xE1;ly</td>
       <td style="text-align:left">a:hover</td>
       <td style="text-align:left">
-        <p>HTML elem egy bizonyos minősége,</p>
-        <p>állapota, sorrendje alapján</p>
+        <p>HTML elem egy bizonyos min&#x151;s&#xE9;ge,</p>
+        <p>&#xE1;llapota, sorrendje alapj&#xE1;n</p>
       </td>
     </tr>
   </tbody>

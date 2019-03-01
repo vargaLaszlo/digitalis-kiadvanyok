@@ -304,6 +304,8 @@ A tartalom terület a nagy M-betű magasságával egyező magasságú, gyakorlat
 
 ![](../.gitbook/assets/line2.png)
 
+![K&#xFC;l&#xF6;nb&#xF6;z&#x151; sormagass&#xE1;g &#xE9;rt&#xE9;kek em-ben megadva.](../.gitbook/assets/line-height.png)
+
 ## Szóköz \(word-spacing\)
 
 A `word-spacing` határozza meg a szavak közötti távolságot. Alapértéke a _normal_, ez nullával egyenlő, a módosított értéke a betűtípus szóköz karakterének szélességét módosítja, akár negatív irányban is, ekkor egymásra csúsznak a szavak.
