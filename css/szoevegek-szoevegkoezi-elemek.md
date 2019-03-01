@@ -322,6 +322,8 @@ span {
 }
 ```
 
+![K&#xFC;l&#xF6;nb&#xF6;z&#x151; sz&#xF3;k&#xF6;z&#xF6;k pixelben megadva.](../.gitbook/assets/letter-spacing%20%281%29.png)
+
 ## Betűköz \(letter-spacing\)
 
 A `letter-spacing` \(betűköz\) határozza meg a betűk karaktermezői közötti távolságot. Alapértéke a _normal_, ezt módosíthatjuk hosszmérték megadásával. Értéke lehet negatív, ebben az esetben a betűk közelebb kerülnek egymáshoz.
