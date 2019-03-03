@@ -50,7 +50,57 @@ nav a {
 
 ![Ez m&#xE1;r egy haszn&#xE1;lhat&#xF3; v&#xED;zszintes men&#xFC;.](../.gitbook/assets/float-menu4.png)
 
-Kész a vízszintes menü, jelen formájában már használható, a következő példában további stílusokkal lettek ellátva \(elemek magassága, szövegszín, háttérszín\):
+{% code-tabs %}
+{% code-tabs-item title="menu.css" %}
+```css
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 0 16px;
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="menu.html" %}
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% embed url="https://codepen.io/\_lacus/pen/Mxejwj" %}
+
+Kész a vízszintes menü, jelen formájában már használható, a következő példában további stílusokkal látjuk el \(elemek magassága, szövegszín, háttérszín\):
 
 {% code-tabs %}
 {% code-tabs-item title="menu.css" %}
