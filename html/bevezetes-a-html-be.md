@@ -24,6 +24,8 @@ Egy lehetséges HTML elem:
 <elem tulajdonsag="ertek">tartalom</elem>
 ```
 
+{% page-ref page="html-allomany-felepitese.md" %}
+
 {% page-ref page="html-elemek.md" %}
 
 ## **Hiperhivatkozások**

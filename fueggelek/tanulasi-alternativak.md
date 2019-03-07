@@ -8,7 +8,6 @@
 * Virginia DeBolt - Html és CSS - Webszerkesztés stílusosan
 * Eric A. Meyer - CSS zsebkönyv
 * [Nagy Gusztáv - Webes Programozás](http://nagygusztav.hu/sites/default/files/csatol/web_programozas_-_szines.pdf)
-* [Nagy Gusztáv - Webes szabványok](http://nagygusztav.hu/sites/default/files/csatol/webes_szabvanyok_jegyzet_0.1.pdf)
 * [Jeremy Keith - Resilient Web Design](https://resilientwebdesign.com/)
 * Johannes Itten - A színek művészete
 * Maczó Péter - Ön itt áll - Az infodesignról
