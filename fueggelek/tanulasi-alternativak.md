@@ -18,16 +18,18 @@
 
 ## Online Tanfolyamok
 
-* [Learn HTML](https://www.codecademy.com/learn/learn-html)
-* [Learn CSS](https://www.codecademy.com/learn/learn-css)
+* [Learn HTML \(Codeacademy\)](https://www.codecademy.com/learn/learn-html)
+* [Learn CSS \(Codeacademy\)](https://www.codecademy.com/learn/learn-css)
 * [Make a website](https://www.codecademy.com/learn/make-a-website)
 * [CSS Basics](https://www.edx.org/course/css-basics-w3cx-css-0x-0)
 * [HTML5 and CSS Fundamentals](https://www.edx.org/course/html5-css-fundamentals-w3cx-html5-0x)
 * [FreeCodeCamp](https://www.freecodecamp.org/)
+* [Introduction to HTML \(Scrimba\)](https://scrimba.com/g/ghtml)
+* [Introduction to CSS \(Scrimba\)](https://scrimba.com/g/gintrotocss)
 
 ## Weboldalak
 
-* [CSS Tricks \(Weboldal\)](https://css-tricks.com/)
+* [CSS Tricks](https://css-tricks.com/)
 * [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 * [Flexbox Patterns](https://www.flexboxpatterns.com/)
 
