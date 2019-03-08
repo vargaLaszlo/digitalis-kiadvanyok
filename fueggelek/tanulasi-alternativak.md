@@ -14,6 +14,7 @@
 * [Brad Frost - Atomic Design](http://atomicdesign.bradfrost.com/table-of-contents/)
 * Steve Krug - Ne törd a fejem!
 * Susan M. Weinschenk - 100 dolog amit minden tervezőnek tudnia kell az emberekről
+* Virágvölgyi Péter - A tipográfia mestersége számítógéppel
 
 ## Online Tanfolyamok
 
