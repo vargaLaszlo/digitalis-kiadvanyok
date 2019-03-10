@@ -33,6 +33,8 @@
 * [Aránytartó téglalap, négyzet](css-technikak/aranytarto-teglalap-negyzet.md)
 * [Kép úsztatása szövegben](css-technikak/kep-usztatasa-szoevegben.md)
 * [Vízszintes menü úsztatással](css-technikak/vizszintes-menue-usztatassal.md)
+* [Layout kialakítása úsztatással](css-technikak/layout-kialakitasa-usztatassal.md)
+* [Clearfix](css-technikak/clearfix.md)
 
 ## VS Code
 
