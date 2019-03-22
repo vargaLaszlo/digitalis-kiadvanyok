@@ -45,8 +45,6 @@ A `background-repeat` segítségével szabályozhatjuk a háttérkép ismétlőd
 * _repeat-x_ - ismétlődés csak vízszintesen
 * _repeat-y_ - ismétlődés csak függőlegesen
 
-\_\_
-
 ```css
 div {
     background-repeat: repeat;
