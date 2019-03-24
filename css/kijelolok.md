@@ -6,6 +6,8 @@
 
 A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre bizonyos stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt.
 
+A kijelölők könnyebb megértését segíti a CSS Diner nevű játék, ami elérhető az alábbi linken: [https://flukeout.github.io/](https://flukeout.github.io/)
+
 ## Általános kijelölő
 
 Az **általános kijelölő** az összes elemre általánosan hivatkozik, segítségével a HTML dokumentumban lévő összes elemre vonatkozó stílusokat tudunk definiálni.
