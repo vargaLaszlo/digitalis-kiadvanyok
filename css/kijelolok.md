@@ -44,6 +44,19 @@ p {
 
 Az elem összes példányát ki fogja választani az elem kijelölő az adott HTML dokumentumban.
 
+A következő példában az összes cím \(h\) elemet kiválasztjuk vesszővel elválasztva:
+
+```css
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    ...
+}
+```
+
 ## Osztály kijelölő
 
 Az **osztály kijelölő** az elemet az `class` \(osztály\) tulajdonsága alapján célozza be.

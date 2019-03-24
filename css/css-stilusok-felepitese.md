@@ -113,15 +113,9 @@ main article.today h2 {
 
 ## Meghatározások
 
-A meghatározásokat a kijelölő utáni **kapcsos zárójelben** helyezzük el, egymástól **pontosvesszővel** elválasztva. Az utolsó után nem kell pontosvessző  
-\(általában ki szoktuk tenni\).
+A meghatározásokat a kijelölő utáni **kapcsos zárójelben** helyezzük el, egymástól **pontosvesszővel** elválasztva. Az utolsó meghatározás, vagy CSS szabály után nem kell pontosvessző \(általában ki szoktuk tenni\).
 
 ```css
-p {
-    color: #323232;
-    font-size: 1.25em;
-    line-height: 1.125em
-}
 p {
     color: #323232;
     font-size: 1.25em;
