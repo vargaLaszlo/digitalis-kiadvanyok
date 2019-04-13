@@ -1,6 +1,6 @@
 # Vízszintes menü úsztatással
 
-A technika kiindulási alapja egy navigációs menü egy listából, és lista elemekből felépítve:
+A technika kiindulási alapja egy navigációs menü egy listából, és lista elemekből felépítve \(`nav` elemről [bővebben itt](../html/html-elemek.md#navigacio)\):
 
 ```markup
 <nav>

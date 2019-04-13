@@ -245,7 +245,7 @@ div {
 }
 ```
 
-A `margin`-nak van egy speciális értéke, ez az _auto_, vagy automatikus margó, ha ezt vízszintesen, vagyis jobb és, vagy bal oldalt megkapja egy elem, a margója az adott oldalon addig nyúlik, amíg a rendelkezésre álló hely el nem fogy. Ez lehetővé teszi, hogy automatikus margóval balra, középre, vagy jobbra rendezzzük a blokkos megjelenítésű elemeket.
+A `margin`-nak van egy speciális értéke, ez az _auto_, vagy automatikus margó, ha ezt vízszintesen, vagyis jobb és, vagy bal oldalt megkapja egy elem, a margója az adott oldalon addig nyúlik, amíg a rendelkezésre álló hely el nem fogy. Ez lehetővé teszi, hogy automatikus margóval balra, középre, vagy jobbra rendezzük a blokkos megjelenítésű elemeket.
 
 ```css
 div {
@@ -284,15 +284,25 @@ Alapesetben függőlegesen hatástalan az automatikus margó, ha egy elem `margi
 
 A `box-sizing` tulajdonság alapján számolja a böngésző az elemek méretét.
 
-Két lehetséges értéke lehet, az alapérték a _content-box_ ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
+Két lehetséges értéke lehet, az **alapérték** a _content-box_ ebben az estben az elem tartalmának szélességéhez, magasságához **hozzáadódik** a belső margó és a keret szélessége, magassága.
 
-A második lehetséges érték a _border-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
+![](../.gitbook/assets/box-sizing2.png)
+
+Sötétebb kékkel a `padding`, és a `border`, alapestben ezek hozzáadódnak az elem szélességéhez \(fehér nyilakkal jelölve\).
 
 ```css
 div {
     box-sizing: content-box;
 }
+```
 
+A `box-sizing` tulajdonság második lehetséges érték a _border-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
+
+![](../.gitbook/assets/box-sizing3.png)
+
+_Border-box_ esetében a `padding`, és a `border` nem növeli az elem méretét, befelé képződik \(fehér nyilakkal jelölve\).
+
+```css
 div {
     box-sizing: border-box;
 }
