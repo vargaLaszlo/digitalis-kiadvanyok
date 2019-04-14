@@ -53,6 +53,7 @@
 * [Google Fonts](egyeb-eszkoezoek/google-fonts.md)
 * [Font Squirrel](egyeb-eszkoezoek/font-squirrel.md)
 * [Type Scale](egyeb-eszkoezoek/type-scale.md)
+* [Font Awsome](egyeb-eszkoezoek/font-awsome.md)
 
 ## Függelék
 

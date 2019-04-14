@@ -40,6 +40,7 @@
 * [Grid Garden](http://cssgridgarden.com/)
 * [Flexbox Deffense](http://www.flexboxdefense.com/)
 * [Flexbox Zombies](https://flexboxzombies.com/p/flexbox-zombies)
+* [CSSBattle](https://cssbattle.dev/)
 
 ## Hírlevelek
 
