@@ -239,6 +239,8 @@ li:last-child {
 
 Ebben a példában a lista elemek szövegszínét módosítjuk, az első elemét a `:first-child` \(első gyermek\) kijelölő segítségével vörösre, a harmadik lista elem színét a `:nth-child()` \(n-edik elem\) kijelölővel zöldre, és végül az utolsó lista elem színét kékre a `:last-child` \(utolsó gyermek\) kijelölővel.
 
+![](../.gitbook/assets/nth-child.png)
+
 ## Álelemek
 
 Minden HTML elemhez hozzá lehet rendelni két **álelemet**, ezek az eredeti elem gyermekei lesznek, egyet a tartalma előtt, egyet pedig a tartalma után tud megjeleníteni a böngésző. Az így létrejövő elemek _virtuális_ elemek, a CSS stílus hozza létre őket, nem képezik a HTML dokumentum részét.
