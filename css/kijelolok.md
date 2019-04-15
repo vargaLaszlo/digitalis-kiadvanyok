@@ -6,15 +6,29 @@
 
 A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre bizonyos stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt.
 
+A következő példában, a HTML állományunkban elhelyzünk egy`h1` címet:
+
+```markup
+<h1>Helló világ</h1>
+```
+
+A `h1` elem megjelenését CSS stílusokkal tudjuk befolyásolni, a lenti példában az elem szövegszínét vörösre állítjuk. Maga a kijelölő a kapcsos zárójel nyitó eleme előtt található \(h1\).
+
+```css
+h1 {
+    color: red;
+}
+```
+
 A kijelölők könnyebb megértését segíti a CSS Diner nevű játék, ami elérhető az alábbi linken: [https://flukeout.github.io/](https://flukeout.github.io/)
 
 ## Általános kijelölő
 
-Az **általános kijelölő** az összes elemre általánosan hivatkozik, segítségével a HTML dokumentumban lévő összes elemre vonatkozó stílusokat tudunk definiálni.
+Az **általános kijelölő** az összes elemre általánosan hivatkozik, segítségével a HTML dokumentumban lévő összes elemre vonatkozó stílusokat tudunk megadni.
 
 ```css
 * {
-    ...
+    color: red;
 }
 ```
 
@@ -24,7 +38,7 @@ Az általános kijelölőt csillag \(\*\) karakterrel hozhatunk létre.
 Az általános kijelölő hatással van a HTML dokumentum fejlécére is, próbáljuk csak ki az alábbi stílust:
 
 `* {    
-display: block;    
+    display: block;    
 }`
 {% endhint %}
 
@@ -38,13 +52,13 @@ Az **elem kijelölő** ez elemeket típusuk alapján azonosítja. Az alábbi pé
 
 ```css
 p {
-    ...
+    color: red;
 }
 ```
 
 Az elem összes példányát ki fogja választani az elem kijelölő az adott HTML dokumentumban.
 
-A következő példában az összes cím \(h\) elemet kiválasztjuk vesszővel elválasztva:
+A következő példában az összes cím \(`h1`-`h6`\) elemet kiválasztjuk vesszővel elválasztva \(így minden cím a HTML dokumentumban vörös szövegszínű lesz\):
 
 ```css
 h1,
@@ -53,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-    ...
+    color: red;
 }
 ```
 
@@ -67,7 +81,7 @@ Az **osztály kijelölő** az elemet az `class` \(osztály\) tulajdonsága alapj
 
 ```css
 .first-paragraph {
-    ...
+    color: red;
 }
 ```
 
@@ -89,7 +103,7 @@ Az **azonosító kijelölő** az elemet az **id** \(egyedi azonosító\) tulajdo
 
 ```css
 #introduction {
-    ...
+    color: red;
 }
 ```
 
@@ -113,7 +127,7 @@ Ezzel a kijelölővel szülő elem alapján tudunk szűkíteni egy leszármazott
 
 ```css
 section p {
-    ...
+    color: red;
 }
 ```
 
@@ -124,7 +138,7 @@ A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közv
 ```markup
 <div class="parent">
     <div class="child">
-        ...
+        color: red;
     </div>
 </div>
 ```
@@ -157,7 +171,7 @@ Ezzel a kijelölővel egy bizonyos elem után következő elemet célozhatunk me
 
 ```css
 p + p {
-    ...
+    color: red;
 }
 ```
 
@@ -261,7 +275,7 @@ A következő példában egy főcím szövege előtt, és után elhelyezünk egy
 h1:before,
 h1:after {
     content: "-";
-    color: gray;
+    color: red;
 }
 ```
 
