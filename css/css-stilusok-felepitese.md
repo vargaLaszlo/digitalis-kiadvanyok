@@ -82,7 +82,7 @@ A /\* és a **\*/** karaktersorozatok közötti részt a böngésző figyelmen k
 
 ![](../.gitbook/assets/cssrule.png)
 
-A **kijelölő** célozza be az elemeinket a HTML struktúrának megfelelően.  
+A **kijelölő** célozza be az elemeinket a HTML struktúrának megfelelően \(úgy kell elképzelni mint egy címzést, ami egy, vagy több elemre hivatkozik\).  
   
 A **meghatározásblokk** tartalmazza a kijelölt elemekre vonatkozó tulajdonságokat.
 
@@ -95,7 +95,7 @@ h1,
 h2,
 h3,
 h4 {
-    ...
+    color: red;
 }
 ```
 
@@ -103,11 +103,11 @@ A kijelölő szűrhet bizonyos elemkombinációkra, ekkor a szülőkön kereszt�
 
 ```css
 h1 > span {
-    ...
+    color: red;
 }
 
 main article.today h2 {
-    ...
+    color: blue;
 }
 ```
 

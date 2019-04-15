@@ -4,7 +4,7 @@
 
 ## Mire szolgál a CSS kijelölő?
 
-A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre bizonyos stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt.
+A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre CSS stílus szabályokat szeretnénk alkalmazni. Minden stílusnak tartalmaznia kell egy kijelölőt, amit úgy kell elképzelni mint egy címzést, ami egy, vagy több elemre hivatkozik.
 
 A következő példában, a HTML állományunkban elhelyzünk egy`h1` címet:
 
@@ -12,13 +12,15 @@ A következő példában, a HTML állományunkban elhelyzünk egy`h1` címet:
 <h1>Helló világ</h1>
 ```
 
-A `h1` elem megjelenését CSS stílusokkal tudjuk befolyásolni, a lenti példában az elem szövegszínét vörösre állítjuk. Maga a kijelölő a kapcsos zárójel nyitó eleme előtt található \(h1\).
+A HTML elemek megjelenését CSS stílusokkal tudjuk befolyásolni, a lenti példában a `h1` elem szövegszínét vörösre állítjuk. Maga a kijelölő a kapcsos zárójel nyitó eleme előtt található \(h1\).
 
 ```css
 h1 {
     color: red;
 }
 ```
+
+A kijelölők hivatkozhatnak több elemre, vagy bizonyos típúsú elemekre \(a fenti példában az összes `h1` elemre\), de egészen specifikusan egy-egy elemet is kiválaszthatunk velük.
 
 A kijelölők könnyebb megértését segíti a CSS Diner nevű játék, ami elérhető az alábbi linken: [https://flukeout.github.io/](https://flukeout.github.io/)
 
@@ -274,10 +276,12 @@ A következő példában egy főcím szövege előtt, és után elhelyezünk egy
 ```css
 h1:before,
 h1:after {
-    content: "-";
-    color: red;
+    content: " - ";
+	color: red;
 }
 ```
+
+![](../.gitbook/assets/pseudo.png)
 
 ## Kijelölők listája
 
