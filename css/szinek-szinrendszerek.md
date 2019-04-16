@@ -52,8 +52,10 @@ Hasonló mint az RGB, de itt van egy alfa csatorna is, ami meghatározza a szín
 ```css
 rgba(0, 255, 0, 0.1)  /* 10%-ban átlátszatlan zöld */
 rgba(0, 255, 0, 0.5)  /* 50%-ban átlátszatlan zöld */
-rgba(0, 255, 0, 0.99)  /* 99%-ban átlátszatlan zöld */
+rgba(0, 255, 0, 0.9)  /* 90%-ban átlátszatlan zöld */
 ```
+
+![](../.gitbook/assets/rgba-colors.png)
 
 ## HSL színek **- hsl\(h, s, l\)**
 
@@ -82,6 +84,8 @@ hsla(120, 255%, 50%, 0.1)  /* 10%-ban átlátszatlan zöld */
 hsla(120, 255%, 50%, 0.5)  /* 50%-ban átlátszatlan zöld */
 hsla(120, 255%, 50%, 0.99)  /* 99%-ban átlátszatlan zöld */
 ```
+
+![](../.gitbook/assets/hsla-colors.png)
 
 ## Kulcsszavas színek
 
