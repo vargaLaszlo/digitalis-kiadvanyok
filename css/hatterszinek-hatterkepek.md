@@ -147,3 +147,38 @@ ul li {
 }
 ```
 
+## Többszörös háttérkép
+
+Egy HTML elemnek meg lehet adni több háttérképet is, ehhez vesszővel \(nem pontosvesszővel\) elválasztva kell a háttérképeket felsorolni:
+
+```css
+div {
+    background-image: url('firs-image.jpg'), url('second-image.png');
+}
+```
+
+A `background-image` tulajdonsághoz hasonlóan a további háttér beállításokat is megadhatjuk képenként, szintén vesszővel elválasztva:
+
+```css
+div {
+    background-image: url('firs-image.jpg'), url('second-image.png');
+    background-position: left top, right bottom;
+    backgroud-repeat: no-repeat, no-repeat;
+}
+```
+
+Hasonlóképpen működik a `background` gyorsírásos CSS tulajdonság:
+
+```css
+div {
+    background: 
+        url('images/firs-image.jpg') left top no-repeat, 
+        url('images/second-image.png') center repeat-x,
+        url('images/third-image.png') right bottom no-repeat;
+}
+```
+
+A fenti példában háttérképenként új sorba van törve a kód, ez nagyban könnyíti az olvashatóságot.
+
+Ha több háttérképet állítunk be egy HTML elemnek, előfordulhat, hogy kitakarják egymást, mindíg a sorrendben korábban megadott kép fog rálapolódni a később megadott képre \(az elsőnek megadott kép lesz legfölül, az utolsónak megadott kép legalul\).
+
