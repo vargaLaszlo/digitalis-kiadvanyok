@@ -82,7 +82,7 @@ Itt is van alfa csatorna mint az RGBA esetében.
 ```css
 hsla(120, 255%, 50%, 0.1)  /* 10%-ban átlátszatlan zöld */
 hsla(120, 255%, 50%, 0.5)  /* 50%-ban átlátszatlan zöld */
-hsla(120, 255%, 50%, 0.99)  /* 99%-ban átlátszatlan zöld */
+hsla(120, 255%, 50%, 0.9)  /* 90%-ban átlátszatlan zöld */
 ```
 
 ![](../.gitbook/assets/hsla-colors.png)
