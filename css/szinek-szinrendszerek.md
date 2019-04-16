@@ -15,6 +15,8 @@ RGB szín, 256^3 bit mélységben, amit színenként egy két helyi értékű 16
 #0000ff; /* Kék */
 ```
 
+![](../.gitbook/assets/rgb-colors.png)
+
 ## Hexadecimális rövid - \#rgb
 
 Mint a hexadecimális, csak kevesebb árnyalatot tartalmaz, 256^3 helyett csak  
@@ -40,6 +42,8 @@ rgb(0, 0, 255)  /* Kék */
 
 rgb(53%, 76%, 29%) /* Százalékos rgb */
 ```
+
+![](../.gitbook/assets/rgb-colors2.png)
 
 ## RGBA színek **- rgba\(r, g, b, a\)**
 
@@ -67,6 +71,8 @@ hsl(120, 100%, 50%)  /* Zöld */
 hsl(240, 100%, 50%)  /* Kék */
 ```
 
+![](../.gitbook/assets/hsl-colors.png)
+
 ## HSLA színek **- hsla\(h, s, l, a\)**
 
 Itt is van alfa csatorna mint az RGBA esetében.
@@ -87,9 +93,11 @@ gray /* 50%-os szürke */
 white /* Fehér */
 
 red  /* Vörös */
-green  /* Zöld */
+lime  /* Zöld */
 blue  /* Kék */
 ```
+
+![](../.gitbook/assets/named-colors.png)
 
 ## Átlátszó
 
