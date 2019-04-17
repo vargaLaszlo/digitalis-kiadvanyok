@@ -92,6 +92,18 @@ A `link` elemmel hivatkozhatunk külső állományokra, ezek egy részét be fog
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
+### Stílus
+
+A `style` elemben a HTML dokumentum megjelenését szabályozó [CSS](../css/mi-a-css.md) stílusokat helyezhetünk el. A `style` nyitó és záró eleme által közrefogott részen a [CSS nyelv szabályai](../css/css-stilusok-felepitese.md) érvényesek.
+
+```markup
+<style>
+    p {
+        color: red;
+    }
+</style>
+```
+
 ## HTML dokumentum törzse
 
 A `body` a dokumentum törzse, ezt jeleníti meg a böngésző vizuálisan, ennek az elemnek a gyermeke az összes böngészőben megjelenő elem. A `body` elemet közvetlenül a `html` elemben a `head` elem után kell elhelyezni.
@@ -551,6 +563,7 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` 
 | `title` | Title | none |
 | `meta` | Metadata | none |
 | `link` | Link | none |
+| `style` | Style information | none |
 | `body` | Document body | block |
 | `h1` `h2` `h3` `h4` `h5` `h6` | Heading | block |
 | `p` | Paragraph | block |
