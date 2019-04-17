@@ -34,15 +34,15 @@ span {
 
 ## Szűkítés
 
-4 szinten hoz létre minden szabály kiválasztója alapján a böngésző egy rangsort, a magasabb értékkel rendelkező szabály fog érvényesülni, felülbírálva a sorrendet. A szűkítés értékét a kijelölő alapján határozza meg a böngésző.
+4 szinten hoz létre minden szabály [kijelölője](kijelolok.md) alapján a böngésző egy rangsort, a magasabb értékkel rendelkező szabály fog érvényesülni, felülbírálva a sorrendet. A szűkítés értékét a kijelölő alapján határozza meg a böngésző.
 
 | Kijelölő típusa | Súlyozás értéke |
 | :--- | :--- |
-| Szövegközi stílusok | **1.0.0.0** |
-| Egyedi azonosító kijelölő | **0.1.0.0** |
-| Osztály kijelölő, álosztály | **0.0.1.0** |
-| Elem kijelölő | **0.0.0.1** |
-| Általános kijelölő | **0.0.0.0** |
+| [Szövegközi stílusok](css-stilusok-felepitese.md#szoevegkoezi-stilusok-inline-style) | **1.0.0.0** |
+| [Egyedi azonosító kijelölő](kijelolok.md#azonosito-kijeloelo) | **0.1.0.0** |
+| [Osztály kijelölő](kijelolok.md#osztaly-kijeloelo), [álosztály](kijelolok.md#alosztalyok) | **0.0.1.0** |
+| [Elem kijelölő](kijelolok.md#elem-kijeloelo) | **0.0.0.1** |
+| [Általános kijelölő](kijelolok.md#altalanos-kijeloelo) | **0.0.0.0** |
 
 A szűkítés értékei összeadódnak, és a kapott érték alapján a rangsorolja a böngésző a CSS szabályokat. Ezek nem helyi értékek, egy darab egyedi azonosító a kijelölőben bármennyi osztályt felülbírál.
 

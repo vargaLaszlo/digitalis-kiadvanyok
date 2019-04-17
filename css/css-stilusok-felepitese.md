@@ -4,7 +4,7 @@
 
 ### Szövegközi stílusok \(inline style\)
 
-A CSS stílusokat egy HTML elem **style** tulajdonságában elhelyezve csak arra az egy elemre fognak vonatkozni.
+A CSS stílusokat egy HTML elem **style** [tulajdonságában](../html/html-allomany-felepitese.md#tulajdonsagok-atributes) elhelyezve csak arra az egy elemre fognak vonatkozni.
 
 ```markup
 <p style="color: blue; font-size: 1.5em;">Lorem ipsum dolor sit amet</p>
@@ -14,7 +14,7 @@ A CSS stílusokat egy HTML elem **style** tulajdonságában elhelyezve csak arra
 
 ### Beágyazott stíluslapok
 
-A **CSS** stylusokat elhelyezhetjük egy **HTML** állomány fejlécében egy **style** elemben.  
+A **CSS** stylusokat elhelyezhetjük egy **HTML** állomány [fejlécében](../html/html-elemek.md#html-dokumentum-fejlece) egy **style** elemben.  
 A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ```markup
@@ -31,7 +31,7 @@ A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ### Külső stíluslapok
 
-A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat `link` elemmel kapcsolhatjuk a **HTML** állományunkba \([link elemről bővebben](https://digikiad.gitbook.io/digitalis-kiadvanyok/~/edit/drafts/-LYRW05ddo4c8ZzXfrn6/html/html-elemek#linkek)\).
+A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat [`link`](../html/html-elemek.md#linkek) elemmel kapcsolhatjuk a **HTML** állományunkba \([link elemről bővebben](https://digikiad.gitbook.io/digitalis-kiadvanyok/~/edit/drafts/-LYRW05ddo4c8ZzXfrn6/html/html-elemek#linkek)\).
 
 ```markup
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -82,7 +82,7 @@ A /\* és a **\*/** karaktersorozatok közötti részt a böngésző figyelmen k
 
 ![](../.gitbook/assets/cssrule.png)
 
-A **kijelölő** célozza be az elemeinket a HTML struktúrának megfelelően \(úgy kell elképzelni mint egy címzést, ami egy, vagy több elemre hivatkozik\).  
+A [**kijelölő**](kijelolok.md) ****célozza be az elemeinket a HTML struktúrának megfelelően \(úgy kell elképzelni mint egy címzést, ami egy, vagy több elemre hivatkozik\).  
   
 A **meghatározásblokk** tartalmazza a kijelölt elemekre vonatkozó tulajdonságokat.
 
