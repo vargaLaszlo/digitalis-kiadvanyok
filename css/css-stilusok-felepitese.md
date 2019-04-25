@@ -88,7 +88,15 @@ A **meghatározásblokk** tartalmazza a kijelölt elemekre vonatkozó tulajdons�
 
 ## Kijelölők \(selector\)
 
-A **kijelölőket** lehet csoportosítani **vesszővel** elválasztva több elemre is vonatkoztathatjuk ugyan azt a szabályt.
+A **kijelölő** a kapcsos zárójel előtt helyezkedik el, és tipusától függően hivatkozik egy vagy több HTML elemre. A következő példában az összes `h1` \(főcím\) elem szövegszínét állítjuk be vörösre:
+
+```css
+h1 {
+    color: red;
+}
+```
+
+A **kijelölőket** lehet csoportosítani **vesszővel** elválasztva több elemre is vonatkoztathatjuk ugyan azt a szabályt. A következő példában már nem csak a `h1` elem szöveg színét állítjuk be, a `h2` `h3` `h4` HTML elemek szövegszínét is vörösre állítjuk:
 
 ```css
 h1,
@@ -99,21 +107,19 @@ h4 {
 }
 ```
 
-A kijelölő szűrhet bizonyos elemkombinációkra, ekkor a szülőkön keresztül célozzuk meg az adott elemet.
+A kijelölő szűrhet bizonyos elemkombinációkra, ekkor a szülőkön keresztül célozzuk meg az adott elemet. A következő példában a `h1` elemekben lévő `span` elemek szövegszínét kékre állítjuk:
 
 ```css
-h1 > span {
-    color: red;
-}
-
-main article.today h2 {
+h1 span {
     color: blue;
 }
 ```
 
+{% page-ref page="kijelolok.md" %}
+
 ## Meghatározások
 
-A meghatározásokat a kijelölő utáni **kapcsos zárójelben** helyezzük el, egymástól **pontosvesszővel** elválasztva. Az utolsó meghatározás, vagy CSS szabály után nem kell pontosvessző \(általában ki szoktuk tenni\).
+A meghatározásokat a **kijelölő utáni kapcsos zárójelben** helyezzük el, egymástól **pontosvesszővel** elválasztva. Az utolsó meghatározás, vagy CSS szabály után nem kell pontosvessző \(általában ki szoktuk tenni\).
 
 ```css
 p {
