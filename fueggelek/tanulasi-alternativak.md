@@ -7,7 +7,9 @@
 * Zoe Mickley Gillenwater - Rugalmas webtervekben
 * Virginia DeBolt - Html és CSS - Webszerkesztés stílusosan
 * Eric A. Meyer - CSS zsebkönyv
+* [Flavio Copes - The CSS Handbook](https://pages.convertkit.com/96341da1b1/f37b562c91)
 * [Nagy Gusztáv - Webes Programozás](http://nagygusztav.hu/sites/default/files/csatol/web_programozas_-_szines.pdf)
+* [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
 * [Jeremy Keith - Resilient Web Design](https://resilientwebdesign.com/)
 * Johannes Itten - A színek művészete
 * Maczó Péter - Ön itt áll - Az infodesignról
@@ -32,6 +34,7 @@
 * [CSS Tricks](https://css-tricks.com/)
 * [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
 * [Flexbox Patterns](https://www.flexboxpatterns.com/)
+* [Smashing Magazine](https://www.smashingmagazine.com/)
 
 ## Játékok
 
