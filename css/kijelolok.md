@@ -46,10 +46,17 @@ Az általános kijelölő hatással van a HTML dokumentum fejlécére is, prób�
 
 ## Elem kijelölő
 
-Az **elem kijelölő** ez elemeket típusuk alapján azonosítja. Az alábbi példában a bekezdésekre \(p\) célzunk:
+Az **elem kijelölő** ez elemeket **típusuk** alapján azonosítja, például lista elemre, vagy elemekre a kijelölő a következőképpen hivatkozhat:
+
+```css
+li {}
+```
+
+ Az alábbi példában a bekezdésekre célzunk, ez azt jelenti, hogy az összes `p` elem a dokumentumban megkapja a vörös szövegszínt:
 
 ```markup
-<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Consectetur adipiscing elit.</p>
 ```
 
 ```css

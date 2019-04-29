@@ -4,12 +4,10 @@
 
 ### Szövegközi stílusok \(inline style\)
 
-A CSS stílusokat egy HTML elem **style** [tulajdonságában](../html/html-allomany-felepitese.md#tulajdonsagok-atributes) elhelyezve csak arra az egy elemre fognak vonatkozni.
+A CSS stílusokat egy HTML elem **style** [tulajdonságában](../html/html-allomany-felepitese.md#tulajdonsagok-atributes) elhelyezve csak arra az egy elemre fognak vonatkozni. A következő példában egy bekezdés, vagyis egy `p` elem szövegszínét és betűméretét állítjuk be:
 
 ```markup
 <p style="color: blue; font-size: 1.5em;">Lorem ipsum dolor sit amet</p>
-
-<input id="form-helper" type="text" style="display: none;">
 ```
 
 ### Beágyazott stíluslapok
@@ -31,7 +29,7 @@ A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ### Külső stíluslapok
 
-A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban, ezeket az állományokat [`link`](../html/html-elemek.md#linkek) elemmel kapcsolhatjuk a **HTML** állományunkba \([link elemről bővebben](https://digikiad.gitbook.io/digitalis-kiadvanyok/~/edit/drafts/-LYRW05ddo4c8ZzXfrn6/html/html-elemek#linkek)\).
+A **CSS definícióinkat** elhelyezhetünk **CSS** állományokban \(rendszerint a HTML állomány mellett elhelyezve\), ezeket az állományokat [`link`](../html/html-elemek.md#linkek) elemmel **kapcsolhatjuk** a HTML állományunkba \([link elemről bővebben](https://digikiad.gitbook.io/digitalis-kiadvanyok/~/edit/drafts/-LYRW05ddo4c8ZzXfrn6/html/html-elemek#linkek)\).
 
 ```markup
 <link rel="stylesheet" type="text/css" href="style.css">
