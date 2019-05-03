@@ -210,6 +210,8 @@ p + p {
 
 Ebben az esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után, az első nem\).
 
+![](../.gitbook/assets/siebling.png)
+
 ## Álosztályok
 
 ### Állapot álosztályok
