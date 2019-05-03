@@ -128,7 +128,7 @@ Ezzel a kijelölővel szülő elem alapján tudunk szűkíteni egy leszármazott
 
 ```markup
 <section>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </section>
 <p>Aenean et nunc nec ligula condimentum luctus et a urna.</p>
 ```
@@ -173,7 +173,7 @@ A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közv
 ```markup
 <div class="parent">
     <div class="child">
-        Lorem ipsum
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </div>
 </div>
 ```
@@ -208,7 +208,7 @@ p + p {
 }
 ```
 
-Ebben az esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után, az első nem\).
+A fenti esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után, az első nem\).
 
 ![](../.gitbook/assets/siebling.png)
 
