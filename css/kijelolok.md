@@ -124,12 +124,30 @@ Egy HTML dokumentumban egy elem rendelkezhet egy adott egyedi azonosítóval, é
 
 ## Leszármazott kijelölő
 
-Ezzel a kijelölővel szülő elem alapján tudunk szűkíteni egy leszármazottra.
+Ezzel a kijelölővel szülő elem alapján tudunk szűkíteni egy leszármazottra. A szülőt és a gyermeket a kijelölőben szóközzel választjuk el. A következő példában csak a `section` elemben lévő bekezdés kap vörös szövegszínt, a második bekezdés, ami nincs benne a `section` elemben nem kapja meg:
 
 ```markup
 <section>
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</section>
+<p>Aenean et nunc nec ligula condimentum luctus et a urna.</p>
+```
+
+```css
+section p {
+    color: red;
+}
+```
+
+![](../.gitbook/assets/child-selector.png)
+
+A gyermeknek **nem kell közvetlenül** a szülőben lennie, lehet több szinttel beljebb is:
+
+```markup
+<section>
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div>
-        <p>Lorem ipsum dolor sit amet</p>
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 </section>
 ```
@@ -140,33 +158,39 @@ section p {
 }
 ```
 
+Lehetőség van kettőnél több szint megadására, és a korábban megismert kijelölők szabadon kombinálhatóak:
+
+```css
+header .main-title h1 span {
+    color: red;
+}
+```
+
 ## Gyermek kijelölő
 
-A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közvetlenül melyik elemben található \(szülő\).
+A **gyermek kijelölő** az alapján jelöli ki az adott HTML elemet, hogy közvetlenül melyik elemben található  \(szülő\).
 
 ```markup
 <div class="parent">
     <div class="child">
-        color: red;
+        Lorem ipsum
     </div>
 </div>
 ```
 
 ```css
 .parent > .child {
-    ...
+    color: red;
 }
 ```
 
-Gyermek kijelölőt a `>` jellel hozhatunk létre, a `>` jel bal oldalán a szülő, jobb oldalán a gyermek található.
+Gyermek kijelölőt a `>` jellel hozhatunk létre, a `>` jel bal oldalán a szülő, jobb oldalán a gyermek található. Ebben a példában _kizárólag_ a közvetlenül a `p` HTML elemekben lévő `span` elemek szövegszínét festi vörösre a CSS stílus:
 
 ```css
 p > span {
     color: red;
 }
 ```
-
-Ebben a példában _kizárólag_ a közvetlenül a `p` HTML elemekben lévő `span` elemek szövegszínét festi vörösre a CSS stílus.
 
 ## Szomszédos testvér kijelölő
 
@@ -184,7 +208,7 @@ p + p {
 }
 ```
 
-Ebben az esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után\).
+Ebben az esetben a második, és a harmadik bekezdésre fog vonatkozni a stílus \(ezek a bekezdések találhatóak egy másik után, az első nem\).
 
 ## Álosztályok
 
