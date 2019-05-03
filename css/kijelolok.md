@@ -141,13 +141,13 @@ section p {
 
 ![](../.gitbook/assets/child-selector.png)
 
-A gyermeknek **nem kell közvetlenül** a szülőben lennie, lehet több szinttel beljebb is:
+A gyermeknek **nem kell közvetlenül** a szülőben lennie, lehet egy vagy több szinttel beljebb is, abben a példában mindkét bekezdésre hatással van a css \(mindkettő leszármazottja a `section` elemnek\):
 
 ```markup
 <section>
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div>
-        <p>orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Aenean et nunc nec ligula condimentum luctus et a urna.</p>
     </div>
 </section>
 ```
