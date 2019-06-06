@@ -49,7 +49,7 @@ Megjelennek a fejlett LCD monitorok, nagyobb felbontással.
 
 ### 2000-es évek második fele	
 
-2007-ben megjelenik az első okostelefon, az iPhone, ez alapvetően változtatta meg a az élet szinte minden területét \(folyamatos online jelenlét, tartalomfogyasztás, információszerzés, navigáció, játékok, stb\). 
+2007-ben megjelenik az első okostelefon, az iPhone, ez alapvetően változtatta meg az élet szinte minden területét \(folyamatos online jelenlét, tartalomfogyasztás, információszerzés, navigáció, játékok, stb\). 
 
 Megváltozik a világháló is Az Apple nem engedi az iPhone készüékekre a Flash animációkat, így ez a technológia lassan visszaszorul. Az új felhasználói felületek új kihívásokat támasztanak, már nem csak az asztali gépekre kell tervezni, fejleszteni, tenyérnyi kijelzőre is, és megjelenik az érintőképernyő mint beviteli eszköz.
 

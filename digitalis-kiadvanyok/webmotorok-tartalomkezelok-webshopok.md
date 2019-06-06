@@ -2,7 +2,7 @@
 
 ## Egyedi motorok
 
-Egyedi rendszereket számos cég készít, jellemzően egyedi igényeket elégítenek ki.
+Egyedi programozású rendszereket számos cég készít, jellemzően egyedi igényeket elégítenek ki.
 
 Egyedi rendszerek előnyei: 
 
