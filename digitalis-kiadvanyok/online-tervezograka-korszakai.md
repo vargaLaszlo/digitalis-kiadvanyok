@@ -14,11 +14,9 @@ Az új tervezőgrafikai műfajok:
 
 ## Online tervezőgraka korszakai
 
-A online tervezőgrafika egy fiatal ága a tervezőgrafikának, közege a Világháló \(World Wide Web\) aminek első építőkockáját, az [első weblapot](http://info.cern.ch/hypertext/WWW/TheProject.html) Tim Berners-Lee hozta létre 1991-ben. 
+A online tervezőgrafika egy fiatal műfaly, közege a Világháló, ami csupán 30-éves múltra tekint vissza:
 
-### 1990-es évek előtt
-
-A Világháló még nem létezett, ennek elméleti koncepcióját 1989-ben dolgozta ki [Tim Berners-Lee](https://twitter.com/timberners_lee) a [CERN](https://home.cern/) kutatója, az első weboldal, és internetes böngésző is az ő nevéhez fűződik, szűk körben 1990-ben, széles nyilvánosság előtt 1991-ben mutatta be. 
+A Világháló az 1990-es évek előtt még nem létezett, ennek elméleti koncepcióját 1989-ben dolgozta ki [Tim Berners-Lee](https://twitter.com/timberners_lee) a [CERN](https://home.cern/) kutatója, az [első weboldal](http://info.cern.ch/hypertext/WWW/TheProject.html), és [internetes böngésző](http://line-mode.cern.ch/) is az ő nevéhez fűződik, szűk körben 1990-ben, széles nyilvánosság előtt 1991-ben mutatta be az új médiumot. 
 
 ![Az els&#x151; weboldal](../.gitbook/assets/first-web-page.png)
 
@@ -41,13 +39,13 @@ Ebben a korszakban még nem álltak rendelkezésre a felület kialakítását me
 
 ### 2000-es évek első fele
 
-Megjelennek a fejlett LCD monitorok, nagyobb felbontással
+Megjelennek a fejlett LCD monitorok, nagyobb felbontással.
 
 * Fejlettebb webdizájnok \(még mindig táblázatos struktúra\)
 * Fash animációk az oldalakon
-* Csúcsdizájn: teljes weboldalak Flash-ben 
+* Teljes weboldalak Flash-ben elkészítve
 * Egyszerűbb munkafolyamat \(csak monitorra kellett tervezni\) 
-* Egyedüli kihívás az egységes megjelenés a böngészőkben
+* Egyedüli kihívás az egységes megjelenés a különböző böngészőkben
 
 ### 2000-es évek második fele	
 
@@ -67,7 +65,7 @@ Megjelennek a fejlett **keretrendszerek**, mint a [Bootstrap](https://getbootstr
 
 Töretlen a CSS fejlődése: animációk, flexbox, grid rendszer, …
 
-Megfordult tendencia: az online tervezőgrakai megközelítéseket ültetjük át hagyományos környezetbe \(könyv, magazin\)
+Megfordult tendencia: az online tervezőgrafikai megközelítéseket ültetjük át hagyományos környezetbe \(könyv, magazin\)
 
 ## Online tervezőgrafika szempontjai
 
