@@ -12,4 +12,5 @@
 * Mark Pilgrim - HTML 5 - Az új szabvány
 * [Nagy Gusztáv - Web programozás alapismeretek](http://nagygusztav.hu/web-programozas)
 * Bo Bergström - Bevezetés a vizuális kommunikációba
+* Molnár Csikós Hajnalka - Online tervezőgrafikai műfajok és médiumok
 

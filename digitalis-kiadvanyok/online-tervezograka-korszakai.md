@@ -1,6 +1,6 @@
 # Online tervezőgraka
 
-A Világháló és az Internet megjelenése megreformálta az élet minden területét, így a hagyományos tervezőgrafikai műfajokat \(plakátok, meghívók, oklevelek, könyv-, lemez-, CDés DVD-borítók, szórólapok, hirdetések stb.\) is, új ág keletkezett: az online tervezőgrafika.
+A **Internet**, és később a **Világháló** megjelenése megreformálta az élet minden területét, így a hagyományos tervezőgrafikai műfajokat \(plakátok, meghívók, oklevelek, könyv-, lemez-, CDés DVD-borítók, szórólapok, hirdetések stb.\) is, új ág keletkezett: az online tervezőgrafika.
 
 Az új tervezőgrafikai műfajok: 
 
@@ -16,27 +16,38 @@ Az új tervezőgrafikai műfajok:
 
 A online tervezőgrafika egy fiatal ága a tervezőgrafikának, közege a Világháló \(World Wide Web\) aminek első építőkockáját, az [első weblapot](http://info.cern.ch/hypertext/WWW/TheProject.html) Tim Berners-Lee hozta létre 1991-ben. 
 
-![Az els&#x151; weboldal](../.gitbook/assets/first-web-page.png)
-
 ### 1990-es évek előtt
 
-Az információ csak szöveges állományok formájában volt elérhető az interneten. A Világháló még nem létezett, ennek elméleti koncepcióját 1989-ben dolgozta ki [Tim Berners-Lee](https://twitter.com/timberners_lee) a [CERN](https://home.cern/) kutatója.
+A Világháló még nem létezett, ennek elméleti koncepcióját 1989-ben dolgozta ki [Tim Berners-Lee](https://twitter.com/timberners_lee) a [CERN](https://home.cern/) kutatója, az első weboldal, és internetes böngésző is az ő nevéhez fűződik, szűk körben 1990-ben, széles nyilvánosság előtt 1991-ben mutatta be. 
+
+![Az els&#x151; weboldal](../.gitbook/assets/first-web-page.png)
 
 ### 1990-es évek
 
 Kilencvenes évek közepén jelentek meg az első böngészők, amik képeket is meg tudtak már jeleníteni, ezt tekinthetjük a webdesign hajnalának.
+
+A hagyományos tervezőgrafikai megközelítéseket ültették át online környezetbe \(könyv, magazin\)
 
 Feltűnik az interaktivitás a javaScript programozási nyelv megjelenésének köszönhetően. A weboldalakon elérhetővé válik a navigáció, gombok, űrlapok.
 
 Ebben a korszakban még nem álltak rendelkezésre a felület kialakítását megkönnyítő CSS technikák, így a fejlesztők a weboldalak felületét táblázatokból és frame-ekből építették fel, ezek a technológiák mára már teljesen elavultak.
 
 * 1990-ben adja ki az Adobe a Photoshop 1.0-át
-* 1991-ben készíti el Tim Berners-Lee az első weboldalt, és az első internetes böngészőt \(Line Mode Browser\)
 * 1996 CSS 1
 * 1996 Macromedia kiadja a Flash 1.0-át
-* 1998 Létrejön a Google internetes kereső 	
+* 1998 Létrejön a Google internetes kereső
 
-### 2000-es évek első fele 	
+![A Feh&#xE9;r H&#xE1;z honlapja a kilencvenes &#xE9;vekben \(whitehouse.gov\)](../.gitbook/assets/white-house.png)
+
+### 2000-es évek első fele
+
+Megjelennek a fejlett LCD monitorok, nagyobb felbontással
+
+* Fejlettebb webdizájnok \(még mindig táblázatos struktúra\)
+* Fash animációk az oldalakon
+* Csúcsdizájn: teljes weboldalak Flash-ben 
+* Egyszerűbb munkafolyamat \(csak monitorra kellett tervezni\) 
+* Egyedüli kihívás az egységes megjelenés a böngészőkben
 
 ### 2000-es évek második fele	
 
@@ -55,6 +66,8 @@ Háttérbe szorul az anyagi valóságot mimelő felhasználói felület, tért n
 Megjelennek a fejlett **keretrendszerek**, mint a [Bootstrap](https://getbootstrap.com/), vagy a [Zurb Foundation](https://foundation.zurb.com/).
 
 Töretlen a CSS fejlődése: animációk, flexbox, grid rendszer, …
+
+Megfordult tendencia: az online tervezőgrakai megközelítéseket ültetjük át hagyományos környezetbe \(könyv, magazin\)
 
 ## Online tervezőgrafika szempontjai
 
