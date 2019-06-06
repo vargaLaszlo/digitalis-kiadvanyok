@@ -14,7 +14,7 @@ Az új tervezőgrafikai műfajok:
 
 ## Online tervezőgrafika korszakai
 
-A online tervezőgrafika egy fiatal műfaly, közege a Világháló, ami csupán 30-éves múltra tekint vissza:
+A online tervezőgrafika egy fiatal műfaj, közege a Világháló, ami csupán 30-éves múltra tekint vissza:
 
 A Világháló az 1990-es évek előtt még nem létezett, ennek elméleti koncepcióját 1989-ben dolgozta ki [Tim Berners-Lee](https://twitter.com/timberners_lee) a [CERN](https://home.cern/) kutatója, az [első weboldal](http://info.cern.ch/hypertext/WWW/TheProject.html), és [internetes böngésző](http://line-mode.cern.ch/) is az ő nevéhez fűződik, szűk körben 1990-ben, széles nyilvánosság előtt 1991-ben mutatta be az új médiumot. 
 
