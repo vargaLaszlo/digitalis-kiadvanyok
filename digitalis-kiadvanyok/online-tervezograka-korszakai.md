@@ -1,4 +1,4 @@
-# Online tervezőgraka
+# Online tervezőgrafika
 
 A **Internet**, és később a **Világháló** megjelenése megreformálta az élet minden területét, így a hagyományos tervezőgrafikai műfajokat \(plakátok, meghívók, oklevelek, könyv-, lemez-, CDés DVD-borítók, szórólapok, hirdetések stb.\) is, új ág keletkezett: az online tervezőgrafika.
 
@@ -12,7 +12,7 @@ Az új tervezőgrafikai műfajok:
 * közösségi oldalakra, blogokra bejegyzés-illusztrációk
 * online prezentációk \(Prezi\)
 
-## Online tervezőgraka korszakai
+## Online tervezőgrafika korszakai
 
 A online tervezőgrafika egy fiatal műfaly, közege a Világháló, ami csupán 30-éves múltra tekint vissza:
 
