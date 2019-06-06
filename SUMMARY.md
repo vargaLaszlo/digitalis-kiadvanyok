@@ -1,7 +1,14 @@
 # Table of contents
 
 * [Bevezető](README.md)
-* [Az internetről dióhéjban](az-internetrol-diohejban.md)
+
+## Digitális kiadványok
+
+* [Világhálóról dióhéjban](digitalis-kiadvanyok/az-internetrol-diohejban.md)
+* [Online tervezőgraka](digitalis-kiadvanyok/online-tervezograka-korszakai.md)
+* [Mi szükséges egy weboldal elindításához?](digitalis-kiadvanyok/mi-szuekseges-egy-weboldal-elinditasahoz.md)
+* [Webmotorok, tartalomkezelők, webshopok](digitalis-kiadvanyok/webmotorok-tartalomkezelok-webshopok.md)
+* [Weblaptervezéshez szükséges ismeretek](digitalis-kiadvanyok/weblaptervezeshez-szuekseges-ismeretek.md)
 
 ## HTML
 
@@ -61,4 +68,5 @@
 * [Tanulási alternatívák](fueggelek/tanulasi-alternativak.md)
 * [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
 * [Markdown szerkesztők, olvasók](fueggelek/markdown-szerkesztok-olvasok.md)
+* [Webmotorok](fueggelek/webmotorok.md)
 

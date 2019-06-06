@@ -18,3 +18,5 @@ Erre a könyvre a [Creative Commons CC BY 4.0](https://creativecommons.org/licen
 Ez a könyv elérhető, és letölthető a [Github](https://github.io)-on, az alábbi linken: [https://github.com/vargaLaszlo/digitalis-kiadvanyok](https://github.com/vargaLaszlo/digitalis-kiadvanyok) \(_Clone or download_ gomb\). A fejezetek [markdown](https://daringfireball.net/projects/markdown/)-ban íródtak, offline verzió megtekintéséhez érdemes egy [markdown olvasására képes alkalmazást](fueggelek/markdown-szerkesztok-olvasok.md) beszerezni.
 {% endhint %}
 
+
+
