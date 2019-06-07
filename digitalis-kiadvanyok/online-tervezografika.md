@@ -49,21 +49,23 @@ Megjelennek a fejlett LCD monitorok, nagyobb felbontással.
 
 ### 2000-es évek második fele	
 
-2007-ben megjelenik az első okostelefon, az iPhone, ez alapvetően változtatta meg az élet szinte minden területét \(folyamatos online jelenlét, tartalomfogyasztás, információszerzés, navigáció, játékok, stb\). 
+2007-ben megjelenik az első **okostelefon**, az iPhone, ez alapvetően változtatta meg az élet szinte minden területét \(folyamatos online jelenlét, tartalomfogyasztás, információszerzés, navigáció, játékok, stb\). 
 
-Megváltozik a világháló is Az Apple nem engedi az iPhone készüékekre a Flash animációkat, így ez a technológia lassan visszaszorul. Az új felhasználói felületek új kihívásokat támasztanak, már nem csak az asztali gépekre kell tervezni, fejleszteni, tenyérnyi kijelzőre is, és megjelenik az érintőképernyő mint beviteli eszköz.
+Megváltozik a világháló is Az Apple nem engedi az iPhone készüékekre a Flash animációkat, így ez a technológia lassan visszaszorul. 
+
+Az új felhasználói felületek új kihívásokat támasztanak, már nem csak az asztali gépekre kell tervezni, fejleszteni, tenyérnyi kijelzőre is, és megjelenik az érintőképernyő mint beviteli eszköz.
 
 ### 2010-es évek
 
-Megjelenik az internetképes eszközök széles skálája, például a 4-es iPhone a korábbiaknál nagyobb felbontással, az iPad, az Android-os telefonok, és a Windows Phone készülékek. A fejlesztőknek már számtalan eszközre kell optimalizálni a weboldalakat, létrejön a **reszponzív design**.
+Megjelenik az internetképes eszközök széles skálája, például a 4-es iPhone a korábbiaknál nagyobb felbontással, az iPad az első tablet, az Android-os telefonok, és a Windows Phone készülékek. A fejlesztőknek már számtalan eszközre, és képernyő felbontásra kell optimalizálni a weboldalakat, létrejön a **reszponzív design**.
 
-A mobil ökoszisztémák virágzása elhozza az alkalmazások korszakát, megjelennek a webalkalmazások, és elterjednek HTML5 CSS3 alapú felhasználói felületek az alkalmazások között.
+A mobil ökoszisztémák virágzása elhozza az alkalmazások korszakát, megjelennek a **webalkalmazások**, és elterjednek HTML5 CSS3 alapú felhasználói felületek az alkalmazások között.
 
 Háttérbe szorul az anyagi valóságot mimelő felhasználói felület, tért nyer a minimalizmus, és a **flat design**. Erre legjobb példa a Google Android operációs rendszere, a [Material Design](https://material.io/design/)-al.
 
 Megjelennek a fejlett **keretrendszerek**, mint a [Bootstrap](https://getbootstrap.com/), vagy a [Zurb Foundation](https://foundation.zurb.com/).
 
-Töretlen a CSS fejlődése: animációk, flexbox, grid rendszer, …
+Töretlen a CSS fejlődése: animációk, flexbox, CSS grid rendszer, …
 
 Megfordult tendencia: az online tervezőgrafikai megközelítéseket ültetjük át hagyományos környezetbe \(könyv, magazin\)
 

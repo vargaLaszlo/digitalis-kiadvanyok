@@ -20,6 +20,8 @@ Photoshop mellett az [Adobe Illustrator](https://www.adobe.com/hu/products/illus
 
 Animációs területen az Adobe Flash elvesztette a piaci monopóliumát, az Adobe beszüntette a platform támogatását, ezt a piaci rést a HTML5-ös animált bannerek töltik be, ezek szerkesztésére jött létre az ingyenes [Google Web Designer](https://webdesigner.withgoogle.com/).
 
+![Google Web Designer fel&#xFC;lete](../.gitbook/assets/google-web-designer.png)
+
 ## Szövegszerkesztők
 
 A grafikai munkákon túl a fejlesztők szövegszerkesztőt \(Text editor\), és integrált fejlesztői környezetet \(Integrated Development Environment azaz IDE\) használnak, ezek a programok fel vannak ruházva a forráskódok irását, szerkesztését segítő funkciókkal, úgy mint intelligens kód kiegészítés \([Emmet](https://emmet.io/), [Intelli Sense](https://code.visualstudio.com/docs/editor/intellisense)\), kód színezés, hibakiemelés, stb. Számos ingyenes és fizetős program létezik, a teljesség igénye nélkül: [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/download/v6.9.2.html), [Brackets](http://brackets.io/), [Sublime Text](s://www.sublimetext.com), [Adobe Dreamweaver](https://www.adobe.com/hu/products/dreamweaver.html)...
