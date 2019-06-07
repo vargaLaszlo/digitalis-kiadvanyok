@@ -4,7 +4,7 @@
 
 ## Digitális kiadványok
 
-* [Világhálóról dióhéjban](digitalis-kiadvanyok/az-internetrol-diohejban.md)
+* [Világhálóról dióhéjban](digitalis-kiadvanyok/vilaghalorol-diohejban.md)
 * [Online tervezőgrafika](digitalis-kiadvanyok/online-tervezografika.md)
 * [Mi szükséges egy weboldal elindításához?](digitalis-kiadvanyok/mi-szuekseges-egy-weboldal-elinditasahoz.md)
 * [Webmotorok, tartalomkezelők, webshopok](digitalis-kiadvanyok/webmotorok-tartalomkezelok-webshopok.md)
