@@ -2,7 +2,7 @@
 
 ## Domain név
 
-A **domain név** egy könnyen megjegyezhető szöveges cím, amin a webes szolgáltatásokat, és a honlapokat elérhetjük.
+A **domain név** egy könnyen megjegyezhető szöveges cím, amin a webes szolgáltatásokat és a honlapokat elérhetjük.
 
 A domain nevek formátumát a **DNS** \(Domain Name System\) szabvány szabályozza, tartományokra, és altartományokra osztva a hálózatokon, például az interneten elérhető számítógépeket.
 
@@ -36,11 +36,11 @@ Felhő alapú tárhelyen az igényeinknek megfelelő virtuális szerverek létre
 
 ### Szerver oldali technológiák
 
-A [**PHP**](https://php.net/) egy szerver oldali programozási nyelv, ugynevezett scripnyelv. A webszerverek a PHP kódból készítik el a weboldal HTML állományait, és ezt kapja meg a kliens.
+A [**PHP**](https://php.net/) egy szerver oldali programozási nyelv, ugynevezett scriptnyelv. A webszerverek a PHP kódból készítik el a weboldal HTML állományait, és ezt kapja meg a kliens.
 
 A [**MySQL**](https://www.mysql.com/) egy nyílt forráskódú adatbázis szerver, segítségével adatokat, például egy weboldal adatait tárolhatjuk egy webszerveren.
 
-A **LAMP** egy szoftver csomag, tartalmaz minden alapvető komponenst amiből egy webes kiszolgáló felépül:
+A **LAMP** egy szoftver csomag, tartalmaz minden alapvető komponenst, amiből egy webes kiszolgáló felépül:
 
 * **L**inux \(operációs rendszer\)
 * **A**pache \(HTTP szerver\)

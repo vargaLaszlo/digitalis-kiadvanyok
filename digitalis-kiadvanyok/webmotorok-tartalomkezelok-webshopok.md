@@ -32,14 +32,14 @@ Webes tartalomkezelők legjellemzőbb képességei:
 * Különböző tartalomtípusok kezelése \(aloldal, blogbejegyzés, hír, publikáció, termék, naptár időpont stb.\)
 * Tartalmak rendszerezésének lehetősége \(kategóriák, cimkék, stb.\)
 * Több felhasználó kezelése
-* Felhasználói szintek \(szupreadmin, admin, szerkesztő, tag, stb.\)
+* Felhasználói szintek \(szuperadmin, admin, szerkesztő, tag, stb.\)
 * Látogatói statisztikák biztosítása
 * Adatok exportálása, importálása
 * Frissítéskezelő
 * Bővíthetőség modulokkal, pluginokkal
 * Különböző a design-t, és a megjelenést befolyásoló témák
 
- Jellemző a bőség zavara, mind fizetős, mind ingyenes rendszerből számolatlan áll rendelkezésre, legelterjedtebb ezek közül:
+Jellemző a bőség zavara, mind fizetős, mind ingyenes rendszerből számolatlan áll rendelkezésre, legelterjedtebb ezek közül:
 
 ### WordPress
 
