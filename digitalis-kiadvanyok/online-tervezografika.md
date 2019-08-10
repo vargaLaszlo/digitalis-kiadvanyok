@@ -26,6 +26,8 @@ Kilencvenes évek közepén jelentek meg az első böngészők, amik képeket is
 
 A hagyományos tervezőgrafikai megközelítéseket ültették át online környezetbe \(könyv, magazin\)
 
+![Az els&#x151; grafikus felhaszn&#xE1;l&#xF3;i fel&#xFC;lettel \(GUI\) rendelkez&#x151; b&#xF6;ng&#xE9;sz&#x151;, a Mosaic.](../.gitbook/assets/mosaic.png)
+
 Feltűnik az interaktivitás a javaScript programozási nyelv megjelenésének köszönhetően. A weboldalakon elérhetővé válik a navigáció, gombok, űrlapok.
 
 Ebben a korszakban még nem álltak rendelkezésre a felület kialakítását megkönnyítő CSS technikák, így a fejlesztők a weboldalak felületét táblázatokból és frame-ekből építették fel, ezek a technológiák mára már teljesen elavultak.

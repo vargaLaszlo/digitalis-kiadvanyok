@@ -31,6 +31,8 @@
 * [Úsztatás](css/usztatas.md)
 * [Háttérszínek, háttérképek](css/hatterszinek-hatterkepek.md)
 * [Pozícionálás](css/pozicionalas.md)
+* [@media](css/media.md)
+* [Rugalmas dobozok](css/rugalmas-dobozok.md)
 
 ## CSS technikák
 

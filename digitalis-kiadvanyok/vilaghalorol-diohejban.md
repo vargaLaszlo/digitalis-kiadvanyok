@@ -4,6 +4,10 @@ A **Világháló** az Interneten működő egymással [**hiperhivatkozásokkal**
 
 ![](../.gitbook/assets/net.png)
 
+{% hint style="info" %}
+A köznyelv az Internet és a Világháló fogalmát rendszerint szinonímaként kezeli, de érdemes elválasztani a kettőt egymástól. Az Internet olyan globális hálózat, amiben a hozzá csatlakozó számítógépek az Internet Protokoll \(IP\) segítségével kommunikálnak egymással. Ez a hálózat 5 évtizedes múltra tekint vissza, míg a világháló csupán a 90-es évek óta képezi a részét. Az Internetnek a Világhálón kívül még számos szolgáltatása érhető el, például az elektronikus levelezés, FTP szerverek, pontos idő szerverek \(NTP\), illetve a Világhálóhoz hasonló zárt hálózatok \(Onion, Darkweb\).
+{% endhint %}
+
 A szerver vagy kiszolgáló területét nevezzük backend-nek, a kliens oldal területét frontend-nek, vagy kliens oldalnak.
 
 ![](../.gitbook/assets/3for1.png)

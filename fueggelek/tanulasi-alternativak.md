@@ -5,7 +5,7 @@
 * Kezdő
   * Mark Pilgrim - HTML5 az új szabvány
   * [Mark Pilgrim - Dive Into HTML5](http://diveintohtml5.info/)
-  * Zoe Mickley Gillenwater - Rugalmas webtervekben
+  * Zoe Mickley Gillenwater - Rugalmas webtervek
   * Virginia DeBolt - Html és CSS - Webszerkesztés stílusosan
   * Eric A. Meyer - CSS zsebkönyv
   * [Flavio Copes - The CSS Handbook](https://pages.convertkit.com/96341da1b1/f37b562c91)

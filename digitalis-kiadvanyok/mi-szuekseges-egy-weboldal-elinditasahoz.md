@@ -36,7 +36,7 @@ Felhő alapú tárhelyen az igényeinknek megfelelő virtuális szerverek létre
 
 ### Szerver oldali technológiák
 
-A [**PHP**](https://php.net/) egy szerver oldali programozási nyelv, ugynevezett scriptnyelv. A webszerverek a PHP kódból készítik el a weboldal HTML állományait, és ezt kapja meg a kliens.
+A [**PHP**](https://php.net/) egy szerver oldali programozási nyelv, úgynevezett scriptnyelv. A webszerverek a PHP kódból készítik el a weboldal HTML állományait, és ezt kapja meg a kliens.
 
 A [**MySQL**](https://www.mysql.com/) egy nyílt forráskódú adatbázis szerver, segítségével adatokat, például egy weboldal adatait tárolhatjuk egy webszerveren.
 
