@@ -82,7 +82,7 @@ Weboldalunkhoz nem kell megírni külön a grid rendszert, számos kész rendsze
 
 Grid rendszert készen beépítve megtaláljuk a jelentősebb CSS/HTML keretrendszerekben: [Bootstrap - Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), [Zurb Foundation - The Grid](https://foundation.zurb.com/grid.html)
 
-A [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) érdekessége, hogy a Bootstrp egyép funkciói nélkül is beépíthetjük, és használhatjuk.
+A [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) érdekessége, hogy [magában](https://getbootstrap.com/docs/4.3/getting-started/contents/#css-files) a Bootstrap egyéb funkciói nélkül is beépíthetjük, és használhatjuk webes alkalmazásinkban.
 
 ![Bootstrap Grid System-el k&#xE9;sz&#xFC;lt fel&#xFC;let.](../.gitbook/assets/bs-grid-system.png)
 

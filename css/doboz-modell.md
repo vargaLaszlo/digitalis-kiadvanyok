@@ -296,7 +296,7 @@ div {
 }
 ```
 
-A `box-sizing` tulajdonság második lehetséges érték a _border-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
+A `box-sizing` tulajdonság második lehetséges értéke a _border-box_, amikor a szélességbe, és magasságba **beleszámít** a belső margó és a keret szélessége, magassága.
 
 ![](../.gitbook/assets/box-sizing3.png)
 
