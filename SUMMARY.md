@@ -45,16 +45,6 @@
 * [Layout kialakítása úsztatással](css-technikak/layout-kialakitasa-usztatassal.md)
 * [Clearfix](css-technikak/clearfix.md)
 
-## Bootstrap
-
-* [Mi az a Bootstrap?](bootstrap/mi-az-a-bootstrap.md)
-* [Kezdő lépések](bootstrap/kezdo-lepesek.md)
-* [Grid rendszer](bootstrap/grid-rendszer.md)
-* [Tartalmak](bootstrap/tartalmak.md)
-* [Komponensek](bootstrap/komponensek.md)
-* [Segédek](bootstrap/segedek.md)
-* [Egyedi megjelenés, témák](bootstrap/egyedi-megjelenes-temak.md)
-
 ## VS Code
 
 * [Mi az a VS Code?](vs-code/mi-a-vs-code.md)
@@ -66,6 +56,16 @@
 
 * [Mi az a W3C Validator?](w3c-validator/mi-az-a-w3c-validator.md)
 * [W3C Validator használata](w3c-validator/w3c-validator-hasznalata.md)
+
+## Bootstrap
+
+* [Mi az a Bootstrap?](bootstrap/mi-az-a-bootstrap.md)
+* [Kezdő lépések](bootstrap/kezdo-lepesek.md)
+* [Grid rendszer](bootstrap/grid-rendszer.md)
+* [Tartalmak](bootstrap/tartalmak.md)
+* [Komponensek](bootstrap/komponensek.md)
+* [Segédek](bootstrap/segedek.md)
+* [Egyedi megjelenés, témák](bootstrap/egyedi-megjelenes-temak.md)
 
 ## Egyéb eszközök
 

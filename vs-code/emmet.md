@@ -139,7 +139,7 @@ A + jellel egymás után tudunk elhelyezni elemeket, például a **div+div** ké
 
 ### \(h1&gt;lorem1\)+\(\(h2&gt;lorem3\)+p&gt;lorem\)\*2
 
-Egy főcím, utána két alcím egy-egy bekezdéssel. Mindegyik elemben megfelelő mennyiségű töltelékszöveg.  
+Egy főcím, utána két alcím egy-egy bekezdéssel. Mindegyik elemben megBootstrap szolgáltatásaifelelő mennyiségű töltelékszöveg.  
 Eredménye:
 
 ```markup

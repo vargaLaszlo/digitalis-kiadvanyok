@@ -2,7 +2,7 @@
 
 A @media direktíva a megjelenítő eszköz típusa, és tulajdonságai alapján léptet életbe CSS szabályokat.
 
-Segítségével eltérő kinézetet valósíthatunk meg eltérő eszközökön.
+Segítségével eltérő kinézetet valósíthatunk meg eltérő képernyőfelbontásokon, vagy eszközökön.
 
 ![](../.gitbook/assets/media.png)
 
@@ -123,5 +123,5 @@ A `,` operátorral több eszköz szabályt is megadhatunk, ha egy közülük ér
 }
 ```
 
-Ebben a példában 100px alatt és 200px felett érvényesül a CSS.
+Ebben a példában 100px alatt és 200px felett is érvényesül a CSS.
 

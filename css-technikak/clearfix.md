@@ -1,6 +1,6 @@
 # Clearfix
 
-A Clearfix arra a problémára ad megoldást, hogy az úsztatott elemek nem tolják szét a szülő konténerük magasságát, így például ha egy elem csak úsztatott elemeket tartalmaz, a magassága 0-val lesz egyenlő.
+A Clearfix arra a problémára ad megoldást, hogy az [úsztatott elemek](../css/usztatas.md#usztatott-elemek-viselkedese-szoevegben) nem tolják szét a szülő konténerük magasságát, így például ha egy elem csak úsztatott elemeket tartalmaz, a magassága 0-val lesz egyenlő.
 
  Az alábbi példában a nem úsztatott elem a szülő magasságát széttolja \(a szülő elem vörös kerettel van körbevéve\).
 
@@ -17,7 +17,7 @@ Ez jellemzően akkor jelent gondot, ha szövegben úsztatunk egy képet, és a k
 Az alábbi CSS-t elhelyezve a szülő elemen az úsztatott gyermekek befolyásolják az elem magasságát:
 
 {% code-tabs %}
-{% code-tabs-item title="clearfix" %}
+{% code-tabs-item title="CSS" %}
 ```css
 .cf:before,
 .cf:after {
@@ -29,6 +29,16 @@ Az alábbi CSS-t elhelyezve a szülő elemen az úsztatott gyermekek befolyásol
 .cf:after {
   clear: both;
 }
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="HTML" %}
+```
+<div class="cf">
+     <img src="tiger.jpg" alt="Sleaping tiger">
+     <p>Lorem ipsum dolor sit amet ...</p>  
+</div>
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
