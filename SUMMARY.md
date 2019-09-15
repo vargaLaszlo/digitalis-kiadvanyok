@@ -81,4 +81,5 @@
 * [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
 * [Markdown szerkesztők, olvasók](fueggelek/markdown-szerkesztok-olvasok.md)
 * [Webmotorok](fueggelek/webmotorok.md)
+* [Fejlesztéshez alkalmas számítógép konfiguráció](fueggelek/fejleszteshez-alkalmas-szamitogep-konfiguracio.md)
 
