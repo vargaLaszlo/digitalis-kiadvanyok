@@ -25,7 +25,7 @@ Jellemző, hogy az oldalak nyelvét a `html` elemen a `lang` \(nyelv\) tulajdons
 
 ## HTML dokumentum fejléce
 
-A `head` a dokumentum fejléce, ezt nem jeleníti meg a böngésző, a dokumentum **metaadatait** \(általános információk\) tartalmazza.
+A `head` a dokumentum fejléce, a dokumentum **metaadatait**, és egyéb állományokra való hivatkozásokat tartalmaz, ezeket **nem jeleníti meg a böngésző vizuálisan** \(jellemzően ezek általános információk, amit a böngésző program, internetes keresők dolgoznak fel\).
 
 ```markup
 <html>

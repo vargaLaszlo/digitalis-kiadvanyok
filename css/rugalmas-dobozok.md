@@ -155,11 +155,35 @@ Némi hasonlóságot mutat a szöveg rendezéssel \(text align\) csak itt nem sz
 
 ### **Rugalmas összehúzódás - flex-shrink**
 
-**...**
+A `flex-shrink` tulajdonság határozza meg, hogy a többi elemhez képest mekkora mértékben húzódjon össze az adott elem.
 
 ### **Önigazítás - align-self**
 
-**...**
+Az `align-self` ugyan úgy működik, mint az `align-items` \([elemek igazítása](rugalmas-dobozok.md#elemek-igazitasa-align-items)\), csak ez egyetlen elemre vonatkozik.
+
+![](../.gitbook/assets/align-self.png)
+
+```css
+.flex-start {
+  align-self: flex-start;
+}
+
+.flex-end {
+  align-self: flex-end;
+}
+
+.center {
+  align-self: center;
+}
+
+.stretch {
+  align-self: stretch;
+}
+
+.baseline {
+  align-self: baseline;
+}
+```
 
 ## Ábra
 

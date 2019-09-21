@@ -1,4 +1,4 @@
-# Pozícionálás
+# Pozicionálás
 
 ## Dokumentumfolyam
 
