@@ -286,6 +286,19 @@ Egyes szövegközi elemek csak vizuális hatást érnek el, egyes elemek jelent�
 [Kódpélda](https://codepen.io/_lacus/pen/aLyybM)
 {% endhint %}
 
+### Hiperlink
+
+A hiperlinkek, vagy linkek kattinthatóvá teszik a bennük foglalt szöveget. Linket az `a` elemmel lehet létrehozni. Van egy kötelező tulajdonsága a `href` ami azt a címet tartalmazza, amit a böngésző be fog tölteni kattintás esetén. Ez a cím lehet egy másik HTML dokumentum vagy egyéb állomány, internetes cím \(URL\), vagy e-mail cím.
+
+```markup
+<p>Ebben a szövegben egy szó <a href="document.html">kattintható</a>,
+rákattintva a böngésző betölt egy másik HTML dokumentumot.</p>
+```
+
+A linkek módosítják a szöveg megjelenését is, a böngésző kék szövegszínnel, és aláhúzva jeleníti meg a kattintható szöveget, így könnyű a linkeket felismerni.
+
+![](../.gitbook/assets/link.png)
+
 ### Span
 
 Van egy szövegközi elem, ami nem hordoz jelentéstartalmat, és nem módosítja a bele foglalt szöveget vizuálisan, ez a `span` elem \(szabad fordításban dirib-darab\).
