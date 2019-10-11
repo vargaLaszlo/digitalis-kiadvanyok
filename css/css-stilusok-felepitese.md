@@ -12,7 +12,7 @@ A CSS stílusokat egy HTML elem **style** [tulajdonságában](../html/html-allom
 
 ### Beágyazott stíluslapok
 
-A **CSS** stylusokat elhelyezhetjük egy **HTML** állomány [fejlécében](../html/html-elemek.md#html-dokumentum-fejlece) egy **style** elemben.  
+A **CSS** stílusokat elhelyezhetjük egy **HTML** állomány [fejlécében](../html/html-elemek.md#html-dokumentum-fejlece) egy **style** elemben.  
 A **style** elemben **CSS** nyelvi szabályok lesznek érvényesek.
 
 ```markup

@@ -353,7 +353,7 @@ A HTML korábbi verzióiban a `div` elemet ruháztuk fel szerepekkel a `role` \(
 
 #### Navigáció
 
-A `nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így linkeket helyezhetünk el benne.
+A `nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigációra szolgál, így [linkeket](html-elemek.md#linkek) helyezhetünk el benne.
 
 ```markup
 <nav>
@@ -362,7 +362,7 @@ A `nav` elem kifejezetten egy weboldalon belüli \(aloldalak közötti\) navigá
 </nav>
 ```
 
-Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket lista elemekben csoportosíthatjuk a `nav` elemen belül.
+Bonyolultabb navigáció, például egy weboldal főmenüje esetében a [linkeket](html-elemek.md#linkek) [lista elemekben](html-elemek.md#listak) csoportosíthatjuk a `nav` elemen belül.
 
 ```markup
 <nav>
@@ -376,7 +376,7 @@ Bonyolultabb navigáció, például egy weboldal főmenüje esetében a linkeket
 </nav>
 ```
 
-A menü linkek listába helyezése lehetővé teszi több szintű almenü struktúra létrehozását.
+A menü linkek [listába](html-elemek.md#listak) helyezése lehetővé teszi több szintű almenü struktúra létrehozását.
 
 ```markup
 <nav>
@@ -398,11 +398,11 @@ A menü linkek listába helyezése lehetővé teszi több szintű almenü strukt
 
 #### Fejléc elem
 
-A `header` elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a `head` elemmel!
+A `header` elem használható egy weboldal fejléceként \(ebbe kerül például az oldal logója, főmenüje\), vagy kisebb tartalmi egységek fejléceként is szolgálhat. Nem összekeverendő a [`head`](html-elemek.md#html-dokumentum-fejlece) elemmel!
 
 #### Fő tartalmi egység
 
-A `main` elembe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közvetlenül kapcsolatos \(például navigáció\), az ezen az elemen kívül helyezendő el. Egy **HTML** dokumentumban csak egy `main` elem helyezhető el.
+A `main` elembe kerül a lényegi tartalom egy oldalon, minden ami nem a tartalommal közvetlenül kapcsolatos \(például [navigáció](html-elemek.md#navigacio)\), az ezen az elemen kívül helyezendő el. Egy **HTML** dokumentumban csak egy `main` elem helyezhető el.
 
 #### **Másodlagos tartalom**
 

@@ -4,17 +4,19 @@
 
 ## Mi az az Emmet?
 
-Az **Emmet** egy automatikus kódkiegészítő, ami megkönnyíti a munkát **HTML** és **CSS** dokumentumokkal, úgy hogy drasztikusan csökkenti a gépelés mennyiségét \(és a gépelési hibákat\). 
+Az **Emmet** egy automatikus kódkiegészítő, ami megkönnyíti a munkát **HTML** és **CSS** dokumentumokkal, úgy hogy _drasztikusan_ csökkenti a gépelés mennyiségét \(és a gépelési hibákat\). 
 
-Számos fejlesztői eszközbe alapértelmezetten be van integrálva, köztük a **VS Code** szövegszerkesztőbe, és a **Codepen.io** online szövegszerkesztőbe is.
+Számos fejlesztői eszközbe alapértelmezetten be van integrálva, köztük a [**VS Code**](mi-a-vs-code.md) ****szövegszerkesztőbe, és a [**Codepen.io**](https://codepen.io/) online szövegszerkesztőbe is.
 
 Az **Emmet**[ **rövidítéseket**](https://docs.emmet.io/abbreviations/syntax/) \(abbreviation\) használ, amiket begépelve komplex HTML struktúrákat kapunk vissza.
 
-Például ha VS Code-ban megnyitunk egy HTML dokumentumot, és új sorban leütjük a p betűt, és entert nyomunk egy HTML bekezdést kapunk:
+Például ha VS Code-ban megnyitunk egy HTML dokumentumot, és új sorban leütjük a `p` betűt, és entert \(vagy tab-ot\) nyomunk, egy HTML bekezdést kapunk:
 
 ```markup
 <p></p>
 ```
+
+Az Emmet honlapja az alábbi linken érhető el: [https://emmet.io/](https://emmet.io/)
 
 ## Emmet példák
 

@@ -19,7 +19,7 @@ Nem kötelező megadni, ebben az esetben az alapértéket, az _all_-t veszi fel.
 
 ```css
 p {
-    color: black;
+    color: red;
 }
 
 @media print {
