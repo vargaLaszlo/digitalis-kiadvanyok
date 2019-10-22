@@ -26,7 +26,7 @@ A kijelölők könnyebb megértését segíti a CSS Diner nevű játék, ami el�
 
 ## Általános kijelölő
 
-Az **általános kijelölő** az összes elemre általánosan hivatkozik, segítségével a HTML dokumentumban lévő összes elemre vonatkozó stílusokat tudunk megadni.
+Az **általános kijelölő** minden elemre __általánosan hivatkozik, segítségével a HTML dokumentumban lévő _összes elemre_ vonatkozó stílusokat tudunk megadni.
 
 ```css
 * {
