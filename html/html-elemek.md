@@ -1,8 +1,7 @@
 ---
 description: >-
-  Ebben a fejezetben áttekintjük a legjellemzőbb HTML elemeket, ez közel sem az
-  elemek teljes listája, de ahhoz elegendő ez a gyűjtemény, hogy elkezdjünk
-  építkezni belőlük.
+  A HTML elemek a weboldalak, és webes alkalmazások építőelemei, ebben a
+  fejezetben ezekből az építőkockákból  ismerhetjük meg a legfontosabbakat:
 ---
 
 # HTML elemek
@@ -226,7 +225,7 @@ Fontos kitölteni a képek alternatív leírását, mert ha a kép nem tud betö
 
 ## Szövegközi elemek
 
-A HTML elemekben lévő szöveget szövegközi \(inline\) elemekkel módosíthatjuk.
+A HTML elemekben lévő szöveget szövegközi \(inline\) elemekkel módosíthatjuk. A szövegközi elemek teljes szöveges blokkok, vagy szövegrészletek megjelenését, viselkedését módosítják.
 
 ```markup
 <p>A <strong>Web</strong> alapelveit <em>Tim Berners-Lee</em>, a
@@ -237,6 +236,10 @@ volt.</p>
 ```
 
 A fenti példakódban a bekezdés egyes szakaszai fontosként \(&lt;strong&gt;\), vagy hangsúlyosként \(&lt;em&gt;\) vannak megjelölve.
+
+{% hint style="warning" %}
+E helyen fontos megjegyezni a szövegközi elemekkel kapcsolatos korlátozást, hogy **szövegközi** \(inline\) ****elemben nem lehet elhelyezni **blokkos** \(block\) elemet, az elemek e módon történő [egymásba ágyazása](html-allomany-felepitese.md#html-cimkek-tag) nem szabványos. Például egy `b` elembe nem kerülhet bekezdés elem \(`p`\). Ennek a fejezetnek a végén az itt felsorolt [elemek listájában](html-elemek.md#felsorolt-elemek-listaja) megtaláljuk, hogy mely elemek rendelkeznek blokkos, vagy szövegközi megjelenítési móddal.
+{% endhint %}
 
 | elem | leírás |
 | :--- | :--- |
@@ -566,6 +569,14 @@ Táblázat cella helyett lehet táblázat fejléc cellát alkalmazni, ez a `th` 
     </tr>
 </table>
 ```
+
+{% hint style="info" %}
+**Elavult elemek**  
+  
+Az idők során az újabb és újabb HTML verziókban számos korábbi elem került kivezetésre. Jellemzően ennek az oka, hogy a JavaScript, és a CSS átvett bizonyos HTML funkciókat, például a `center` elem korábban középre rendezte a szöveget, ezt mostmár CSS segítségével végezzük el, hasonló a `frame` vagy keret, amivel görgethető felületeket lehetett kialakítani az oldalakon.  
+  
+Példák elavult elemekre: `acronim`, `applet`, `basefont`, `big`, `center`, `dir`, `font`, `frame`, `frameset`, `isindex`, `layer`, `menu`
+{% endhint %}
 
 ## Felsorolt elemek listája
 
