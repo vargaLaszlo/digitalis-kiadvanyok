@@ -16,8 +16,8 @@ Ez jellemzően akkor jelent gondot, ha szövegben úsztatunk egy képet, és a k
 
 Az alábbi CSS-t elhelyezve a szülő elemen az úsztatott gyermekek befolyásolják az elem magasságát:
 
-{% code-tabs %}
-{% code-tabs-item title="CSS" %}
+{% tabs %}
+{% tab title="CSS" %}
 ```css
 .cf:before,
 .cf:after {
@@ -30,9 +30,9 @@ Az alábbi CSS-t elhelyezve a szülő elemen az úsztatott gyermekek befolyásol
   clear: both;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="HTML" %}
+{% tab title="HTML" %}
 ```
 <div class="cf">
      <img src="tiger.jpg" alt="Sleaping tiger">
@@ -40,8 +40,8 @@ Az alábbi CSS-t elhelyezve a szülő elemen az úsztatott gyermekek befolyásol
 </div>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![](../.gitbook/assets/clearfix04.png)
 

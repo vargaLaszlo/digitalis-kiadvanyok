@@ -42,8 +42,8 @@ footer {
 
 A következő példában egy weboldal főbb szerkezeti elemeinek szervezését tekinthetjük át:
 
-{% code-tabs %}
-{% code-tabs-item title="layout.html" %}
+{% tabs %}
+{% tab title="layout.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="en">
@@ -64,9 +64,9 @@ A következő példában egy weboldal főbb szerkezeti elemeinek szervezését t
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="layout.css" %}
+{% tab title="layout.css" %}
 ```css
 /* Konténer középre rendezése */
 .container {
@@ -104,8 +104,8 @@ footer {
     background-color: #ff6b6b;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% embed url="https://codepen.io/\_lacus/pen/KyZMQv?editors=1100" %}
 

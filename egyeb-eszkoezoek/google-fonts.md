@@ -76,8 +76,7 @@ Kiválasztott fontok a Google Fonts-on:
 
 HTML állomány:
 
-{% code-tabs %}
-{% code-tabs-item title="google-fonts-example.html" %}
+{% code title="google-fonts-example.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="hu">
@@ -112,8 +111,7 @@ HTML állomány:
 </html>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Az állomány böngészőben megnyitva:
 

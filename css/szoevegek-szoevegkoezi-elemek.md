@@ -68,8 +68,8 @@ Az alábbi fontokat tartalmazza: _Andalé Mono, Arial, Arial Black, Comic Sans M
 
 A `@font-face` segítségével mi is létrehozhatunk betűcsaládokat, és betölthetünk betűkészleteket a HTML állományainkba. Ehhez szükséges a böngészők számára is emészthető fontok \(webfontok\) használata.
 
-{% code-tabs %}
-{% code-tabs-item title="@font-face" %}
+{% tabs %}
+{% tab title="@font-face" %}
 ```css
 @font-face {
   font-family: 'MyWebFont';
@@ -83,9 +83,9 @@ body {
   font-family: 'MyWebFont', sans-serif;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Magyarázat" %}
+{% tab title="Magyarázat" %}
 ```css
 @font-face {
   /* A font-family határozza meg a létrehozott betűcsalád nevét */
@@ -108,8 +108,8 @@ body {
   font-family: 'MyWebFont', sans-serif;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Az interneten elérhetőek `@font-face` generátorok, ezekkel egy adott fontból elkészíthetjük a böngészőkkel kompatibilis font állományokat, a webfontokat, és a szükséges CSS-t is. A legismertebb szolgáltatás a Font Squirrel \([https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)\). Egy jó alternatíva a Transfonter \([https://transfonter.org/](https://transfonter.org/)\). Mindkét szolgáltató a letölthető állományok között ad egy HTLM állományt töltelékszöveggel, amiben megnézhetjük a generált fontokat.

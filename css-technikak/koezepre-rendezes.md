@@ -15,8 +15,8 @@ div {
 
 Az elem [szélességét](../css/doboz-modell.md#tartalom-content) is szükséges megadni, ez lehet relatív szélesség \(százalék, vagy viewport\), vagy fix érték például pixel \(ha nincs megadva szélesség az elem teljesen kitölti a szülő elemet\).
 
-{% code-tabs %}
-{% code-tabs-item title="center.html" %}
+{% tabs %}
+{% tab title="center.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="en">
@@ -34,9 +34,9 @@ Az elem [szélességét](../css/doboz-modell.md#tartalom-content) is szükséges
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="center.css" %}
+{% tab title="center.css" %}
 ```css
 main {
 	padding: 30px 0;
@@ -52,8 +52,8 @@ div {
 	background-color: #f03e3e;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Ez a technika csak [blokkos elemekkel](../css/doboz-modell.md#toembszeru-vagy-blokkos-elemek-jellemzoi) működik, `display: inline` \(szövegközi\) elemekre hatástalan \(nincs külső margójuk\).
 

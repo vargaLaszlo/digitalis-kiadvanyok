@@ -8,17 +8,21 @@ A **kijelölők** segítenek kiválasztani azokat a HTML elemeket, amelyekre CSS
 
 A következő példában, a HTML állományunkban elhelyzünk egy`h1` címet:
 
+{% code title="" %}
 ```markup
 <h1>Helló világ</h1>
 ```
+{% endcode %}
 
 A HTML elemek megjelenését CSS stílusokkal tudjuk befolyásolni, a lenti példában a `h1` elem szövegszínét vörösre állítjuk. Maga a kijelölő a kapcsos zárójel nyitó eleme előtt található \(h1\).
 
+{% code title="" %}
 ```css
 h1 {
     color: red;
 }
 ```
+{% endcode %}
 
 A kijelölők hivatkozhatnak több elemre, vagy bizonyos típúsú elemekre \(a fenti példában az összes `h1` elemre\), de egészen specifikusan egy-egy elemet is kiválaszthatunk velük.
 

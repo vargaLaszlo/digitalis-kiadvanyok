@@ -161,8 +161,7 @@ Következő példában egy `img` \(kép\), az `src` a képállományra mutató h
 
 Ebben a példában egy egyszerű HTML állomány tartalma látható:
 
-{% code-tabs %}
-{% code-tabs-item title="index.html" %}
+{% code title="index.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="hu">
@@ -175,6 +174,5 @@ Ebben a példában egy egyszerű HTML állomány tartalma látható:
     </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

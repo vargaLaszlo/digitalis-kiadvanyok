@@ -20,6 +20,8 @@ A Világháló az 1990-es évek előtt még nem létezett, ennek elméleti konce
 
 ![Az els&#x151; weboldal](../.gitbook/assets/first-web-page.png)
 
+![Korabeli cikk r&#xE9;szlet a Web sz&#xFC;let&#xE9;s&#xE9;r&#x151;l.](../.gitbook/assets/www.jpg)
+
 ### 1990-es évek
 
 Kilencvenes évek közepén jelentek meg az első böngészők, amik képeket is meg tudtak már jeleníteni, ezt tekinthetjük a webdesign hajnalának.

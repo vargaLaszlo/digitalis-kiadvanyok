@@ -50,8 +50,8 @@ nav a {
 
 ![Ez m&#xE1;r egy haszn&#xE1;lhat&#xF3; v&#xED;zszintes men&#xFC;.](../.gitbook/assets/float-menu4.png)
 
-{% code-tabs %}
-{% code-tabs-item title="menu.css" %}
+{% tabs %}
+{% tab title="menu.css" %}
 ```css
 nav ul {
     list-style-type: none;
@@ -68,9 +68,9 @@ nav a {
     padding: 0 16px;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="menu.html" %}
+{% tab title="menu.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="en">
@@ -95,15 +95,15 @@ nav a {
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% embed url="https://codepen.io/\_lacus/pen/Mxejwj" %}
 
 Kész a vízszintes menü, jelen formájában már használható, a következő példában további stílusokkal látjuk el \(elemek magassága, szövegszín, háttérszín\):
 
-{% code-tabs %}
-{% code-tabs-item title="menu.css" %}
+{% tabs %}
+{% tab title="menu.css" %}
 ```css
 nav ul {
 	list-style-type: none; /* Listáról leveszi a pöttyöket */
@@ -136,9 +136,9 @@ nav a:hover {
 	background-color: #0ca678; /* Kurzor alatt lévő menü elem héttérszíne */
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="menu.html" %}
+{% tab title="menu.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="en">
@@ -163,8 +163,8 @@ nav a:hover {
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![Egy lehets&#xE9;ges men&#xFC; st&#xED;lus.](../.gitbook/assets/float-menu5.png)
 
