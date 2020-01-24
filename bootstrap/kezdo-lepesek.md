@@ -102,3 +102,29 @@ Popper.js letöltés link: [https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/u
 Az alábbi linken a fenti HTML dokumentum, és az összes hivatkozott állomány egyben letölthető: [https://www.dropbox.com/s/68s19gm5puw13nt/bootstrap.zip?dl=0](https://www.dropbox.com/s/68s19gm5puw13nt/bootstrap.zip?dl=0)
 {% endhint %}
 
+## Hasznos eszközök
+
+### Bootstrap témák
+
+A Bootstrap keretrendszer könnyen témázható, mi is létre tudunk belőle hozni egyedi témát, ehhez a Bootstrap forrásállományait szükséges szerkeszteni. A forrásállományok szerkesztése haladó nehézségű feladat, szerencsér elérhetőek előre elkészített színsémák a Bootswatch.com weboldalon a témák menüpontban.
+
+A téma használatba vételéhez töltsük le a témához kapcsolódó bootstrap.min.css állományt, és kössük be a HTML állományunkba.
+
+{% embed url="https://bootswatch.com/" %}
+
+### Bootstrap Modulháló Chrome böngészőhöz
+
+Ezzel az eszközzel a bootstrap modulhálóját jeleníthetjük meg a Chrome böngészőben, ami könnyíti a felület kialakítását.
+
+![Bootstrap Grid Overlay b&#x151;v&#xED;tm&#xE9;ny m&#x171;k&#xF6;d&#xE9;s k&#xF6;zben](../.gitbook/assets/bs-grid-system-h.png)
+
+{% embed url="https://chrome.google.com/webstore/detail/bootstrap-grid-overlay/mnlklmelflkheijccafopdohgclfefcg" %}
+
+### Bootstrap kódkiegészítő VScode bővítmény
+
+A Visual Studio Code alapból nem kezeli a Bootstrap kód részleteket, ezzel a bővítménnyel elérhetővé válnak a Bootstrap HTML struktúrái a `b4` kulcsszóra.
+
+![](../.gitbook/assets/b4%20%281%29.png)
+
+{% embed url="https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode" %}
+
