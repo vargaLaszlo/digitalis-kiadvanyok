@@ -8,7 +8,7 @@ A bootstrap külső szolgáltatónál elhelyezett **CSS** állományát egyszer�
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 ```
 
-Egyes interaktív szolgálltatások eléréséhez szükség van a bootstrap javaScript állományára is, ehez a kövelkező 3 sort el kell helyezni a HTML állomány lezáró body eleme előtt:
+Egyes interaktív szolgálltatások eléréséhez szükség van a bootstrap javaScript állományára is, ehez a kövelkező 3 sort el kell helyezni a HTML állomány lezáró `body` eleme előtt:
 
 ```markup
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -48,7 +48,7 @@ A következő példa dokumentumba be van emelve az összes **CSS** és **JavaScr
 
 ## Bootstrap bemelése a HTML állomány mellé
 
-A Bootstrap állományait direkt módon beemelhetjük a HTML állományaink mellé. Ehez [töltsük le](https://getbootstrap.com/docs/4.4/getting-started/download/) a Bootstrap csomagot, a kapott zip állományt kicsomagolva igény szerint helyezzük el a HTML állomány mellett a CSS állományokat és ha szükséges a Javascritp állományokat is.
+A Bootstrap állományait direkt módon beemelhetjük a HTML állományaink mellé. Ehez [töltsük le](https://getbootstrap.com/docs/4.4/getting-started/download/) a Bootstrap csomagot, a kapott zip állományt kicsomagolva igény szerint helyezzük el a HTML állomány mellett a CSS állományokat és ha interaktív elemeket is használunk, a Javascritp állományokat is.
 
 A **CSS** állomány bekötéséhez a HTML dokumentum fejlécében helyezzünk el egy **link**-et:
 
@@ -56,9 +56,9 @@ A **CSS** állomány bekötéséhez a HTML dokumentum fejlécében helyezzünk e
 <link rel="stylesheet" href="css/bootstrap.min.css">
 ```
 
-Válasszuk a `bootstrap.min.css` elnevezésű állományt, ez ez összes szolgáltatást tartalmazza, és a tömörített formátumú.
+Válasszuk a `bootstrap.min.css` elnevezésű állományt, ez ez összes szolgáltatást tartalmazza, és tömörített formátumú.
 
-A **JavaScript** állományok beemeléséhez a Bootstrap állományain kívül szükséges a **jQuery** keretrendszer, és a **popper.js** felugró ablak kezelő is. Az összes JavaScript állományt helyezzük el a html dokumentum mellett \(a bootstrap js mappája erre megfelel\), és a body elem záró része előtti sorban helyezzük el a következő 3 hivatkozást:
+A **JavaScript** állományok beemeléséhez a Bootstrap állományain kívül szükségünk lesz a **jQuery** keretrendszerre, és a **popper.js** felugró ablak kezelőre is. Az összes JavaScript állományt helyezzük el a html dokumentum mellett \(a bootstrap js mappája erre megfelel\), és a `body` elem záró része előtti sorban helyezzük el a következő 3 hivatkozást:
 
 ```markup
 <script src="js/jquery-3.4.1.min.js"></script>
@@ -106,7 +106,7 @@ Az alábbi linken a fenti HTML dokumentum, és az összes hivatkozott állomány
 
 ### Bootstrap témák
 
-A Bootstrap keretrendszer könnyen témázható, mi is létre tudunk belőle hozni egyedi témát, ehhez a Bootstrap forrásállományait szükséges szerkeszteni. A forrásállományok szerkesztése haladó nehézségű feladat, szerencsér elérhetőek előre elkészített színsémák a Bootswatch.com weboldalon a témák menüpontban.
+A Bootstrap keretrendszer könnyen témázható, mi is létre tudunk belőle hozni egyedi témát, ehhez a Bootstrap forrásállományait szükséges szerkeszteni. A forrásállományok szerkesztése haladó nehézségű feladat, szerencsére elérhetőek előre elkészített színsémák a **Bootswatch.com** weboldalon a témák menüpontban.
 
 A téma használatba vételéhez töltsük le a témához kapcsolódó bootstrap.min.css állományt, és kössük be a HTML állományunkba.
 
@@ -117,6 +117,10 @@ A téma használatba vételéhez töltsük le a témához kapcsolódó bootstrap
 Ezzel az eszközzel a bootstrap modulhálóját jeleníthetjük meg a Chrome böngészőben, ami könnyíti a felület kialakítását.
 
 ![Bootstrap Grid Overlay b&#x151;v&#xED;tm&#xE9;ny m&#x171;k&#xF6;d&#xE9;s k&#xF6;zben](../.gitbook/assets/bs-grid-system-h.png)
+
+Hogy helyi, a számítógépünkön található állományokon is használni tudjuk ezt a bővítmént, engedélyeznünk kell a következő opciót \(Chrome-ban bővítmények kezelése\):
+
+![](../.gitbook/assets/extt.png)
 
 {% embed url="https://chrome.google.com/webstore/detail/bootstrap-grid-overlay/mnlklmelflkheijccafopdohgclfefcg" %}
 
