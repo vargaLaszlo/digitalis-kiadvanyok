@@ -61,6 +61,7 @@
 
 * [Mi az a Bootstrap?](bootstrap/mi-az-a-bootstrap.md)
 * [Kezdő lépések](bootstrap/kezdo-lepesek.md)
+* [Konténer elem](bootstrap/kontener-elem.md)
 * [Grid rendszer](bootstrap/grid-rendszer.md)
 * [Tartalmak](bootstrap/tartalmak.md)
 * [Komponensek](bootstrap/komponensek.md)
