@@ -80,11 +80,15 @@ A **grid**, vagy **modulháló** a tervezés legalapabb alapja, nem újkeletű d
 
 Weboldalunkhoz nem kell megírni külön a grid rendszert, számos kész rendszer a rendelkezésünkre áll: [960 Grid System](https://960.gs/), [csswizardry-grids](https://csswizardry.com/csswizardry-grids/), [Neat Grid](https://neat.bourbon.io/docs/latest/)
 
-Grid rendszert készen beépítve megtaláljuk a jelentősebb CSS/HTML keretrendszerekben: [Bootstrap - Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), [Zurb Foundation - The Grid](https://foundation.zurb.com/grid.html)
+Grid rendszert készen beépítve megtaláljuk a jelentősebb CSS HTML [keretrendszerekben](../fueggelek/kliens-oldali-keretrendszerek.md): [Bootstrap - Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), [Zurb Foundation - The Grid](https://foundation.zurb.com/grid.html)
 
 A [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) érdekessége, hogy [magában](https://getbootstrap.com/docs/4.3/getting-started/contents/#css-files) a Bootstrap egyéb funkciói nélkül is beépíthetjük, és használhatjuk webes alkalmazásinkban.
 
 ![Bootstrap Grid System-el k&#xE9;sz&#xFC;lt fel&#xFC;let.](../.gitbook/assets/bs-grid-system.png)
 
 ![A fenti Boodstrap Grid System fel&#xFC;let a 12-es oszlop kiemel&#xE9;s&#xE9;vel.](../.gitbook/assets/bs-grid-system-h.png)
+
+{% page-ref page="../bootstrap/mi-az-a-bootstrap.md" %}
+
+{% page-ref page="../fueggelek/kliens-oldali-keretrendszerek.md" %}
 
