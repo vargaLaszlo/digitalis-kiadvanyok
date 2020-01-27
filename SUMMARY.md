@@ -79,9 +79,9 @@
 
 * [Felhasznált irodalom](fueggelek/felhasznalt-irodalom.md)
 * [Tanulási alternatívák](fueggelek/tanulasi-alternativak.md)
-* [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
 * [Markdown szerkesztők, olvasók](fueggelek/markdown-szerkesztok-olvasok.md)
 * [Webmotorok](fueggelek/webmotorok.md)
 * [Kliens oldali keretrendszerek](fueggelek/kliens-oldali-keretrendszerek.md)
 * [Fejlesztéshez alkalmas számítógép konfiguráció](fueggelek/fejleszteshez-alkalmas-szamitogep-konfiguracio.md)
+* [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
 

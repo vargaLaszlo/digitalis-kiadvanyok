@@ -30,8 +30,8 @@
     </tr>
     <tr>
       <td style="text-align:left">Merevlemez</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">SSD</td>
+      <td style="text-align:left">500GB HDD</td>
+      <td style="text-align:left">500GB SSD</td>
     </tr>
   </tbody>
 </table>
