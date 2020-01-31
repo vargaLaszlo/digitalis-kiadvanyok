@@ -14,7 +14,11 @@ Konténer elemet úgy tudunk létrehozni, hogy egy HTML elemen elhelyezünk egy 
 </div>
 ```
 
+### container-fluid
+
 Van egy alternatív változata, ami nem rendezi középre a tartalmat, viszont gondoskodik a jobb és bal oldali egységes eltartásról. Az alternatív konténert a `container-fluid` osztály hozza létre:  
+
+![ ](../.gitbook/assets/column-fluid.png)
 
 ```markup
 <div class="container-fluid">
