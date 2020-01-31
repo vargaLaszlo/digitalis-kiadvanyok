@@ -32,6 +32,7 @@
   * [FreeCodeCamp](https://www.freecodecamp.org/)
   * [Introduction to HTML \(Scrimba\)](https://scrimba.com/g/ghtml)
   * [Introduction to CSS \(Scrimba\)](https://scrimba.com/g/gintrotocss)
+  * [UI design course \(Scrimba\)](https://scrimba.com/p/prpYaAy/cEKWgWSN)
 * Haladó
   * [Learn GIT \(Codeacademy\)](https://www.codecademy.com/learn/learn-git)
   * [JavaScript Introduction \(EDX\)](https://www.edx.org/course/javascript-introduction-2)
