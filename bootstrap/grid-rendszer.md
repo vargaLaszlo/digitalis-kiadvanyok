@@ -1,6 +1,11 @@
-# Grid rendszer
+---
+description: >-
+  A Bootstrap Grid rendszer egy rugalmas eszköz, amivel a különböző képernyő
+  felbontásokon eltérő modulhálós megjelenést tudunk biztosítani a
+  webalkalmazásainknak.
+---
 
-A Bootstrap Grid rendszer egy rugalmas eszköz, amivel a különböző képernyő felbontásokon eltérő modulhálós megjelenést tudunk biztosítani a webalkalmazásainknak.
+# Grid rendszer
 
 ## Konténer - container
 
