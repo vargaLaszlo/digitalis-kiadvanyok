@@ -117,3 +117,54 @@ Egy soron belül az oszlop méreteket kombinálhatjuk:
 
 ![](../.gitbook/assets/cols.png)
 
+### Reszponzív oszlopok
+
+Az oszlopok beállításait **képernyő felbontástól függően befolyásolhatjuk**, böngésző ablak szélességétől függően adhatunk meg az oszlopainknak külőnböző méretet:
+
+| Képernyő tartomány | Rövidítés | Képernyő szélesség |
+| :--- | :---: | :--- |
+| Alapértelmezett |  | 0 - ∞ |
+| Kicsi \(small\) | `sm` | nagyobb vagy egyenlő mint **576 pixel** |
+| Közepes \(medium\) | `md` | nagyobb vagy egyenlő mint **768 pixel** |
+| Nagy \(large\) | `lg` | nagyobb vagy egyenlő mint **992 pixel** |
+| Óriás \(extra large\) | `xl` | nagyobb vagy egyenlő mint **1200 pixel** |
+
+Ahogy megfigyeljük minden mérettartomány egy fix értéken és a fölött lép érvénybe. 576 pixel \(kicsi\) felbontás alatt az alapértelmezett érték érvényesül, így ezt érdemes mindíg beállítani. Ha egy adott tartományra nem adunk meg értéket, az annál kisebb, vagy az alapértelmezett beállítás fog érvényesülni.
+
+`col-` osztály után fűzve a mérettartomány rövidítését lépésenként tudjuk beállítani az adott oszlopot:
+
+| Alapértelmezett | Kicsi | Közepes | Nagy | Óriás |
+| :--- | :--- | :--- | :--- | :--- |
+| `.col-` | `.col-sm-` | `.col-md-` | `.col-lg-` | `.col-xl-` |
+
+A következő példában az oszlopaink szélessége legkisebb képernyő méreten \(mobil\) teljes képernyő szélesség, kicsi képernyő méreten \(tablet\) fél képernyő szélesség, közepes képernyő méreten egyharmad képernyő szélesség, és így tovább, ahogy növekszik a képernyő méret egyre több elem fér el egymás mellett:
+
+```markup
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">1</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">2</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">3</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">4</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">5</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">6</div>
+    </div>
+</div>
+```
+
+Legjellemzőbb használat, hogy az elemeinket mobilon függőlegesen rendezzük, egyébként meg egymás mellett vízszintesen:
+
+```markup
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4">1</div>
+        <div class="col-12 col-md-4">2</div>
+        <div class="col-12 col-md-4">3</div>
+    </div>
+</div>
+```
+
+![A fenti p&#xE9;lda sz&#xE9;les k&#xE9;perny&#x151;n](../.gitbook/assets/responsive-md.png)
+
+![Ugyanaz keskenyre h&#xFA;zott k&#xE9;perny&#x151;n, vagy mobilon](../.gitbook/assets/responsive-sm.png)
+
