@@ -15,3 +15,9 @@
 * Bo Bergström - Bevezetés a vizuális kommunikációba
 * Molnár Csikós Hajnalka - Online tervezőgrafikai műfajok és médiumok
 
+## Felhasznált képek forrása
+
+* [Wikipedia](https://hu.wikipedia.org/wiki/Kezdőlap)
+* Lorempixel
+* Pixabay
+
