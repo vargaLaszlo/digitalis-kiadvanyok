@@ -4,13 +4,13 @@
 
 Egyedi programozású rendszereket számos cég készít, jellemzően egyedi igényeket elégítenek ki.
 
-Egyedi rendszerek előnyei: 
+### Egyedi rendszerek előnyei
 
 * Nincsenek ismert hibák, amit a hackerek \(könnyen\) kihasználhatnának.
 * Azt az igényt elégíti ki, amire a megrendelőnek szüksége van.
 * Nem tartalmaz felesleges funkciókat, így könnyebben optimalizálható.
 
-Egyedi rendszerek hátrányai: 
+### Egyedi rendszerek hátrányai
 
 * Nincs mögötte a közösség ereje, tudása.
 * Jellemzően a legalapvetőbb funkciókon kívül mindent le kell fejleszteni.
@@ -108,6 +108,24 @@ Webshop motorok népszerűségének összehasonlítása a Google Trends-en: [htt
 A statikus oldal generáló szöveges állományokból, például [markdown](https://www.markdownguide.org/getting-started) állományokból állít elő egy teljes weboldalt, ezt a műveletet rendszerint az oldal szerzője, fejlesztője végzi el egy asztali gépen. Nagy előnye ezeknek a rendszereknek, hogy nincs szükség számításigényes szerveroldali technológiákra, adatbázisokra, így ezek az oldalak kifejezetten gyorsak, és biztonságosak. Hátrányuk az interaktivitás hiánya \(nincsenek háttérműveletek\). 
 
 Statikus oldal generálók: [Jekyll](https://jekyllrb.com/), [Hyde](http://hyde.github.io/), [Gatsby](https://www.gatsbyjs.org/)
+
+### Felhő alapú weboldalkészítő
+
+A felhő alapú weboldalkészítők egy online felületen drag and drop \(fogd és vidd\) technikával gyorsan összerakható, és szerkeszthető weboldalakat kínálnak.
+
+#### Felhő alapú weboldalkészítő előnyei
+
+* Gyorsan megtanulható a használata
+* Nem szükséges technikai háttér ismeret
+* Számos előre elkészített sablon, és bővítmény
+
+#### Felhő alapú weboldalkészítő hátrányai
+
+* Kötve vagyunk a platformhoz, nem a miénk az oldal kódja, emiatt nem költöztethető
+* Korlátozottan optimalizálható teljesítmény, SEO szinten
+* Korlátozott funkcionalitása miatt egyedi igényeinket nem tudja kielégíteni
+
+Felhő alapú weboldal készítők: [WIX](https://www.wix.com/), [site123.com](https://app.site123.com/), [Weebly](https://www.weebly.com/)
 
 
 
