@@ -12,7 +12,7 @@ A `html` elem az összes többi elem szülője. Ebbe kerül az oldal teljes tart
 
 ```markup
 <html>
-<!-- Ide kerül az oldal tartalma -->
+    <!-- Ide kerül az oldal tartalma -->
 </html>
 ```
 

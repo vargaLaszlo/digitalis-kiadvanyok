@@ -75,6 +75,8 @@ hsl(240, 100%, 50%)  /* Kék */
 
 ![](../.gitbook/assets/hsl-colors.png)
 
+![HSL sz&#xED;nrendszer egy lehets&#xE9;ges modellje,  a sz&#xED;ng&#xF6;mb.](../.gitbook/assets/hsl-color-globe.png)
+
 ## HSLA színek **- hsla\(h, s, l, a\)**
 
 Itt is van alfa csatorna mint az RGBA esetében.
