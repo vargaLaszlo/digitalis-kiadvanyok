@@ -54,7 +54,7 @@
 * [Tartalmak](bootstrap/tartalmak.md)
 * [Komponensek](bootstrap/komponensek.md)
 * [Segédek](bootstrap/segedek.md)
-* [Egyedi megjelenés, témák](bootstrap/egyedi-megjelenes-temak.md)
+* [Egyedi megjelenés](bootstrap/egyedi-megjelenes-temak.md)
 
 ## VS Code
 

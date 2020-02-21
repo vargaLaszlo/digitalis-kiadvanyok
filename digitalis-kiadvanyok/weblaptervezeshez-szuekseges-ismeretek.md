@@ -78,11 +78,11 @@ A **grid**, vagy **modulháló** a tervezés legalapabb alapja, nem újkeletű d
 
 ![A weboldal r&#xE9;szegys&#xE9;gei r&#xE9;gi&#xF3;kba tagolva.](../.gitbook/assets/grid-use.png)
 
-Weboldalunkhoz nem kell megírni külön a grid rendszert, számos kész rendszer a rendelkezésünkre áll: [960 Grid System](https://960.gs/), [csswizardry-grids](https://csswizardry.com/csswizardry-grids/), [Neat Grid](https://neat.bourbon.io/docs/latest/)
+Weboldalunkhoz nem kell megírni külön a grid rendszert, számos kész rendszer a rendelkezésünkre áll: [960 Grid System](https://960.gs/), [csswizardry-grids](https://csswizardry.com/csswizardry-grids/)
 
 Grid rendszert készen beépítve megtaláljuk a jelentősebb CSS HTML [keretrendszerekben](../fueggelek/kliens-oldali-keretrendszerek.md): [Bootstrap - Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), [Zurb Foundation - The Grid](https://foundation.zurb.com/grid.html)
 
-A [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) érdekessége, hogy [magában](https://getbootstrap.com/docs/4.3/getting-started/contents/#css-files) a Bootstrap egyéb funkciói nélkül is beépíthetjük, és használhatjuk webes alkalmazásinkban.
+A [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/) érdekessége, hogy [magában](https://getbootstrap.com/docs/4.3/getting-started/contents/#css-files) a Bootstrap egyéb funkciói nélkül is beépíthetjük, és használhatjuk webes alkalmazásainkban.
 
 ![Bootstrap Grid System-el k&#xE9;sz&#xFC;lt fel&#xFC;let.](../.gitbook/assets/bs-grid-system.png)
 

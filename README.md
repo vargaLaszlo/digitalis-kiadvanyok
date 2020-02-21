@@ -23,6 +23,6 @@ Ez a könyv elérhető a [Github](https://github.io)-on, az alábbi linken: [htt
 {% endhint %}
 
 {% hint style="success" %}
-**Offline verzió letöltésézez** a jobb oldali menüből az Export as PDF menüpontot kell választani \(Entire space\).
+**Offline verzió letöltésézez** a jobb oldali menüből az `Export as PDF` menüpontot kell választani \(Entire space\).
 {% endhint %}
 

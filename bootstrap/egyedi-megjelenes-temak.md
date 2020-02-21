@@ -1,4 +1,4 @@
-# Egyedi megjelenés, témák
+# Egyedi megjelenés
 
 ...
 
