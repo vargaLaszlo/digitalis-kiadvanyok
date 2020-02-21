@@ -93,7 +93,7 @@ uuntur.</p>
 
 ![Kiskacsa jobbra &#xFA;sztatva.](../.gitbook/assets/img-flloat-right.png)
 
-#### Kép lekerekített sarokkal
+#### Kép lekerekített sarkokkal
 
 A kép sarkának lekerekítéséhez lássuk el egy `rounded` osztállyal:
 
@@ -102,4 +102,31 @@ A kép sarkának lekerekítéséhez lássuk el egy `rounded` osztállyal:
 ```
 
 ![](../.gitbook/assets/rounded.png)
+
+Állítható a lekerekítés mértéke is, a `rounded` osztály mellett használhatjuk  a `rounded-sm` és a `rounded-lg` osztályokat.
+
+```markup
+<!-- Kép kis lekerekítéssel -->
+<img class="rounded-sm" src="duckling-s.jpg" alt="Kiskacsa">
+
+<!-- Kép közepes lekerekítéssel -->
+<img class="rounded" src="duckling-s.jpg" alt="Kiskacsa">
+
+<!-- Kép nagy lekerekítéssel -->
+<img class="rounded-lg" src="duckling-s.jpg" alt="Kiskacsa">
+```
+
+![](../.gitbook/assets/rounded-scale.png)
+
+#### További kép stílusok
+
+```markup
+<!-- Körkép, csak négyzetes képekkel működik jól. -->
+<img class="rounded-circle" src="duckling.jpg" alt="Kiskacsa">
+
+<!-- Bélyegkép, izléses kerettel -->
+<img class="img-thumbnail" src="duckling-s.jpg" alt="Kiskacsa">
+```
+
+![](../.gitbook/assets/image-styles.png)
 
