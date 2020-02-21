@@ -99,5 +99,49 @@ Kártyáról bővebben:
 
 {% embed url="https://getbootstrap.com/docs/4.4/components/card/" %}
 
+## Jumbotron
+
+A Jumbotron, vagy marketink banner a weboldalunk nyitó eleme, méretéből kifolyólag szöveges vagy képi tartalmára irányítja a látogató tekintetét.
+
+```markup
+<div class="jumbotron">
+   <h1 class="display-4">Üdvözöljük honlapunkon</h1>
+   <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing 
+   elit. Autem deleniti eos possimus.</p>
+   <hr class="my-4">
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+   eos numquam eius expedita eligendi rerum, exercitationem consequuntur
+   voluptatem aut quisquam?</p>
+   <a class="btn btn-primary btn-lg" href="#">Olvasson tovább</a>
+ </div>
+```
+
+![](../.gitbook/assets/jumbotron.png)
+
+A Jumbotronnak van egy széles \(faltól falig érő\) változata. ezt a `jumbotron-fluid` osztállyal hozzuk létre.
+
+```markup
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Üdvözöljük honlapunkon</h1>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Autem deleniti eos possimus.</p>
+        <hr class="my-4">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. Animi eos numquam eius expedita eligendi rerum,
+        exercitationem consequuntur voluptatem aut quisquam?</p>
+        <a class="btn btn-primary btn-lg" href="#">Olvasson tovább</a>
+    </div>
+</div>
+```
+
+![](../.gitbook/assets/jumbotron-fluid.png)
+
+Jumbotronról bővebben:
+
+{% embed url="https://getbootstrap.com/docs/4.4/components/jumbotron/" %}
+
+
+
 
 
