@@ -109,9 +109,11 @@ A statikus oldal generáló szöveges állományokból, például [markdown](htt
 
 Statikus oldal generálók: [Jekyll](https://jekyllrb.com/), [Hyde](http://hyde.github.io/), [Gatsby](https://www.gatsbyjs.org/)
 
-### Felhő alapú weboldalkészítő
+### Felhő alapú weboldalkészítő \(Cloude based website builder\)
 
 A felhő alapú weboldalkészítők egy online felületen drag and drop \(fogd és vidd\) technikával gyorsan összerakható, és szerkeszthető weboldalakat kínálnak.
+
+![Wix vizu&#xE1;lis szerkeszt&#x151;fel&#xFC;lete](../.gitbook/assets/wix.png)
 
 #### Felhő alapú weboldalkészítő előnyei
 
@@ -125,7 +127,7 @@ A felhő alapú weboldalkészítők egy online felületen drag and drop \(fogd �
 * Korlátozottan optimalizálható teljesítmény, SEO szinten
 * Korlátozott funkcionalitása miatt egyedi igényeinket nem tudja kielégíteni
 
-Felhő alapú weboldal készítők: [WIX](https://www.wix.com/), [site123.com](https://app.site123.com/), [Weebly](https://www.weebly.com/)
+Felhő alapú weboldal készítők: [WIX](https://www.wix.com/), [site123.com](https://app.site123.com/), [Weebly](https://www.weebly.com/), [Unbounce](https://unbounce.com)
 
 
 

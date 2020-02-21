@@ -15,12 +15,14 @@ Ennek a könyvnek a célja, hogy a Számalk-Szalézi Szakgimnázium Kiadványsze
 {% page-ref page="bootstrap/mi-az-a-bootstrap.md" %}
 
 {% hint style="warning" %}
-Erre a könyvre a [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.hu) licenc vonatkozik.
+Erre a könyvre a [**Creative Commons CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.hu) **licenc** vonatkozik.
 {% endhint %}
 
 {% hint style="info" %}
-Ez a könyv elérhető, és letölthető a [Github](https://github.io)-on, az alábbi linken: [https://github.com/vargaLaszlo/digitalis-kiadvanyok](https://github.com/vargaLaszlo/digitalis-kiadvanyok) \(_Clone or download_ gomb\). A fejezetek [markdown](https://daringfireball.net/projects/markdown/)-ban íródtak, offline verzió megtekintéséhez érdemes egy [markdown olvasására képes alkalmazást](fueggelek/markdown-szerkesztok-olvasok.md) beszerezni.
+Ez a könyv elérhető a [Github](https://github.io)-on, az alábbi linken: [https://github.com/vargaLaszlo/digitalis-kiadvanyok](https://github.com/vargaLaszlo/digitalis-kiadvanyok)
 {% endhint %}
 
-
+{% hint style="success" %}
+**Offline verzió letöltésézez** a jobb oldali menüből az Export as PDF menüpontot kell választani \(Entire space\).
+{% endhint %}
 
