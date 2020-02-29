@@ -129,7 +129,7 @@ $grid-gutter-width:           20px !default;
 
 ## Példa állományok
 
-Az alábbi linken a példa HTML és SCSS állományok letölthetőek:
+Az alábbi linken a fenti példa HTML és SCSS állományok letölthetőek:
 
 {% file src="../.gitbook/assets/bootstrap-scss.zip" %}
 
