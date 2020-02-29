@@ -141,7 +141,11 @@ Jumbotronról bővebben:
 
 {% embed url="https://getbootstrap.com/docs/4.4/components/jumbotron/" %}
 
+## Navigációs sáv
 
+## Gomb
+
+## Karusszel
 
 
 
