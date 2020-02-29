@@ -98,9 +98,9 @@ Bootstrap 4 letöltés link: [https://getbootstrap.com/docs/4.4/getting-started/
 jQuery letöltés link: [https://jquery.com/download/](https://jquery.com/download/)  
 Popper.js letöltés link: [https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.j](https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js)
 
-{% hint style="success" %}
-Az alábbi linken a fenti HTML dokumentum, és az összes hivatkozott állomány egyben letölthető: [https://www.dropbox.com/s/68s19gm5puw13nt/bootstrap.zip?dl=0](https://www.dropbox.com/s/68s19gm5puw13nt/bootstrap.zip?dl=0)
-{% endhint %}
+Az alábbi linken a fenti példa HTML dokumentum, és az összes hivatkozott állomány egyben letölthető:
+
+{% file src="../.gitbook/assets/bootstrap.zip" caption="bootstrap.zip" %}
 
 ## Hasznos eszközök
 
