@@ -1,6 +1,6 @@
 # Egyedi megjelenés
 
-A Bootstrap -nek módosíthatjuk a beállításait, így tudun egyedi megjelenést biztosítani a felhasználói felületeknek, a számos lehetőség közül például használhatunk egyedi színeket, betűtípust, vagy módosíthatjuk a moduljháló oszlopainak a számát.
+A Bootstrap -nek módosíthatjuk a beállításait, így tudunk egyedi megjelenést biztosítani a felhasználói felületeknek, a számos lehetőség közül például használhatunk egyedi színeket, betűtípust, vagy módosíthatjuk a modulháló beállításait.
 
 ## Stílus forrásállományok fordítása
 
@@ -28,7 +28,7 @@ Kattintsunk a _Download Source_ gombra:
 
 ![](../.gitbook/assets/download-source.png)
 
-Egy tömörített zip állomány fog letöltődni tömörítsük ki. Csak az `scss` almappára és teljes tartalmára van szükségünk, ezt helyezzük el a HTML állomány mellett, amiben alkalmazni akarjuk:
+Egy tömörített zip állomány fog letöltődni, amit tömörítsünk ki. Csak az `scss` almappára és teljes tartalmára van szükségünk, ezt helyezzük el a HTML állomány mellett, amiben alkalmazni akarjuk:
 
 ![](../.gitbook/assets/vsc.png)
 
@@ -44,7 +44,7 @@ Ha elmentettük az állományt, és megnyomjuk a _Watch Sass_ gombot, a Visual S
 
 ![](../.gitbook/assets/vsc-sass.png)
 
-Végül be kell kötnünk a HTML állományba a legyártott CSS állományt, egy szokásos link segítségével:
+Végül be kell kötnünk a HTML állományba a legyártott CSS állományt, egy szokásos link segítségével, amit helyezzünk el a HTML állomány fejlécében:
 
 ```markup
 <link rel="stylesheet" href="style.css">
@@ -60,7 +60,7 @@ Ha mindent jól csináltunk, és megnyitjuk az állományunkat egy böngészőbe
 
 ## Egyedi beállítások alkalmazása
 
-A Bootstrap beállításait az `scss` mappában a **\_variables.scss** állományban találjuk, ezt direkt módon sose módosítsuk, fölül tudjuk írni a beállításait a saját SCSS állományunkban, a `@import` előtt. Például megváltoztathatjuk az elsődleges \(primary\) színt:
+A Bootstrap beállításait az `scss` mappában a **\_variables.scss** állományban találjuk, ezt direkt módon nem módosítjuk, mert fölül tudjuk írni a beállításait a saját **style.scss** állományunkban, a `@import` előtt. Például megváltoztathatjuk az elsődleges \(primary\) színt:
 
 {% code title="style.scss" %}
 ```css
@@ -70,7 +70,7 @@ $primary: red !default;
 ```
 {% endcode %}
 
-Fordítás után ez megváltoztatja többek között a gombunk színét is:
+Fordítás után ez megváltoztatja többek között a gombunk színét is a korábbi kékről vörösre:
 
 ![](../.gitbook/assets/button-red.png)
 
