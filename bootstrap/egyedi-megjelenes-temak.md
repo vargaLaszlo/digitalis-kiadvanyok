@@ -4,7 +4,7 @@ A Bootstrap-nek módosíthatjuk a beállításait, így tudunk egyedi megjelené
 
 ## Stílus forrásállományok fordítása
 
-Ahhoz hogy érvényesíteni tudjuk a beállításainkat, a Bootstrap stílusait az Sass forrás állományaiból kell fordítanunk, ezt rendeszerint egy fejlesztői keretrendszerrel végezzük, de lehetőség van erre a Visual Studio Code-ban is egy bővítmény segítségével. Ehhez töltsük le a _Live Sass Compiler_ bővítményt:
+Ahhoz hogy érvényesíteni tudjuk a beállításainkat, a Bootstrap stílusait a Sass forrás állományaiból kell fordítanunk, ezt rendeszerint egy fejlesztői keretrendszerrel végezzük, de lehetőség van erre a Visual Studio Code szövegszerkesztőben is egy bővítmény segítségével. Ehhez töltsük le a _Live Sass Compiler_ bővítményt:
 
 {% embed url="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass" %}
 
@@ -16,7 +16,7 @@ A találati listában a bővítmény neve mellett nyomjuk meg az `Install` gombo
 
 ![](../.gitbook/assets/sass-watch.png)
 
-Erre a gombra kattintva a Visual Studio Code le fogja fordítani CSS állományra az SCSS forrás állományokat.
+Erre a gombra kattintva a Visual Studio Code le fogja fordítani CSS állományra az Sass forrás állományokat \(ezeknek a kiterjesztése .scss\).
 
 {% hint style="info" %}
 A **Sass** a CSS nyelvi lehetőségeit bővíti ki dinamikus funkciókkal, amik jellemzően programozási nyelvekben találhatóak meg, például változók, ciklusok, adat struktúrák. Bővebben erről az eszközről a Sass honlapján olvashatunk: [https://sass-lang.com](https://sass-lang.com/)
