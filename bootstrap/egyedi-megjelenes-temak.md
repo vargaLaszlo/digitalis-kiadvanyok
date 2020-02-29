@@ -1,10 +1,10 @@
 # Egyedi megjelenés
 
-A Bootstrap -nek módosíthatjuk a beállításait, így tudunk egyedi megjelenést biztosítani a felhasználói felületeknek, a számos lehetőség közül például használhatunk egyedi színeket, betűtípust, vagy módosíthatjuk a modulháló beállításait.
+A Bootstrap-nek módosíthatjuk a beállításait, így tudunk egyedi megjelenést biztosítani a felhasználói felületeknek, a számos lehetőség közül például használhatunk egyedi színeket, betűtípust, vagy módosíthatjuk a modulháló beállításait.
 
 ## Stílus forrásállományok fordítása
 
-Ahhoz hogy érvényesíteni tudjuk a beállításainkat, a Bootstrap stílusait az [SCSS](https://sass-lang.com/)  forrás állományaiból kell fordítanunk, ezt rendeszerint egy fejlesztői keretrendszerrel végezzük, de lehetőség van erre a Visual Studio Code-ban is egy bővítmény segítségével. Ehhez töltsük le a _Live Sass Compiler_ bővítményt:
+Ahhoz hogy érvényesíteni tudjuk a beállításainkat, a Bootstrap stílusait az Sass forrás állományaiból kell fordítanunk, ezt rendeszerint egy fejlesztői keretrendszerrel végezzük, de lehetőség van erre a Visual Studio Code-ban is egy bővítmény segítségével. Ehhez töltsük le a _Live Sass Compiler_ bővítményt:
 
 {% embed url="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass" %}
 
@@ -17,6 +17,10 @@ A találati listában a bővítmény neve mellett nyomjuk meg az `Install` gombo
 ![](../.gitbook/assets/sass-watch.png)
 
 Erre a gombra kattintva a Visual Studio Code le fogja fordítani CSS állományra az SCSS forrás állományokat.
+
+{% hint style="info" %}
+A **Sass** a CSS nyelvi lehetőségeit bővíti ki dinamikus funkciókkal, amik jellemzően programozási nyelvekben találhatóak meg, például változók, ciklusok, adat struktúrák. Bővebben erről az eszközről a Sass honlapján olvashatunk: [https://sass-lang.com](https://sass-lang.com/)
+{% endhint %}
 
 ## Bootstrap forrás állományok bekötése
 
@@ -74,7 +78,7 @@ Fordítás után ez megváltoztatja többek között a gombunk színét is a kor
 
 ![](../.gitbook/assets/button-red.png)
 
-Minden beállítás változókban van tárolva ezek mindíg `$` jellel kezdődnek az SCSS-ben, az új érték után el kell helyezni egy `!default` kapcsolót ez felülírja a később bekötött Bootstrap beállítás értékét. 
+Minden beállítás változókban van tárolva ezek mindíg `$` jellel kezdődnek az scss állományokban, az új érték után el kell helyezni egy `!default` kapcsolót ez felülírja a később bekötött Bootstrap beállítás értékét. 
 
 ### Példák további beállításokra
 
