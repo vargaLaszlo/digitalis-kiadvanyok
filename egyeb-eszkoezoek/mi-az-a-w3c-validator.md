@@ -1,6 +1,16 @@
-# W3C Validator használata
+# W3C Validator
 
-## Kód beküldése ellenőrzésre
+## Mi az a W3C Validator?
+
+A [**W3C Validator**](https://validator.w3.org/) a [W3C](https://www.w3.org/) nemzetközi szervezet \(World Wide Web Consortium\) jelölőnyelv ellenőrző eszköze. Ezzel az eszközzel lehet weboldalak vagy beküldött **HTML** állományok kódját ellenőrizni, hogy azok megfelelnek e a **HTML** szabványnak. A **HTML** mellett **XML** és **XHTML** dokumentumokat is lehet vele ellenőrizni.
+
+A **W3C Validator** elérhetősége: [**https://validator.w3.org/**](https://validator.w3.org/)\*\*\*\*
+
+![W3C Validator munka k&#xF6;zben](../.gitbook/assets/w3cvalidator00.png)
+
+## W3C Validator használata
+
+### Kód beküldése ellenőrzésre
 
 ![](../.gitbook/assets/validator01.png)
 
@@ -16,41 +26,41 @@ Három módon küldhetünk be HTML kódot ellenőrzésre, a nekünk megfelelő m
 
 ![K&#xF3;dr&#xE9;szlet ellen&#x151;rz&#xE9;shez Ctrl + C, Ctrl + V seg&#xED;ts&#xE9;g&#xE9;vel illeszthet&#x151; be a W3C Validatorba.](../.gitbook/assets/w3cvalidator03.png)
 
-## További beállítások
+### További beállítások
 
 ![](../.gitbook/assets/w3cvalidator05.png)
 
 A további beállítások a **More Options** menüből érhetőek el:
 
-### Karakter kódolás \(Character encoding\)
+#### Karakter kódolás \(Character encoding\)
 
 A validator alapbeállításnál megpróbálja felismerni a dokumentum karakter kódolását, de mi is beállíthatunk egy konkrét karakter kódolási táblát a legördülő menüből.
 
-### Dokumentum tipus \(Document Type\)
+#### Dokumentum tipus \(Document Type\)
 
 A !doctype meghatározás alapján próbálja meg értelmezni a dokumentumot a validator, ennek hiányában HTML 4.01 Transitional dokumentum típust fogja használni. A legördülő menüből mi is kiválaszthatjuk a megfelelő típust.
 
-### Hiba üzenetek csoportosítása
+#### Hiba üzenetek csoportosítása
 
 Két lehetőség van, az első esetben sorrendben jeleníti meg az üzeneteket, ahogy halad végig a dokumentumon a validator \(List Messages Sequentially\), a második eset, amikor kategóriánként csoportosítja a hiba üzeneteket \(Group Error Messages by Type\).
 
-### Forráskód mutatása \(Show Source\)
+#### Forráskód mutatása \(Show Source\)
 
 A validator mutatja a forráskódot, és kiemeli benne a hibás elemeket.
 
-### Forráskód tisztítása \(Clean up Markup with HTML-Tidy\)
+#### Forráskód tisztítása \(Clean up Markup with HTML-Tidy\)
 
 A validátor a HTML-Tidy segítségével megkisérli javítani az esetleges hibákat.
 
-### Cím hierarchia mutatása \(Show Outline\)
+#### Cím hierarchia mutatása \(Show Outline\)
 
 Ebben az esetben kapunk egy visszajelzést a dokumentum cím szerkezetéről.
 
-### Bőbeszédű kimenet \(Verbose Output\)
+#### Bőbeszédű kimenet \(Verbose Output\)
 
 Bizonyos esetekben részletesebb visszajelzést kapunk így a hibákról.
 
-## Visszajelzések
+### Visszajelzések
 
 Ha megvannak a kívánt beállítások, és a Check gombbal beküldtük az ellenőrizendő kódot, a validator összeállítja nekünk a jelentését.
 
@@ -58,7 +68,7 @@ Ha megvannak a kívánt beállítások, és a Check gombbal beküldtük az ellen
 
 ![Szerencs&#xE9;tlen eset, a forr&#xE1;sk&#xF3;d tele van hib&#xE1;val.](../.gitbook/assets/w3cvalidator07.png)
 
-### Hibaüzenet felépítése
+#### Hibaüzenet felépítése
 
 ![](../.gitbook/assets/w3cvalidator08.png)
 
