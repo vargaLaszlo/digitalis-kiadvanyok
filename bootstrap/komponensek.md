@@ -145,6 +145,44 @@ Jumbotronról bővebben:
 
 ## Gomb
 
+A Bootstrap gomb komponense jelentéstartalomtól függő megjelenést biztosít a linkeknek \(`a`\), és a [gomb](../html/html-elemek.md#urlapok) elemeknek \(`button`\).
+
+```markup
+<a href="#" class="btn btn-primary">Elsődleges</a>
+<a href="#" class="btn btn-secondary">Másodlagos</a>
+<a href="#" class="btn btn-success">Siker</a>
+<a href="#" class="btn btn-danger">Veszély</a>
+<a href="#" class="btn btn-warning">Figyelmeztetés</a>
+<a href="#" class="btn btn-info">Információs</a>
+<a href="#" class="btn btn-light">Világos</a>
+<a href="#" class="btn btn-dark">Sötét</a>
+```
+
+![](../.gitbook/assets/buttons.png)
+
+Használhatunk `a` vagy `button` elemet, a megjelenésük meg fog egyezni:
+
+```markup
+<a href="#" class="btn btn-primary">Én egy link vagyok</a>
+<button type="button" href="#" class="btn btn-primary">Én egy gomb vagyok</button>
+```
+
+![](../.gitbook/assets/a-button.png)
+
+A `btn-sm` és a `btn-lg` CSS osztályokkal kis és nagy méretű gombokat tudunk létrehozni:
+
+```markup
+<a href="#" class="btn btn-primary btn-sm">Kis gomb</a>
+<a href="#" class="btn btn-primary">Közepes gomb</a>
+<a href="#" class="btn btn-primary btn-lg">Nagy gomb</a>
+```
+
+![](../.gitbook/assets/button-sizes.png)
+
+Gomb komponensről bővebben:
+
+{% embed url="https://getbootstrap.com/docs/4.4/components/buttons/" %}
+
 ## Karusszel
 
 
