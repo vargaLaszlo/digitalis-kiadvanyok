@@ -2,7 +2,9 @@
 
 A Bootstrap komponensei előre elkészített felhasználói felület darabkák, rendszerint egy kötött formátumú HTML struktúrából állnak, amire a Bootstrap CSS stílusai, és adott esetben a Bootstrap JavaScript hatással van.
 
-Ebben a fejezetben bemutatásra kerülő komponensek a legjellemzőbben használtak közül lettek kiválogatva, bővebben a komponensekről az alábbi linken olvashatunk: [https://getbootstrap.com/docs/4.4/components](https://getbootstrap.com/docs/4.4/components)
+Ebben a fejezetben bemutatásra kerülő komponensek a legjellemzőbben használtak közül lettek kiválogatva, bővebben a komponensekről az alábbi linken olvashatunk: 
+
+{% embed url="https://getbootstrap.com/docs/4.4/components" %}
 
 ## Média elem
 
@@ -143,6 +145,81 @@ Jumbotronról bővebben:
 
 ## Navigációs sáv
 
+A navigációs sáv \(navbar\) egy Bootstrapban készült alkalmazás, vagy weblap fejléce. Tartalmazza a szokásos fejléc elemeket, például a logót, menüt, kereső mezőt. A navigációs sáv a Bootstrap egyik leg összetettebb komponense:
+
+```markup
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+```
+
+![](../.gitbook/assets/navbar.png)
+
+A következő példában a könnyebb áttekinthetőség miatt csak egy szintű menü, található:
+
+```markup
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #0ca678;">
+    <a class="navbar-brand" href="#">Cég KFT.</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Főoldal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Termékek</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kapcsolat</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Keresés">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Keresés</button>
+        </form>
+    </div>
+</nav>
+```
+
+![](../.gitbook/assets/compact-navbar.png)
+
+Bővebben a navigációs sávról:
+
+{% embed url="https://getbootstrap.com/docs/4.4/components/navbar/" %}
+
 ## Gomb
 
 A Bootstrap gomb komponense jelentéstartalomtól függő megjelenést biztosít a linkeknek \(`a`\), és a [gomb](../html/html-elemek.md#urlapok) elemeknek \(`button`\).
@@ -182,8 +259,6 @@ A `btn-sm` és a `btn-lg` CSS osztályokkal kis és nagy méretű gombokat tudun
 Gomb komponensről bővebben:
 
 {% embed url="https://getbootstrap.com/docs/4.4/components/buttons/" %}
-
-## Karusszel
 
 
 
