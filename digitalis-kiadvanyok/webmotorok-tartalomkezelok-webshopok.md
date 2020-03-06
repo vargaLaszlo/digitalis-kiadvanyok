@@ -111,6 +111,8 @@ Statikus oldal generálók: [Jekyll](https://jekyllrb.com/), [Hyde](http://hyde.
 
 ### Felhő alapú weboldalkészítő \(Cloude based website builder\)
 
+A kétezres évek közepén jelentek meg a felhő alapú weboldal készítő alkalmazások, és egyszerű kezelhetőségük miatt egyre növekszik a népszerűségük.
+
 A felhő alapú weboldalkészítők egy online felületen drag and drop \(fogd és vidd\) technikával gyorsan összerakható, és szerkeszthető weboldalakat kínálnak.
 
 ![Wix vizu&#xE1;lis szerkeszt&#x151;fel&#xFC;lete](../.gitbook/assets/wix.png)
@@ -118,16 +120,16 @@ A felhő alapú weboldalkészítők egy online felületen drag and drop \(fogd �
 #### Felhő alapú weboldalkészítő előnyei
 
 * Gyorsan megtanulható a használata
-* Nem szükséges technikai háttér ismeret
+* Nem szükséges csak minimális technikai háttér ismeret
 * Számos előre elkészített sablon, és bővítmény
 
 #### Felhő alapú weboldalkészítő hátrányai
 
 * Kötve vagyunk a platformhoz, nem a miénk az oldal kódja, emiatt nem költöztethető
 * Korlátozottan optimalizálható teljesítmény, SEO szinten
-* Korlátozott funkcionalitása miatt egyedi igényeinket nem tudja kielégíteni
+* Korlátozott funkcionalitása miatt egyedi igényeinket adott esetben nem tudja kielégíteni
 
-Felhő alapú weboldal készítők: [WIX](https://www.wix.com/), [site123.com](https://app.site123.com/), [Weebly](https://www.weebly.com/), [Unbounce](https://unbounce.com)
+Felhő alapú weboldal készítők: [WIX](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), [site123.com](https://app.site123.com/), [Weebly](https://www.weebly.com/), [Unbounce](https://unbounce.com)
 
 
 
