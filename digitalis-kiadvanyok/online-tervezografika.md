@@ -6,7 +6,7 @@ Az új tervezőgrafikai műfajok:
 
 * webtervezés \(desktop, tablet, mobil\)
 * webes hirdetések, bannerek
-* animált média, videók
+* animált média, videók \(!\)
 * weboldalakhoz, webáruházakhoz kapcsolódó grafika
 * közösségi oldalakra borítóképek \(G+, FB, Instagram, Twitter\)
 * közösségi oldalakra, blogokra bejegyzés-illusztrációk
