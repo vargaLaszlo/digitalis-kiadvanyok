@@ -65,7 +65,7 @@ Tartalomkezelő rendszerek népszerűségének összehasonlítása a Google Tren
 
 ## Webshopok
 
-A webshopok termékek és szolgáltatások forgalmazásra specializált tartalom kezelő rendszerek. A CMS alap funkciókon túl fel vannak ruházva az áruforgalom lebonyolításához szükséges képességekkel:
+A webshopok **termékek és szolgáltatások forgalmazásra specializált tartalom kezelő rendszerek**. A CMS alap funkciókon túl fel vannak ruházva az áruforgalom lebonyolításához szükséges képességekkel:
 
 * Árucikkek kezelése, szerkesztése
 * Raktárkészlet kezelése

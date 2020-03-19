@@ -43,9 +43,9 @@ Ebben a korszakban még nem álltak rendelkezésre a felület kialakítását me
 
 ### 2000-es évek első fele
 
-Megjelennek a fejlett LCD monitorok, nagyobb felbontással.
+Piacra kerülnek a fejlett LCD monitorok, nagyobb felbontással és színmélységgel, ami lehetővé tette a **fejlettebb webdizájnok** megjelenését.
 
-* Fejlettebb webdizájnok \(még mindig táblázatos struktúra\)
+* Oldal layout még mindig táblázatos struktúra
 * Fash animációk az oldalakon
 * Teljes weboldalak Flash-ben elkészítve
 * Egyszerűbb munkafolyamat \(csak monitorra kellett tervezni\) 
@@ -61,7 +61,7 @@ Az új felhasználói felületek új kihívásokat támasztanak, már nem csak a
 
 ### 2010-es évek
 
-Megjelenik az internetképes eszközök széles skálája, például a 4-es iPhone a korábbiaknál nagyobb felbontással, az iPad az első tablet, az Android-os telefonok, és a Windows Phone készülékek. A fejlesztőknek már számtalan eszközre, és képernyő felbontásra kell optimalizálni a weboldalakat, létrejön a **reszponzív design**.
+Megjelenik az internetképes eszközök széles skálája, például a 4-es iPhone a korábbiaknál nagyobb felbontással, az iPad az első tablet, az Android-os telefonok, és a Windows Phone készülékek. A fejlesztőknek már számtalan eszközre, és képernyő felbontásra kell optimalizálni a weboldalakat, létrejön a **reszponzív design, ami rugalmasan alkalmazkodik a kijelzők méretéhez**. 
 
 A mobil ökoszisztémák virágzása elhozza az alkalmazások korszakát, megjelennek a **webalkalmazások**, és elterjednek HTML5 CSS3 alapú felhasználói felületek az alkalmazások között.
 
