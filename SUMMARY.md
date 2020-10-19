@@ -70,6 +70,7 @@
 * [Font Squirrel](egyeb-eszkoezoek/font-squirrel.md)
 * [Type Scale](egyeb-eszkoezoek/type-scale.md)
 * [Font Awsome](egyeb-eszkoezoek/font-awsome.md)
+* [Glitch.com](egyeb-eszkoezoek/glitch.com.md)
 
 ## Függelék
 
