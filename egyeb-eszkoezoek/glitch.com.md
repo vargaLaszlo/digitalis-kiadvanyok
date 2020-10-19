@@ -38,7 +38,7 @@ A projekt nevét és [URL](../digitalis-kiadvanyok/mi-szuekseges-egy-weboldal-el
 
 ...
 
-### VS Code összekötése a Glitch.com -al
+## VS Code összekötése a Glitch.com -al
 
 Lehetőség van a Glitch.com-on elhelyezett projektjeink szerkesztésére a [Visual Studio Code](../vs-code/mi-a-vs-code.md)-ban, ennek számos előnye van, töbek között a VS Code több segítséget ad, és jobb átláthatóságot biztosít.
 
