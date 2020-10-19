@@ -2,7 +2,7 @@
 
 ## Mi az a Glitch.com?
 
-A [Glitch.com](https://glitch.com/) egy online szolgáltató, webes alkalmazásokat lehet szerkeszteni, és publikálni vele. Kiváló eszköz arrar a célra, hogy prototípusokat, egyszerű statikus weboldalakat osszunk meg másokkal.  A publikálás ingyenes, néhány korlátozással \(havidíjjas előfizetéssel ezek kikerülhetőek\).
+A [Glitch.com](https://glitch.com/) egy online szolgáltató, webes alkalmazásokat lehet szerkeszteni, és publikálni vele. Kiváló eszköz arrar a célra, hogy [prototípusokat](../digitalis-kiadvanyok/weblaptervezeshez-szuekseges-ismeretek.md#drotvaz), egyszerű statikus weboldalakat osszunk meg másokkal.  A publikálás ingyenes, néhány korlátozással \(havidíjjas előfizetéssel ezek a korlátozások kikerülhetőek\).
 
 ### Publikálás lépései: 
 
@@ -14,7 +14,7 @@ _Facebook_, _Google_ és _GitHub_ fiókkal tudunk regisztrálni, de lehetőség 
 
 **Projekt létrehozása**
 
-Gelső menüből válasszuk ki a![](../.gitbook/assets/newproject%20%281%29.png)\(új projekt\) gombot. Ekkor a rendszer megkérdezi, hogy milyen projektet szeretnénk létrehozni, ekkor válasszuk a ![](../.gitbook/assets/hellowebpage.png) opciót, amivel egy egyszerű statikus weboldalt hozhatunk létre. 
+Felső menüből válasszuk ki a![](../.gitbook/assets/newproject%20%281%29.png)\(új projekt\) gombot. Ekkor a rendszer megkérdezi, hogy milyen projektet szeretnénk létrehozni, ekkor válasszuk a ![](../.gitbook/assets/hellowebpage.png) opciót, amivel egy egyszerű statikus weboldalt hozhatunk létre. 
 
 Létrehozás után átkerülünk a projekt szerkesztőfelületére:
 
