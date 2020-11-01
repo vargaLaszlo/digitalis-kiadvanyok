@@ -14,13 +14,18 @@ _Facebook_, _Google_ és _GitHub_ fiókkal tudunk regisztrálni, de lehetőség 
 
 **Projekt létrehozása**
 
-Felső menüből válasszuk ki a![](../.gitbook/assets/newproject%20%281%29.png)\(új projekt\) gombot. Ekkor a rendszer megkérdezi, hogy milyen projektet szeretnénk létrehozni, ekkor válasszuk a ![](../.gitbook/assets/hellowebpage.png) opciót, amivel egy egyszerű statikus weboldalt hozhatunk létre. 
+Felső menüből válasszuk ki a![](../.gitbook/assets/newproject%20%281%29.png)\(új projekt\) gombot. Ekkor a rendszer megkérdezi, hogy milyen tipusú projektet szeretnénk létrehozni, válasszuk a ![](../.gitbook/assets/hellowebpage.png) opciót, ezzel egy egyszerű statikus weboldalt hozhatunk létre. 
 
 Létrehozás után átkerülünk a projekt szerkesztőfelületére:
 
 ![Az &#xFA;jonnan l&#xE9;trehozott projekt](../.gitbook/assets/newprojekt.png)
 
-Az első állomány amit megnyit a felület a `README.md` ami egy kis súgó, érdemes elolvasni a tartalmát.
+Az első állomány amit megnyit a felület a `README.md` ami egy kis súgó, érdemes elolvasni a tartalmát. Általános magyarázatot kapunk benne a Glitch.com-ról, és a szerkesztőben már létrehozott állományokról.
+
+* `index.html` - ebbe az állományba kerül a projektün főoldalányk tartalma.
+* `style.css` - ez az állomány tartalmazza a CSS stílusokat
+* `script.js` - ide kerülnek az interaktivitást vezérlő JavaScript kódok
+* _assets_ - ebbe a mappába tölthetjük be a multimédiás tartalmakat, amik az oldalon jelennek meg
 
 A bal oldali menüből az `index.html` állományt kiválasztva nyílik meg a szerkesztőfelület, ez egy online szövegszerkesztő \(korlátozott lehetőségekkel\):
 
@@ -46,23 +51,23 @@ Lehetőség van a Glitch.com-on elhelyezett projektjeink szerkesztésére a [Vis
 
 #### Glitch.com plugin telepítése a VS Code-ba
 
-A bal oldali függőleges menüből nyissuk meg a VS Code bővítmény kezelőjét \(Extensions\), a keresőbe írjuk be a `Glitch` kulcsszót, és válasszuk ki a Glitch bővítményt és nyomjuk meg az ![](../.gitbook/assets/install.png) gombot.
+A bal oldali függőleges menüből nyissuk meg a VS Code bővítmény kezelőjét \(_Extensions_\), a keresőbe írjuk be a `Glitch` kulcsszót, és válasszuk ki a Glitch bővítményt és nyomjuk meg az ![](../.gitbook/assets/install.png) gombot.
 
 ![](../.gitbook/assets/codeglitchextension.png)
 
 #### Projekt megnyitása szerkesztésre
 
-Projektet a VS Code [parancsértelmezőjével](../vs-code/vs-code-anatomiaja.md#parancs-paletta) megnyitni, nyomjuk meg a Ctrl+Shift+p billentyű kombinációt \(vagy a menüből View/Command Palette\). A megjelenő ablakba írjuk be, hogy Glitch:
+Projektet a VS Code [parancsértelmezőjével](../vs-code/vs-code-anatomiaja.md#parancs-paletta) lehet megnyitni, nyomjuk meg a Ctrl+Shift+p billentyű kombinációt \(vagy a menüből _View/Command Palette_\). A megjelenő ablakba írjuk be, hogy _Glitch_:
 
 ![](../.gitbook/assets/commandpaletteglitch.png)
 
-Listában megjelennek a Glitch-el kapcsolatos parancsok, válasszuk ki az Open Projekt \(Projekt megnyitása parancsot\).
+Listában megjelennek a Glitch-el kapcsolatos parancsok, válasszuk ki az _Open Projekt_ \(Projekt megnyitása parancsot\).
 
 Ahhoz hogy az online projektet tudjuk szerkeszteni, a szövegszerkesztőnket be kell jelentkeztetni a Glitch.com rendszerébe, ha ezt még nem tettük meg a VS Code felkínálja a bejelentkezést. 
 
 ![](../.gitbook/assets/glitchlogin.png)
 
-Válasszuk ki az online autentikációt \(Sing in on glitch.com\). A VS Code megnyitja az alapértelmezett böngészőt, amiben engedélyezhetjük a VS Code kapcsolódását.
+Válasszuk ki az online autentikációt \(_Sing in on glitch.com_\). A VS Code megnyitja az alapértelmezett böngészőt, amiben engedélyezhetjük a VS Code kapcsolódását - feltéve hogy be vagyunk jelentkezve a Glitch.com on ezzel a böngészővel.
 
 ![](../.gitbook/assets/openproject.png)
 
