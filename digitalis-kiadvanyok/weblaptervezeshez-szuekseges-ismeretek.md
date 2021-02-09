@@ -22,7 +22,7 @@ Animációs területen az Adobe Flash elvesztette a piaci monopóliumát, az Ado
 
 ![Google Web Designer fel&#xFC;lete](../.gitbook/assets/google-web-designer.png)
 
-Az asztali alkalmazások mellett egyre terjednek az online felhő alapú grafikai programok, amik nagyban támogatják a kollaboratív munkát. MacOS rendszeren a [Scetch](https://www.sketch.com/) jellemző, jó alternatíva a [Figma](https://www.figma.com), vagy az [InVision](https://www.invisionapp.com/). Az új trendre reagálva az Adobe is piacra dobta a saját felhő alapú megoldását, ez az [Adobe XD](https://www.adobe.com/hu/products/xd.html).
+Az asztali alkalmazások mellett egyre terjednek az online felhő alapú grafikai programok, amik nagyban támogatják a kollaboratív munkát. MacOS rendszeren a [Sketch](https://www.sketch.com/) jellemző, jó alternatíva a [Figma](https://www.figma.com), vagy az [InVision](https://www.invisionapp.com/). Az új trendre reagálva az Adobe is piacra dobta a saját felhő alapú megoldását, ez az [Adobe XD](https://www.adobe.com/hu/products/xd.html)-t.
 
 ![Figma b&#xF6;ng&#xE9;sz&#x151;ben fut&#xF3; fel&#xFC;lete](../.gitbook/assets/figma.png)
 
