@@ -24,6 +24,8 @@ Animációs területen az Adobe Flash elvesztette a piaci monopóliumát, az Ado
 
 Az asztali alkalmazások mellett egyre terjednek az online felhő alapú grafikai programok, amik nagyban támogatják a kollaboratív munkát. MacOS rendszeren a [Scetch](https://www.sketch.com/) jellemző, jó alternatíva a [Figma](https://www.figma.com), vagy az [InVision](https://www.invisionapp.com/). Az új trendre reagálva az Adobe is piacra dobta a saját felhő alapú megoldását, ez az [Adobe XD](https://www.adobe.com/hu/products/xd.html).
 
+![Figma b&#xF6;ng&#xE9;sz&#x151;ben fut&#xF3; fel&#xFC;lete](../.gitbook/assets/figma.png)
+
 ## Szövegszerkesztők
 
 A grafikai munkákon túl a fejlesztők szövegszerkesztőt \(Text editor\), és integrált fejlesztői környezetet \(Integrated Development Environment azaz IDE\) használnak, ezek a programok fel vannak ruházva a forráskódok irását, szerkesztését segítő funkciókkal, úgy mint intelligens kód kiegészítés \([Emmet](https://emmet.io/), [Intelli Sense](https://code.visualstudio.com/docs/editor/intellisense), [TabNine](https://tabnine.com)\), kód színezés, hibakiemelés, stb. Számos ingyenes és fizetős program létezik, a teljesség igénye nélkül: [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/download/v6.9.2.html), [Brackets](http://brackets.io/), [Sublime Text](s://www.sublimetext.com), [Adobe Dreamweaver](https://www.adobe.com/hu/products/dreamweaver.html)...
