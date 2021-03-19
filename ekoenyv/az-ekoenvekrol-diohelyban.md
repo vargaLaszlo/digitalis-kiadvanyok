@@ -18,11 +18,11 @@ Az internet megjelenésével már elérhetővé váltak a letölthető szöveges
 
 **Pdf** - Általános dokumentumformátum, a legelterjedtebb eKönyv típus, bár felépítéséből adódóan a fizikai eKönyv olvasókon nehézkesen használható \(kötött layout\).
 
-**Mobipocket** - Platformfüggetlen formátum, a korai Kindle készülékek preferált formátuma, kiterjesztése .mobi, vagy .prc lehet.
+#### Dedikált eKönyv formátumok:
 
-**Epub** - Platformfüggetlen, széles körben alkalmazott formátum, HTML-CSS alapokra épül, emiatt könnyen, változatosan formázható a tartalma.
-
-**AZW** - Az Amazon saját ekönyvformátuma, amit digitális másolásvédelemmel láttak el \(DRM\)
+* **Mobipocket** - Platformfüggetlen formátum, a korai Kindle készülékek preferált formátuma, kiterjesztése .mobi, vagy .prc lehet.
+* **Epub** - Platformfüggetlen, széles körben alkalmazott formátum, HTML-CSS alapokra épül, emiatt könnyen, változatosan formázható a tartalma.
+* **AZW** - Az Amazon saját ekönyvformátuma, amit digitális másolásvédelemmel láttak el \(DRM\)
 
 ### Történeti áttekintés
 
