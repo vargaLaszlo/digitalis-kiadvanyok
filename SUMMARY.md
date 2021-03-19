@@ -72,6 +72,11 @@
 * [Font Awsome](egyeb-eszkoezoek/font-awsome.md)
 * [Glitch.com](egyeb-eszkoezoek/glitch.com.md)
 
+## eKönyv
+
+* [Az eKönvekről dióhélyban](ekoenyv/az-ekoenvekrol-diohelyban.md)
+* [ePub formátum](ekoenyv/epub-formatum.md)
+
 ## Függelék
 
 * [Felhasznált irodalom](fueggelek/felhasznalt-irodalom.md)
@@ -81,9 +86,4 @@
 * [Kliens oldali keretrendszerek](fueggelek/kliens-oldali-keretrendszerek.md)
 * [Fejlesztéshez alkalmas számítógép konfiguráció](fueggelek/fejleszteshez-alkalmas-szamitogep-konfiguracio.md)
 * [Visszajelzés, kapcsolat](fueggelek/visszajelzes-kapcsolat.md)
-
-## eKönyv
-
-* [Az eKönvekről dióhélyban](ekoenyv/az-ekoenvekrol-diohelyban.md)
-* [ePub formátum](ekoenyv/epub-formatum.md)
 
