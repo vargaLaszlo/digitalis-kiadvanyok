@@ -41,7 +41,7 @@ Az ePub kompatibilis olvasók először ezt az állományt keresik, ebben kell f
 </container>
 ```
 
-**OPF állomány**
+### **OPF állomány**
 
 Ez az állomány tartalmazza az ePub dokumentum meta adatait.
 
