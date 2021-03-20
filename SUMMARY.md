@@ -74,7 +74,7 @@
 
 ## eKönyv
 
-* [Az eKönvekről dióhélyban](ekoenyv/az-ekoenvekrol-diohelyban.md)
+* [Az eKönvekről dióhéjban](ekoenyv/az-ekoenvekrol-diohejban.md)
 * [ePub formátum](ekoenyv/epub-formatum.md)
 
 ## Függelék
