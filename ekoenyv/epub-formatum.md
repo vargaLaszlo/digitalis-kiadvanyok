@@ -43,7 +43,31 @@ Az ePub kompatibilis olvasók először ezt az állományt keresik, ebben kell f
 
 ### **OPF állomány**
 
-Ez az állomány tartalmazza az ePub dokumentum meta adatait.
+Ez az állomány tartalmazza az ePub dokumentum meta adatait. Formátuma igen kötött \(XML\), és a tartalma jellemzően kötelezően meghatározott elemekből áll.
 
-...
+```text
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<title>
+			Első ePub könyvem
+		</title>
+		<creator opf:file-as="Vilmos, Radó" opf:role="aut">
+			Gipsz Jakab
+		</creator>
+		<date>
+			2021-03-06
+		</date>
+		<identifier id="BookId">
+			1234567890
+		</identifier>
+		<language>
+			hu
+		</language>
+		<meta content="cover" name="cover" />
+	</metadata>
+
+
+</package>
+```
 

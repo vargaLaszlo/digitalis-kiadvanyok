@@ -12,6 +12,10 @@ A fogyasztó számos lehetőség közül választhat, eKönyv olvasó program sz
 
 ![Amazon Kindle eK&#xF6;nyv olvas&#xF3;](../.gitbook/assets/amazon_kindle_3.jpeg)
 
+#### Elektronikus papír
+
+Digitális eszközeink kijelzői jellemzően háttérvilágítással teszik láthatóvá a megjelenített tartalmakat, ez hosszú távon kényelmetlen, és terheli a szemet, szintén előnytelen a magas energia igényük, bekapcsolt állapotban folyamatosan veszik fel az áramot, emiatt könyvolvasásra nem felelt meg ez a technológia. Változást  az e-papír, vagy elektronikus papír hozott, ami apró elektronikus pigmenteken alapszik, a felületen tényleges kontraszt változás áll be, amit a környezet fényével is érzékel az emberi szem. Nagy előnye, hogy csak a képernyő frissítése \(lapozás\) használ energiát, így az eKönyv olvasó eszközök akár hetekig is üzemelnek egy töltéssel.
+
 ### eKönyv formátumok
 
 Az internet megjelenésével már elérhetővé váltak a letölthető szöveges dokumentumok, ezek még nem rendelkeztek a könyvekre jellemző adottságokkal \(borító, tartalomjegyzék\), vagy a szöveg formázásának lehetőségével, vagy képi elemekkel, a legjellemzőbb ilyen formátum a **txt**, ez a mai napig használatban van. Később megjelentek a szövegszerkesztő szoftverek, és az ezekben használt dokumentumformátumok, mint mint a **doc**. Ezeket a formátumokat tekinthetjük az eKönyvek őseinek. 
