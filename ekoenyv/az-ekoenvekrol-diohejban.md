@@ -1,4 +1,4 @@
-# Az eKönvekről dióhéjban
+# Az eKönyvekről dióhéjban
 
 ### Mi is az az eKönyv?
 
