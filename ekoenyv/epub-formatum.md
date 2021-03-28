@@ -143,17 +143,125 @@ Minden HTML dokumentum kap egy `idref` bejegyzést, ami a korábbi a manifest sz
 
 **guide szekció**
 
-Ez a rész opcionális, el is lehet hagyni. 
+Ez a rész opcionális, el is lehet hagyni, a segítségével az eKönyv olvasó program saját menüjében tudunk ugrópontokat létrehozni.
 
-\*\*\*\*
+Az alábbi példában a borítóhoz biztosítunk egy ugrópontot a felhasználó számára:
+
+```text
+<guide>
+    <reference href="coverpage.html" type="cover" title="Ugrás a borítóhoz"/>
+</guide>
+```
 
 ### **Tartalomjegyzék \(toc.ncx\)**
 
-\*\*\*\*
+Kiterjesztése \(.ncx\) ellenére ez is egy XML dokumentum. Az eKönyv olvasó programok ennek az állománynak a tartalma alapján építik fel a könyv tartalomjegyzékét. 
 
-**Stílus állományok \(CSS\)**
+```text
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="hu" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="1234567890 "/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Első ePub könyvem</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navpoint-1" playOrder="1">
+            <navLabel>
+                <text>Borító</text>
+            </navLabel>
+            <content src="coverpage.html"/>
+        </navPoint>
+        <navPoint id="navpoint-2" playOrder="2">
+            <navLabel>
+                <text>Első fejezet</text>
+            </navLabel>
+            <content src="content1.html"/>
+        </navPoint>
+        <navPoint id="navpoint-3" playOrder="3">
+            <navLabel>
+                <text>Második fejezet</text>
+            </navLabel>
+            <content src="content2.html"/>
+        </navPoint>
+    </navMap>
+</ncx>
+```
 
-\*\*\*\*
+#### **A tartalomjegyzék állomány** 
 
-**Tartalmi állományok \(HTML\)**
+#### **Fejléc szekció \(head\)**
+
+A fejléc a tartalomjegyzék mélységét, illetve az oldalak számát tartalmazza \(ez lehet nulla\).
+
+```text
+ <head>
+        <!-- Könyv egyedi azonosítója (ugyanaz mont az OPF-ben) -->
+        <meta name="dtb:uid" content="1234567890 "/>
+        
+        <!-- Tartalomjegyzék mélysége -->
+        <meta name="dtb:depth" content="1"/>
+        
+        <!-- Lapozó és oldalszám beállítás (lehet 0) -->
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+ </head>
+```
+
+#### **Könyv címe \(docTitle\)**
+
+Kötelező megadni, az olvasó program ezt tünteti fel a tartalomjegyzékben.
+
+```text
+<docTitle>
+    <text>Első ePub könyvem</text>
+</docTitle>
+
+```
+
+#### **Navigációs térkép \(navMap\)**
+
+A navigációs térkép segíti a felhasználót, ugrópontokat ad a fejezetekhez:
+
+```text
+<navMap>
+        <navPoint id="navpoint-1" playOrder="1">
+            <navLabel>
+                <text>Borító</text>
+            </navLabel>
+            <content src="coverpage.html"/>
+        </navPoint>
+        <navPoint id="navpoint-2" playOrder="2">
+            <navLabel>
+                <text>Első fejezet</text>
+            </navLabel>
+            <content src="content1.html"/>
+        </navPoint>
+        <navPoint id="navpoint-3" playOrder="3">
+            <navLabel>
+                <text>Második fejezet</text>
+            </navLabel>
+            <content src="content2.html"/>
+        </navPoint>
+</navMap>
+```
+
+Minden bekezdésnek, vagy hivatkozott szövegrészletnek létre lehet hozni egy navigációs pontot \(`navPoint`\). Minden egyes navigációs pont tartalmaz egy egyedi azonosítót \(nem lehet két pontnak ugyanaz az azonosítója\), egy sorrend számozást \(`playOrder`\), ez alapján megy végig az eKönyvolvasó a navigációs pontokon. Tartalmaz egy felirator \(`navLabel`\), ez lesz a tartalomjegyzékben a navigációs pont címkéje, vagy felirata, végül egy hivatkozást, ami lehetegy HTML állomány, vagy egy elem is a HTML állományon belül \(`id` azonosító alapján\) erre hivatkozik az adott navigációs pont.
+
+### **Tartalmi állományok \(HTML\)**
+
+...
+
+### **Stílus állományok \(CSS\)**
+
+...
+
+### **Képek**
+
+...
 
