@@ -289,6 +289,16 @@ A tratalmi rész, vagyis a HTML dokumentum törzse viszont a megszokott módon �
 
 ### **Stílus állományok \(CSS\)**
 
+A szövegeink, a médiatartalmak, és a könyvborító megjelenését CSS segítségével tudjuk meghatározni.
+
+Az elemek és a szövegek méretezésére tipográfiai mértékegységet érdemes használni \(`em`\), a méreteket nem adhatjuk me pixelben. Ha tipográfiai mértékegységet használunk az olvasó képes lesz szabályozni a szövegek méretét. Erre bővebben a CSS mértékegységek fejezet tér ki:
+
+{% page-ref page="../css/mertekegysegek.md" %}
+
+A szöveges tartalom formázásáról bővebben a CSS fejezet szöveg tulajdonságokkal kapcsolatos fejezete tér ki:
+
+{% page-ref page="../css/szoevegek-szoevegkoezi-elemek.md" %}
+
 ```text
 /* Font beállítások */
 @font-face {
@@ -367,5 +377,11 @@ p img {
 
 ### **Képek**
 
-...
+A HTML dokumentumokban lehetőség van a szöveg mellett képeket is elhelyezni. Jelenleg az ePub a GIF, PNG, JPEG és az SVG formátumokat támogatja.
+
+A képeknek nincs lezáró elemük, így el kell látni őket egy `/` karakterrel \(lásd feljebb a [Tartalmi állományok fejezetben](epub-formatum.md#tartalmi-allomanyok-html)\):
+
+```text
+<img src="img/kiskacsa.jpeg" alt="Kiskacsa úszik a tóban." />
+```
 
