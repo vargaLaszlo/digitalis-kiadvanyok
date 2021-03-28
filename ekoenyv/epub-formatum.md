@@ -255,11 +255,115 @@ Minden bekezdésnek, vagy hivatkozott szövegrészletnek létre lehet hozni egy 
 
 ### **Tartalmi állományok \(HTML\)**
 
-...
+**Az ePub könyvekben a tartalom HTML dokumentumokban található, ezk a mostanság megszokott HTML 5-ös verziótól némileg eltérő, annál szigorúbb XHTML  1.1 szabvány szerint készülnek.**
+
+```text
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Első fejezet</title>
+</head>
+<body>
+    <h1>Első eKönyvem első fejezete</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic fugit sint et tempora accusantium odit vel eius itaque, quasi maxime, laborum repellat natus laboriosam omnis sit eligendi unde blanditiis libero!</p>
+</body>
+</html>
+```
+
+{% hint style="warning" %}
+Az XHTML szigorúbb, minden elemnek kötelező a záró elemét kitenni, illetve azok az elemek, amiknek nincs záró eleme \(`hr`, `br`, `img`, ...\) kötelezően egy / jellel kell végződjenek:  
+&lt;hr /&gt;  &lt;br /&gt; &lt;img src="..." alt="..." /&gt;
+{% endhint %}
+
+A HTML-től eltérően kell egy XML deklaráció az első sorba, illetve az utána következő doctype is eltér a HTML 5 -ben megszokottól:
+
+```text
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+```
+
+A tratalmi rész, vagyis a HTML dokumentum törzse viszont a megszokott módon épül fel, elhelyezhetünk benne szöveges vagy képi elemeket.
 
 ### **Stílus állományok \(CSS\)**
 
-...
+```text
+/* Font beállítások */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster';
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.3em;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+/* Kép beállítások */
+
+p img {
+    width: 33.333%;
+    float: left;
+    margin-top: 0.285em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+/* Borító oldal beállításai */
+
+#cover {
+    margin: 0;
+}
+
+#cover img {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+}
+
+/* Oldal margó beállításai */
+
+@page {
+    margin: 5em;
+}
+```
 
 ### **Képek**
 
